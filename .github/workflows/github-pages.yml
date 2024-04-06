@@ -48,8 +48,7 @@ jobs:
 
       - uses: actions/cache@v3
         with:
-          path: /home/runner/.cache/hugo_cache    # <-- with hugo version v0.116.0 and above
-          # path: /tmp/hugo_cache                 # <-- with hugo version < v0.116.0
+          path: /home/runner/.cache/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
@@ -62,19 +61,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
-      #   if: github.ref == 'refs/heads/main'
-      #   with:
-      #     github_token: ${{ secrets.PAT_TOKEN }}
-      #     publish_dir: ./public
-
-      # - name: Setup Pages
-      #   uses: actions/configure-pages@v4
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v3
-      #   with:
-      #     # Upload entire repository
-      #     path: 'public'
-      # - name: Deploy to GitHub Pages
-      #   id: deployment
-      #   uses: actions/deploy-pages@v4
