@@ -46,18 +46,13 @@ jobs:
       - name: Grant permission to PostCSS
         run: chmod +x "$(which postcss)"
 
-      - uses: actions/cache@v3
-        with:
-          path: /home/runner/.cache/hugo_cache
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
-      
       - name: Build
         run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/Develop'
         with:
-          github_token: ${{ secrets.PAT_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+   
