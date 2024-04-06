@@ -9,9 +9,6 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    environment:
-        name: production
-        url: ${{ steps.deploy.outputs.deployment_url }}
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
@@ -34,9 +31,23 @@ jobs:
       run: hugo --minify
 
     - name: Deploy to GitHub Pages
-        id: deploy
-        run: echo "deployment_url=${{ steps.deploy.outputs.url }}" >> $GITHUB_ENV
-    uses : peaceiris/actions-gh-pages@v3
-    with:
+      id: deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
+
+    # This step sets the deployment URL as an output
+    - name: Set deployment URL
+      run: echo "deployment_url=$(echo https://${{ github.repository_owner }}.github.io/${{ github.repository }})" >> $GITHUB_ENV
+
+  # This job uses the deployment URL from the previous job
+  deploy:
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: ${{ needs.build-and-deploy.outputs.deployment_url }}
+    steps:
+    - name: Update environment URL
+      run: echo "The deployed site is available at ${{ needs.build-and-deploy.outputs.deployment_url }}"
