@@ -49,9 +49,13 @@ jobs:
       - name: Build
         run: hugo
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.PAT_TOKEN }}
-          publish_dir: ./public
-          publish_branch: Master
+          # Upload entire repository
+          path: 'public'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
