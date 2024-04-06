@@ -39,7 +39,7 @@ jobs:
 
     # This step sets the deployment URL as an output
     - name: Set deployment URL
-      run: echo "deployment_url=$(echo https://${{ github.repository_owner }}.github.io/${{ github.repository }})" >> $GITHUB_ENV
+      run: echo "deployment_url=$(echo https://denchyaknow.github.io/GitSite_Dencho)" >> $GITHUB_ENV
 
   # This job uses the deployment URL from the previous job
   deploy:
