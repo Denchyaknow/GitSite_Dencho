@@ -39,6 +39,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install PostCSS dependencies
+        run: |
+          npm install -g postcss-cli autoprefixer
+
+      - name: Grant permission to PostCSS
+        run: chmod +x "$(which postcss)"
+
       - name: Build
         run: hugo
 
