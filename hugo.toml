@@ -4,4 +4,3 @@ title = 'My New Hugo Site'
 [module]
   [[module.imports]]
     path = "gitlab.com/jmfergeau/hugo.386"
-https://gitlab.com/jmfergeau/h
