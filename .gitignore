@@ -1,2 +1,7 @@
+# IDEs
+.idea/
 
-/.vscode
+# Hugo
+resources/
+public/
+assets/jsconfig.json

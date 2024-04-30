@@ -1,398 +1,1205 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w2.org/1999/xhtml">
-<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><html lang="en">
-    <head>
-	<meta name="generator" content="Hugo 0.124.1">
-            <meta charset="utf-8" />
-    <title>terminalCV </title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="4s3ti cv terminal format">
-    <meta property="og:title" content="terminalCV" />
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://localhost:1313/" />
-    <link rel="sitemap" type="application/xml" title="Sitemap" href=""/>
-    <link rel="canonical" href="http://localhost:1313/" />    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <meta name="msapplication-TileColor" content="">
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: April 29, 2024 --><html lang="en-us" >
 
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.35.1/js/jquery.terminal.min.js"></script>
-    <script src="https://unpkg.com/jquery.terminal/js/autocomplete_menu.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.35.1/css/jquery.terminal.min.css" rel="stylesheet"/>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
 
-    <style>
-        body {
-            width: 100%;
-            font-size: 18px;
-        }
-    </style>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
     
-    </head>
-        <body>
-        
-<script> 
-jQuery(document).ready(function($) {
-    var animation = false;
-    var availableCommands = ["all", "whois", 'social', 'work', 'education',
-                    'skills', 'softskills', 'languages',
-                    'projects',
-	             'certifications', 
-                    
-                    
-                    "misc",
-                     'source' 
-                    ] 
-
-    $('body').terminal(function(command, term) {
-
-     
-    function whois () {
-        term.echo ("");
-         
-            term.echo ("[[b;grey;]Name:]\t\t\tDencho Dennis Denchyaknow");
-            term.echo ("[[b;grey;]Profession:]\t\tUnity Developer\/Programmer");
-            term.echo ("[[b;grey;]Location:]\t\tMetaVerse");
-            
-                term.echo ("[[b;grey;]Email:]\t\t\tDenchyaknow@gmail.com");
-            
-            
-                term.echo ("[[b;grey;]Homepage:]\t\thttps:\/\/Dencho.dev");
-            
-            
-                term.echo ("")
-                term.echo ("I am a Unity Developer and Programmer with a passion for creating interactive experiences. \nI have a background in Computer Science and a love for all things tech. \nI am always looking for new opportunities to learn and grow as a developer.\n")
-            
-        
-        term.echo ("");
-      }
-
-    function social () {
-        term.echo("");
-        
-            
-                
-                    term.echo("github:" + "  https:\/\/github.com\/denchyaknow");
-                
-                    term.echo("Another social:" + "  https:\/\/anothersocial.com");
-                
-            
-        
-        term.echo("")
-    }
-	    
-    function certifications () {
-        term.echo("");
-        
-            
-                term.echo("[[b;grey;]Example Cert]");
-	    	term.echo("Date of Completion");
-                
-                    term.echo("Example Certifying Company");
-                
-                
-                term.echo("-------------------- ");
-                term.echo("");
-            
-        
-    }
-	    
-    function work () {
-        term.echo("");
-        
-    }
-
-    function education () {
-        term.echo("");
-        
-            
-                term.echo("[[b;red;]Red Color training]");
-                term.echo("June 2019 - July 2019");
-                
-                    term.echo("Descrption about red color trianing");
-                
-                term.echo("-------------------- ");
-                term.echo("");
-            
-                term.echo("[[b;grey;]Default color training]");
-                term.echo("Sept 2004 - Jun 2008");
-                
-                term.echo("-------------------- ");
-                term.echo("");
-            
-        
-    }
-
-    function skills () {
-        term.echo(" ");
-        
-            
-                var bar_length = Math.round( 90  / 10);
-                var bar_filled = Array(bar_length + 1).join("&#9611;");
-                var bar_blank= Array(11 - bar_length).join("&#9617;");
-                term.echo("[[b;grey;]Skill 1:]\n" +
-                        bar_filled + bar_blank + 
-                         90  +"%");
-                
-                term.echo ("")
-            
-                var bar_length = Math.round( 30  / 10);
-                var bar_filled = Array(bar_length + 1).join("&#9611;");
-                var bar_blank= Array(11 - bar_length).join("&#9617;");
-                term.echo("[[b;grey;]Skill 2:]\n" +
-                        bar_filled + bar_blank + 
-                         30  +"%");
-                
-                term.echo ("")
-            
-                var bar_length = Math.round( 50  / 10);
-                var bar_filled = Array(bar_length + 1).join("&#9611;");
-                var bar_blank= Array(11 - bar_length).join("&#9617;");
-                term.echo("[[b;blue;]Skill 3:]\n" +
-                        bar_filled + bar_blank + 
-                         50  +"%");
-                
-                    term.echo("Skill names can have colors too");
-                
-                term.echo ("")
-            
-        
-    }
-    function softskills () {
-        term.echo("");
-        
-            
-                var bar_length = Math.round( 80  / 10);
-                var bar_filled = Array(bar_length + 1).join("&#9611;");
-                var bar_blank= Array(11 - bar_length).join("&#9617;");
-                term.echo("[[b;red;]SoftSkill 1:]\n" +
-                       bar_filled + bar_blank +
-                        80  +"%");
-                
-                term.echo ("")
-            
-                var bar_length = Math.round( 90  / 10);
-                var bar_filled = Array(bar_length + 1).join("&#9611;");
-                var bar_blank= Array(11 - bar_length).join("&#9617;");
-                term.echo("[[b;grey;]SoftSkill 2:]\n" +
-                       bar_filled + bar_blank +
-                        90  +"%");
-                
-                    term.echo("Description");
-                
-                term.echo ("")
-            
-        
-    }
       
-    function languages () {
-        term.echo("");
-        
-            
-                var bar_length = Math.round( 50  / 10);
-                var bar_filled = Array(bar_length + 1).join("&#9611;");
-                var bar_blank= Array(11 - bar_length).join("&#9617;");
-                term.echo("[[b;Blue;]English:]\n" +
-                        "" + bar_filled + bar_blank + 
-                        " " +  50  +"%");
-                
-                term.echo("")
-            
-                var bar_length = Math.round( 100  / 10);
-                var bar_filled = Array(bar_length + 1).join("&#9611;");
-                var bar_blank= Array(11 - bar_length).join("&#9617;");
-                term.echo("[[b;grey;]Gibberish:]\n" +
-                        "" + bar_filled + bar_blank + 
-                        " " +  100  +"%");
-                
-                    term.echo("pasghettipigglywiggly");
-                
-                term.echo("")
-            
-        
-    }
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
 
     
-    function projects () {
-        term.echo("");
+    
+    
+    
+      
+      
+      
+      
         
-            
-                term.echo("[[b;red;]Project Red]");
-                term.echo("since 2019")
-                term.echo("https:\/\/example.com")
-                
-                    term.echo("Describing red stuff");
-                
-                term.echo("-----------------------");
-                term.echo("");
-          
-                term.echo("[[b;blue;]Project Blue]");
-                term.echo("since 2016")
-                term.echo("https:\/\/example.com\/blue")
-                
-                term.echo("-----------------------");
-                term.echo("");
-          
-                term.echo("[[b;grey;]Project Default]");
-                term.echo("Since 2017")
-                term.echo("https:\/\/example.com\/default")
-                
-                term.echo("-----------------------");
-                term.echo("");
-          
+      
         
-    }
-
-    function misc (){
-        term.echo ("")
-        term.echo("[[b;teal;]This Section can have a different command name]" + "\n")
-        term.echo ("[[;orange;]Here the title and the content can have different colors\nThe content can be multi\n\nline\n\nAnd spaces       will be respected as well\nThis section will have the default command: misc\nbut you can name it something else with the property\ncommandName: \u003cString\u003e\nGive it a shot and try and uncomment the line \ncommandName: newcommand\nnow instead of misc you can execute the newcommand for this section\nAuto completion will know it too! :D \n]")
-        term.echo ("")
-    }
-
-    function help () {
-        term.echo("\n[[b;white;]Available commands:]\n" +
-                  "\n" + availableCommands.join(' ')+ '\n') 
-    }
-
-      function source() {
-          term.echo("        _______            \n"+
-                    "       |       |           \n"+
-                    "       |       |           \n"+
-                    "       |_______|_______    \n"+
-	                "               |       |   \n"+
-                    "               |       |   \n"+
-                    " ______________|_______|   \n"+
-                    "|      |       |       |   \n"+
-                    "|      |       |       |   \n"+
-                    "|______|_______|_______|   \n"+
-                    "[[;red;]May the source be with you]\n"+
-                    "[[;grey;]https://github.com/4s3ti/terminalcv\n");
-      }
+      
+    
+    
+    
 
     
-    function progress(percent, width) {
-        var size = Math.round(width*percent/100);
-        var left = '', taken = '', i;
-        for (i=size; i--;) {
-            taken += '=';
-        }
-        if (taken.length > 0) {
-            taken = taken.replace(/=$/, '>');
-        }
-        for (i=width-size; i--;) {
-            left += ' ';
-        }
-        return '[' + taken + left + '] ' + percent + '%';
-    }
+    
+    
 
-    function loading () {
-        var i = 0, size = 30;
-        prompt = term.get_prompt();
-        string = progress(0, size);
-        term.set_prompt(progress);
-        animation = true;
-        (function loop() {
-            string = progress(i++, size);
-            term.set_prompt(string);
-            if (i < 100) {
-                timer = setTimeout(loop, 10);
-            } else {
-                term.echo(progress(i, size) + ' [[b;green;]OK]').set_prompt(prompt);
-                animation = false
-            }
-        })();
-    }
+    
 
-       
-        commands = command.split(/[ ]+/);
-        switch(commands[0]) {
-            case 'whois':
-                whois();
-                break;
-            case 'social':
-                social();
-                break;
-            case 'work':
-                work();
-                break;
-            case 'education':
-                education();
-                break;
-            case 'skills':
-                skills();
-                break;
-            case 'softskills':
-                softskills();
-                break;
-            case 'languages':
-                languages();
-                break;
-            case 'projects':
-                projects();
-                break;
-	    case 'certifications':
-                certifications();
-                break;
-            case 'misc':
-                misc();
-                break;
-            case 'help':
-                help();
-                break;
-            case 'all':
-                whois();
-                social();
-                work();
-                education();
-                skills();
-                softskills();
-                languages();
-                projects();
-		certifications();
-                
-                    misc();
-                
-                
-                    source();
-                
-                break;
-            
-            case ':(){:|:&};:':
-            case 'source':
-                source();
-                break;
-            
-            default:
-                term.echo("\nunknown command: " + command + "\n" +
-                          "please type 'help' for a list of available commands\n");
-        }
-    }, {
-        prompt: '[[;lightgreen;]guest][[;lightgreen;]:\u003e]' + " ",
-        greetings: "[[b;white;]Welcome to the Insight Engine. \n    \n    Your gateway to the Architect\u0027s digital anthology. \n\n        Type \u0027help\u0027 to navigate the command matrix.\n]",
-        keydown: function(e, term) {
-            if (animation) {
-                if (e.which == 68 && e.ctrlKey) { 
-                    clearTimeout(timer);
-                    animation = false;
-                    term.echo(string + ' [[b;red;]FAIL]')
-                    .set_prompt(prompt);
-                }
-                return false;
-            }
-        },
-        autocompleteMenu: true,
-        completion: availableCommands
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
         
-    });
-});
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Alice Wu (吳恩達)" />
+
+
+
+
+
+  
+
+<meta name="description" content="A highly-customizable Hugo blog theme powered by Wowchemy website builder." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="//localhost:1313/" />
+<link rel="canonical" href="//localhost:1313/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#2962ff" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@GetResearchDev" />
+  <meta property="twitter:creator" content="@GetResearchDev" />
+<meta property="twitter:image" content="//localhost:1313/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
+
+
+
+  
+    
+    
+    
+  
+
+<meta property="og:type" content="profile" />
+<meta property="og:site_name" content="Dencho" />
+<meta property="og:url" content="//localhost:1313/" />
+<meta property="og:title" content="Dencho" />
+<meta property="og:description" content="A highly-customizable Hugo blog theme powered by Wowchemy website builder." /><meta property="og:image" content="//localhost:1313/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta property="og:updated_time" content="2022-01-01T00:00:00&#43;00:00" />
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite","url": "//localhost:1313/"
+}
 </script>
 
-        </body>
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Dencho" />
+  
+
+  
+
+
+  
+  <title>Dencho</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.js"></script>
+
+  
+
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/about/"><span>Resumé</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="intro" class="home-section wg-about-avatar  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div id="profile">
+
+  
+  <div class="avatar-wrapper">
+    
+    <img class="avatar avatar-circle" src="/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/avatar_hu3c64bd0f98018e2d901b7c60447ac42e_1387900_150x150_fill_q75_lanczos_center.jpg" alt="Alice Wu (吳恩達)"
+         width="150" height="150">
+    <span class="avatar-emoji">☕️</span>
+  </div>
+  
+
+  <div class="portrait-title">
+
+    <h2>Alice Wu (吳恩達)</h2>
+
+    
+
+    
+  </div>
+
+  <ul class="network-icon" aria-hidden="true">
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+    
+    <li>
+      <a href="/about/#contact"  aria-label="envelope"
+         >
+        <i class="fas fa-envelope big-icon"></i>
+      </a>
+    </li>
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/wowchemy" target="_blank" rel="noopener" aria-label="twitter"
+         >
+        <i class="fab fa-twitter big-icon"></i>
+      </a>
+    </li>
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://instagram.com/geocushen" target="_blank" rel="noopener" aria-label="instagram"
+         >
+        <i class="fab fa-instagram big-icon"></i>
+      </a>
+    </li>
+    
+  </ul>
+
+  
+  <div class="article-style pt-1">
+    <p style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">👋 Hi, there! I&rsquo;m <strong>Alice</strong>, a machine learning researcher at Netflix.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4" type="video/mp4">
+</video>
+
+<p>Check out my <a href="/about/">resumé</a> and portfolio below 😍</p>
+
+  </div>
+  
+
+</div>
+
+
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="portfolio" class="home-section wg-portfolio  " style="padding: 0 0 0 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 ">
+
+  
+
+  
+
+    
+
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    <span class="d-none default-project-filter">*</span>
+
+    
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar d-flex justify-content-center">
+          <div class="btn-group flex-wrap">
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter=".js-id-ml" class="btn btn-primary btn-lg">Machine Learning</a>
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter=".js-id-cv" class="btn btn-primary btn-lg">Computer Vision</a>
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter=".js-id-nlp" class="btn btn-primary btn-lg">NLP</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+
+  <div class="isotope projects-container js-layout-masonry ">
+
+    
+    
+
+    
+    
+      
+      
+    
+    
+    
+    
+    
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+
+  </div>
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+<footer>
+    <script>
+        $(document).ready(function(){
+            $('iframe .iframe__bottom').each(function(i){
+                i.css("display", "none");
+            });
+        });
+    </script>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2024 Dennis, Dencho, Denchyaknow
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.js"></script>
+
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/en/js/wowchemy.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
 </html>
