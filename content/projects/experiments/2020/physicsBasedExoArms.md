@@ -1,5 +1,5 @@
 ---
-title: [Exp] Physics Based Exo-Skeleton Arms
+title: Physics Based Exo-Skeleton Arms
 subtitle: An experiment while wondering what it would be like having giant arms
 date: 2020-01-12
 type: post
