@@ -83,7 +83,7 @@ sections:
     design:
       # Choose a layout view
       view: Masonry #List, Compact, Card, Citation, Showcase, Masonry
-      columns: '1'
+      columns: '4'
 
 ---
 <div class="video_thing">
