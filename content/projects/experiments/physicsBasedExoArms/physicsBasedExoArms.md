@@ -21,15 +21,3 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 
 <p>I believe VR can be a cheap and effective way to test out ideas.</p>
 
- <!--script>
-    const repoURL = "https://raw.githack.com/Denchyaknow/GitSite_Dencho/";
-    const branch = "Develop/";
-    // Files used in this post
-    const filePath0 = "content/projects/experiments/physicsBasedExoArms/XRLog_2020_001.webm";
-    //Release URL Ex https://rawcdn.githack.com/Denchyaknow/GitSite_Dencho/e32ebd92e7eb02c2d3ceccdd4924d3c1fe629c50/content/projects/experiments/physicsBasedExoArms/XRLog_2020_001.webm
-    //Dev URL Ex https://raw.githack.com/Denchyaknow/GitSite_Dencho/Terminal/content/projects/experiments/physicsBasedExoArms/XRLog_2020_001.webm
-    const videoElement = document.querySelector('video[name="media0"]');
-    const fullURL = repoURL + branch + filePath0;
-    // Set the src attribute
-    videoElement.src = fullURL;
-    </script-->
