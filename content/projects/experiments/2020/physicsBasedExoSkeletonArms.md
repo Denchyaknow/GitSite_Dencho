@@ -21,4 +21,7 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 
 <!--more-->
 
+<div class="video_thing">
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/images/physicsBasedExoArms/XRLog_2020_005.webm" type="video/mp4"></video>
+</div>
 

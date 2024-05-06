@@ -74,8 +74,3 @@ sections:
         
           
 ---
-<div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.webm" type="video/mp4"></video>
-</div>
-
-{{< video src="https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4" >}}
