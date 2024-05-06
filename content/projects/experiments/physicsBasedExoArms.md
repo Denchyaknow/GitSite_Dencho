@@ -6,7 +6,7 @@ type: post
 
 reading_time: false
 profile: false
-commentable: true
+commentable: false
 draft: false
 private: false # hide page in search results
 tags: ["Experiment", "VR", "XR", "InverseKinematics"]
