@@ -1,3 +1,3 @@
-# GitSite_Dencho
-[![Deploy Hugo site to Pages](https://github.com/Denchyaknow/GitSite_Dencho/actions/workflows/BuildAndDeploySite.yml/badge.svg)](https://github.com/Denchyaknow/GitSite_Dencho/actions/workflows/BuildAndDeploySite.yml)
-Denchos Github Website that is a Portfolio of his works!
+# This website was made by Dencho for Dencho and it uses a [Hugo Portfolio Theme](https://github.com/wowchemy/starter-hugo-portfolio-theme)
+
+### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/denchyaknow)
