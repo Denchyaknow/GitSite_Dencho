@@ -52,7 +52,7 @@ sections:
     design:
         background:
             video: 
-                filename: projects/test0.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
+                filename: projects/physicsBasedExoArms/XRLog_2020_001.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
                 flip: false # Post-processing: flip the video horizontally?
                 brightness: 0.2
     #         image:
