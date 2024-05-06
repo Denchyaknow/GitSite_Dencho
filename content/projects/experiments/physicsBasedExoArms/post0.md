@@ -1,5 +1,5 @@
 ---
-title: Project_Post_1
+title: Post_0
 subtitle: Artificial Intelligence Combat and other things
 date: 2019-12-03
 type: post
