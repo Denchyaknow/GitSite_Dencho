@@ -23,10 +23,10 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 
 <script>
 
-const repoURL = "https://raw.githack.com/Denchyaknow/MyRepo/";
-const branch = "MyBranch/";
+const repoURL = "https://raw.githack.com/Denchyaknow/Gitsite_Dencho/";
+const branch = "Terminal/";
 // Files used in this post
-const filePath0 = "content\projects\experiments\physicsBasedExoArms\XRLog_2020_001.webm";
+const filePath0 = "content/projects/experiments/physicsBasedExoArms/XRLog_2020_001.webm";
 
 // Get a reference to the video element
 const videoElement = document.querySelector('video[name="media0"]');
