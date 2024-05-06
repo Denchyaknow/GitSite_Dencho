@@ -17,7 +17,7 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
     <video muted autoplay="" name="media0" loop=""><source src="https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.webm" type="video/mp4"></video>
     <script>
     const repoURL = "https://raw.githack.com/Denchyaknow/GitSite_Dencho/";
-    const branch = "Terminal/";
+    const branch = "Develop/";
     // Files used in this post
     const filePath0 = "content/projects/experiments/physicsBasedExoArms/XRLog_2020_001.webm";
     //Release URL Ex https://rawcdn.githack.com/Denchyaknow/GitSite_Dencho/e32ebd92e7eb02c2d3ceccdd4924d3c1fe629c50/content/projects/experiments/physicsBasedExoArms/XRLog_2020_001.webm
