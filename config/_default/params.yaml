@@ -17,9 +17,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo blog theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'Yakno'
+    description: 'The website of the best XR Developer alive.'
+    twitter: 'Denchyaknow'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -42,7 +42,7 @@ header:
     highlight_active_link: false
 
 footer:
-  block: minimal
+  block: custom
   copyright:
     notice: '© {year} Dennis, Dencho, Denchyaknow' # Footer text, e.g. '© {year} Me' {license}'
     license:

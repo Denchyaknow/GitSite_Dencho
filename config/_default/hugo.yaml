@@ -13,7 +13,7 @@ baseurl: 'Dencho.dev' # Website URL
 cascade:
   # Blog post options
   - _target:
-      path: /post/**
+      path: /projects/** # /post/**
     editable: true
     reading_time: true
     commentable: true
@@ -33,7 +33,7 @@ removePathAccents: true
 ## ADVANCED
 ############################
 
-enableGitInfo: false
+enableGitInfo: true # By default, there’s no need to specify lastmod as the page modification date is automatically updated from Git if true
 summaryLength: 30
 paginate: 10
 enableEmoji: true

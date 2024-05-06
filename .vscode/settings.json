@@ -1,0 +1,30 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "public": true,
+        "resources/_gen": true,
+        "resources": true,
+        ".vscode": true,
+        ".gitignore": true,
+        "go.mod": true,
+        "go.sum": true,
+        "netlify.toml": true,
+        ".editorconfig": true
+    },
+    "hide-files.files": [
+        "public",
+        "resources/_gen",
+        "resources",
+        ".vscode",
+        ".gitignore",
+        "go.mod",
+        "go.sum",
+        "netlify.toml",
+        ".editorconfig"
+    ]
+}

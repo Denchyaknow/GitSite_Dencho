@@ -1,0 +1,33 @@
+
+<footer>
+    <script>
+        $(document).ready(function(){
+            $('iframe .iframe__bottom').each(function(i){
+                i.css("display", "none");
+            });
+        });
+    </script>
+<span class="copyright-license-text">
+  <a class="copyright-license-text" href="https://www.dencho.dev" target="_blank" rel="noopener noreferrer">
+    <p class="copyright-license-text">
+      © 2024 Dennis, Dencho, Denchyaknow</a>
+    </p>
+  </span>
+  
+  <script>
+    // Wait for the DOM to be fully loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      // Find all elements with the class "powered-by"
+      const poweredByElements = document.querySelectorAll('.powered-by');
+      
+      // Hide or delete each element
+      poweredByElements.forEach((element) => {
+        // To hide the element:
+        element.style.display = 'none';
+        
+        // To delete the element:
+        // element.remove();
+      });
+    });
+  </script>
+</footer>
