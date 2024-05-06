@@ -23,12 +23,13 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 
 <script>
 
-const repoURL = "https://raw.githack.com/Denchyaknow/Gitsite_Dencho/";
+const repoURL = "https://raw.githack.com/Denchyaknow/GitSite_Dencho/";
 const branch = "Terminal/";
 // Files used in this post
 const filePath0 = "content/projects/experiments/physicsBasedExoArms/XRLog_2020_001.webm";
+//Release URL Ex https://rawcdn.githack.com/Denchyaknow/GitSite_Dencho/e32ebd92e7eb02c2d3ceccdd4924d3c1fe629c50/content/projects/experiments/physicsBasedExoArms/XRLog_2020_001.webm
+//Dev URL Ex https://raw.githack.com/Denchyaknow/GitSite_Dencho/Terminal/content/projects/experiments/physicsBasedExoArms/XRLog_2020_001.webm
 
-// Get a reference to the video element
 const videoElement = document.querySelector('video[name="media0"]');
 const fullURL = repoURL + branch + filePath0;
 
