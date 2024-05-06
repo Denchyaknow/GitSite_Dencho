@@ -1,5 +1,5 @@
 ---
-title: Post_0
+title: Physics Based Exo-Skeleton Arms
 subtitle: Artificial Intelligence Combat and other things
 date: 2019-12-03
 type: post
