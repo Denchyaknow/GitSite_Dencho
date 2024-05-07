@@ -1,5 +1,5 @@
 ---
-title: VFX Trails [02]
+title: VFX Practice [02]
 subtitle: I love making VFX Particles and Shaders but, I am not very good at designing them. Therefor I practice.
 date: 2020-01-07
 type: post
@@ -14,7 +14,7 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 # featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXTrials02/XRLog_2020_129.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice02/XRLog_2020_129.webm" type="video/mp4"></video>
 </div>
 
 <!--more-->
@@ -22,9 +22,9 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 <p>This was made using VFXGraph for Unity.</p>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXTrials02/XRLog_2020_126.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice02/XRLog_2020_126.webm" type="video/mp4"></video>
 </div>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXTrials02/XRLog_2020_132.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice02/XRLog_2020_132.webm" type="video/mp4"></video>
 </div>
