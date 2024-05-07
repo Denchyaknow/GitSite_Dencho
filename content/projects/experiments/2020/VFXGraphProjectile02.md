@@ -30,3 +30,9 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 <div class="video_thing">
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXGraphProjectile02/XRLog_2020_141.webm" type="video/mp4"></video>
 </div>
+
+<p>This allowed me to test out some Combat simulations</p>
+
+<div class="video_thing">
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXGraphProjectile02/XRLog_2020_147.webm" type="video/mp4"></video>
+</div>

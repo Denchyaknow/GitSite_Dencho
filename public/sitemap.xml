@@ -74,19 +74,35 @@
     <lastmod>2024-05-07T10:31:41-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/particles/</loc>
-    <lastmod>2024-05-07T10:31:41-07:00</lastmod>
+    <loc>//localhost:1313/tag/inversekinematics/</loc>
+    <lastmod>2024-05-07T10:23:30-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/physics/</loc>
     <lastmod>2024-05-07T10:31:41-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/shaders/</loc>
-    <lastmod>2024-05-07T10:31:41-07:00</lastmod>
+    <loc>//localhost:1313/projects/experiments/2020/physicsbasedlocomotion/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/uma/</loc>
+    <lastmod>2024-05-07T10:23:30-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/unity/</loc>
+    <lastmod>2024-05-07T10:31:41-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/xr/</loc>
+    <lastmod>2024-05-07T10:23:30-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/particles/</loc>
+    <lastmod>2024-05-07T10:31:41-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/shaders/</loc>
     <lastmod>2024-05-07T10:31:41-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -130,20 +146,8 @@
     <lastmod>2024-05-07T09:29:53-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/inversekinematics/</loc>
-    <lastmod>2024-05-07T10:23:30-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>//localhost:1313/projects/contracts/xrphysicsbasedbuttons01/</loc>
     <lastmod>2024-05-07T09:29:53-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/xr/</loc>
-    <lastmod>2024-05-07T10:23:30-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/uma/</loc>
-    <lastmod>2024-05-07T10:23:30-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/xrplayercontroller02/</loc>

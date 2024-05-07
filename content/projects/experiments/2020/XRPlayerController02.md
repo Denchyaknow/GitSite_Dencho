@@ -70,3 +70,19 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 <div class="video_thing">
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController02/XRLog_2020_113.webm" type="video/mp4"></video>
 </div>
+
+<div class="video_thing">
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController02/XRLog_2020_144.webm" type="video/mp4"></video>
+</div>
+
+<p>Jumping still needs work.</p>
+
+<div class="video_thing">
+    <video muted autoplay="" name="media1" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController02/XRLog_2020_052.webm" type="video/mp4"></video>
+</div>
+
+<p>HandTracking was a complete failure as different avatar rigs have skeleton bones that use a different axis orientation. So one can not simply match up rotations 1:1 unless all bones use the same orientation axis.</p>
+
+<div class="video_thing">
+    <video muted autoplay="" name="media1" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController02/XRLog_2020_050.webm" type="video/mp4"></video>
+</div>

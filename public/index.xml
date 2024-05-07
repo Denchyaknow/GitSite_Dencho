@@ -45,6 +45,29 @@
     </item>
     
     <item>
+      <title>Physics Based Exo-Skeleton Arms</title>
+      <link>//localhost:1313/projects/experiments/2020/physicsbasedlocomotion/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/physicsbasedlocomotion/</guid>
+      <description>&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedLocomotion/XRLog_2020_195.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This was one of the most difficult prototypes for my skill level at the time. The prototype code would need to be refactored before I would attempt putting it into beta testing.&lt;/p&gt;
+&lt;p&gt;Part of the math I needed to master was how 3D normals and reflections are calculated.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedLocomotion/XRLog_2020_180.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Yes its a Sphere for now, but keep in mind this prototype is using RigidBodies and a Velocity PID controller that I wrote to move the body via Physics.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedLocomotion/XRLog_2020_180.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Testing Variable Properties out.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedLocomotion/XRLog_2020_192.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>VFX Graph Projectile [02]</title>
       <link>//localhost:1313/projects/experiments/2020/vfxgraphprojectile02/</link>
       <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
@@ -59,6 +82,10 @@
 &lt;p&gt;Avatars provided by the VRoid Hub.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXGraphProjectile02/XRLog_2020_141.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This allowed me to test out some Combat simulations&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXGraphProjectile02/XRLog_2020_147.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;</description>
     </item>
     
