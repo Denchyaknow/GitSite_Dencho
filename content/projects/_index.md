@@ -52,39 +52,29 @@ sections:
     design:
         background:
             video: 
-                filename: projects/test0.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
+                filename: projects/physicsBasedExoArms/XRLog_2020_001.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
                 flip: false # Post-processing: flip the video horizontally?
                 brightness: 0.2
 
-  - block: collection
-    id: project_posts
+  - block: portfolio
+    id: projects
     content:
       title: Projects
-      subtitle: 'Everything I worked on'
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 100
-      # Filter on criteria
       filters:
-        folders: 
+        folders:
           - projects
-          - experiments
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      buttons: # To remove the toolbar, delete the entire `filter_button` block.
+        - name: All  # To filter by a specific tag, set `tag` to an existing tag name.
+          tag: '*' # To show all items, set `tag` to "*".
+        - name: Deep Learning
+          tag: Deep Learning
+        - name: Other
+          tag: Demo
+      default_button_index: 0 # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
     design:
-      # Choose a layout view
-      view: Masonry #List, Compact, Card, Citation, Showcase, Masonry
-      columns: '4'
-
+      columns: '1' # Choose how many columns the section has. Valid values: '1' or '2'.
+      view: masonry #List, Compact, Card, Citation, Showcase, Masonry
+      flip_alt_rows: false # For Showcase view, flip alternate rows?
 ---
 <div class="video_thing">
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/physicsBasedExoArms/XRLog_2020_001.webm" type="video/mp4"></video>

@@ -45,29 +45,55 @@
     </item>
     
     <item>
-      <title>Physics Based Exo-Skeleton Arms</title>
-      <link>//localhost:1313/projects/experiments/physicsbasedexoarms/physicsbasedexoarms/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/physicsbasedexoarms/physicsbasedexoarms/</guid>
+      <title>XR Player Controller v1</title>
+      <link>//localhost:1313/projects/experiments/2020/xrplayercontrollerv1/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/xrplayercontrollerv1/</guid>
       <description>&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media0&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV1/XRLog_2020_003.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
-&lt;p&gt;I believe VR can be a cheap and effective way to test out ideas.&lt;/p&gt;
-&lt;script&gt;
-
-const repoURL = &#34;https://raw.githack.com/Denchyaknow/MyRepo/&#34;;
-const branch = &#34;MyBranch/&#34;;
-// Files used in this post
-const filePath0 = &#34;content\projects\experiments\physicsBasedExoArms\XRLog_2020_001.webm&#34;;
-
-// Get a reference to the video element
-const videoElement = document.querySelector(&#39;video[name=&#34;media0&#34;]&#39;);
-const fullURL = repoURL + branch + filePath0;
-
-// Set the src attribute
-videoElement.src = fullURL;
-&lt;/script&gt;
-</description>
+&lt;h2 id=&#34;devices-tested&#34;&gt;Devices tested:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Oculus CV1&lt;/li&gt;
+&lt;li&gt;Oculus Quest 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Technologies Used --&gt;
+&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies used:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;UMA2 (Avatars)&lt;/li&gt;
+&lt;li&gt;Oculus VR SDK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This was my first attempt at a XR Player Controller. Starting small my goal was to just get each limb lined up with basic controller based Hand Poses working.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;handWaving&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV1/XRLog_2020_003.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Clothes Placements and RayPointers&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV1/XRLog_2020_007.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;My own Custom Grabbables and my try at 2 handed grabbing.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV1/XRLog_2020_009.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Writing my own Locomotion was great practice. More work needed to be done on the jumping.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV1/XRLog_2020_011.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Physics Based Exo-Skeleton Arms</title>
+      <link>//localhost:1313/projects/experiments/2020/physicsbasedexoskeletonarms/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/physicsbasedexoskeletonarms/</guid>
+      <description>&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/physicsBasedExoArms/XRLog_2020_001.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;I believe VR can be a cheap and effective way to test out ideas. On day I wondered how fun it would be to give the user giant Exo Arms.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/physicsBasedExoArms/XRLog_2020_005.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This crude prototype gave me decent understanding one how it would feel for one arm anyway.&lt;/p&gt;</description>
     </item>
     
     <item>

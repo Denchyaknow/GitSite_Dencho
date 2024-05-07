@@ -14,7 +14,7 @@ cascade:
   # Blog post options
   - _target:
       path: /projects/** # /post/**
-    editable: true
+    editable: false
     reading_time: true
     commentable: true
     show_related: true
