@@ -1,7 +1,7 @@
 ---
 title: XR Player Controller [03]
 subtitle: My third attempt was focused on better locomotion and hand tracking for full body avatars
-date: 2020-01-04
+date: 2020-01-11
 type: post
 
 reading_time: false

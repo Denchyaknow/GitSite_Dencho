@@ -39,7 +39,9 @@ sections:
         label: >-
           <!--div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div-->
       text: |-
-         **Under Contruction**
+         # NOTICE: 
+         **This Page is Under Construction** 
+         #### Please Reload the page if any Media files fail to show during development.
 
     design:
         background:

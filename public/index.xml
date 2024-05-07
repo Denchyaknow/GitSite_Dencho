@@ -45,6 +45,40 @@
     </item>
     
     <item>
+      <title>Physics Based Procedural Animations [01]</title>
+      <link>//localhost:1313/projects/experiments/2020/physicsbasedproceduralanimations01/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/physicsbasedproceduralanimations01/</guid>
+      <description>&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations/XRLog_2020_308.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;I love procedural animations, most system use Inverse Kinematics to acomplish this, as do my systems. However I wanted to take it to the next level and allow dynamic blending between Inverse Kinematics and Physics Simulations.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations/XRLog_2020_311.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This should allow my to play a Humanoid animation on the skeleton while still applying IK to the bones, and lerp between a &#34;Live&#34; and &#34;Ragdoll&#34; state for the characters physics body.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations/XRLog_2020_314.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations/XRLog_2020_317.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations/XRLog_2020_320.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Its far from perfect and I still need to find a use case but, its still fun to look at.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations/XRLog_2020_323.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations/XRLog_2020_326.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations/XRLog_2020_329.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Physics Based Exo-Skeleton Arms</title>
       <link>//localhost:1313/projects/experiments/2020/physicsbasedlocomotion/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
