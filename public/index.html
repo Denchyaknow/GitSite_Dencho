@@ -1940,6 +1940,45 @@
     
       
         
+          <div class="project-card project-item isotope-item js-id-experiment js-id-gamejam js-id-physics js-id-unity">
+        
+        
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<div class="card">
+  
+  <div class="card-text">
+    <h4><a href="/projects/experiments/2020/gamejam01/" >GameJam [01]</a></h4>
+
+    
+    <div class="article-style">
+      <p><p>This GameJams theme was the exploration of destructible objects using magic.</p>
+<div class="video_thing">
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_279.webm" type="video/mp4"></video>
+</div></p>
+    </div>
+    
+
+    
+  </div>
+</div>
+
+      </div>
+    
+      
+        
           <div class="project-card project-item isotope-item js-id-experiment js-id-vr js-id-xr js-id-inversekinematics js-id-uma js-id-physics js-id-unity">
         
         
@@ -2171,12 +2210,17 @@
   
   
 <footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function(){
-            $('iframe .iframe__bottom').each(function(i){
-                i.css("display", "none");
+        try {
+            $('iframe .iframe__bottom').each(function(){
+                $(this).css("display", "none");
             });
-        });
+        } catch (error) {
+            console.error('An error occurred:', error);
+        }
+    });
     </script>
 <span class="copyright-license-text">
   <a class="copyright-license-text" href="https://www.dencho.dev" target="_blank" rel="noopener noreferrer">
@@ -2187,6 +2231,7 @@
   
   <script>
     
+    
     document.addEventListener("DOMContentLoaded", function() {
       
       const poweredByElements = document.querySelectorAll('.powered-by');
@@ -2194,10 +2239,7 @@
       
       poweredByElements.forEach((element) => {
         
-        element.style.display = 'none';
-        
-        
-        
+        element.remove();
       });
     });
   </script>

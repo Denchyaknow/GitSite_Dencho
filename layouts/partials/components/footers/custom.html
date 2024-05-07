@@ -1,11 +1,16 @@
 
 <footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function(){
-            $('iframe .iframe__bottom').each(function(i){
-                i.css("display", "none");
+        try {
+            $('iframe .iframe__bottom').each(function(){
+                $(this).css("display", "none");
             });
-        });
+        } catch (error) {
+            console.error('An error occurred:', error);
+        }
+    });
     </script>
 <span class="copyright-license-text">
   <a class="copyright-license-text" href="https://www.dencho.dev" target="_blank" rel="noopener noreferrer">
@@ -15,6 +20,7 @@
   </span>
   
   <script>
+    //This is Custom code Dencho added in to hide the "Powered by" text
     // Wait for the DOM to be fully loaded
     document.addEventListener("DOMContentLoaded", function() {
       // Find all elements with the class "powered-by"
@@ -22,11 +28,8 @@
       
       // Hide or delete each element
       poweredByElements.forEach((element) => {
-        // To hide the element:
-        element.style.display = 'none';
-        
-        // To delete the element:
-        // element.remove();
+        //element.style.display = 'none';
+        element.remove();
       });
     });
   </script>
