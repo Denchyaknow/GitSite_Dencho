@@ -189,6 +189,29 @@
     </item>
     
     <item>
+      <title>XR Chemistry Framework</title>
+      <link>//localhost:1313/projects/experiments/2020/xrchemistryframework/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/xrchemistryframework/</guid>
+      <description>&lt;p&gt;I was contacted and contracted out by a School District Manager looking for ways to Adapt XR as a means for kids to learn remotely in a more immersive way.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_400.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The things I can show from this project are limited due to an NDA&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_391.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The main goal of this prototype was to create a UI capable of spawning Chemistry related instances of Molecule models and allow interaction with them for lecturing purposes in a Teacher to Student relationship.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_394.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;As the project was already 12 months into development at the time I joined, I had to work well with the existing team to know where to put my code and to make sure there were no conflicts with existing UX components&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_397.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>VFX Graph Projectile [02]</title>
       <link>//localhost:1313/projects/experiments/2020/vfxgraphprojectile02/</link>
       <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
