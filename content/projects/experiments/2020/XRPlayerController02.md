@@ -66,3 +66,7 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 <div class="video_thing">
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController02/XRLog_2020_073.webm" type="video/mp4"></video>
 </div>
+
+<div class="video_thing">
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController02/XRLog_2020_113.webm" type="video/mp4"></video>
+</div>
