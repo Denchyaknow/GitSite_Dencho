@@ -7,7 +7,7 @@ type: post
 reading_time: false
 profile: false
 commentable: false
-draft: false
+draft: true
 private: false # hide page in search results
 tags: ["Prototype", "VR", "Mobs", Other, Misc, Ect]
 categories: ["Cat0", "Cat1", "Experiments", "Prototypes"] # display at the top of a page alongside a page’s metadata

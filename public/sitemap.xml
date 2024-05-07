@@ -67,18 +67,42 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/category/2020/</loc>
-    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/experiment/</loc>
-    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/tag/animation/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/contract/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/contracts/horrorstylemobs/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/inversekinematics/</loc>
-    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/particles/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/physics/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/contracts/xrphysicsbasedbuttons01/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/xr/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/experiment/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -87,10 +111,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/unity/</loc>
-    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/xr/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -114,10 +134,6 @@
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/projects/contracts/xrphysicsbasedbuttons01/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>//localhost:1313/projects/experiments/2020/physicsbasedexoskeletonarms/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -128,10 +144,6 @@
   </url><url>
     <loc>//localhost:1313/tag/misc/</loc>
     <lastmod>2024-05-06T12:25:35-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/projects/_posttemplate-copy/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/_posttemplate/</loc>
