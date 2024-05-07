@@ -19,7 +19,7 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 
 <!--more-->
 
-<p>This was made using VFXGraph for Unity.</p>
+<p>This was made using ShaderGraph for Unity and some C# elbow grease.</p>
 
 <div class="video_thing">
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice04/XRLog_2020_167.webm" type="video/mp4"></video>

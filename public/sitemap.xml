@@ -70,12 +70,12 @@
     <lastmod>2024-05-07T13:37:40-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/animation/</loc>
-    <lastmod>2024-05-07T09:29:53-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>//localhost:1313/tag/experiment/</loc>
     <lastmod>2024-05-07T13:37:40-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/hands/</loc>
+    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/inversekinematics/</loc>
@@ -86,12 +86,28 @@
     <lastmod>2024-05-07T13:37:40-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/projects/experiments/2020/physicsbasedproceduralanimations01/</loc>
-    <lastmod>2020-01-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>//localhost:1313/tag/unity/</loc>
     <lastmod>2024-05-07T13:37:40-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/vroid/</loc>
+    <lastmod>2024-05-07T11:08:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/xr/</loc>
+    <lastmod>2024-05-07T13:37:40-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/experiments/2020/xrplayercontroller04/</loc>
+    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/animation/</loc>
+    <lastmod>2024-05-07T09:29:53-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/experiments/2020/physicsbasedproceduralanimations01/</loc>
+    <lastmod>2020-01-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/physicsbasedlocomotion/</loc>
@@ -99,10 +115,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/uma/</loc>
-    <lastmod>2024-05-07T13:37:40-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/xr/</loc>
     <lastmod>2024-05-07T13:37:40-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -124,10 +136,6 @@
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/vfxpractice04/</loc>
     <lastmod>2024-05-07T10:31:41-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/vroid/</loc>
-    <lastmod>2024-05-07T11:08:55-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/vfxpractice03/</loc>
