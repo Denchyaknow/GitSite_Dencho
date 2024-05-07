@@ -7,19 +7,19 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/category/cat0/</loc>
-    <lastmod>2024-05-06T14:11:46-07:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/category/cat1/</loc>
-    <lastmod>2024-05-06T14:11:46-07:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2024-05-06T14:11:46-07:00</lastmod>
+    <lastmod>2024-05-07T09:07:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/contracts/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/ddd/</loc>
@@ -27,15 +27,15 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/category/experiments/</loc>
-    <lastmod>2024-05-06T14:11:46-07:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/</loc>
-    <lastmod>2024-05-06T14:11:46-07:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/mobs/</loc>
-    <lastmod>2024-05-06T14:11:46-07:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/project/newpost/</loc>
@@ -43,7 +43,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/other/</loc>
-    <lastmod>2024-05-06T14:11:46-07:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/project/</loc>
@@ -51,103 +51,95 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/prototype/</loc>
-    <lastmod>2024-05-06T14:11:46-07:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/category/prototypes/</loc>
-    <lastmod>2024-05-06T14:11:46-07:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-05-06T14:11:46-07:00</lastmod>
+    <lastmod>2024-05-07T09:07:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/vr/</loc>
-    <lastmod>2024-05-06T14:11:46-07:00</lastmod>
+    <lastmod>2024-05-07T09:07:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/category/2020/</loc>
-    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/animation/</loc>
-    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/contract/</loc>
-    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/projects/contracts/horrorstylemobs/</loc>
-    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/inversekinematics/</loc>
-    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/particles/</loc>
-    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/physics/</loc>
-    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/projects/contracts/xrphysicsbasedbuttons01/</loc>
-    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/xr/</loc>
-    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-07T09:07:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/experiment/</loc>
-    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/uma/</loc>
-    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/tag/particles/</loc>
+    <lastmod>2024-05-07T09:07:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/physics/</loc>
+    <lastmod>2024-05-07T09:07:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/unity/</loc>
-    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/projects/experiments/2020/xrplayercontroller02/</loc>
-    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-07T09:07:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/vfx/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/experiments/2020/vfxtrials01/</loc>
+    <lastmod>2020-01-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/animation/</loc>
+    <lastmod>2024-05-07T09:07:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/contract/</loc>
+    <lastmod>2024-05-07T09:07:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/contracts/horrorstylemobs/</loc>
+    <lastmod>2024-05-07T09:07:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/inversekinematics/</loc>
+    <lastmod>2024-05-07T09:07:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/contracts/xrphysicsbasedbuttons01/</loc>
+    <lastmod>2024-05-07T09:07:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/xr/</loc>
+    <lastmod>2024-05-07T09:07:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/uma/</loc>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/experiments/2020/xrplayercontroller02/</loc>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/vfxgraphprojectile01/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/vroid/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/xrplayercontroller01/</loc>
-    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-07T08:53:50-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/physicsbasedexoskeletonarms/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/ect/</loc>
-    <lastmod>2024-05-06T12:25:35-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/misc/</loc>
-    <lastmod>2024-05-06T12:25:35-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/projects/_posttemplate/</loc>
-    <lastmod>2024-05-06T12:25:35-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/about/</loc>

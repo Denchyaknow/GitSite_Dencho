@@ -45,6 +45,27 @@
     </item>
     
     <item>
+      <title>VFX Trails [01]</title>
+      <link>//localhost:1313/projects/experiments/2020/vfxtrials01/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/vfxtrials01/</guid>
+      <description>&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXTrials01/XRLog_2020_107.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Some custom code to rotate simulated points and emit particles offset via some maths.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXTrials01/XRLog_2020_101.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXTrials01/XRLog_2020_104.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This was made using VFXGraph for Unity.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXTrials01/XRLog_2020_110.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Horror Style Mobs</title>
       <link>//localhost:1313/projects/contracts/horrorstylemobs/</link>
       <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
@@ -197,17 +218,6 @@
     &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedExoSkeletonArms/XRLog_2020_005.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
 &lt;p&gt;This crude prototype gave me decent understanding one how it would feel for one arm anyway.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Project_Post_0</title>
-      <link>//localhost:1313/projects/_posttemplate/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/_posttemplate/</guid>
-      <description>&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt; Making mobs attack with physics is really satisfying. &lt;/p&gt;</description>
     </item>
     
     <item>

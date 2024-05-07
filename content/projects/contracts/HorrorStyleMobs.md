@@ -9,7 +9,7 @@ profile: false
 commentable: true
 draft: false
 private: false # hide page in search results
-tags: ["Contract", "VR", "XR", "Animation", "Physics"]
+tags: ["Contract", "VR", "XR", "Animation", "Physics", "Unity"]
 categories: ["2020"] # display at the top of a page alongside a page’s metadata
 # featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---

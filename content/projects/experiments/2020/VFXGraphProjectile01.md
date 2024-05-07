@@ -9,7 +9,7 @@ profile: false
 commentable: true
 draft: false
 private: false # hide page in search results
-tags: ["Experiment", "VFX", "Vroid", "Physics", Unity]
+tags: ["Experiment", "VFX", "VRoid", "Physics", "Unity"]
 categories: ["2020"] # display at the top of a page alongside a page’s metadata
 # featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---
