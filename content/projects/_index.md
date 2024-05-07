@@ -34,15 +34,7 @@ sections:
     id: projects
     demo: false # Only display this section in the Hugo Blox Builder demo site
     content:
-      title: Dencho.Dev
-      image:
-        filename: 
-      cta:
-        label: '**Get Started**'
-        url: https://hugoblox.com/templates/
-      cta_alt:
-        label: Ask a question
-        url: https://discord.gg/z8wNYzb
+      title: 
       cta_note:
         label: >-
           <div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
@@ -53,23 +45,24 @@ sections:
         background:
             video: 
                 filename: projects/physicsBasedExoArms/XRLog_2020_001.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
-                flip: false # Post-processing: flip the video horizontally?
-                brightness: 0.2
+                flip: true # Post-processing: flip the video horizontally?
 
   - block: portfolio
-    id: projects
+    id: experiments
     content:
-      title: Projects
+      title: All Projects
       filters:
-        folders:
-          - projects
-      buttons: # To remove the toolbar, delete the entire `filter_button` block.
-        - name: All  # To filter by a specific tag, set `tag` to an existing tag name.
-          tag: '*' # To show all items, set `tag` to "*".
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        folders: ""
+          #- projects
+        category: "2020"
+        tag: "XR"
+      # buttons: # To remove the toolbar, delete the entire `filter_button` block.
+      #   - name: All  # To filter by a specific tag, set `tag` to an existing tag name.
+      #     tag: '*' # To show all items, set `tag` to "*".
+      #   - name: Deep Learning
+      #     tag: Deep Learning
+      #   - name: Other
+      #     tag: Demo
       default_button_index: 0 # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
     design:
       columns: '1' # Choose how many columns the section has. Valid values: '1' or '2'.
