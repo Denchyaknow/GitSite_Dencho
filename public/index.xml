@@ -62,12 +62,9 @@
 &lt;/div&gt;
 &lt;p&gt;The idea behind this kind of system is the modularity of the script I made allowing it to work with any VFXGraph setup with the right event and exposed properties.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXGraphProjectileV1/XRLog_2020_042.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Honestly this was so much fun.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXGraphProjectileV1/XRLog_2020_046.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
+&lt;p&gt;Avatars provided by the VRoid Hub.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXGraphProjectileV1/XRLog_2020_048.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;</description>
@@ -107,6 +104,50 @@
 &lt;p&gt;Writing my own Locomotion was great practice. More work needed to be done on the jumping.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;locomotion&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV1/XRLog_2020_011.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>XR Player Controller v2</title>
+      <link>//localhost:1313/projects/experiments/2020/xrplayercontrollerv2/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/xrplayercontrollerv2/</guid>
+      <description>&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV2/XRLog_2020_076.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;devices-tested&#34;&gt;Devices tested:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Oculus CV1&lt;/li&gt;
+&lt;li&gt;Oculus Quest 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Technologies Used --&gt;
+&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies used:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Vroid SDK (Avatars)&lt;/li&gt;
+&lt;li&gt;Oculus VR SDK&lt;/li&gt;
+&lt;li&gt;UnityXR SDK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This was my second attempt at a XR Player Controller. My main goal here was to make sure I can modularize components while solidifying most of the prototype code.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;handWaving&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV2/XRLog_2020_079.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The Avatar was home made this time using a base Vroid from Vroid Studio and Decimating it in Blender for low poly testing.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;rayPointers&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV2/XRLog_2020_083.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;I wrote the Grabbable components you see here, in order to make it work with physics.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;twoHandedGrabbables&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV2/XRLog_2020_086.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Held hand poses still need some work.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;locomotion&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV2/XRLog_2020_092.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;locomotion&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV2/XRLog_2020_095.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;locomotion&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV2/XRLog_2020_098.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;</description>
     </item>
     

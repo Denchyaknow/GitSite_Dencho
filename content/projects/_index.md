@@ -12,9 +12,9 @@ type: landing
 # Software Documentation: document your software projects
 # Talks/Events: publish any talks which you are presenting
 # Slides: write slides very efficiently with Markdown, present them at your talk, and share them online
-date: 2022-01-01
-tags: ["Prototype", "VR", "Mobs", other]
-categories: ["Cat0", "Cat1", "Experiments", "Prototypes"] # display at the top of a page alongside a page’s metadata
+#date: 2022-01-01
+#tags: ["Prototype", "VR", "Mobs", other]
+#categories: ["Cat0", "Cat1", "Experiments", "Prototypes"] # display at the top of a page alongside a page’s metadata
 #image:
   #filename: 'https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.webm'
   #https://i.imgur.com/XlJ4RR1.mp4
@@ -46,16 +46,19 @@ sections:
             video: 
                 filename: projects/physicsBasedExoArms/XRLog_2020_001.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
                 flip: true # Post-processing: flip the video horizontally?
-
+  - block: tag_cloud
+    content:
+      title: Tags
+    design:
+      columns: '1'
   - block: portfolio
     id: experiments
     content:
       title: All Projects
       filters:
-        folders: ""
-          #- projects
-        category: "2020"
-        tag: "XR"
+        #tags: [ "Experiment" ]
+        folders: 
+          - "projects"
       # buttons: # To remove the toolbar, delete the entire `filter_button` block.
       #   - name: All  # To filter by a specific tag, set `tag` to an existing tag name.
       #     tag: '*' # To show all items, set `tag` to "*".
@@ -63,14 +66,9 @@ sections:
       #     tag: Deep Learning
       #   - name: Other
       #     tag: Demo
-      default_button_index: 0 # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      #default_button_index: 0 # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
     design:
       columns: '1' # Choose how many columns the section has. Valid values: '1' or '2'.
       view: masonry #List, Compact, Card, Citation, Showcase, Masonry
       flip_alt_rows: false # For Showcase view, flip alternate rows?
 ---
-<div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/physicsBasedExoArms/XRLog_2020_001.webm" type="video/mp4"></video>
-</div>
-
-{{< video src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/physicsBasedExoArms/XRLog_2020_001.webm" >}}

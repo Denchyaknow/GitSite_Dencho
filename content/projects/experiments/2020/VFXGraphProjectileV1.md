@@ -34,14 +34,10 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 <p>The idea behind this kind of system is the modularity of the script I made allowing it to work with any VFXGraph setup with the right event and exposed properties.</p>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXGraphProjectileV1/XRLog_2020_042.webm" type="video/mp4"></video>
-</div>
-
-<p>Honestly this was so much fun.</p>
-
-<div class="video_thing">
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXGraphProjectileV1/XRLog_2020_046.webm" type="video/mp4"></video>
 </div>
+
+<p>Avatars provided by the VRoid Hub.</p>
 
 <div class="video_thing">
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXGraphProjectileV1/XRLog_2020_048.webm" type="video/mp4"></video>
