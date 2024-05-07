@@ -1,6 +1,6 @@
 ---
-title: Experiments
-summary: Things I explored in the past to gain a hone my skillset.
+title: Contracts
+summary: Projects I was hired to work on in the past.
 type: landing
 # page: any general content
 # landing # pages that can consist of content blocks, such as the homepage
@@ -45,11 +45,11 @@ sections:
                 filename: projects/physicsBasedExoArms/XRLog_2020_001.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
                 flip: true # Post-processing: flip the video horizontally?
   - block: portfolio
-    id: experiments
+    id: contracts
     content:
-      title: All Experiments
+      title: All Contracts
       filters:
-        tags: [ "Experiment" ]
+        tags: [ "Contract" ]
         folders: 
           - "projects"
       # buttons: # To remove the toolbar, delete the entire `filter_button` block.
