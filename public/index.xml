@@ -248,6 +248,57 @@
     </item>
     
     <item>
+      <title>XR Player Controller [03]</title>
+      <link>//localhost:1313/projects/experiments/2020/xrplayercontroller03/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/xrplayercontroller03/</guid>
+      <description>&lt;p&gt;One of the earliest prototypes to exist at the time (2020) that I know of, to contain a full body avatar and finger tracking.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController03/XRLog_2020_201.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;devices-tested&#34;&gt;Devices tested:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Oculus CV1&lt;/li&gt;
+&lt;li&gt;Oculus Quest 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Technologies Used --&gt;
+&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies used:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Vroid SDK (Avatars)&lt;/li&gt;
+&lt;li&gt;Oculus VR SDK&lt;/li&gt;
+&lt;li&gt;UnityXR SDK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I was one of the first developers in the industry to achieve fullbody avatars working with finger tracking. Once you get past the hurdle of different bone orientations the rest is pretty simple, I was just a dev with just enough free time to actually do it.&lt;/p&gt;
+&lt;h2 id=&#34;skeletal-mesh-orientation-mismatch-smom&#34;&gt;Skeletal Mesh Orientation Mismatch (S.M.O.M.)&lt;/h2&gt;
+&lt;p&gt;S.M.O.M. happens when one mesh skeletal bone structure has incompatible orientations with another set of bones, leading to misalignment when trying to animate or manipulate them consistently. It’s essential to ensure that both hand meshes follow the same bone orientation conventions to avoid issues during animation and rigging processes. However sometimes this cant be avoided when sourcing from different third parties, in this case I had trouble aligning VRoid Hand Skeleton to match with the Hand Skeleton from the OVR SDK used for hand tracking.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController03/XRLog_2020_050.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;bypassing-smom&#34;&gt;Bypassing S.M.O.M.&lt;/h2&gt;
+&lt;p&gt;When dealing with skeletal mesh orientation mismatches between two hand skeletons, you can use a transformation formula to align their orientations. This approach allows you to transfer the orientation from one hand to another, even if they initially have different orientations.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController03/XRLog_2020_198.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Using this formula here I was able to avoid this issue, however the custom tool I made requires a basic understanding of how Quaternions work.&lt;/p&gt;
+&lt;!--TODO: Show Math Formula and Code Snippet here--&gt;
+&lt;p&gt;Using a Homemade VRoid Avatar, which uses a Universal Skeleton Armature. This is what happened when trying to sync up rotations from OVR custom hand skeleton to the VRoids hand.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController03/XRLog_2020_201.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Locomotion Testing&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController03/XRLog_2020_213.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Locomotion Jumping with Physics still needs work.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController03/XRLog_2020_216.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController03/XRLog_2020_222.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>VFX Graph Projectile [01]</title>
       <link>//localhost:1313/projects/experiments/2020/vfxgraphprojectile01/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
