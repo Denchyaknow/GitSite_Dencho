@@ -36,17 +36,17 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 <p>Clothes Placements and RayPointers</p>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media1" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV1/XRLog_2020_007.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="rayPointers" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV1/XRLog_2020_007.webm" type="video/mp4"></video>
 </div>
 
 <p>My own Custom Grabbables and my try at 2 handed grabbing.</p>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media1" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV1/XRLog_2020_009.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="twoHandedGrabbables" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV1/XRLog_2020_009.webm" type="video/mp4"></video>
 </div>
 
 <p>Writing my own Locomotion was great practice. More work needed to be done on the jumping.</p>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media1" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV1/XRLog_2020_011.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="locomotion" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerControllerV1/XRLog_2020_011.webm" type="video/mp4"></video>
 </div>
