@@ -1,7 +1,7 @@
 ---
 title: GameJam [01]
 subtitle: A GameJam event with a team consisting of a Programmer (me) and 1 technical artist.
-date: 2020-01-04
+date: 2020-06-12
 type: post
 
 reading_time: false

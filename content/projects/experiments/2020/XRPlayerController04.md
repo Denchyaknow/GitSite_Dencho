@@ -1,7 +1,7 @@
 ---
 title: XR Player Controller [04]
 subtitle: Version 4 of my FUll body XR Player Controller
-date: 2020-02-10
+date: 2020-04-10
 type: post
 
 reading_time: false

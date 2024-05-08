@@ -1,7 +1,7 @@
 ---
 title: VFX Practice [05]
 subtitle: Rhythm based VFX
-date: 2020-01-09
+date: 2020-05-13
 type: post
 
 reading_time: false

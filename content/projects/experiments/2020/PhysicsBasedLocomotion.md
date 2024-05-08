@@ -1,7 +1,7 @@
 ---
 title: Physics Based Exo-Skeleton Arms
 subtitle: A custom Locomotion algorithm I wrote as a means to work with physics bodies and handle dynamic movement like running along walls
-date: 2020-01-10
+date: 2020-03-18
 type: post
 
 reading_time: false

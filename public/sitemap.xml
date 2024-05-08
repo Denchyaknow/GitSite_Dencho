@@ -95,7 +95,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2021/aimobcontroller02/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/combat/</loc>
@@ -112,6 +112,22 @@
   </url><url>
     <loc>//localhost:1313/category/2020/</loc>
     <lastmod>2024-05-07T18:36:42-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/particles/</loc>
+    <lastmod>2024-05-07T18:09:10-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/shaders/</loc>
+    <lastmod>2024-05-07T16:34:41-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/vfx/</loc>
+    <lastmod>2024-05-07T16:34:41-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/experiments/2020/vfxpractice05/</loc>
+    <lastmod>2020-05-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/aimobcontroller01/</loc>
@@ -136,10 +152,6 @@
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/xrplayercontroller04/</loc>
     <lastmod>2024-05-07T16:34:41-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/particles/</loc>
-    <lastmod>2024-05-07T18:09:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/contracts/2020/xrphysicsbasedbuttons02/</loc>
@@ -170,24 +182,12 @@
     <lastmod>2024-05-07T18:09:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/shaders/</loc>
-    <lastmod>2024-05-07T16:34:41-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/vfx/</loc>
-    <lastmod>2024-05-07T16:34:41-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>//localhost:1313/projects/experiments/2020/vfxgraphprojectile02/</loc>
     <lastmod>2024-05-07T11:08:55-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/vfxpractice04/</loc>
     <lastmod>2024-05-07T16:34:41-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/projects/experiments/2020/vfxpractice05/</loc>
-    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/vfxpractice03/</loc>

@@ -1,7 +1,7 @@
 ---
 title: Physics Based Procedural Animations [01]
 subtitle: First attempt at mastering animations that work with physics
-date: 2020-01-12
+date: 2020-02-18
 type: post
 
 reading_time: false

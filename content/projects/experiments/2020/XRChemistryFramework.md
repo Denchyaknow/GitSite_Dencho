@@ -1,7 +1,7 @@
 ---
 title: XR Chemistry Framework
 subtitle: Contracted to create a Proof of concept prototype for a Chemistry learning framework for a School District
-date: 2020-01-10
+date: 2020-04-18
 type: post
 
 reading_time: false

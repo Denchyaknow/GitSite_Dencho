@@ -1,7 +1,7 @@
 ---
 title: VFX Graph Projectile [01]
 subtitle: Some early VFXGraph Practice
-date: 2020-01-03
+date: 2020-01-15
 type: post
 
 reading_time: false

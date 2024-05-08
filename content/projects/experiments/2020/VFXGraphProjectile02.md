@@ -1,7 +1,7 @@
 ---
 title: VFX Graph Projectile [02]
 subtitle: Test to determine the best ways to extend my Projectile prototypes
-date: 2020-01-09
+date: 2020-02-15
 type: post
 
 reading_time: false

@@ -1,7 +1,7 @@
 ---
 title: VFX Practice [02]
 subtitle: I love making VFX Particles and Shaders but, I am not very good at designing them. Therefor I practice.
-date: 2020-01-07
+date: 2020-02-13
 type: post
 
 reading_time: false

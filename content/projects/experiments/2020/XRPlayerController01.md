@@ -1,7 +1,7 @@
 ---
 title: XR Player Controller [01]
 subtitle: My first attempt at making full body avatar controller for the XR Player.
-date: 2020-01-02
+date: 2020-01-10
 type: post
 
 reading_time: false

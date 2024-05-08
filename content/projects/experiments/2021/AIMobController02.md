@@ -1,7 +1,7 @@
 ---
 title: AI Mob Controller [02]
 subtitle: Second iteration at making a dynamic AI designed for XR combat
-date: 2021-01-01
+date: 2021-01-10
 type: post
 
 reading_time: false
