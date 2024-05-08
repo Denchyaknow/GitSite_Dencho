@@ -13,6 +13,21 @@
     </image>
     
     <item>
+      <title>VFX Practice [07]</title>
+      <link>//localhost:1313/projects/experiments/2022/vfxpractice07/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2022/vfxpractice07/</guid>
+      <description>&lt;p&gt;A small experiment to create a reactive shadergraph with exposed properties that a custom controller can use to make the shader react to the beat of an audio clip.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice07/XRLog_2021_768.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;And a VFXGraph that controls particles to move along an array of world points over time. In this case I calculated a Hexagons orientation and size from a cells center position, then fed each corner to the VFXGraph via my custom tool.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice07/XRLog_2022_879.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Crypto Comedy Club</title>
       <link>//localhost:1313/projects/contracts/2022/cryptocomedyclub/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
@@ -125,21 +140,6 @@
 &lt;/video&gt;
 
 </description>
-    </item>
-    
-    <item>
-      <title>VFX Practice [07]</title>
-      <link>//localhost:1313/projects/experiments/2021/vfxpractice07/</link>
-      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/2021/vfxpractice07/</guid>
-      <description>&lt;p&gt;A small experiment to create a reactive shadergraph with exposed properties that a custom controller can use to make the shader react to the beat of an audio clip.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice07/XRLog_2021_711.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;And a VFXGraph that controls particles to move along an array of world points over time. In this case I calculated a Hexagons orientation and size from a cells center position, then fed each corner to the VFXGraph via my custom tool.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice07/XRLog_2021_879.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;</description>
     </item>
     
     <item>
