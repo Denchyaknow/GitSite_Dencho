@@ -45,11 +45,38 @@
     </item>
     
     <item>
+      <title>A* Map System</title>
+      <link>//localhost:1313/projects/contracts/2021/astarmapsystem/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/contracts/2021/astarmapsystem/</guid>
+      <description>&lt;p&gt;Contracted to make a Custom A* Map System.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AStarMapSystem/XRLog_2021_683.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The client requested a Custom Hex Tile Map System that had Methods to calculate the best path to take. It needed to be modular and flexible with any map size, and calculate pathing using an asynchronous pattern.&lt;/p&gt;
+&lt;h3 id=&#34;the-a-algorithm&#34;&gt;The A* Algorithm&lt;/h3&gt;
+&lt;p&gt;The A* (pronounced “A-star”) algorithm is a powerful pathfinding technique used in various fields of computer science. It offers completeness, optimality, and optimal efficiency.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A* is a graph traversal and pathfinding algorithm.&lt;/li&gt;
+&lt;li&gt;Given a weighted graph, a source node, and a goal node, A* finds the shortest path (with respect to the given weights) from the source to the goal.&lt;/li&gt;
+&lt;li&gt;It evaluates points using a heuristic value (also known as the H score), which estimates the distance from a node to the goal.&lt;/li&gt;
+&lt;li&gt;A* combines both the movement cost (from the current point to its neighbors) and the heuristic value to guide its search.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AStarMapSystem/XRLog_2021_685.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;It even came with a Custom Editor Tool I made to help simulate the pathing in and outside of PlayMode.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AStarMapSystem/XRLog_2021_687.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>AI Mob Controller [02]</title>
       <link>//localhost:1313/projects/experiments/2021/aimobcontroller02/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/projects/experiments/2021/aimobcontroller02/</guid>
-      <description>&lt;p&gt;This experiment is mainly focused &lt;/p&gt;
+      <description>&lt;p&gt;This experiment is mainly focused on ground based AI designed to work with a XR Player Controller.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2021_641.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;

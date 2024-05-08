@@ -1,7 +1,7 @@
 ---
 title: Horror Style Mobs
 subtitle: Contracted to add some Horror themed mobs to a VR experience
-date: 2020-01-05
+date: 2021-01-10
 type: post
 
 reading_time: false
@@ -10,7 +10,7 @@ commentable: true
 draft: false
 private: false # hide page in search results
 tags: ["Contract", "VR", "XR", "Animation", "Physics", "Unity"]
-categories: ["2020"] # display at the top of a page alongside a page’s metadata
+categories: ["2021"] # display at the top of a page alongside a page’s metadata
 # featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---
 <p>Contracted to make a "Smart" Vending Machine feature designed to work with VR Players.</p>
