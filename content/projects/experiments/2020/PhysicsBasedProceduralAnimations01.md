@@ -19,7 +19,7 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 
 <!--more-->
 
-<p>I love procedural animations, most system use Inverse Kinematics to acomplish this, as do my systems. However I wanted to take it to the next level and allow dynamic blending between Inverse Kinematics and Physics Simulations.</p>
+<p>I love procedural animations, most system use Inverse Kinematics to accomplish this, as do my systems. However I wanted to take it to the next level and allow dynamic blending between Inverse Kinematics and Physics Simulations.</p>
 
 <div class="video_thing">
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_311.webm" type="video/mp4"></video>
