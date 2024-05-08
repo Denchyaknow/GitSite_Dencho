@@ -6,8 +6,8 @@
     <lastmod>2024-05-07T15:56:48-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/category/2021/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <loc>//localhost:1313/category/2022/</loc>
+    <lastmod>2022-02-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
@@ -44,10 +44,6 @@
   </url><url>
     <loc>//localhost:1313/projects/experiments/2022/vfxpractice07/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/category/2022/</loc>
-    <lastmod>2022-01-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/blockchain/</loc>
@@ -132,6 +128,10 @@
   </url><url>
     <loc>//localhost:1313/category/prototypes/</loc>
     <lastmod>2024-05-07T08:53:50-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/category/2021/</loc>
+    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/vroid/</loc>

@@ -10,7 +10,7 @@ commentable: true
 draft: false
 private: false # hide page in search results
 tags: ["Experiment", "VFX", "Particles", "Unity", "Shaders", "Rhythm"]
-categories: ["2021"] # display at the top of a page alongside a page’s metadata
+categories: ["2022"] # display at the top of a page alongside a page’s metadata
 # featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---
 <p>A small experiment to create a reactive shadergraph with exposed properties that a custom controller can use to make the shader react to the beat of an audio clip.</p>
