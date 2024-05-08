@@ -67,7 +67,31 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/category/2021/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/ai/</loc>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/experiments/2021/aimobcontroller03/</loc>
+    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/combat/</loc>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/experiment/</loc>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/physics/</loc>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/unity/</loc>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/a/</loc>
@@ -86,28 +110,8 @@
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/unity/</loc>
-    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/ai/</loc>
-    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>//localhost:1313/projects/experiments/2021/aimobcontroller02/</loc>
     <lastmod>2021-01-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/combat/</loc>
-    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/experiment/</loc>
-    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/physics/</loc>
-    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/category/2020/</loc>

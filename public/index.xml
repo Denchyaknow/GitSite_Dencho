@@ -45,6 +45,33 @@
     </item>
     
     <item>
+      <title>AI Mob Controller [03]</title>
+      <link>//localhost:1313/projects/experiments/2021/aimobcontroller03/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2021/aimobcontroller03/</guid>
+      <description>&lt;p&gt;This experiments goal was to iterate on my previous AI Controllers and refine the spawning and path finding algorithms.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController03/XRLog_2021_696.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The models were provided by free assets on the Unity Asset Store.&lt;/p&gt;
+&lt;p&gt;Created a Waypoint system that only allows one mob at a time to navigate to the point, the mobs automatically seek out point in a waypoint path that doesn&#39;t have its source/target points queued by another mob.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController03/XRLog_2021_688.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController03/XRLog_2021_709.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Testing out Ragdolling system for a nonstandart mesh rig.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController03/XRLog_2021_725.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;A Combat system that animated the Rigidbody with a Physics PID Controller to traverse a dynamic generated path, with adjustable curves/properties to change up how it ride the attack path.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController03/XRLog_2021_696.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>A* Map System</title>
       <link>//localhost:1313/projects/contracts/2021/astarmapsystem/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
