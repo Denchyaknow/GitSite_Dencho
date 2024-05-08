@@ -13,6 +13,89 @@
     </image>
     
     <item>
+      <title>Crypto Comedy Club</title>
+      <link>//localhost:1313/projects/contracts/2022/cryptocomedyclub/</link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/contracts/2022/cryptocomedyclub/</guid>
+      <description>&lt;p&gt;Contracted out by a small team with plans to launch a Comedy Club in the Metaverse tied to custom NFT metadata and the $LOL token.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2022_863_1.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;devices-tested&#34;&gt;Devices tested:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Oculus Quest 1/2&lt;/li&gt;
+&lt;li&gt;Pico 2/3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Technologies Used --&gt;
+&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies used:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;VRoid SDK (Avatars)&lt;/li&gt;
+&lt;li&gt;ReadyPlayerMe SDK (Avatars)&lt;/li&gt;
+&lt;li&gt;OculusVR SDK&lt;/li&gt;
+&lt;li&gt;UnityXR SDK&lt;/li&gt;
+&lt;li&gt;PicoVR SDK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Due to an NDA im not legally allowed to show the NFT portion of this project.&lt;/p&gt;
+&lt;h4 id=&#34;the-blockchain&#34;&gt;The BlockChain&lt;/h4&gt;
+&lt;p&gt;Implementing the blockchain took some work, however at the time we got it working due to an SDK called Moralis that was coming out at the time. Token and NFT transactions were able to take place using the connected Web3 wallet.&lt;/p&gt;
+&lt;p&gt;One of the main features is being able to hop into a theatre and watch a comedian perform a live or recorded session with your friends.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2022_857.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;physics-based-hand-tracked-posing&#34;&gt;Physics Based Hand-Tracked Posing&lt;/h4&gt;
+&lt;p&gt;One of the main problems with HandTracking is the immersion break a user experiences when they reach out to grab a virtual object. Usually the virtual hands that mimic the real world hands end up clipping through the object the user is grabbing. This is my attempt to fix that.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2021_856.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;During my time at CCC I prototyped procedural hand poses when grabbing things with pure hand tracking. Each fingers Inverse Kinematic system is programmed to bend until a collider is detected.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2021_858.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2022_859_1.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2022_859_2.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2022_859_3.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;working-with-readyplayerme-avatars&#34;&gt;Working with ReadyPlayerMe Avatars&lt;/h4&gt;
+&lt;p&gt;The final PlayerController looked something like this with a live RPM Avatar.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2022_864.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2022_863_1.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;With both Hand and Controller tracked interaction!&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2022_863_2.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The UI eventually worked well enough.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2022_866.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Good enough to test out Peer2Peer Networking for the first time!&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2022_868.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;However there were some bugs involving Physics that didn&#39;t go well over the network.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2022_869.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;audience-taming&#34;&gt;Audience Taming&lt;/h4&gt;
+&lt;p&gt;Stress testing remote player count. Turns out even low quality avatars were such a big performance hit.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2021_846.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;So I just used voxelized avatars for the audience which solved the performance hit from a full house.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2021_848.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>New Test Project Post</title>
       <link>//localhost:1313/project/newpost/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
@@ -45,6 +128,130 @@
     </item>
     
     <item>
+      <title>VFX Practice [07]</title>
+      <link>//localhost:1313/projects/experiments/2021/vfxpractice07/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2021/vfxpractice07/</guid>
+      <description>&lt;p&gt;A small experiment to create a reactive shadergraph with exposed properties that a custom controller can use to make the shader react to the beat of an audio clip.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice07/XRLog_2021_711.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;And a VFXGraph that controls particles to move along an array of world points over time. In this case I calculated a Hexagons orientation and size from a cells center position, then fed each corner to the VFXGraph via my custom tool.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice07/XRLog_2021_879.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>XR Player Controller [05]</title>
+      <link>//localhost:1313/projects/experiments/2021/xrplayercontroller05/</link>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2021/xrplayercontroller05/</guid>
+      <description>&lt;p&gt;Refining one of the first Prototypes to exist (in 2020) to contain a full body avatar and finger tracking.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_729.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;devices-tested&#34;&gt;Devices tested:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Oculus Quest 1/2&lt;/li&gt;
+&lt;li&gt;Pico 2/3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Technologies Used --&gt;
+&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies used:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;VRoid SDK (Avatars)&lt;/li&gt;
+&lt;li&gt;ReadyPlayerMe SDK (Avatars)&lt;/li&gt;
+&lt;li&gt;OculusVR SDK&lt;/li&gt;
+&lt;li&gt;UnityXR SDK&lt;/li&gt;
+&lt;li&gt;PicoVR SDK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;First thing I did this round, was fail hard at using Mechanim Animator to handle my Hand Posing. Turns out its just easier and more performant to man handle hand posing with pure C#.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_838.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Semi working legs. Check.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_823.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;You know I had to make sure everything worked with physics. Just incase.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_828.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_830.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_849.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;skeletal-mesh-orientation-mismatch-smom&#34;&gt;Skeletal Mesh Orientation Mismatch (S.M.O.M.)&lt;/h2&gt;
+&lt;p&gt;S.M.O.M. happens when one mesh skeletal bone structure has incompatible orientations with another set of bones, leading to misalignment when trying to animate or manipulate them consistently.&lt;/p&gt;
+&lt;p&gt;You can expect to run into SMOM when using ReadyPlayerMe avatars for a full body rig.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_832.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;However, SMOM is easily defeated with the use of my custom Hand Mapper.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_840.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The results, a full body XR controller that dynamically switches between hand and controller tracking. Not something you see often in 2021.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_836.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_838.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;And a simple voice plugin test to move the avatars facial blendshapes.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_842.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;During development, this gave me nightmares.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_844.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>AI Mob Controller [05]</title>
+      <link>//localhost:1313/projects/experiments/2021/aimobcontroller05/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2021/aimobcontroller05/</guid>
+      <description>&lt;p&gt;This experiments goal was to iterate on my previous AI Controllers and refine the locomotion and procedural animations.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_802.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;I spent a good amount of focus on the making sure procedural animations work with physics.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_796.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_798.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_800.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The result allowed me to play an animation, and have physics forces affect it in a nice good lerpy way.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_800.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Next I applied the same system to another nonstandard skeleton.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_811.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_813.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_817.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_819.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_821.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Dynamic Collider System</title>
       <link>//localhost:1313/projects/experiments/2021/dynamiccollidersystem/</link>
       <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
@@ -65,6 +272,25 @@
 &lt;p&gt;It actually works out pretty well, and I wrote it to be well performant. Just attach to a meshs child collider (box type) that has a rigidbody.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/DynamicColliderSystem/XRLog_2021_764.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>XR Bridge System</title>
+      <link>//localhost:1313/projects/experiments/2021/xrbridgesystem/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2021/xrbridgesystem/</guid>
+      <description>&lt;p&gt;The goal of this experiment was to create a procedural dynamic map out of bridges and hub nodes of my own design.&lt;/p&gt; 
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRBridgeSystem/XRLog_2021_790.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;One problem I encountered was during the Spawning/Despawning of the bridges, framerate would drop on the Quest1 due to performance issues with colliders moving over time. This meant I could only make bridges so long before frames would skip.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRBridgeSystem/XRLog_2021_792.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;It worked well in theory but, in practice it&#39;s not that feasible on a low powered device like the Quest1.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRBridgeSystem/XRLog_2021_850.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;</description>
     </item>
     
@@ -113,47 +339,6 @@
     </item>
     
     <item>
-      <title>AI Mob Controller [05]</title>
-      <link>//localhost:1313/projects/experiments/2021/aimobcontroller05/</link>
-      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/2021/aimobcontroller05/</guid>
-      <description>&lt;p&gt;This experiments goal was to iterate on my previous AI Controllers and refine the locomotion and procedural animations.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_802.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;I spent a good amount of focus on the making sure procedural animations work with physics.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_796.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_798.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_800.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;The result allowed me to play an animation, and have physics forces affect it in a nice good lerpy way.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_800.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Next I applied the same system to another nonstandard skeleton.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_811.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_813.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_817.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_819.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_821.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
       <title>Discord RPC</title>
       <link>//localhost:1313/projects/experiments/2021/discordrpc/</link>
       <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
@@ -166,6 +351,17 @@
 &lt;p&gt;Its just a simple plugin you can import, that hooks into a running discord client and shows a custom activity based on a scriptableObject config you can setup. It works in the Editor and during runtime and can be extended on to use analytical funnels.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/DiscordRPC/XRLog_2021_733.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fun With Gizmos And Math</title>
+      <link>//localhost:1313/projects/experiments/2021/funwithgizmosandmath/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2021/funwithgizmosandmath/</guid>
+      <description>&lt;p&gt;I create alot of small gizmos extensions, some of which for no reason and for fun.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/FunWithGizmosAndMath/XRLog_2021_816.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;</description>
     </item>
     
