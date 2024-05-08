@@ -114,6 +114,18 @@
     <lastmod>2024-05-07T16:34:41-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>//localhost:1313/tag/contract/</loc>
+    <lastmod>2024-05-07T16:47:17-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/particles/</loc>
+    <lastmod>2024-05-07T16:47:17-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/contracts/xrphysicsbasedbuttons02/</loc>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>//localhost:1313/tag/animation/</loc>
     <lastmod>2024-05-07T16:48:31-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -128,14 +140,6 @@
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/xrplayercontroller03/</loc>
     <lastmod>2024-05-07T15:56:48-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/contract/</loc>
-    <lastmod>2024-05-07T16:47:17-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/particles/</loc>
-    <lastmod>2024-05-07T16:47:17-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/physicsbasedlocomotion/</loc>
@@ -182,10 +186,6 @@
     <lastmod>2024-05-07T09:29:53-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/projects/contracts/xrphysicsbasedbuttons02/</loc>
-    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>//localhost:1313/tag/gamejam/</loc>
     <lastmod>2024-05-07T14:05:51-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -216,6 +216,9 @@
   </url><url>
     <loc>//localhost:1313/home/</loc>
     <lastmod>2024-05-06T12:25:35-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/category/2021/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/aimobcontroller02/</loc>

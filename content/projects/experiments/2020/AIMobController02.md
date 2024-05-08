@@ -10,14 +10,14 @@ commentable: true
 draft: false
 private: false # hide page in search results
 tags: ["Experiment", "AI", "Combat", "Physics", "Unity"]
-categories: ["2020"] # display at the top of a page alongside a page’s metadata
+categories: ["2020", "2021"] # display at the top of a page alongside a page’s metadata
 # featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---
 
 <p>This experiment is mainly focused </p>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2020_641.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2021_641.webm" type="video/mp4"></video>
 </div>
 
 <!--more-->
@@ -25,25 +25,25 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 <p>First I wrote my own PID controller to control a Rigidbody via physics to match a point in world space with gravity accounted for.</p>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2020_643.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2021_643.webm" type="video/mp4"></video>
 </div>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2020_645.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2021_645.webm" type="video/mp4"></video>
 </div>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2020_653.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2021_653.webm" type="video/mp4"></video>
 </div>
 
 <p>Combat Testing. Just going to throw a rock at it.</p>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2020_636.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2021_636.webm" type="video/mp4"></video>
 </div>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2020_641.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2021_641.webm" type="video/mp4"></video>
 </div>
 
 <p>Stress-testing spawn mechanics.</p>
@@ -53,5 +53,5 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 </div>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2020_630.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController02/XRLog_2021_630.webm" type="video/mp4"></video>
 </div>
