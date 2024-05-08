@@ -70,6 +70,18 @@
     <lastmod>2024-05-07T13:37:40-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>//localhost:1313/tag/ai/</loc>
+    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/experiments/2020/aimobcontroller01/</loc>
+    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/combat/</loc>
+    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>//localhost:1313/tag/experiment/</loc>
     <lastmod>2024-05-07T13:37:40-07:00</lastmod>
     <changefreq>weekly</changefreq>
