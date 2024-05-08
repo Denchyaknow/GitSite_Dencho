@@ -15,7 +15,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2024-05-07T17:29:52-07:00</lastmod>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/contracts/</loc>
@@ -59,43 +59,47 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-05-07T17:29:52-07:00</lastmod>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/vr/</loc>
-    <lastmod>2024-05-07T17:29:52-07:00</lastmod>
+    <lastmod>2024-05-07T18:09:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/category/2020/</loc>
-    <lastmod>2024-05-07T17:29:52-07:00</lastmod>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/category/2021/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/ai/</loc>
-    <lastmod>2024-05-07T17:29:52-07:00</lastmod>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/projects/experiments/2020/aimobcontroller01/</loc>
-    <lastmod>2024-05-07T17:29:52-07:00</lastmod>
+    <loc>//localhost:1313/projects/experiments/2021/aimobcontroller02/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/combat/</loc>
-    <lastmod>2024-05-07T17:29:52-07:00</lastmod>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/experiment/</loc>
-    <lastmod>2024-05-07T17:29:52-07:00</lastmod>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/physics/</loc>
-    <lastmod>2024-05-07T17:29:52-07:00</lastmod>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/unity/</loc>
-    <lastmod>2024-05-07T17:29:52-07:00</lastmod>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/xr/</loc>
-    <lastmod>2024-05-07T17:29:52-07:00</lastmod>
+    <loc>//localhost:1313/projects/experiments/2020/aimobcontroller01/</loc>
+    <lastmod>2024-05-07T18:36:42-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/hands/</loc>
@@ -103,11 +107,15 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/inversekinematics/</loc>
-    <lastmod>2024-05-07T16:48:31-07:00</lastmod>
+    <lastmod>2024-05-07T18:09:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/vroid/</loc>
     <lastmod>2024-05-07T16:34:41-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/xr/</loc>
+    <lastmod>2024-05-07T18:09:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/xrplayercontroller04/</loc>
@@ -115,23 +123,23 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/contract/</loc>
-    <lastmod>2024-05-07T16:47:17-07:00</lastmod>
+    <lastmod>2024-05-07T18:09:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/particles/</loc>
-    <lastmod>2024-05-07T16:47:17-07:00</lastmod>
+    <lastmod>2024-05-07T18:09:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/projects/contracts/xrphysicsbasedbuttons02/</loc>
+    <loc>//localhost:1313/projects/contracts/2020/xrphysicsbasedbuttons02/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/animation/</loc>
-    <lastmod>2024-05-07T16:48:31-07:00</lastmod>
+    <lastmod>2024-05-07T18:09:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/physicsbasedproceduralanimations01/</loc>
-    <lastmod>2024-05-07T16:48:31-07:00</lastmod>
+    <lastmod>2024-05-07T18:09:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/uma/</loc>
@@ -147,7 +155,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/xrchemistryframework/</loc>
-    <lastmod>2024-05-07T16:47:17-07:00</lastmod>
+    <lastmod>2024-05-07T18:09:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/shaders/</loc>
@@ -166,6 +174,10 @@
     <lastmod>2024-05-07T16:34:41-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>//localhost:1313/projects/experiments/2020/vfxpractice05/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>//localhost:1313/projects/experiments/2020/vfxpractice03/</loc>
     <lastmod>2024-05-07T10:31:41-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -178,12 +190,16 @@
     <lastmod>2024-05-07T10:31:41-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/projects/contracts/horrorstylemobs/</loc>
-    <lastmod>2024-05-07T09:29:53-07:00</lastmod>
+    <loc>//localhost:1313/projects/contracts/2020/horrorstylemobs/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/projects/contracts/xrphysicsbasedbuttons01/</loc>
-    <lastmod>2024-05-07T09:29:53-07:00</lastmod>
+    <loc>//localhost:1313/projects/contracts/2021/smartvendingmachine/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/contracts/2020/xrphysicsbasedbuttons01/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/gamejam/</loc>
@@ -216,12 +232,6 @@
   </url><url>
     <loc>//localhost:1313/home/</loc>
     <lastmod>2024-05-06T12:25:35-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/category/2021/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/projects/experiments/2020/aimobcontroller02/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/</loc>
