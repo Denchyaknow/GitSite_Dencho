@@ -24,6 +24,8 @@ categories: ["2021"] # display at the top of a page alongside a page’s metadat
 
 <p>The goal of this system was to make hit events more generous relative to the movement of the rigidbody attached to the HurtBox.</p> 
 
+<p>To start I made some gizmos that show the thresholds of the dynamic settings you set in the component.</p>
+
 <div class="video_thing">
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/DynamicColliderSystem/XRLog_2021_762.webm" type="video/mp4"></video>
 </div>

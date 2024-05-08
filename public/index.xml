@@ -45,6 +45,115 @@
     </item>
     
     <item>
+      <title>Dynamic Collider System</title>
+      <link>//localhost:1313/projects/experiments/2021/dynamiccollidersystem/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2021/dynamiccollidersystem/</guid>
+      <description>&lt;p&gt;Colliders that transform with Physics.&lt;/p&gt; 
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/DynamicColliderSystem/XRLog_2021_764.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The goal of this system was to make hit events more generous relative to the movement of the rigidbody attached to the HurtBox.&lt;/p&gt; 
+&lt;p&gt;To start I made some gizmos that show the thresholds of the dynamic settings you set in the component.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/DynamicColliderSystem/XRLog_2021_762.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This basically works as a Melee auto aim for a XR perspective. If the player thrusts a knife forward sometime VR depth can take getting used to, this makes it easier for players to hit something that might be a few inches father then perceived.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/DynamicColliderSystem/XRLog_2021_766.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;It actually works out pretty well, and I wrote it to be well performant. Just attach to a meshs child collider (box type) that has a rigidbody.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/DynamicColliderSystem/XRLog_2021_764.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>XR Magic System</title>
+      <link>//localhost:1313/projects/experiments/2021/xrmagicsystem/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2021/xrmagicsystem/</guid>
+      <description>&lt;p&gt;I wanted a modular magic system that works with physics based grabbables.&lt;/p&gt; 
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRMagicSystem/XRLog_2021_741.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;So I made one, it has public methods that allow the user (mob or player) to charge mana into the magic spell that is being cast at the time of input.&lt;/p&gt; 
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRMagicSystem/XRLog_2021_739.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Once I got spawning pretty good, I added Telekinesis control, after a grabbable is spawned it will track the users appendage until mana is no longer being channeled into the spell.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRMagicSystem/XRLog_2021_741.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;I have no idea why I started making this, it just seemed fun. I hope to iterate upon it in the future.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AI Mob Controller [04]</title>
+      <link>//localhost:1313/projects/experiments/2021/aimobcontroller04/</link>
+      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2021/aimobcontroller04/</guid>
+      <description>&lt;p&gt;This experiments goal was to iterate on my previous AI Controllers and refine the combat system.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController04/XRLog_2021_771.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;I worked more on the combat skill pathing. It is now more dynamic while still using a physics PID controller to move the rigidbody via forces in additive manner.&lt;/p&gt;
+&lt;p&gt;Both of these mobs use the same combat system, but one is tweaked to have a shorter travel path, with drag/angulardrag over time (set by a curve and multiplier) which allows me to create something like a bulletTime attack but in realtime.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController04/XRLog_2021_779.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This kind of system allows other physics objects to alter the pathing trajectory of the mob even while the skill is running.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController04/XRLog_2021_771.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Even works with drone like locomotion.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController04/XRLog_2021_804.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>AI Mob Controller [05]</title>
+      <link>//localhost:1313/projects/experiments/2021/aimobcontroller05/</link>
+      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2021/aimobcontroller05/</guid>
+      <description>&lt;p&gt;This experiments goal was to iterate on my previous AI Controllers and refine the locomotion and procedural animations.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_802.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;I spent a good amount of focus on the making sure procedural animations work with physics.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_796.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_798.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_800.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The result allowed me to play an animation, and have physics forces affect it in a nice good lerpy way.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_800.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Next I applied the same system to another nonstandard skeleton.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_811.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_813.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_817.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_819.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController05/XRLog_2021_821.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Discord RPC</title>
       <link>//localhost:1313/projects/experiments/2021/discordrpc/</link>
       <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
@@ -176,6 +285,92 @@
     </item>
     
     <item>
+      <title>Horror Style Mobs</title>
+      <link>//localhost:1313/projects/contracts/2021/smartvendingmachine/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/contracts/2021/smartvendingmachine/</guid>
+      <description>&lt;p&gt;Contracted to make a &#34;Smart&#34; Vending Machine feature designed to work with VR Players.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SmartVendingMachine/XRLog_2021_671.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;NDA Prevents me from showing the UI or final outcome of the feature.&lt;/p&gt;
+&lt;p&gt;The goal was to create a Vending Machine that had a would automatically adjust to the VR Players Height via a Robot Arm controlled by Inverse Kinematics.&lt;/p&gt;
+&lt;p&gt;The teams technical artist provided the Vending Machine mesh with armature for the screens housing. The first step was connect the bones to a simple Inverse Kinematic script.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SmartVendingMachine/XRLog_2021_657.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Next I see how it targets the Players Head transform.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SmartVendingMachine/XRLog_2021_664.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;With a bit of some C# magic, the Arm for the screen will extend out to any nearby Players Head transform. When the target is out of range for x+ seconds, the screen will retract back into the machine.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SmartVendingMachine/XRLog_2021_671.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SmartVendingMachine/XRLog_2021_673.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>GameJam [01]</title>
+      <link>//localhost:1313/projects/experiments/2020/gamejam01/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/gamejam01/</guid>
+      <description>&lt;p&gt;This GameJams theme was the exploration of destructible objects using magic.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_279.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The first goal was to code out a Telekinesis framework that uses a signle input to lift and throw physics bodies&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_234.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_237.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Next was to make the same TK system affect structures connected by configurable joints.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_240.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_243.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_260.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Next I wrote a tool to automagically detect child rigidbodies and attach recursive connecting configurable joints to each parent/child combo according to a configuration set before runtime. Pain to write, but satisfying to test.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_263.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_269.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_272.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Next came alternate TK abilities and properties to achieve different features from the same framework.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_279.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_282.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_285.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_288.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_291.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Sadly we ran out of time, I learned in the future to make sure to work with a more capable team.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_294.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>VFX Practice [05]</title>
       <link>//localhost:1313/projects/experiments/2020/vfxpractice05/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
@@ -195,56 +390,107 @@
     </item>
     
     <item>
-      <title>AI Mob Controller [01]</title>
-      <link>//localhost:1313/projects/experiments/2020/aimobcontroller01/</link>
-      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/2020/aimobcontroller01/</guid>
-      <description>&lt;p&gt;The goal of this experiment was to learn what it takes to create an AI that operates within perspective of a XRPlayerControllers camera view.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_414.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+      <title>Physics Based Exo-Skeleton Arms</title>
+      <link>//localhost:1313/projects/experiments/2020/physicsbasedexoskeletonarms/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/physicsbasedexoskeletonarms/</guid>
+      <description>&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedExoSkeletonArms/XRLog_2020_001.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
-&lt;p&gt;First I wrote my own PID controller to control a Drones Rigidbody via physics to match a point in world space.&lt;/p&gt;
+&lt;p&gt;I believe VR can be a cheap and effective way to test out ideas. On day I wondered how fun it would be to give the user giant Exo Arms.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_414.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedExoSkeletonArms/XRLog_2020_005.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This crude prototype gave me decent understanding one how it would feel for one arm anyway.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>XR Chemistry Framework</title>
+      <link>//localhost:1313/projects/experiments/2020/xrchemistryframework/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/xrchemistryframework/</guid>
+      <description>&lt;p&gt;I was contacted and contracted out by a School District Manager looking for ways to Adapt XR as a means for kids to learn remotely in a more immersive way.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_400.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The things I can show from this project are limited due to an NDA&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_391.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The main goal of this prototype was to create a UI capable of spawning Chemistry related instances of Molecule models and allow interaction with them for lecturing purposes in a Teacher to Student relationship.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_394.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;As the project was already 12 months into development at the time I joined, I had to work well with the existing team to know where to put my code and to make sure there were no conflicts with existing UX components&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_397.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Prototyping a way you can move molecules with hand tracking, even under low lighting.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_559.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The idea was that if a hand pinches near the center of a molecule group, the molecule with use the relative index finger as a Anchor with a Kinematic PID controller handling the positioning.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_563.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;First I start with a Transform Marker in the form of a filling sprite, that acts as the target position for the molecule.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_570.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Now just a simple controller that takes account of the distance between the current and target points. Its always fun to see how well I can write something the first time.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_573.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_417.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_576.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
-&lt;p&gt;Adjusting the variables allowed to to appear more smooth and animated.&lt;/p&gt;
+&lt;p&gt;Adding a Highlight to show when a molecule is a valid target to grab.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_420.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_596.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
+&lt;p&gt;Then I made similar control method for orientation&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_423.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Different properties can lead to different behaviors.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_426.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Now we give it a gun. For learning.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_407.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Make sure it knows how to shoot. With even the recoil effecting the PID controller.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_433.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_599.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_436.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_602.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;The UX needs to be cleaned up a bit, but all in all it was a success.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_605.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>VFX Practice [04]</title>
+      <link>//localhost:1313/projects/experiments/2020/vfxpractice04/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/vfxpractice04/</guid>
+      <description>&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice04/XRLog_2020_164.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This was made using ShaderGraph for Unity and some C# elbow grease.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice04/XRLog_2020_167.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_440.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice04/XRLog_2020_170.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
-&lt;p&gt;This can get pretty chaotic but, its good to know how many bodies I can simulate at a given time when you consider theres a PID controller for each Rigidbody.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_443.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice04/XRLog_2020_174.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice04/XRLog_2020_158.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice04/XRLog_2020_177.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>XR Player Controller [04]</title>
       <link>//localhost:1313/projects/experiments/2020/xrplayercontroller04/</link>
-      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/projects/experiments/2020/xrplayercontroller04/</guid>
       <description>&lt;p&gt;Refining one of the first Prototypes to exist (in 2020) to contain a full body avatar and finger tracking.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
@@ -329,9 +575,46 @@
     </item>
     
     <item>
+      <title>Physics Based Exo-Skeleton Arms</title>
+      <link>//localhost:1313/projects/experiments/2020/physicsbasedlocomotion/</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/physicsbasedlocomotion/</guid>
+      <description>&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedLocomotion/XRLog_2020_195.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This was one of the most difficult prototypes for my skill level at the time. The prototype code would need to be refactored before I would attempt putting it into beta testing.&lt;/p&gt;
+&lt;p&gt;Part of the math I needed to master was how 3D normals and reflections are calculated.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedLocomotion/XRLog_2020_180.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Yes its a Sphere for now, but keep in mind this prototype is using RigidBodies and a Velocity PID controller that I wrote to move the body via Physics.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedLocomotion/XRLog_2020_180.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Testing Variable Properties out.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedLocomotion/XRLog_2020_192.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>VFX Practice [03]</title>
+      <link>//localhost:1313/projects/experiments/2020/vfxpractice03/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/vfxpractice03/</guid>
+      <description>&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice03/XRLog_2020_154.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This was made using VFXGraph for Unity.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice03/XRLog_2020_151.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Physics Based Buttons [02]</title>
       <link>//localhost:1313/projects/contracts/2020/xrphysicsbasedbuttons02/</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/projects/contracts/2020/xrphysicsbasedbuttons02/</guid>
       <description>&lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedButtons02/XRLog_2020_580.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
@@ -352,43 +635,9 @@
     </item>
     
     <item>
-      <title>Physics Based Procedural Animations [01]</title>
-      <link>//localhost:1313/projects/experiments/2020/physicsbasedproceduralanimations01/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/2020/physicsbasedproceduralanimations01/</guid>
-      <description>&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_308.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;I love procedural animations, most system use Inverse Kinematics to accomplish this, as do my systems. However I wanted to take it to the next level and allow dynamic blending between Inverse Kinematics and Physics Simulations.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_311.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;This should allow my to play a Humanoid animation on the skeleton while still applying IK to the bones, and lerp between a &#34;Live&#34; and &#34;Ragdoll&#34; state for the characters physics body.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_314.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_317.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_320.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Its far from perfect and I still need to find a use case but, its still fun to look at.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_323.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_326.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_329.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
       <title>XR Player Controller [03]</title>
       <link>//localhost:1313/projects/experiments/2020/xrplayercontroller03/</link>
-      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/projects/experiments/2020/xrplayercontroller03/</guid>
       <description>&lt;p&gt;One of the earliest prototypes to exist at the time (2020) that I know of, to contain a full body avatar and finger tracking.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
@@ -437,89 +686,90 @@
     </item>
     
     <item>
-      <title>Physics Based Exo-Skeleton Arms</title>
-      <link>//localhost:1313/projects/experiments/2020/physicsbasedlocomotion/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/2020/physicsbasedlocomotion/</guid>
-      <description>&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedLocomotion/XRLog_2020_195.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;This was one of the most difficult prototypes for my skill level at the time. The prototype code would need to be refactored before I would attempt putting it into beta testing.&lt;/p&gt;
-&lt;p&gt;Part of the math I needed to master was how 3D normals and reflections are calculated.&lt;/p&gt;
+      <title>AI Mob Controller [01]</title>
+      <link>//localhost:1313/projects/experiments/2020/aimobcontroller01/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/aimobcontroller01/</guid>
+      <description>&lt;p&gt;The goal of this experiment was to learn what it takes to create an AI that operates within perspective of a XRPlayerControllers camera view.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedLocomotion/XRLog_2020_180.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_414.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
-&lt;p&gt;Yes its a Sphere for now, but keep in mind this prototype is using RigidBodies and a Velocity PID controller that I wrote to move the body via Physics.&lt;/p&gt;
+&lt;p&gt;First I wrote my own PID controller to control a Drones Rigidbody via physics to match a point in world space.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedLocomotion/XRLog_2020_180.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_414.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
-&lt;p&gt;Testing Variable Properties out.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedLocomotion/XRLog_2020_192.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_417.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Adjusting the variables allowed to to appear more smooth and animated.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_420.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_423.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Different properties can lead to different behaviors.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_426.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Now we give it a gun. For learning.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_407.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Make sure it knows how to shoot. With even the recoil effecting the PID controller.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_433.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_436.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_440.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This can get pretty chaotic but, its good to know how many bodies I can simulate at a given time when you consider theres a PID controller for each Rigidbody.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_443.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;</description>
     </item>
     
     <item>
-      <title>XR Chemistry Framework</title>
-      <link>//localhost:1313/projects/experiments/2020/xrchemistryframework/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/2020/xrchemistryframework/</guid>
-      <description>&lt;p&gt;I was contacted and contracted out by a School District Manager looking for ways to Adapt XR as a means for kids to learn remotely in a more immersive way.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_400.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+      <title>Physics Based Procedural Animations [01]</title>
+      <link>//localhost:1313/projects/experiments/2020/physicsbasedproceduralanimations01/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/physicsbasedproceduralanimations01/</guid>
+      <description>&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_308.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
-&lt;p&gt;The things I can show from this project are limited due to an NDA&lt;/p&gt;
+&lt;p&gt;I love procedural animations, most system use Inverse Kinematics to accomplish this, as do my systems. However I wanted to take it to the next level and allow dynamic blending between Inverse Kinematics and Physics Simulations.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_391.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_311.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
-&lt;p&gt;The main goal of this prototype was to create a UI capable of spawning Chemistry related instances of Molecule models and allow interaction with them for lecturing purposes in a Teacher to Student relationship.&lt;/p&gt;
+&lt;p&gt;This should allow my to play a Humanoid animation on the skeleton while still applying IK to the bones, and lerp between a &#34;Live&#34; and &#34;Ragdoll&#34; state for the characters physics body.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_394.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;As the project was already 12 months into development at the time I joined, I had to work well with the existing team to know where to put my code and to make sure there were no conflicts with existing UX components&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_397.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Prototyping a way you can move molecules with hand tracking, even under low lighting.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_559.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;The idea was that if a hand pinches near the center of a molecule group, the molecule with use the relative index finger as a Anchor with a Kinematic PID controller handling the positioning.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_563.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;First I start with a Transform Marker in the form of a filling sprite, that acts as the target position for the molecule.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_570.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Now just a simple controller that takes account of the distance between the current and target points. Its always fun to see how well I can write something the first time.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_573.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_314.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_576.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Adding a Highlight to show when a molecule is a valid target to grab.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_596.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Then I made similar control method for orientation&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_599.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_317.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_602.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_320.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
-&lt;p&gt;The UX needs to be cleaned up a bit, but all in all it was a success.&lt;/p&gt;
+&lt;p&gt;Its far from perfect and I still need to find a use case but, its still fun to look at.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRChemistryFramework/XRLog_2020_605.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_323.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_326.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_329.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>VFX Graph Projectile [02]</title>
       <link>//localhost:1313/projects/experiments/2020/vfxgraphprojectile02/</link>
-      <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/projects/experiments/2020/vfxgraphprojectile02/</guid>
       <description>&lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXGraphProjectile02/XRLog_2020_138.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
@@ -539,49 +789,9 @@
     </item>
     
     <item>
-      <title>VFX Practice [04]</title>
-      <link>//localhost:1313/projects/experiments/2020/vfxpractice04/</link>
-      <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/2020/vfxpractice04/</guid>
-      <description>&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice04/XRLog_2020_164.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;This was made using ShaderGraph for Unity and some C# elbow grease.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice04/XRLog_2020_167.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice04/XRLog_2020_170.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice04/XRLog_2020_174.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice04/XRLog_2020_158.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice04/XRLog_2020_177.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>VFX Practice [03]</title>
-      <link>//localhost:1313/projects/experiments/2020/vfxpractice03/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/2020/vfxpractice03/</guid>
-      <description>&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice03/XRLog_2020_154.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;This was made using VFXGraph for Unity.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice03/XRLog_2020_151.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
       <title>VFX Practice [02]</title>
       <link>//localhost:1313/projects/experiments/2020/vfxpractice02/</link>
-      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/projects/experiments/2020/vfxpractice02/</guid>
       <description>&lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice02/XRLog_2020_129.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
@@ -596,73 +806,9 @@
     </item>
     
     <item>
-      <title>VFX Practice [01]</title>
-      <link>//localhost:1313/projects/experiments/2020/vfxpractice01/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/2020/vfxpractice01/</guid>
-      <description>&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice01/XRLog_2020_107.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Some custom code to rotate simulated points and emit particles offset via some maths.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice01/XRLog_2020_101.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice01/XRLog_2020_104.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;This was made using VFXGraph for Unity.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice01/XRLog_2020_110.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Horror Style Mobs</title>
-      <link>//localhost:1313/projects/contracts/2020/horrorstylemobs/</link>
-      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/contracts/2020/horrorstylemobs/</guid>
-      <description>&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/HorrorStyleMobs/XRLog_2020_061.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Contract to add horror themed mobs to a VR experience. NDA prevents me from showing the finished prototype.&lt;/p&gt;
-&lt;p&gt;I used an asset pack and custom texture from a FilterForge plugin.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/HorrorStyleMobs/XRLog_2020_064.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Horror Style Mobs</title>
-      <link>//localhost:1313/projects/contracts/2021/smartvendingmachine/</link>
-      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/contracts/2021/smartvendingmachine/</guid>
-      <description>&lt;p&gt;Contracted to make a &#34;Smart&#34; Vending Machine feature designed to work with VR Players.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SmartVendingMachine/XRLog_2021_671.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;NDA Prevents me from showing the UI or final outcome of the feature.&lt;/p&gt;
-&lt;p&gt;The goal was to create a Vending Machine that had a would automatically adjust to the VR Players Height via a Robot Arm controlled by Inverse Kinematics.&lt;/p&gt;
-&lt;p&gt;The teams technical artist provided the Vending Machine mesh with armature for the screens housing. The first step was connect the bones to a simple Inverse Kinematic script.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SmartVendingMachine/XRLog_2021_657.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Next I see how it targets the Players Head transform.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SmartVendingMachine/XRLog_2021_664.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;With a bit of some C# magic, the Arm for the screen will extend out to any nearby Players Head transform. When the target is out of range for x+ seconds, the screen will retract back into the machine.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SmartVendingMachine/XRLog_2021_671.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SmartVendingMachine/XRLog_2021_673.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
       <title>Physics Based Buttons [01]</title>
       <link>//localhost:1313/projects/contracts/2020/xrphysicsbasedbuttons01/</link>
-      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/projects/contracts/2020/xrphysicsbasedbuttons01/</guid>
       <description>&lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedButtons01/XRLog_2020_067.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
@@ -674,67 +820,9 @@
     </item>
     
     <item>
-      <title>GameJam [01]</title>
-      <link>//localhost:1313/projects/experiments/2020/gamejam01/</link>
-      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/2020/gamejam01/</guid>
-      <description>&lt;p&gt;This GameJams theme was the exploration of destructible objects using magic.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_279.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;The first goal was to code out a Telekinesis framework that uses a signle input to lift and throw physics bodies&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_234.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_237.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Next was to make the same TK system affect structures connected by configurable joints.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_240.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_243.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_260.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Next I wrote a tool to automagically detect child rigidbodies and attach recursive connecting configurable joints to each parent/child combo according to a configuration set before runtime. Pain to write, but satisfying to test.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_263.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_269.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_272.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Next came alternate TK abilities and properties to achieve different features from the same framework.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_279.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_282.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_285.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_288.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_291.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;Sadly we ran out of time, I learned in the future to make sure to work with a more capable team.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/GameJam01/XRLog_2020_294.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
       <title>XR Player Controller [02]</title>
       <link>//localhost:1313/projects/experiments/2020/xrplayercontroller02/</link>
-      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/projects/experiments/2020/xrplayercontroller02/</guid>
       <description>&lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController02/XRLog_2020_076.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
@@ -796,7 +884,7 @@
     <item>
       <title>VFX Graph Projectile [01]</title>
       <link>//localhost:1313/projects/experiments/2020/vfxgraphprojectile01/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/projects/experiments/2020/vfxgraphprojectile01/</guid>
       <description>&lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXGraphProjectile01/XRLog_2020_040.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
@@ -820,9 +908,30 @@
     </item>
     
     <item>
+      <title>VFX Practice [01]</title>
+      <link>//localhost:1313/projects/experiments/2020/vfxpractice01/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2020/vfxpractice01/</guid>
+      <description>&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice01/XRLog_2020_107.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Some custom code to rotate simulated points and emit particles offset via some maths.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice01/XRLog_2020_101.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice01/XRLog_2020_104.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This was made using VFXGraph for Unity.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice01/XRLog_2020_110.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>XR Player Controller [01]</title>
       <link>//localhost:1313/projects/experiments/2020/xrplayercontroller01/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/projects/experiments/2020/xrplayercontroller01/</guid>
       <description>&lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController01/XRLog_2020_003.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
@@ -857,18 +966,18 @@
     </item>
     
     <item>
-      <title>Physics Based Exo-Skeleton Arms</title>
-      <link>//localhost:1313/projects/experiments/2020/physicsbasedexoskeletonarms/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/2020/physicsbasedexoskeletonarms/</guid>
+      <title>Horror Style Mobs</title>
+      <link>//localhost:1313/projects/contracts/2020/horrorstylemobs/</link>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/contracts/2020/horrorstylemobs/</guid>
       <description>&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedExoSkeletonArms/XRLog_2020_001.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/HorrorStyleMobs/XRLog_2020_061.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
-&lt;p&gt;I believe VR can be a cheap and effective way to test out ideas. On day I wondered how fun it would be to give the user giant Exo Arms.&lt;/p&gt;
+&lt;p&gt;Contract to add horror themed mobs to a VR experience. NDA prevents me from showing the finished prototype.&lt;/p&gt;
+&lt;p&gt;I used an asset pack and custom texture from a FilterForge plugin.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedExoSkeletonArms/XRLog_2020_005.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;This crude prototype gave me decent understanding one how it would feel for one arm anyway.&lt;/p&gt;</description>
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media1&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/HorrorStyleMobs/XRLog_2020_064.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
