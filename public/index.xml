@@ -45,6 +45,22 @@
     </item>
     
     <item>
+      <title>Discord RPC</title>
+      <link>//localhost:1313/projects/experiments/2021/discordrpc/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2021/discordrpc/</guid>
+      <description>&lt;p&gt;Custom Discord Plugin for Unity.&lt;/p&gt; 
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/DiscordRPC/XRLog_2021_727.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;A client requested integration with the Discord API, at the time there was no official Discord SDK in C#, I endedup using a Discord API C# wrapper I found on GitHub.&lt;/p&gt;
+&lt;p&gt;Its just a simple plugin you can import, that hooks into a running discord client and shows a custom activity based on a scriptableObject config you can setup. It works in the Editor and during runtime and can be extended on to use analytical funnels.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/DiscordRPC/XRLog_2021_733.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>VFX Practice [06]</title>
       <link>//localhost:1313/projects/experiments/2021/vfxpractice06/</link>
       <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
@@ -56,12 +72,14 @@
 &lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice06/XRLog_2021_713.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
+&lt;p&gt;I made a custom Particle Effector that works with VFXGraph to control where the particles go in realtime.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice06/XRLog_2021_719.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice06/XRLog_2021_721.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
+&lt;p&gt;And a laser, cause why not?&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice06/XRLog_2021_731.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;</description>

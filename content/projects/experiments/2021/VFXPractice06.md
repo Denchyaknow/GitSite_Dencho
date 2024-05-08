@@ -25,6 +25,8 @@ categories: ["2021"] # display at the top of a page alongside a page’s metadat
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice06/XRLog_2021_713.webm" type="video/mp4"></video>
 </div>
 
+<p>I made a custom Particle Effector that works with VFXGraph to control where the particles go in realtime.</p>
+
 <div class="video_thing">
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice06/XRLog_2021_719.webm" type="video/mp4"></video>
 </div>
@@ -32,6 +34,8 @@ categories: ["2021"] # display at the top of a page alongside a page’s metadat
 <div class="video_thing">
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice06/XRLog_2021_721.webm" type="video/mp4"></video>
 </div>
+
+<p>And a laser, cause why not?</p>
 
 <div class="video_thing">
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice06/XRLog_2021_731.webm" type="video/mp4"></video>
