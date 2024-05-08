@@ -1,7 +1,7 @@
 ---
-title: AI Mob Controller
+title: AI Mob Controller [01]
 subtitle: My first try at making a dynamic AI designed for XR combat
-date: 2020-02-10
+date: 2020-02-20
 type: post
 
 reading_time: false
@@ -17,7 +17,7 @@ categories: ["2020"] # display at the top of a page alongside a page’s metadat
 <p>The goal of this experiment was to learn what it takes to create an AI that operates within perspective of a XRPlayerControllers camera view.</p>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_340.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/AIMobController01/XRLog_2020_414.webm" type="video/mp4"></video>
 </div>
 
 <!--more-->
