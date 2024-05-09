@@ -17,7 +17,7 @@ categories: ["2021"] # display at the top of a page alongside a page’s metadat
 <p>Refining one of the first Prototypes to exist (in 2020) to contain a full body avatar and finger tracking.</p>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_729.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_838.webm" type="video/mp4"></video>
 </div>
 
 <!--more-->
@@ -34,11 +34,10 @@ categories: ["2021"] # display at the top of a page alongside a page’s metadat
 - UnityXR SDK
 - PicoVR SDK
 
-
 <p>First thing I did this round, was fail hard at using Mechanim Animator to handle my Hand Posing. Turns out its just easier and more performant to man handle hand posing with pure C#.</p>
 
 <div class="video_thing">
-    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_838.webm" type="video/mp4"></video>
+    <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_729.webm" type="video/mp4"></video>
 </div>
 
 <p>Semi working legs. Check.</p>

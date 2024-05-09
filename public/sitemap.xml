@@ -7,79 +7,111 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/category/2022/</loc>
-    <lastmod>2022-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-08T14:37:22-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/automation/</loc>
+    <lastmod>2022-10-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/c/</loc>
+    <lastmod>2022-10-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <lastmod>2024-05-08T14:37:22-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/experiment/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <loc>//localhost:1313/tag/contract/</loc>
+    <lastmod>2024-05-08T05:54:02-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/particles/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <loc>//localhost:1313/tag/editortool/</loc>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/rhythm/</loc>
-    <lastmod>2022-02-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/shaders/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <loc>//localhost:1313/tag/nft/</loc>
+    <lastmod>2022-10-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <lastmod>2024-05-08T14:37:22-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/unity/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <lastmod>2024-05-08T14:37:22-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/vfx/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <loc>//localhost:1313/tag/web3/</loc>
+    <lastmod>2022-10-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/projects/experiments/2022/vfxpractice07/</loc>
+    <loc>//localhost:1313/projects/experiments/2022/web3landmapsystem/</loc>
+    <lastmod>2022-10-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/experiment/</loc>
+    <lastmod>2024-05-08T14:37:22-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/experiments/2022/nftartisan/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>//localhost:1313/tag/particles/</loc>
+    <lastmod>2024-05-08T14:37:22-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/rhythm/</loc>
+    <lastmod>2024-05-08T14:37:22-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/shaders/</loc>
+    <lastmod>2024-05-08T14:37:22-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/tag/vfx/</loc>
+    <lastmod>2024-05-08T14:37:22-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/projects/experiments/2022/vfxpractice07/</loc>
+    <lastmod>2024-05-08T14:37:22-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>//localhost:1313/tag/blockchain/</loc>
-    <lastmod>2022-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/contracts/2022/cryptocomedyclub/</loc>
-    <lastmod>2022-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/hands/</loc>
-    <lastmod>2024-05-08T05:54:02-07:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/inversekinematics/</loc>
-    <lastmod>2024-05-08T05:54:02-07:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/networking/</loc>
-    <lastmod>2022-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/physics/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/readyplayerme/</loc>
-    <lastmod>2022-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/vr/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/xr/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/category/cat0/</loc>
@@ -131,35 +163,35 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/category/2021/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/vroid/</loc>
-    <lastmod>2024-05-08T05:54:02-07:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2021/xrplayercontroller05/</loc>
-    <lastmod>2021-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/ai/</loc>
-    <lastmod>2024-05-08T06:07:36-07:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2021/aimobcontroller05/</loc>
-    <lastmod>2021-05-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/animation/</loc>
-    <lastmod>2024-05-08T05:54:02-07:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/combat/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <lastmod>2024-05-08T08:19:13-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2021/dynamiccollidersystem/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
+    <lastmod>2024-05-08T08:19:13-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/magic/</loc>
@@ -167,7 +199,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2021/xrbridgesystem/</loc>
-    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2021/xrmagicsystem/</loc>
@@ -175,7 +207,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2021/aimobcontroller04/</loc>
-    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-08T08:19:13-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/discord/</loc>
@@ -186,20 +218,16 @@
     <lastmod>2024-05-08T07:58:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tag/editortool/</loc>
-    <lastmod>2024-05-08T07:58:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>//localhost:1313/projects/experiments/2021/funwithgizmosandmath/</loc>
-    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/gizmos/</loc>
-    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/math/</loc>
-    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-08T14:28:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2021/vfxpractice06/</loc>
@@ -215,10 +243,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/contracts/2021/astarmapsystem/</loc>
-    <lastmod>2024-05-08T05:54:02-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tag/contract/</loc>
     <lastmod>2024-05-08T05:54:02-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

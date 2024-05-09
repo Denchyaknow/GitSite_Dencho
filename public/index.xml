@@ -13,6 +13,166 @@
     </image>
     
     <item>
+      <title>Web3 Land Based Map System</title>
+      <link>//localhost:1313/projects/experiments/2022/web3landmapsystem/</link>
+      <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2022/web3landmapsystem/</guid>
+      <description>&lt;!--TODO: Add a function or 2 from the tools inspector code and snap a pic of the custom inspector--&gt;
+&lt;p&gt;Contracted by a startup to RnD and produce a working prototype of an Interactive Map with overlaying hexagonal cells and dynamic states that change based on the live NFT metadata pulled from the blockchain.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/Web3LandMapSystem/XRLog_2022_897.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This is one of my earliest projects involving Web3, at the time (2022) there was but a handful of blockchain SDKs that were compatible with Unity and C#.&lt;/p&gt;
+&lt;p&gt;This Map system need to be usable in a way that it helps you setup the map, and hold live data representations synced form the blockchain.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Feature&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;MapManager Component&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;In charge of loading terrain prefabs and settings relative to a scene Id, and contains CellData methods/data used to hold serialized data about points on the map.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Custom Inspectors&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Includes setup status among the needed controls to specify how to spawn a planar grid of cells across any number of terrains.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Automatic Serialization&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Hooks into Unity to serialize/deserialize data with the scene upon save reloading during development.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;CellData Saving and Loading&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;After initial setup, controls allow devs to save the current state of the maps cellData to a serialized array. During runtime upon connection to the blockchain, if supplied with a contract config, will pull the celldata bit by bit from the blockchain to override the default serialized data on the map. Only when data has been synced recently can users interact with cell states via a UI.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Dynamic CellData Status&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Upon user interaction, should display the current state of a NFTs land metadata.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Additional WebGL Branch&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;WebGL support for the map. With deep link for Web3 Wallet connection.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Asynchronous Code&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;The main thread only haults for saving files to disk. everything else used the async C# pattern to invoke logic overtime till the array queue is exhausted. Thanks to Cysharps UniTask plugin for supporting WebGL and unifying my asynchronous logic between platforms.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Frustrum Culling&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Occlusion Culling grass and other map objects based on what the camera sees. Much like the system from ZeroDawnHorizon and other AAA titles with big maps.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;AAA Cinemachine Camera System&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Uses Cinemachine, which is a popular AAA camera system part of the Unity registry that we can easily manipulate in code.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;rapid-prototyping&#34;&gt;Rapid Prototyping&lt;/h4&gt;
+&lt;p&gt;It was important to save development time by exploring adaptable plugins from github and the asset store, that might give us a head start. After testing multiple grid based map plugins, we settled on one who&#39;s source code was extendable and well documented so we can adapt the plugin to work with NFT metadata.&lt;/p&gt;
+&lt;p&gt;First step was to generate a map from an array of terrains, thus populating the serialized custom celldata thats compliant to the ERC-721 smart contract. Then a simple controller to navigate around the map, written from scratch using Cinemachine.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/Web3LandMapSystem/XRLog_2022_892.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;After a few months of work we had a working prototype that listed live NFT data synced from the blockchain.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/Web3LandMapSystem/XRLog_2022_899.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/Web3LandMapSystem/XRLog_2022_901.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This was the first version of the UX for the Map controls, they were revised later on.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/Web3LandMapSystem/XRLog_2022_903.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;A GUI to compliment the Map so the user can filter out thousands of NFT metadata to find one specifically.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/Web3LandMapSystem/XRLog_2022_909.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>NFT Artisan</title>
+      <link>//localhost:1313/projects/experiments/2022/nftartisan/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2022/nftartisan/</guid>
+      <description>&lt;!--TODO: Add a function or 2 from the tools inspector code and snap a pic of the custom inspector--&gt;
+&lt;p&gt;This tool allowed the team to easily recreate NFT metadata and media from serialized data types in a Unity project, like an array of CellData or GameObjects.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/NFTArtisan/XRLog_2022_871.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;I learned alot about the growing standard that is NFT Metadata, how its imprinted onto the block chain via a smart contract, the requirements for batch uploading NFT metadata, and even interacting with smart contracts.&lt;/p&gt;
+&lt;p&gt;Creating NFT media and metadata needs to be consistent in brand and format. This tool allows use to do just that after we make iterative changes to Land or NFT items in a Web3 enabled project.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Features&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Batch Generation&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Capable of generating over 100,000 NFT images or videos in one session with efficient batch processing.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Format Typing Support&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Supports PNG, JPG, and MP4 formats to accommodate various NFT media requirements.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Automatic Framing&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Operates independently on its own GameObject, allowing for movement and adjustment within the scene as needed.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;MapManager Integration&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Utilizes the CellData array from the MapManager component to generate &lt;code&gt;metadata.json&lt;/code&gt; files and media, processing each cell&amp;rsquo;s data based on its position and configured settings.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Recording Settings&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Offers highly adjustable recording settings to customize recording angles, durations (for videos), and formats, while being stored on a configurable scriptable object.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Scene Interaction&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Capable of handling large scale recordings and was tested with with over 100k CellData entries in the MapManager for comprehensive map coverage.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Dynamic Object Handling&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Links with an ItemDatabase or an array of Transforms to spawn instances at the recorder&amp;rsquo;s location, capturing necessary Metadata and Media.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Operational Versatility&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Functions both in and out of play mode, providing flexibility across different development stages.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Asynchronous Code&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;The main thread only haults for saving files to disk. everything else used the async C# pattern to invoke logic overtime till the array queue is exhausted.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Automated Cleanup&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Manages the cleanup of spawned instances post-recording to maintain scene integrity.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Export Functionality&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Exports generated Media and Metadata to specified folders, organizing assets for efficient access and use.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The end result is 2 folders full of fresh ready to upload NFT Media and Metadata.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/NFTArtisan/XRLog_2022_890.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Example of live NFTs using Metadata created from this tool.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/NFTArtisan/XRLog_2022_888.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/NFTArtisan/XRLog_2022_899.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>VFX Practice [07]</title>
       <link>//localhost:1313/projects/experiments/2022/vfxpractice07/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
@@ -149,7 +309,7 @@
       <guid>//localhost:1313/projects/experiments/2021/xrplayercontroller05/</guid>
       <description>&lt;p&gt;Refining one of the first Prototypes to exist (in 2020) to contain a full body avatar and finger tracking.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_729.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_838.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;devices-tested&#34;&gt;Devices tested:&lt;/h2&gt;
 &lt;ul&gt;
@@ -167,7 +327,7 @@
 &lt;/ul&gt;
 &lt;p&gt;First thing I did this round, was fail hard at using Mechanim Animator to handle my Hand Posing. Turns out its just easier and more performant to man handle hand posing with pure C#.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_838.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRPlayerController05/XRLog_2021_729.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
 &lt;p&gt;Semi working legs. Check.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
@@ -362,6 +522,14 @@
       <description>&lt;p&gt;I create alot of small gizmos extensions, some of which for no reason and for fun.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/FunWithGizmosAndMath/XRLog_2021_816.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This was for debugging AI and Player Input Intent direction and overlaying angle thresholds to visualize the logic state during runtime.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/FunWithGizmosAndMath/XRLog_2022_915.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Look familiar?&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/FunWithGizmosAndMath/XRLog_2022_927.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;</description>
     </item>
     

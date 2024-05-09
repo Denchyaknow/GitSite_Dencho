@@ -3,7 +3,6 @@ title: VFX Practice [07]
 subtitle: Fun with Shadergraph and VFXgraph
 date: 2022-02-10
 type: post
-
 reading_time: false
 profile: false
 commentable: true
@@ -11,7 +10,7 @@ draft: false
 private: false # hide page in search results
 tags: ["Experiment", "VFX", "Particles", "Unity", "Shaders", "Rhythm"]
 categories: ["2022"] # display at the top of a page alongside a page’s metadata
-# featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
+featured: false # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---
 <p>A small experiment to create a reactive shadergraph with exposed properties that a custom controller can use to make the shader react to the beat of an audio clip.</p>
 
