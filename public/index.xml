@@ -13,10 +13,105 @@
     </image>
     
     <item>
-      <title>Web3 Land Based Map System</title>
-      <link>//localhost:1313/projects/experiments/2022/web3landmapsystem/</link>
+      <title>Physics Based Procedural Animations [02]</title>
+      <link>//localhost:1313/projects/experiments/2022/physicsbasedproceduralanimations02/</link>
+      <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2022/physicsbasedproceduralanimations02/</guid>
+      <description>&lt;p&gt;Calibrating the muscle joints on big Boss Character.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations02/XRLog_2022_917.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This character is for a physics based combat system I cant exactly talk about due to an NDA.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations02/XRLog_2022_911.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;For calibration and debugging physics I setup quick disposable testbed logic that might look pretty weird out of context.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations02/XRLog_2022_913.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;When done right, this guy will struggle to move objects with heavier mass than others. This is what it looks like when moving all objects with the same mass.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations02/XRLog_2022_917.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;And this is why we calibrate.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations02/XRLog_2022_939.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Terrain Practice [01]</title>
+      <link>//localhost:1313/projects/experiments/2022/terrainpractice01/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2022/terrainpractice01/</guid>
+      <description>&lt;p&gt;Frustum Culling is a technique used in computer graphics to improve rendering performance by discarding objects that lie outside the viewing frustum.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/TerrainPractice01/XRLog_2022_905.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Frustum culling is a powerful optimization technique that balances computational cost with rendering efficiency. This is also a technique used in popular AAA titles like CyberPunk and Zero Dawn Horizon.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/TerrainPractice01/XRLog_2022_907.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Terrain Practice [01]</title>
+      <link>//localhost:1313/projects/experiments/2022/terrainpractice02/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2022/terrainpractice02/</guid>
+      <description>&lt;p&gt;Frustum Culling is a technique used in computer graphics to improve rendering performance by discarding objects that lie outside the viewing frustum.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/TerrainPractice01/XRLog_2022_905.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Frustum culling is a powerful optimization technique that balances computational cost with rendering efficiency. This is also a technique used in popular AAA titles like CyberPunk and Zero Dawn Horizon.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/TerrainPractice01/XRLog_2022_907.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Corrupted Realms</title>
+      <link>//localhost:1313/projects/contracts/2022/corruptedrealms/</link>
       <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/2022/web3landmapsystem/</guid>
+      <guid>//localhost:1313/projects/contracts/2022/corruptedrealms/</guid>
+      <description>&lt;!--TODO: Add a function or 2 from the tools inspector code and snap a pic of the custom inspector--&gt;
+&lt;p&gt;A startup I worked for wanted a full blown MMORPG. Here is some of the work I did that im allowed to show.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CorruptedRealms/XRLog_2022_897.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;This is one of my earliest projects involving Web3, at the time (2022) there was but a handful of blockchain SDKs that were compatible with Unity and C#. On top of all the Web3 functionality part of my job was to refine the combat and art workflow for maps.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Feature&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Invector Character System&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A quick start to basic combat, but unacceptable for production.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Better Combat&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;The initial state of combat in the game was subpar at best.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;invector-woes&#34;&gt;Invector Woes&lt;/h4&gt;
+&lt;p&gt;I&#39;m sure the Invector SDK is usable for a lot of projects. However I have never been more displeased by the code quality in the SDK. It makes me want to throw up and if I could go back to the start of development I would strongly recommend against using it. I ended reverse engineering parts of their character components so that performance would increase by 80%+ during stress testing. This is why it&#39;s not recommended to handle null or distance checks every frame. Shame shame.&lt;/p&gt;
+&lt;h4 id=&#34;extending-combat&#34;&gt;Extending Combat&lt;/h4&gt;
+&lt;p&gt;I started by overriding attack functions to tie into a custom sensor I made that detects other mob sensors. This was then used to input an relative &#34;intent&#34; direction the AI should use for the attack trajectory. I then combined all that with a custom physics PID controller I wrote a while back to make attacks apply forces to the attackers and defenders bodies. &lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CorruptedRealms/XRLog_2022_919.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Web3 Land Based Map System</title>
+      <link>//localhost:1313/projects/contracts/2022/web3landmapsystem/</link>
+      <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/contracts/2022/web3landmapsystem/</guid>
       <description>&lt;!--TODO: Add a function or 2 from the tools inspector code and snap a pic of the custom inspector--&gt;
 &lt;p&gt;Contracted by a startup to RnD and produce a working prototype of an Interactive Map with overlaying hexagonal cells and dynamic states that change based on the live NFT metadata pulled from the blockchain.&lt;/p&gt;
 &lt;div class=&#34;video_thing&#34;&gt;
@@ -1101,7 +1196,8 @@
       <link>//localhost:1313/projects/experiments/2020/physicsbasedproceduralanimations01/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/projects/experiments/2020/physicsbasedproceduralanimations01/</guid>
-      <description>&lt;div class=&#34;video_thing&#34;&gt;
+      <description>&lt;p&gt;I love working on physics based animations.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/PhysicsBasedProceduralAnimations01/XRLog_2020_308.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;
 &lt;p&gt;I love procedural animations, most system use Inverse Kinematics to accomplish this, as do my systems. However I wanted to take it to the next level and allow dynamic blending between Inverse Kinematics and Physics Simulations.&lt;/p&gt;

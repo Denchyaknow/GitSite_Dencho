@@ -9,7 +9,7 @@ profile: false
 commentable: true
 draft: false
 private: false # hide page in search results
-tags: ["Experiment", "VR", "XR", "InverseKinematics", "Networking", "ReadyPlayerMe", "BlockChain", "Physics", "Unity", "Hands"]
+tags: ["Contract", "VR", "XR", "InverseKinematics", "Networking", "ReadyPlayerMe", "BlockChain", "Physics", "Unity", "Hands"]
 categories: ["2022"] # display at the top of a page alongside a page’s metadata
 # featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---
