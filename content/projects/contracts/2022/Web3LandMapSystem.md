@@ -8,7 +8,7 @@ profile: false
 commentable: true
 draft: false
 private: false # hide page in search results
-tags: ["Contract", "EditorTool", "Unity", "Web3", "NFT", "Automation", "C#"]
+tags: ["Contract", "EditorTool", "Unity", "Web3", "NFT", "Automation", "C#", "CorruptedRealms"]
 categories: ["2022"] # display at the top of a page alongside a page’s metadata
 featured: false # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---

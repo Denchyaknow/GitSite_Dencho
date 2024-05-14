@@ -1,5 +1,5 @@
 ---
-title: Terrain Practice [01]
+title: Terrain Practice [02]
 subtitle: Stress testing frustrum culling on maxed out grass
 date: 2022-11-11
 type: post

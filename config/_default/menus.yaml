@@ -16,3 +16,6 @@ main:
   - name: Test
     url: /#projects
     weight: 10
+  - name: CR
+    url: corruptedRealms/
+    weight: 40
