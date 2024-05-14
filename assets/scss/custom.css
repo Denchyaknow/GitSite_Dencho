@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Rajdhani:300&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Rajdhani:300&display=swap");
 .navbar {
   box-shadow: none;
 }
@@ -62,7 +62,19 @@ iframe {
   width: 100%;
   height: auto;
 }
-
+.video_hero {
+  position:absolute; 
+  width: 100%;
+  z-index: -15;
+  left: 0;
+  top: -3vh;
+  video{
+    max-height: 100%!important;
+    max-width: 100%!important;
+    width: 100%;
+    height: auto;
+  }
+}
 .video_body {
   z-index: -50;
   background: none !important;
@@ -427,4 +439,4 @@ iframe {
   .drop-shadow > span {
     font-size: 2em;
   }
-}/*# sourceMappingURL=custom.css.map */
+}# sourceMappingURL=custom.css.map */

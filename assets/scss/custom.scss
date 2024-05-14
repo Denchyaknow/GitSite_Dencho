@@ -32,18 +32,18 @@
 //   }
 // }
 
-// //For particle on hero
-// #particles-js {
-//   width: 100% !important;
-//   height: 100% !important;
-//   background-color: none;
-//   overflow: hidden;
-//   background-size: cover;
-//   background-position: 50% 50%;
-//   position: fixed;
-//   z-index: -60;
-//   top: 0; right: 0; bottom: 0; left: 0;
-// }
+//For particle on hero
+#particles-js {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: none;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: fixed;
+  z-index: -60;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
 
 // $mainBackground: #2b224b;
 // $cardBackground: #1c112a94;
@@ -51,7 +51,7 @@
 // $buttonBackgroundActive: #315684;
 // $sectionBackground: #442b48;
 // $clearBackground: #00000000;
-// $coverBackground: #000000b0;
+$coverBackground: #000000b0;
 // $iconColor: #ffe64a;
 // $l_primaryText: #74caff;
 // $l_secondaryText: #6fd5ff;
@@ -170,19 +170,21 @@
 //   height: 75vw;
 //   top:-20vw;
 // }
-// .video_cover {
-//   width: 100%;
-//   position: absolute;
-//   top: -20vw;
-//   left: 0;
-//   height: 75vw;
-//   background-color: $coverBackground;
-//   z-index: 50;
-// }
+.video_cover {
+    width: 100%;
+    position: absolute;
+    top: 0vw;
+    left: 0;
+    object-fit: cover;
+    object-position: center center;
+    height: 100%;
+    background-color: #000000b0;
+    z-index: -4;
+}
 
-// .home-section-bg{
-//   z-index: -30;
-// }
+.home-section-bg{
+  z-index: -300;
+}
 
 // .background {
 //   position: absolute;

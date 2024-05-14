@@ -41,8 +41,6 @@ sections:
       text: |-
          # NOTICE: 
          **This Page is Under Construction** 
-         #### Please Reload the page if any Media files fail to show during development.
-
     design:
         background:
             video: 

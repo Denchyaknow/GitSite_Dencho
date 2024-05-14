@@ -25,13 +25,19 @@ sections:
          # NOTICE: 
          **This Page is Under Construction** 
          #### Please Reload the page if any Media files fail to show during development.
+         <div id="particles-js"></div>
+         <div class="particleback"></div>
+         <div class="video_hero">
+            <video muted autoplay="" name="media" loop=""><source src="https://thumbs.gfycat.com/InsistentUnripeAmericantoad-mobile.mp4" type="video/mp4"></video>
+            <div class="video_cover"></div>
+         </div>
 
     design:
-        background:
-            video: 
-                filename: projects/physicsBasedExoArms/XRLog_2020_001.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
-                flip: false # Post-processing: flip the video horizontally?
-                brightness: 0.2
+      background:
+        video: 
+          filename: projects\AIMobController02\XRLog_2021_636.webm
+           # XRLog_2020_001.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
+          flip: false # Post-processing: flip the video horizontally?
     #         image:
     #             filename: icon.png #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0 # Name of image in `assets/media/`.
     #         filters:
@@ -51,6 +57,19 @@ sections:
         
           
 
+  - block: markdown
+    content:
+      title: ''
+      subtitle: ''
+      text: |-
+          <div id="particles-js"></div>
+          <div class="particleback"></div>
+          <div class="video_hero">
+            <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CorruptedRealms/XRLog_2022_937.webm" type="video/webm"></video>
+            <div class="video_cover"></div>
+          </div>
+    design:
+      columns: '1'
   - block: about.biography
     id: about
     content:

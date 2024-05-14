@@ -34,6 +34,7 @@ marketing:
 header:
   navbar:
     enable: true
+    blox: "custom"
     align: r
     show_logo: false
     show_language: false
