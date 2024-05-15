@@ -40,41 +40,92 @@ bio: My research interests include distributed robotics, mobile computing and pr
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: Technical
+  - name: Programming
     items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
+      - name: C#
+        description: "\"Magic power from the maths\""
+        percent: 95
+        icon: csharp-plain
+        icon_pack: devicon
+      - name: Unity
+        description: "\"Inner-editor understanding and ability to create editor tools\""
+        percent: 88
+        icon: unity-plain
+        icon_pack: devicon
+
+      - name: Physics
+        description: "\"How smooth is your jump or knockback\""
+        percent: 88
+        icon: custom/redux-original
+        icon_pack: custom
+      - name: UI/UX
+        description: "\"How snappy and swanky the UI as per design\""
+        percent: 72
+        icon: tablet-screen-button
         icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
+      - name: GamePlay
+        description: "\"A quest or game loop that keeps them coming back\""
+        percent: 69
+        icon: gamepad
         icon_pack: fas
-  - name: Hobbies
+      - name: 3D 
+        description: "\"Some grass here, a speedtree over there\""
+        percent: 42
+        icon: meteor
+        icon_pack: fas
+      - name: XR
+        description: "\"Immersive creations for fun or utility\""
+        percent: 52
+        icon: vr-cardboard
+        icon_pack: fas
+      - name: Networking
+        description: "\"Communing with cloud spirits WebApis and Databases using Handcrafted web requests\""
+        percent: 29
+        icon: network-wired
+        icon_pack: fas
+      - name: Web3
+        description: "\"Dark BlockChain Magic involving SmartContracts\""
+        percent: 39
+        icon: coins
+        icon_pack: fas
+      - name: Blender
+        description: "\"Inner-editor understanding and ability to create editor tools\""
+        percent: 12
+        icon: blender-original
+        icon_pack: devicon
+  - name: Attributes
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
+      - name: Strength (STR)
+        description: "\"Expertise on integrating SDKs or Plugins into a source of magic\""
+        percent: 69
+        icon: hand-fist
         icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
+      - name: Intelligence (INT)
+        description: "\"Knowledge of physics and kinematic programming, math vision capability\""
+        percent: 84
+        icon: head-side-virus
         icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
+      - name: Dexterity (DEX)
+        description: "\"Creating UI from wire-frames and interactions from cross platform input\""
+        percent: 44
+        icon: person-running
+        icon_pack: fas
+      - name: Wisdom (WIS)
+        description: "\"Allows use complex systems like XR, Networking and Database SDKs\""
+        percent: 35
+        icon: user-nurse
+        icon_pack: fas
+      - name: Charisma (CHA)
+        description: "\"Ability to communicate and collaborate, crowd taming\""
+        percent: 23
+        icon: person-rays # unity-plain
+        icon_pack: fas # devicon
+      - name: Spirit (SPR)
+        description: "\"Handling of AI agents, tools, and automata\""
+        percent: 53
+        icon: ghost
         icon_pack: fas
 
 # Social/Academic Networking
@@ -106,8 +157,12 @@ social:
 #email: ""
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+**Dencho - Game Developer, XR Researcher, and AI Enthusiast**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Dencho is a Game Developer with a strong passion for XR (Extended Reality) technology. He has been involved in game development since 2004 and became a freelancer in 2016. By that time, he was already using C# and Unity every day.
+
+He has had the opportunity to work with several notable companies and gain insights from industry mentors. Currently, his primary focus is on mastering XR and integrating it with AI. His long-term goal is to leverage machine learning and neural networking to create AI drone companions, enhancing the intelligence and realism of NPCs.
+
+As a freelancer, He is seeking a development studio where he can dedicate a significant part of his career. In his free time, he enjoys working on XR projects and contributing to the evolving metaverse. Whether for fun or work, he loves experimenting with new physics techniques and VFX to create more engaging experiences.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.

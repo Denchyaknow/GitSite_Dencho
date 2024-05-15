@@ -36,8 +36,137 @@
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
   <script>
-    particlesJS.load('particles-js', 'assets/particlesjs0.json', function() {
+    particlesJS.load('particles-js', 'assets/particlesjs-config1.json', function() {
     console.log('callback - particles.js config loaded');
   });
   </script>
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <!--script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script-->
+  <!--Causes Navbar visual error-->
+  <!--link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"-->
+  <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!--Animate.CSS stuff-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!--Scroll Reveal stuff-->
+  <script>
+
+    const boxes = document.querySelectorAll('.btn');
+    boxes.forEach(box => 
+    {
+      //Initialization
+      if(!box.classList.contains('animate__animated'))//If no animate class on button add it.
+        box.classList.add('animate__animated');
+        const boxSelector = box.querySelector('img');
+        if(boxSelector)
+          boxSelector.classList.add('animate__animated','animate__fadeOut', 'animate__fast');
+
+      //Do this on MouseEnter buttons
+      box.addEventListener('mouseover', function() 
+      {
+        const selector = this.querySelector('img');
+        if(selector)//Turn on Selector 
+        {
+          if(!selector.classList.contains('animate__animated'))
+            selector.classList.add('animate__animated');
+          selector.classList.remove('animate__fadeOut', 'animate__fast');
+          selector.classList.add('animate__heartBeat', 'animate__infinite', 'animate__fast');
+        }
+
+        const imgElement = this.querySelector('i');
+        if (imgElement) 
+        {
+          imgElement.classList.add('animate__animated');
+          imgElement.classList.add('animate__wobble');
+          imgElement.classList.add('animate__infinite');
+        }
+      });
+      //Do this on MouseExit buttons
+      box.addEventListener('mouseout', function() 
+      {
+        const selector = this.querySelector('img');
+        if(selector)//Turn off Selector
+        {
+          selector.classList.remove('animate__heartBeat', 'animate__infinite', 'animate__fast');
+          selector.classList.add('animate__fadeOut', 'animate__fast');
+        }
+        const imgElement = this.querySelector('i');
+        if (imgElement) 
+        {
+          imgElement.classList.remove('animate__animated');
+          imgElement.classList.remove('animate__wobble');
+          imgElement.classList.remove('animate__infinite');
+        }
+      });
+      //Do this on MouseDown on buttons
+      box.addEventListener('click', function() 
+      {
+        this.classList.add('animate__bounceOutLeft');
+        this.classList.add('animate__faster');
+        setTimeout(() => 
+        {
+          this.classList.remove('animate__bounceOutLeft');
+          this.classList.remove('animate__faster');
+          this.classList.add('animate__bounceInRight');
+          this.classList.add('animate__fast');
+
+          setTimeout(() => 
+          {
+            this.classList.remove('animate__bounceInRight');
+            this.classList.remove('animate__fast');
+          }, 800);
+        }, 1200);
+      });
+    });
+
+    //document.querySelectorAll('.btn').classList.add('animate__animated', 'animate__wobble'); //'animate__repeat-3'
+    //.addEventListener('mouseout', function() {
+    //     this.classList.remove('wobble');
+    // });
+
+    ScrollReveal({ reset: true });
+    // function OnAfterReset (el) {
+    //   el.classList.remove('animate__fadeOutRight');
+    // }
+    // function OnBeforeReset (el) {
+    //   el.classList.remove('animate__fadeOutRight');
+    // }
+    ScrollReveal().reveal('.reButton', { delay: 0,  rotate: {
+      // afterReset: OnAfterReset,
+      // beforeReset: OnBeforeReset,
+        x: 0,
+        y: 100,
+        z: 20
+      },
+      distance: '50px',
+      easing: 'cubic-bezier(0, 0, 1, 1)',
+      interval: 250,
+      opacity: 0,// Start invis
+      origin: 'right',
+      scale: 1.2,
+      // viewOffset: {
+      //   left: -62
+      // },
+    //easing: 'steps(60)',
+      // 'ease'
+      // 'ease-in'
+      // 'ease-in-out'
+      // 'ease-out'
+      // 'step-start'
+      // 'step-end'
+      // 'steps()'
+      // 'cubic-bezier()'
+      duration: 200
+    });
+    ScrollReveal().reveal('.reText', { delay: 200,  rotate: {
+        x: 20,
+        z: -90
+      },
+      duration: 800
+    });
+    //document.addEventListener('DOMContentLoaded', function() {        
+    //});
+  </script>
+
 </footer>

@@ -10,11 +10,14 @@ sections:
     demo: false # Only display this section in the Hugo Blox Builder demo site
     content:
       title: Dencho.Dev
-      image:
-        filename: 
+      # image:
+      #   filename: 
       # cta:
-      #   label: '**Get Started**'
-      #   url: https://hugoblox.com/templates/
+      #    label: '**Get Started**'
+      #    url: https://hugoblox.com/templates/
+      # cta:
+      #    label: '**Get Started**'
+      #    url: https://hugoblox.com/templates/
       # cta_alt:
       #   label: Ask a question
       #   url: https://discord.gg/z8wNYzb
@@ -22,22 +25,49 @@ sections:
         label: >-
           <!--div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div-->
       text: |-
-         # NOTICE: 
-         **This Page is Under Construction** 
-         #### Please Reload the page if any Media files fail to show during development.
-         <div id="particles-js"></div>
-         <div class="particleback"></div>
-         <div class="video_hero">
-            <video muted autoplay="" name="media" loop=""><source src="https://thumbs.gfycat.com/InsistentUnripeAmericantoad-mobile.mp4" type="video/mp4"></video>
-            <div class="video_cover"></div>
-         </div>
+          {{% callout warning %}}
+          **NOTICE:** This Page is Under Construction
+          {{% /callout %}}
+          <div id="particles-js"></div>
+          <div class="video_hero">
+              <div class="video_cover"></div>
+          </div>
 
+          <button class="reButton btn btn-primary animate__animated">Button Style 3</button>
+          {{% staticref "uploads/cv.pdf" "newtab" %}}Link Style 1{{% /staticref %}} 
+          <button class="reButton btn btn-primary animate__animated">
+           {{< icon name="custom/unity-plain.svg" pack="custom" >}} XR Projects
+          Button Style 3
+          </button>
+          <button id="reButton" class="btn btn-primary animate__animated">
+            {{< icon name="vr-cardboard" pack="fas" >}} XR Projects
+          </button>
+          <h1 class="reText load-hidden">
+              Widget Inc.
+          </h1>
+          <div class="buttonSidePanel">
+              <button class="reButton btn btn-primary animate__animated">
+              {{< icon name="vr-cardboard" pack="fas" >}} ReadMe
+              {{< figure class="selector" src="icons/custom/bg0.svg" theme="light" >}}
+              </button>
+              <button class="reButton btn btn-primary animate__animated">
+              {{< icon name="vr-cardboard" pack="fas" >}} Skills
+              {{< figure class="selector" src="icons/custom/bg1.svg" theme="light" >}}
+              </button>
+              <button class="reButton btn btn-primary animate__animated">
+              {{< icon name="vr-cardboard" pack="fas" >}} Projects
+              {{< figure class="selector" src="icons/custom/bg2.svg" theme="light" >}}
+              </button>
+              <button class="reButton btn btn-primary animate__animated">
+              {{< icon name="vr-cardboard" pack="fas" >}} Contact
+              {{< figure class="selector" src="icons/custom/bg3.svg" theme="light" >}}
+              </button>
+          </div>        
     design:
       background:
         video: 
-          filename: projects\AIMobController02\XRLog_2021_636.webm
-           # XRLog_2020_001.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
-          flip: false # Post-processing: flip the video horizontally?
+          filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
+          flip: true # Post-processing: flip the video horizontally?
     #         image:
     #             filename: icon.png #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0 # Name of image in `assets/media/`.
     #         filters:
@@ -62,12 +92,7 @@ sections:
       title: ''
       subtitle: ''
       text: |-
-          <div id="particles-js"></div>
-          <div class="particleback"></div>
-          <div class="video_hero">
-            <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CorruptedRealms/XRLog_2022_937.webm" type="video/webm"></video>
-            <div class="video_cover"></div>
-          </div>
+          {{< gist Denchyaknow 5bbfaf6473294e8c7bf3f271be6f56ca >}}
     design:
       columns: '1'
   - block: about.biography

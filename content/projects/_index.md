@@ -42,10 +42,10 @@ sections:
          # NOTICE: 
          **This Page is Under Construction** 
     design:
-        background:
-            video: 
-                filename: projects/physicsBasedExoArms/XRLog_2020_001.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
-                flip: true # Post-processing: flip the video horizontally?
+      background:
+        video: 
+          filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
+          flip: true # Post-processing: flip the video horizontally?
  
 
   - block: portfolio

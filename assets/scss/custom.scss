@@ -32,6 +32,85 @@
 //   }
 // }
 
+// .buttonContainer {
+//   position: relative;
+//   width: 100%;
+//   height: 100vh;
+//   background-color: #f0f0f0; /* Example background color */
+//   overflow: hidden; /* Ensures child elements are contained */
+// }
+.buttonSidePanel {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 69px;
+  //top: 169px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  flex-wrap: revert;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  button {
+    overflow: hidden;
+  }
+}
+
+.buttonSidePanel {
+  .btn {
+    margin: 5px 0; /* Adjust spacing between buttons */
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    height: inherit;
+    cursor: pointer;
+    figure {
+      margin: 0 0 0rem;
+      pointer-events: none;
+    }
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -5; // Ensure the image is behind the text
+    }
+  }
+}
+
+
+// .buttonSidePanel .btn {
+//   margin: 5px 0; /* Adjust spacing between buttons */
+//   padding: 10px;
+//   border: none;
+//   background-color: #007bff;
+//   height: inherit;
+//   cursor: pointer;
+//   figure {
+//     margin: 0 0 0rem;
+//   }
+//   img {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+//     z-index: -5; // Ensure the image is behind the text
+//   }
+// }
+
+
+.wg-hero {
+  height: 95vh;
+}
+
+.load-hidden {
+  color: white;
+}
 //For particle on hero
 #particles-js {
   width: 100% !important;
@@ -42,6 +121,7 @@
   background-position: 50% 50%;
   position: fixed;
   z-index: -60;
+  pointer-events: none;
   top: 0; right: 0; bottom: 0; left: 0;
 }
 
@@ -170,6 +250,10 @@ $coverBackground: #000000b0;
 //   height: 75vw;
 //   top:-20vw;
 // }
+
+$background-color: #ffffffb0;
+$overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual path to your SVG image
+
 .video_cover {
     width: 100%;
     position: absolute;
@@ -178,7 +262,11 @@ $coverBackground: #000000b0;
     object-fit: cover;
     object-position: center center;
     height: 100%;
-    background-color: #000000b0;
+    background-color: $coverBackground;
+    background-image: $overlayImage;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     z-index: -4;
 }
 

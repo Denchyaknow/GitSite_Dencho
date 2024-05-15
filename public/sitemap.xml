@@ -91,7 +91,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-05-07T15:56:48-07:00</lastmod>
+    <lastmod>2024-05-14T10:21:21-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/contracts/2022/web3landmapsystem/</loc>
@@ -303,7 +303,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/experiments/2020/physicsbasedexoskeletonarms/</loc>
-    <lastmod>2024-05-08T05:54:02-07:00</lastmod>
+    <lastmod>2020-04-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/tag/uma/</loc>
@@ -378,20 +378,12 @@
     <lastmod>2024-05-08T05:24:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/samples/about/</loc>
-    <lastmod>2024-05-13T21:16:36-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/samples/home/</loc>
-    <lastmod>2024-05-13T21:16:36-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>//localhost:1313/samples/corruptedrealms/</loc>
     <lastmod>2024-05-13T21:16:36-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/</loc>
-    <lastmod>2024-05-07T15:56:48-07:00</lastmod>
+    <lastmod>2024-05-14T10:21:21-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
