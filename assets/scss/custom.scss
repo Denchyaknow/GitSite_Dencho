@@ -262,17 +262,52 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
     object-fit: cover;
     object-position: center center;
     height: 100%;
-    background-color: $coverBackground;
-    background-image: $overlayImage;
+    //background-color: $coverBackground;
+    //background-image: $overlayImage;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    z-index: -4;
+}
+.spline_markdown {
+  display: block;
+  height: 200px;
+  width: 100%;
+
+}
+
+.spline_section{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center center;
+  height: 100%;
+  background-color: #000000b0;
+  z-index: 0;
+}
+
+.spline_cover{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center center;
+    //height: 100%;
+    background-color: $coverBackground;
+    //background-image: $overlayImage;
+    //background-repeat: no-repeat;
+    //background-size: cover;
+    //background-position: center;
     z-index: -4;
 }
 
 .home-section-bg{
   z-index: -300;
 }
+
+
 
 // .background {
 //   position: absolute;

@@ -45,12 +45,68 @@
   <!--Causes Navbar visual error-->
   <!--link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"-->
   <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/-->
+  <!--Scroll Reveal stuff-->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!--Animate.CSS stuff-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!--Spline Stuff-->
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.3.5/build/spline-viewer.js"></script>
 
-  <!--Scroll Reveal stuff-->
   <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+        // Select all spline-viewer elements
+        const elements = document.querySelectorAll('spline-viewer');
+        
+        elements.forEach(element => {
+          if (element) {
+            // Hide #logo element
+            const childA = element.shadowRoot ? element.shadowRoot.querySelector('#logo') : element.querySelector('#logo');
+            if (childA) {
+              console.log('childA found');
+              childA.style.display = 'none';
+            }
+            
+            // Hide #hints element
+            const childB = element.shadowRoot ? element.shadowRoot.querySelector('#hints') : element.querySelector('#hints');
+            if (childB) {
+              console.log('childB found');
+              childB.style.display = 'none';
+            }
+            
+            // Hide #preloader element
+            const childC = element.shadowRoot ? element.shadowRoot.querySelector('#preloader') : element.querySelector('#preloader');
+            if (childC) {
+              console.log('childC found');
+              childC.style.display = 'none';
+            }
+          }
+        });
+      }, 1000); // Adjust the delay as needed
+    });
+    // Make all splineviewer responsive to height correctly
+    function addHeightToAllShadowRoots() {
+    // Select all spline-viewer elements
+    const elements = document.querySelectorAll('spline-viewer');
+    
+    elements.forEach(element => {
+      if (element) {
+        console.log('element found');
+        if (element.shadowRoot) {
+          const cont = element.shadowRoot.querySelector('#container');
+          if (cont) {
+            console.log('cont found');
+            cont.style.height = '100%';
+          }
+        }
+      }
+    });
+  }
+
+  // Call the function when the page is loaded
+  window.addEventListener('DOMContentLoaded', addHeightToAllShadowRoots);
+
+
 
     const boxes = document.querySelectorAll('.btn');
     boxes.forEach(box => 

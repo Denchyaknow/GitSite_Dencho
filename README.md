@@ -24,21 +24,35 @@ assets/media/projects/POSTNAME/XRLog_2020_198.webm assets/media/projects/POSTNAM
 
 6. You can use the frontmatter to give a hero a background image/video, or add a video/image HTML element after the frontmatter. This will still show up in a project listing.
 
+### Some Splines
+
+```
+Cyborg-Looking
+<spline-viewer url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer>
+
+Wireframe
+<spline-viewer class="spline_cover" url="https://prod.spline.design/JPYWFPf5webjzoW4/scene.splinecode"></spline-viewer>
+
+Living Pattern
+<spline-viewer class="spline_cover" url="https://prod.spline.design/K6mwmsaTAQ0-VZyT/scene.splinecode"></spline-viewer>
+
+```
+
 ### Callout Notes
 
-```html
+```
 {{% callout note %}}
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 {{% callout warning %}}
-Here's some important information...
+Here's some important information
 {{% /callout %}}
 ```
 
 ### Images
 
 - This only works after fontmatter i think
-```markdown
+```
 ![screen reader text](image.jpg "caption")
 ```
 
@@ -47,18 +61,17 @@ Here's some important information...
 
 #### Call to Action Button
 
-```html
-   {{< cta cta_text="Do something" cta_link="/" cta_new_tab="false" >}}
-   {{< cta cta_text="Button Style 1" cta_new_tab="false" cta_link="/" cta_new_tab="false" >}}
-   {{< cta cta_text="Button Style 2" cta_link="/" cta_new_tab="false" cta_alt_text="With Alt Action" cta_alt_link="/" cta_alt_new_tab="false" >}}
-   
-   or 
+```
+{{< cta cta_text="Do something" cta_link="/" cta_new_tab="false" >}}
+{{< cta cta_text="Button Style 1" cta_new_tab="false" cta_link="/" cta_new_tab="false" >}}
+{{< cta cta_text="Button Style 2" cta_link="/" cta_new_tab="false" cta_alt_text="With Alt Action" cta_alt_link="/" cta_alt_new_tab="false" >}}
 
-   <button id="anButton" class="btn btn-primary animate__animated">
-   <img src="/path/to/your/icon.svg" alt="Icon" width="16" height="16" />
-   Button Style 3
-   </button>
+or 
 
+<button id="anButton" class="btn btn-primary animate__animated">
+<img src="/path/to/your/icon.svg" alt="Icon" width="16" height="16" />
+Button Style 3
+</button>
 ```
 
 #### Link to a file

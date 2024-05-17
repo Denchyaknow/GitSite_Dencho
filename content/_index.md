@@ -8,19 +8,13 @@ sections:
   - block: hero
     id: home
     demo: false # Only display this section in the Hugo Blox Builder demo site
+    design:
+      background:
+        video: 
+          filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
+          flip: true # Post-processing: flip the video horizontally?
     content:
       title: Dencho.Dev
-      # image:
-      #   filename: 
-      # cta:
-      #    label: '**Get Started**'
-      #    url: https://hugoblox.com/templates/
-      # cta:
-      #    label: '**Get Started**'
-      #    url: https://hugoblox.com/templates/
-      # cta_alt:
-      #   label: Ask a question
-      #   url: https://discord.gg/z8wNYzb
       cta_note:
         label: >-
           <!--div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div-->
@@ -28,7 +22,7 @@ sections:
           {{% callout warning %}}
           **NOTICE:** This Page is Under Construction
           {{% /callout %}}
-          <div id="particles-js"></div>
+          <!--div id="particles-js"></div-->
           <div class="video_hero">
               <div class="video_cover"></div>
           </div>
@@ -62,37 +56,36 @@ sections:
               {{< icon name="vr-cardboard" pack="fas" >}} Contact
               {{< figure class="selector" src="icons/custom/bg3.svg" theme="light" >}}
               </button>
-          </div>        
-    design:
-      background:
-        video: 
-          filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
-          flip: true # Post-processing: flip the video horizontally?
-    #         image:
-    #             filename: icon.png #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0 # Name of image in `assets/media/`.
-    #         filters:
-    #             brightness: 0.6 # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
-    #             size: cover #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
-    #             position: center # Image focal point. Options include `left`, `center` (default), or `right`.
-    #             parallax: true # Use a fun parallax-like fixed background effect on desktop? true/false
-    #         background:
-    #             gradient_end: '#1976d2'
-    #             gradient_start: '#004ba0'
-    #             text_color_light: true  # Text color (true=light, false=dark, or remove for the dynamic theme color).
-        # <!--Custom spacing-->
-        # <div class="mb-3"></div>
-        # <!--GitHub Button JS-->
-        # <script async defer src="https://buttons.github.io/buttons.js"></script>
-        
-        
+          </div>
+          <spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer>
           
-
+  - block: markdown
+    content:
+      title: ''
+      subtitle: ''
+      text: |-
+          <spline-viewer class="spline_section" url="https://prod.spline.design/JPYWFPf5webjzoW4/scene.splinecode"></spline-viewer>
+    design:
+      css_class: 'spline_markdown'
+      columns: '1'
   - block: markdown
     content:
       title: ''
       subtitle: ''
       text: |-
           {{< gist Denchyaknow 5bbfaf6473294e8c7bf3f271be6f56ca >}}
+          <!--spline-viewer class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
+        # <script>
+        #   document.addEventListener('DOMContentLoaded', function() {
+        #     const homeSectionBg = document.querySelector('.home-section-bg');
+        #     const splineSection = document.querySelector('.spline_section');
+
+        #     if (homeSectionBg && splineSection) {
+        #       // Move #spline_section after .home-section-bg
+        #       homeSectionBg.parentNode.insertBefore(splineSection, homeSectionBg.nextSibling);
+        #     }
+        #   });
+        # </script>
     design:
       columns: '1'
   - block: about.biography
