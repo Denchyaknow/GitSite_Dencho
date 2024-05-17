@@ -3,7 +3,7 @@ name = "Starter Blog"
 
 [light]
   # Primary
-  primary = "#2962ff"
+  primary = "#ff29ad"
 
   # Menu
   menu_primary = "rgb(153,238,255)"
@@ -19,7 +19,7 @@ name = "Starter Blog"
   link_hover = "rgb(0, 255, 0)"
 
 [dark]
-  primary = "#93aad77a"
+  primary = "#3bbbeefd"
   link = "#9F73B0"
   link_hover = "#e4a7fc"
   background = "#0C0E13"

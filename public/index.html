@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 16, 2024 --><html lang="en-us" >
+<!-- Last Published: May 17, 2024 --><html lang="en-us" >
 
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -307,7 +307,7 @@
 <link rel="icon" type="image/png" href="/media/icon_hu1b14c2ed69a2f89c06f5de8cc0bd5fd1_301795_32x32_fill_lanczos_center_3.png" />
 <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu1b14c2ed69a2f89c06f5de8cc0bd5fd1_301795_180x180_fill_lanczos_center_3.png" />
 
-<meta name="theme-color" content="#2962ff" />
+<meta name="theme-color" content="#ff0044" />
 
 
 
@@ -797,7 +797,7 @@
    <i class="custom custom-custom/unity-plain.svg  pr-1 fa-fw"></i> XR Projects
 Button Style 3
 </button>
-<button id="reButton" class="btn btn-primary animate__animated">
+<button class="reButton btn btn-primary animate__animated">
   
     <i class="fas fa-vr-cardboard  pr-1 fa-fw"></i> XR Projects
 </button>
@@ -805,124 +805,25 @@ Button Style 3
     Widget Inc.
 </h1>
 <div class="buttonSidePanel">
-    <button class="reButton btn btn-primary animate__animated">
+    <button class="reButton btn btn-primary">
     
-      <i class="fas fa-vr-cardboard  pr-1 fa-fw"></i> ReadMe
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <figure class="selector" >
-      <div class="d-flex justify-content-center">
-        <div class="w-100" ><img alt=""
-               src="/media/icons/custom/bg0.svg"
-               loading="lazy" data-zoomable class=" img-light" /></div>
-      </div></figure>
-
+      <i class="fas fa-vr-cardboard  pr-1 fa-fw"></i> <p>ReadMe</p>
     </button>
-    <button class="reButton btn btn-primary animate__animated">
+    <button class="reButton btn btn-primary">
     
-      <i class="fas fa-vr-cardboard  pr-1 fa-fw"></i> Skills
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <figure class="selector" >
-      <div class="d-flex justify-content-center">
-        <div class="w-100" ><img alt=""
-               src="/media/icons/custom/bg1.svg"
-               loading="lazy" data-zoomable class=" img-light" /></div>
-      </div></figure>
-
+      <i class="fas fa-vr-cardboard  pr-1 fa-fw"></i> <p>Skills</p>
     </button>
-    <button class="reButton btn btn-primary animate__animated">
+    <button class="reButton btn btn-primary">
     
-      <i class="fas fa-vr-cardboard  pr-1 fa-fw"></i> Projects
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <figure class="selector" >
-      <div class="d-flex justify-content-center">
-        <div class="w-100" ><img alt=""
-               src="/media/icons/custom/bg2.svg"
-               loading="lazy" data-zoomable class=" img-light" /></div>
-      </div></figure>
-
+      <i class="fas fa-vr-cardboard  pr-1 fa-fw"></i> <p>Projects</p>
     </button>
-    <button class="reButton btn btn-primary animate__animated">
+    <button class="reButton btn btn-primary">
     
-      <i class="fas fa-vr-cardboard  pr-1 fa-fw"></i> Contact
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <figure class="selector" >
-      <div class="d-flex justify-content-center">
-        <div class="w-100" ><img alt=""
-               src="/media/icons/custom/bg3.svg"
-               loading="lazy" data-zoomable class=" img-light" /></div>
-      </div></figure>
-
+      <i class="fas fa-vr-cardboard  pr-1 fa-fw"></i> <p>Contact</p>
     </button>
 </div>
-<spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer></div>
+<!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer-->
+<spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer></div>
     
 
     
@@ -1134,8 +1035,9 @@ Button Style 3
 
 
   <div class="col-12">
-    <script src="https://gist.github.com/Denchyaknow/5bbfaf6473294e8c7bf3f271be6f56ca.js"></script>
-
+    <p><spline-viewer class="spline_section" url="https://prod.spline.design/4zzjKZeshSsHuzvU/scene.splinecode"></spline-viewer>
+<script src="https://gist.github.com/Denchyaknow/5bbfaf6473294e8c7bf3f271be6f56ca.js"></script>
+</p>
 <!--spline-viewer class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
   </div>
 
@@ -3859,25 +3761,25 @@ Button Style 3
             const childA = element.shadowRoot ? element.shadowRoot.querySelector('#logo') : element.querySelector('#logo');
             if (childA) {
               console.log('childA found');
-              childA.style.display = 'none';
+              childA.remove();
             }
-            
+
             
             const childB = element.shadowRoot ? element.shadowRoot.querySelector('#hints') : element.querySelector('#hints');
             if (childB) {
               console.log('childB found');
-              childB.style.display = 'none';
+              childB.remove();
             }
             
             
             const childC = element.shadowRoot ? element.shadowRoot.querySelector('#preloader') : element.querySelector('#preloader');
             if (childC) {
               console.log('childC found');
-              childC.style.display = 'none';
+              childC.remove();
             }
           }
         });
-      }, 1000); 
+      }, 200); 
     });
     
     function addHeightToAllShadowRoots() {
@@ -3903,73 +3805,98 @@ Button Style 3
 
 
 
-    const boxes = document.querySelectorAll('.btn');
-    boxes.forEach(box => 
-    {
-      
-      if(!box.classList.contains('animate__animated'))
-        box.classList.add('animate__animated');
-        const boxSelector = box.querySelector('img');
-        if(boxSelector)
-          boxSelector.classList.add('animate__animated','animate__fadeOut', 'animate__fast');
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
-      
-      box.addEventListener('mouseover', function() 
-      {
-        const selector = this.querySelector('img');
-        if(selector)
-        {
-          if(!selector.classList.contains('animate__animated'))
-            selector.classList.add('animate__animated');
-          selector.classList.remove('animate__fadeOut', 'animate__fast');
-          selector.classList.add('animate__heartBeat', 'animate__infinite', 'animate__fast');
-        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
-        const imgElement = this.querySelector('i');
-        if (imgElement) 
-        {
-          imgElement.classList.add('animate__animated');
-          imgElement.classList.add('animate__wobble');
-          imgElement.classList.add('animate__infinite');
-        }
-      });
-      
-      box.addEventListener('mouseout', function() 
-      {
-        const selector = this.querySelector('img');
-        if(selector)
-        {
-          selector.classList.remove('animate__heartBeat', 'animate__infinite', 'animate__fast');
-          selector.classList.add('animate__fadeOut', 'animate__fast');
-        }
-        const imgElement = this.querySelector('i');
-        if (imgElement) 
-        {
-          imgElement.classList.remove('animate__animated');
-          imgElement.classList.remove('animate__wobble');
-          imgElement.classList.remove('animate__infinite');
-        }
-      });
-      
-      box.addEventListener('click', function() 
-      {
-        this.classList.add('animate__bounceOutLeft');
-        this.classList.add('animate__faster');
-        setTimeout(() => 
-        {
-          this.classList.remove('animate__bounceOutLeft');
-          this.classList.remove('animate__faster');
-          this.classList.add('animate__bounceInRight');
-          this.classList.add('animate__fast');
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
-          setTimeout(() => 
-          {
-            this.classList.remove('animate__bounceInRight');
-            this.classList.remove('animate__fast');
-          }, 800);
-        }, 1200);
-      });
-    });
+    
+    
+    
+    
+            
+    
+    
+    
+    
 
     
     
@@ -3977,45 +3904,62 @@ Button Style 3
     
 
     ScrollReveal({ reset: true });
+
+    var nodeList = document.querySelectorAll('.reButton');
+    console.log(nodeList.length + ' reButtons found.');
+    
+    
+      
+      
+      
+      
+      
+    
+    ScrollReveal().reveal(nodeList, { interval: 250 });
+    
+
+
+
     
     
     
     
     
     
-    ScrollReveal().reveal('.reButton', { delay: 0,  rotate: {
-      
-      
-        x: 0,
-        y: 100,
-        z: 20
-      },
-      distance: '50px',
-      easing: 'cubic-bezier(0, 0, 1, 1)',
-      interval: 250,
-      opacity: 0,
-      origin: 'right',
-      scale: 1.2,
-      
-      
-      
+
     
-      
-      
-      
-      
-      
-      
-      
-      
-      duration: 200
-    });
-    ScrollReveal().reveal('.reText', { delay: 200,  rotate: {
-        x: 20,
-        z: -90
-      },
-      duration: 800
-    });
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
   </script>

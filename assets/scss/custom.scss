@@ -1,44 +1,83 @@
-// // Remove shadow under navbar
-// .navbar {
-//   box-shadow: none;
+
+// :root {
+//   --bg-color: #ffffff;
+//   --text-color: #000000;
+//   --primary-color: rgba(52, 152, 219, 0.8); // Semi-transparent primary color
+//   --primary-hover-color: rgba(255, 20, 147, 0.8); // Bright pink glow color on hover
+//   --primary-active-color: rgba(0, 255, 0, 0.8); // Green glow color on click
+//   --accent-color: #f1c40f;
+//   --glossy-highlight: rgba(255, 255, 255, 0.3);
 // }
 
-// // Full width Portfolio filter toolbar
-// .btn-toolbar .btn-group {
-//   flex: 1;
-// }
-
-// // Custom section spacing
-// .home-section {
-//   padding: 1.5rem 0 1.5rem 0;
-//   background: none!important;
-// }
-
-// .section-heading {
-//   margin-bottom: 3rem !important;
-// }
-
-// // Center CTA button
-// .cta-group {
-//   justify-content: center;
-// }
-
-// .container {
-//   max-width: 100%!important;
-// }
-// #break30 {
-//   .container {
-//     max-width: 100%!important;
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --bg-color: #2c3e50;
+//     --text-color: #ecf0f1;
+//     --primary-color: rgba(155, 89, 182, 0.8); // Semi-transparent primary color for dark mode
+//     --primary-hover-color: rgba(255, 20, 147, 0.8); // Bright pink glow color on hover
+//     --primary-active-color: rgba(0, 255, 0, 0.8); // Green glow color on click
+//     --accent-color: #f39c12;
+//     --glossy-highlight: rgba(255, 255, 255, 0.3);
 //   }
 // }
 
-// .buttonContainer {
+
+// .reButton {
+//   background-color: var(--primary-color);
+//   color: var(--text-color);
+//   border: none;
+//   padding: 10px 20px;
+//   cursor: pointer;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
 //   position: relative;
-//   width: 100%;
-//   height: 100vh;
-//   background-color: #f0f0f0; /* Example background color */
-//   overflow: hidden; /* Ensures child elements are contained */
+//   overflow: hidden;
+//   border-radius: 8px;
+//   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+//   transition: color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+
+//   // Glossy effect
+//   &::before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: linear-gradient(45deg, var(--glossy-highlight), transparent);
+//     opacity: 0.5;
+//     pointer-events: none;
+//   }
+
+  // &:hover {
+  //   background-color: var(--primary-hover-color);
+  //   box-shadow: 0 0 15px 5px var(--primary-hover-color);
+
+  //   i, p {
+  //     color: var(--accent-color);
+  //   }
+  // }
+
+  // &:active {
+  //   background-color: var(--primary-active-color);
+  //   box-shadow: 0 0 15px 5px var(--primary-active-color);
+
+  //   i, p {
+  //     color: var(--accent-color);
+  //   }
+  // }
+
+//   i, p {
+//     transition: color 0.3s ease;
+//   }
+
+//   i {
+//     margin-right: 8px;
+//   }
 // }
+
+
 .buttonSidePanel {
   display: flex;
   flex-direction: column;
@@ -56,7 +95,9 @@
     overflow: hidden;
   }
 }
-
+.animate__hidden {
+  //display: none;
+}
 .buttonSidePanel {
   .btn {
     margin: 5px 0; /* Adjust spacing between buttons */
@@ -68,8 +109,11 @@
     figure {
       margin: 0 0 0rem;
       pointer-events: none;
+      //display: none;
+      //background-image: url("../assets/media/icons/custom/bg1.svg");
     }
     img {
+      //display: none;
       position: absolute;
       top: 0;
       left: 0;
@@ -81,6 +125,27 @@
   }
 }
 
+// .reButton {
+//   background-color: #3498db;
+//   color: white;
+//   border: none;
+//   padding: 10px 20px;
+//   cursor: pointer;
+//   transition: color 0.3s ease, background-color 0.3s ease;
+
+//   &:hover {
+//     background-color: #2980b9;
+//     color: #f1c40f;
+
+//     i, p {
+//       color: #f1c40f;
+//     }
+//   }
+
+//   i, p {
+//     transition: color 0.3s ease;
+//   }
+// }
 
 // .buttonSidePanel .btn {
 //   margin: 5px 0; /* Adjust spacing between buttons */

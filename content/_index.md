@@ -33,32 +33,28 @@ sections:
            {{< icon name="custom/unity-plain.svg" pack="custom" >}} XR Projects
           Button Style 3
           </button>
-          <button id="reButton" class="btn btn-primary animate__animated">
+          <button class="reButton btn btn-primary animate__animated">
             {{< icon name="vr-cardboard" pack="fas" >}} XR Projects
           </button>
           <h1 class="reText load-hidden">
               Widget Inc.
           </h1>
           <div class="buttonSidePanel">
-              <button class="reButton btn btn-primary animate__animated">
-              {{< icon name="vr-cardboard" pack="fas" >}} ReadMe
-              {{< figure class="selector" src="icons/custom/bg0.svg" theme="light" >}}
+              <button class="reButton btn btn-primary">
+              {{< icon name="vr-cardboard" pack="fas" >}} <p>ReadMe</p>
               </button>
-              <button class="reButton btn btn-primary animate__animated">
-              {{< icon name="vr-cardboard" pack="fas" >}} Skills
-              {{< figure class="selector" src="icons/custom/bg1.svg" theme="light" >}}
+              <button class="reButton btn btn-primary">
+              {{< icon name="vr-cardboard" pack="fas" >}} <p>Skills</p>
               </button>
-              <button class="reButton btn btn-primary animate__animated">
-              {{< icon name="vr-cardboard" pack="fas" >}} Projects
-              {{< figure class="selector" src="icons/custom/bg2.svg" theme="light" >}}
+              <button class="reButton btn btn-primary">
+              {{< icon name="vr-cardboard" pack="fas" >}} <p>Projects</p>
               </button>
-              <button class="reButton btn btn-primary animate__animated">
-              {{< icon name="vr-cardboard" pack="fas" >}} Contact
-              {{< figure class="selector" src="icons/custom/bg3.svg" theme="light" >}}
+              <button class="reButton btn btn-primary">
+              {{< icon name="vr-cardboard" pack="fas" >}} <p>Contact</p>
               </button>
           </div>
-          <spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer>
-          
+          <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer-->
+          <spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>
   - block: markdown
     content:
       title: ''
@@ -73,6 +69,7 @@ sections:
       title: ''
       subtitle: ''
       text: |-
+          <spline-viewer class="spline_section" url="https://prod.spline.design/4zzjKZeshSsHuzvU/scene.splinecode"></spline-viewer>
           {{< gist Denchyaknow 5bbfaf6473294e8c7bf3f271be6f56ca >}}
           <!--spline-viewer class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
         # <script>

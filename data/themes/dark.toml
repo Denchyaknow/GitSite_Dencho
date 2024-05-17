@@ -1,0 +1,16 @@
+name = "dark"
+[dark]
+  primary = "#ff29ad"
+
+  # Menu
+  menu_primary = "rgb(153,238,255)"
+  menu_text = "#34495e"
+  menu_text_active = "#2962ff"
+  menu_title = "#2b2b2b"
+
+  # Home sections
+  home_section_odd = "rgb(247, 250, 252)"
+  home_section_even = "rgb(247, 250, 252)"
+
+  link = "#3273dc"
+  link_hover = "rgb(0, 255, 0)"

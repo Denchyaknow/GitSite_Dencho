@@ -64,25 +64,25 @@
             const childA = element.shadowRoot ? element.shadowRoot.querySelector('#logo') : element.querySelector('#logo');
             if (childA) {
               console.log('childA found');
-              childA.style.display = 'none';
+              childA.remove();
             }
-            
+
             // Hide #hints element
             const childB = element.shadowRoot ? element.shadowRoot.querySelector('#hints') : element.querySelector('#hints');
             if (childB) {
               console.log('childB found');
-              childB.style.display = 'none';
+              childB.remove();//.style.display = 'none';
             }
             
             // Hide #preloader element
             const childC = element.shadowRoot ? element.shadowRoot.querySelector('#preloader') : element.querySelector('#preloader');
             if (childC) {
               console.log('childC found');
-              childC.style.display = 'none';
+              childC.remove();//.style.display = 'none';
             }
           }
         });
-      }, 1000); // Adjust the delay as needed
+      }, 200); // Adjust the delay as needed
     });
     // Make all splineviewer responsive to height correctly
     function addHeightToAllShadowRoots() {
@@ -108,73 +108,98 @@
 
 
 
-    const boxes = document.querySelectorAll('.btn');
-    boxes.forEach(box => 
-    {
-      //Initialization
-      if(!box.classList.contains('animate__animated'))//If no animate class on button add it.
-        box.classList.add('animate__animated');
-        const boxSelector = box.querySelector('img');
-        if(boxSelector)
-          boxSelector.classList.add('animate__animated','animate__fadeOut', 'animate__fast');
+    // const boxes = document.querySelectorAll('.btn');
+    // boxes.forEach(box => 
+    // {
+    //   //Initialization
+    //   if(!box.classList.contains('animate__animated'))//If no animate class on button add it.
+    //     box.classList.add('animate__animated');
+    //     // const boxSelector = box.querySelector('img');
+    //     // if(boxSelector)
+    //     //   boxSelector.classList.add('animate__hidden');
+    //       //boxSelector.classList.add('animate__animated','animate__fadeOut', 'animate__fast');
 
-      //Do this on MouseEnter buttons
-      box.addEventListener('mouseover', function() 
-      {
-        const selector = this.querySelector('img');
-        if(selector)//Turn on Selector 
-        {
-          if(!selector.classList.contains('animate__animated'))
-            selector.classList.add('animate__animated');
-          selector.classList.remove('animate__fadeOut', 'animate__fast');
-          selector.classList.add('animate__heartBeat', 'animate__infinite', 'animate__fast');
-        }
+    //   //Do this on MouseEnter buttons
+    //   box.addEventListener('mouseover', function() 
+    //   {
+    //     this.classList.remove('animate__flipInX');
+    //     var figure = this.querySelector('figure');
+    //     if(figure && figure.classList.contains('animate__hidden'))
+    //     {
+    //       figure.classList.remove('animate__hidden');
+    //     }
+    //     const selector = this.querySelector('img');
+    //     if(selector)//Turn on Selector 
+    //     {
+    //       if(!selector.classList.contains('animate__animated'))
+    //       {
+    //         selector.classList.add('animate__animated');
+    //         //selector.classList.remove('animate__hidden');
+    //       }
+    //       selector.classList.remove('animate__fadeOut', 'animate__fast');
+    //       selector.classList.add('animate__heartBeat', 'animate__infinite', 'animate__fast');
+    //     }
 
-        const imgElement = this.querySelector('i');
-        if (imgElement) 
-        {
-          imgElement.classList.add('animate__animated');
-          imgElement.classList.add('animate__wobble');
-          imgElement.classList.add('animate__infinite');
-        }
-      });
-      //Do this on MouseExit buttons
-      box.addEventListener('mouseout', function() 
-      {
-        const selector = this.querySelector('img');
-        if(selector)//Turn off Selector
-        {
-          selector.classList.remove('animate__heartBeat', 'animate__infinite', 'animate__fast');
-          selector.classList.add('animate__fadeOut', 'animate__fast');
-        }
-        const imgElement = this.querySelector('i');
-        if (imgElement) 
-        {
-          imgElement.classList.remove('animate__animated');
-          imgElement.classList.remove('animate__wobble');
-          imgElement.classList.remove('animate__infinite');
-        }
-      });
-      //Do this on MouseDown on buttons
-      box.addEventListener('click', function() 
-      {
-        this.classList.add('animate__bounceOutLeft');
-        this.classList.add('animate__faster');
-        setTimeout(() => 
-        {
-          this.classList.remove('animate__bounceOutLeft');
-          this.classList.remove('animate__faster');
-          this.classList.add('animate__bounceInRight');
-          this.classList.add('animate__fast');
+    //     const imgElement = this.querySelector('i');
+    //     if (imgElement) 
+    //     {
+    //       imgElement.classList.add('animate__animated');
+    //       imgElement.classList.add('animate__wobble');
+    //       imgElement.classList.add('animate__infinite');
+    //     }
+    //   });
+    //   //Do this on MouseExit buttons
+    //   box.addEventListener('mouseout', function() 
+    //   {
+    //     const selector = this.querySelector('img');
+    //     if(selector)//Turn off Selector
+    //     {
+    //       selector.classList.remove('animate__heartBeat', 'animate__infinite', 'animate__fast');
+    //       selector.classList.add('animate__fadeOut', 'animate__fast');
+    //     }
+    //     const imgElement = this.querySelector('i');
+    //     if (imgElement) 
+    //     {
+    //       imgElement.classList.remove('animate__animated');
+    //       imgElement.classList.remove('animate__wobble');
+    //       imgElement.classList.remove('animate__infinite');
+    //     }
+    //   });
+    //   //Do this on MouseDown on buttons
+    //   box.addEventListener('click', function() 
+    //   {
+    //     const selector = this.querySelector('img');
+    //     if(selector)//Turn off Selector
+    //     {
+    //       selector.classList.remove('animate__heartBeat', 'animate__infinite', 'animate__fast');
+    //       selector.classList.add('animate__fadeOut', 'animate__fast');
+    //     }
+    //     const imgElement = this.querySelector('i');
+    //     if (imgElement) 
+    //     {
+    //       imgElement.classList.remove('animate__animated', 'animate__wobble', 'animate__infinite');
+    //       //imgElement.classList.remove('animate__wobble');
+    //       //imgElement.classList.remove('animate__infinite');
+    //     }
+    //     this.classList.remove('animate__flipInX');
+    //     this.classList.add('animate__bounceOutLeft');
+    //     this.classList.add('animate__faster');
+    //     setTimeout(() => 
+    //     {
+    //       this.classList.remove('animate__bounceOutLeft');
+    //       this.classList.remove('animate__faster');
+    //       this.classList.add('animate__flipInX');
+    //       this.classList.add('animate__fast');
 
-          setTimeout(() => 
-          {
-            this.classList.remove('animate__bounceInRight');
-            this.classList.remove('animate__fast');
-          }, 800);
-        }, 1200);
-      });
-    });
+    //       setTimeout(() => 
+    //       {
+    //         this.classList.remove('animate__flipInX');
+    //         this.classList.remove('animate__fast');
+            
+    //       }, 800);
+    //     }, 1200);
+    //   });
+    // });
 
     //document.querySelectorAll('.btn').classList.add('animate__animated', 'animate__wobble'); //'animate__repeat-3'
     //.addEventListener('mouseout', function() {
@@ -182,45 +207,62 @@
     // });
 
     ScrollReveal({ reset: true });
+
+    var nodeList = document.querySelectorAll('.reButton');
+    console.log(nodeList.length + ' reButtons found.');
+    // ScrollReveal().reveal(nodeList);
+    // var nodeArray = [
+      //     document.querySelector('.reButton'),
+      //     document.querySelector('#spoon'),
+      //     document.querySelector('#ice-cream')
+      // ];
+      
+    //var node = document.querySelector('.reButton');
+    ScrollReveal().reveal(nodeList, { interval: 250 });
+    //ScrollReveal().reveal(nodeArray);
+
+
+
     // function OnAfterReset (el) {
     //   el.classList.remove('animate__fadeOutRight');
     // }
     // function OnBeforeReset (el) {
     //   el.classList.remove('animate__fadeOutRight');
     // }
-    ScrollReveal().reveal('.reButton', { delay: 0,  rotate: {
-      // afterReset: OnAfterReset,
-      // beforeReset: OnBeforeReset,
-        x: 0,
-        y: 100,
-        z: 20
-      },
-      distance: '50px',
-      easing: 'cubic-bezier(0, 0, 1, 1)',
-      interval: 250,
-      opacity: 0,// Start invis
-      origin: 'right',
-      scale: 1.2,
-      // viewOffset: {
-      //   left: -62
-      // },
-    //easing: 'steps(60)',
-      // 'ease'
-      // 'ease-in'
-      // 'ease-in-out'
-      // 'ease-out'
-      // 'step-start'
-      // 'step-end'
-      // 'steps()'
-      // 'cubic-bezier()'
-      duration: 200
-    });
-    ScrollReveal().reveal('.reText', { delay: 200,  rotate: {
-        x: 20,
-        z: -90
-      },
-      duration: 800
-    });
+
+    // ScrollReveal().reveal('.reButton', { delay: 0,  rotate: {
+    //   // afterReset: OnAfterReset,
+    //   // beforeReset: OnBeforeReset,
+    //     x: 0,
+    //     //y: 100,
+    //     //z: 20
+    //   },
+    //   // distance: '50px',
+    //   // easing: 'cubic-bezier(0, 0, 1, 1)',
+    //   // interval: 250,
+    //   // opacity: 0,// Start invis
+    //   // origin: 'right',
+    //   // scale: 1.2,
+    //   // viewOffset: {
+    //   //   left: -62
+    //   // },
+    // //easing: 'steps(60)',
+    //   // 'ease'
+    //   // 'ease-in'
+    //   // 'ease-in-out'
+    //   // 'ease-out'
+    //   // 'step-start'
+    //   // 'step-end'
+    //   // 'steps()'
+    //   // 'cubic-bezier()'
+    //   duration: 200
+    // });
+    // ScrollReveal().reveal('.reText', { delay: 200,  rotate: {
+    //     x: 20,
+    //     z: -90
+    //   },
+    //   duration: 800
+    // });
     //document.addEventListener('DOMContentLoaded', function() {        
     //});
   </script>
