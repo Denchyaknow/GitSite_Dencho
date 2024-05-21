@@ -5,7 +5,7 @@
 
 main:
   - name: Home
-    url: /#home
+    url: /
     weight: 10
   - name: Resumé
     url: about/
@@ -16,6 +16,6 @@ main:
   - name: Test
     url: /#projects
     weight: 10
-  - name: CR
-    url: corruptedRealms/
+  - name: About
+    url: about
     weight: 40

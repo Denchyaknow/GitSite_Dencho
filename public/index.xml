@@ -6,12 +6,6 @@
       <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Dencho</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>//localhost:1313/media/icon_hu1b14c2ed69a2f89c06f5de8cc0bd5fd1_301795_512x512_fill_lanczos_center_3.png</url>
-      <title>Dencho</title>
-      <link>//localhost:1313/</link>
-    </image>
-    
     <item>
       <title>Corrupted Realms</title>
       <link>//localhost:1313/projects/contracts/2022/corruptedrealms/</link>
@@ -21,11 +15,18 @@
     </item>
     
     <item>
-      <title>Corrupted Realms</title>
-      <link>//localhost:1313/samples/corruptedrealmsext/</link>
-      <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/samples/corruptedrealmsext/</guid>
-      <description></description>
+      <title>VFX Practice [07]</title>
+      <link>//localhost:1313/projects/experiments/2022/vfxpractice07/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2022/vfxpractice07/</guid>
+      <description>&lt;p&gt;A small experiment to create a reactive shadergraph with exposed properties that a custom controller can use to make the shader react to the beat of an audio clip.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice07/XRLog_2021_768.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;And a VFXGraph that controls particles to move along an array of world points over time. In this case I calculated a Hexagons orientation and size from a cells center position, then fed each corner to the VFXGraph via my custom tool.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice07/XRLog_2022_879.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -83,6 +84,14 @@
 &lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/TerrainPractice01/XRLog_2022_907.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -246,21 +255,6 @@
     </item>
     
     <item>
-      <title>VFX Practice [07]</title>
-      <link>//localhost:1313/projects/experiments/2022/vfxpractice07/</link>
-      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/experiments/2022/vfxpractice07/</guid>
-      <description>&lt;p&gt;A small experiment to create a reactive shadergraph with exposed properties that a custom controller can use to make the shader react to the beat of an audio clip.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice07/XRLog_2021_768.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;And a VFXGraph that controls particles to move along an array of world points over time. In this case I calculated a Hexagons orientation and size from a cells center position, then fed each corner to the VFXGraph via my custom tool.&lt;/p&gt;
-&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/VFXPractice07/XRLog_2022_879.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
       <title>Crypto Comedy Club</title>
       <link>//localhost:1313/projects/contracts/2022/cryptocomedyclub/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
@@ -341,38 +335,6 @@
 &lt;div class=&#34;video_thing&#34;&gt;
     &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CryptoComedyClub/XRLog_2021_848.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
 &lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>New Test Project Post</title>
-      <link>//localhost:1313/samples/project/newpost/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/samples/project/newpost/</guid>
-      <description>&lt;div class=&#34;video_thing&#34;&gt;
-    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
-&lt;/div&gt;
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-&lt;video autoplay loop  &gt;
-  &lt;source src=&#34;https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;
-
-</description>
     </item>
     
     <item>
@@ -722,7 +684,7 @@
     </item>
     
     <item>
-      <title>Horror Style Mobs</title>
+      <title>Inverse Kinematic Vending Machine</title>
       <link>//localhost:1313/projects/contracts/2021/smartvendingmachine/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/projects/contracts/2021/smartvendingmachine/</guid>

@@ -3,26 +3,31 @@ name = "Cyberpunk"
 
 [light]
   # Primary
-  primary = "#ff0044"
-  link = "#5a99ff"
-  link_hover = "rgb(0, 85, 255)"
-  # Menu
-  menu_primary = "#fcee0a"
-  menu_text = "#000"
-  menu_text_active = "rgb(255, 0, 60)"
-  menu_title = "#000"
+  primary = "#8064a5"
 
+  link = "#CB7C91"
+  link_hover = "#cbff10"
+  # Menu
+  menu_primary = "#77A1BB" #Navbar background
+  menu_text = "#491D29" # Navbar Text
+  menu_text_active = "#cbff10" # Logo Hover, Active Menu Item
+  menu_title = "#CB7C91" # Logo Text
+  
+  background = "#AEC7D6"
+
+  home_section_odd = "#eba2ff00"
+  home_section_even = "#e2ff2400"
 [dark]
 
-  link = "#4d6115"
-  link_hover = "rgb(221, 255, 28)"
+  link = "#CB7C91"
+  link_hover = "#cbff10"
   # Menu
-  menu_primary = "#0afc2a"
-  menu_text = "#000"
-  menu_text_active = "#000"
-  menu_title = "#000"
+  menu_primary = "#3c3241"
+  menu_text = "#77A1BB"
+  menu_text_active = "#cbff10"
+  menu_title = "#CB7C91"
 
   # Backgrounds
-  background = "#000"
-  home_section_odd = "#000"
-  home_section_even = "#000"
+  background = "#27222A"
+  home_section_odd = "#3e304200"
+  home_section_even = "#7d618500"

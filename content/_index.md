@@ -9,12 +9,13 @@ sections:
     id: home
     demo: false # Only display this section in the Hugo Blox Builder demo site
     design:
+      css_class: 'spline_hero'
       background:
         video: 
           filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
           flip: true # Post-processing: flip the video horizontally?
     content:
-      title: Dencho.Dev
+      title: ''
       cta_note:
         label: >-
           <!--div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div-->
@@ -41,16 +42,16 @@ sections:
           </h1>
           <div class="buttonSidePanel">
               <button class="reButton btn btn-primary">
-              {{< icon name="vr-cardboard" pack="fas" >}} <p>ReadMe</p>
+              {{< icon name="vr-cardboard" pack="fas" >}}<p>ReadMe</p>
               </button>
               <button class="reButton btn btn-primary">
-              {{< icon name="vr-cardboard" pack="fas" >}} <p>Skills</p>
+              {{< icon name="vr-cardboard" pack="fas" >}} <p> Skills</p>
               </button>
               <button class="reButton btn btn-primary">
-              {{< icon name="vr-cardboard" pack="fas" >}} <p>Projects</p>
+              {{< icon name="vr-cardboard" pack="fas" >}} <p> Projects</p>
               </button>
               <button class="reButton btn btn-primary">
-              {{< icon name="vr-cardboard" pack="fas" >}} <p>Contact</p>
+              {{< icon name="vr-cardboard" pack="fas" >}} <p> Contact</p>
               </button>
           </div>
           <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer-->
@@ -60,31 +61,26 @@ sections:
       title: ''
       subtitle: ''
       text: |-
-          <spline-viewer class="spline_section" url="https://prod.spline.design/JPYWFPf5webjzoW4/scene.splinecode"></spline-viewer>
+          <!--RIBBON spline-viewer  class="spline_section" url="https://prod.spline.design/HPGrnGPNa-N-ktSX/scene.splinecode"></spline-viewer-->
+          <!--HANDS spline-viewer class="spline_section" url="https://prod.spline.design/Lx3g7jnOFbroh1Vs/scene.splinecode"></spline-viewer-->
+          <spline-viewer class="spline_section" url="https://prod.spline.design/BCFibHmAEjzvs887/scene.splinecode"></spline-viewer>
+          <!--WAVEYDOTS spline-viewer class="spline_section" url="https://prod.spline.design/XTyxPrdmcOeQc-ua/scene.splinecode"></spline-viewer-->
+          <!--ICON spline-viewer class="spline_section" url="https://prod.spline.design/ioymJaK6NubxbiXE/scene.splinecode"></spline-viewer-->
+          <!--LINES spline-viewer class="spline_section" url="https://prod.spline.design/JPYWFPf5webjzoW4/scene.splinecode"></spline-viewer-->
     design:
-      css_class: 'spline_markdown'
+      css_class: 'spline_divider'
       columns: '1'
-  - block: markdown
-    content:
-      title: ''
-      subtitle: ''
-      text: |-
-          <spline-viewer class="spline_section" url="https://prod.spline.design/4zzjKZeshSsHuzvU/scene.splinecode"></spline-viewer>
-          {{< gist Denchyaknow 5bbfaf6473294e8c7bf3f271be6f56ca >}}
-          <!--spline-viewer class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
-        # <script>
-        #   document.addEventListener('DOMContentLoaded', function() {
-        #     const homeSectionBg = document.querySelector('.home-section-bg');
-        #     const splineSection = document.querySelector('.spline_section');
-
-        #     if (homeSectionBg && splineSection) {
-        #       // Move #spline_section after .home-section-bg
-        #       homeSectionBg.parentNode.insertBefore(splineSection, homeSectionBg.nextSibling);
-        #     }
-        #   });
-        # </script>
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: ''
+  #     subtitle: ''
+  #     text: |-
+  #         <spline-viewer class="spline_section" url="https://prod.spline.design/4zzjKZeshSsHuzvU/scene.splinecode"></spline-viewer>
+  #         {{< gist Denchyaknow 5bbfaf6473294e8c7bf3f271be6f56ca >}}
+  #         <!--spline-viewer class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
+  #   design:
+  #     css_class: 'spline_markdown'
+  #     columns: '1'
   - block: about.biography
     id: about
     content:
@@ -111,19 +107,18 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Experiments
+      title: Featured Contracts
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
       # Filter on criteria
       filters:
-        folders:
-          - projects
-          - experiments
-        author: ""
+        folders: 
+        - "projects"
+        # author: ""
         category: ""
-        tag: "Prototype"
+        tag: "contract"
         exclude_featured: false
         exclude_future: false
         exclude_past: false
@@ -134,7 +129,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: Card #List, Compact, Card, Citation, Showcase, Masonry
+      view: card #List, Compact, Card, Citation, Showcase, Masonry
       columns: '1'
 
 
@@ -144,28 +139,27 @@ sections:
       title: Projects
       filters:
         folders:
-          - project
           - projects
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      buttons: # To remove the toolbar, delete the entire `filter_button` block.
+        - name: All  # To filter by a specific tag, set `tag` to an existing tag name.
+          tag: '*' # To show all items, set `tag` to "*".
+        - name: Physics
+          tag: 'Physics'
+        - name: Unity
+          tag: 'Unity'
+        - name: VR
+          tag: 'VR'
+        - name: Animation
+          tag: 'Animation'
+        - name: AI
+          tag: 'AI'
       default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: masonry #List, Compact, Card, Citation, Showcase, Masonry
       # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+      flip_alt_rows: true
 
 
 #   - block: experience

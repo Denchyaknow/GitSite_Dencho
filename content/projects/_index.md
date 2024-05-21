@@ -39,14 +39,43 @@ sections:
         label: >-
           <!--div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div-->
       text: |-
-         # NOTICE: 
-         **This Page is Under Construction** 
+          <div class="video_cover"></div>
+         
     design:
       background:
         video: 
           filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
           flip: true # Post-processing: flip the video horizontally?
  
+  - block: collection
+    id: experiments
+    content:
+      title: Recent Experiments
+      subtitle: Technical explorations I have done in the past to hone my skillset
+      text: |-
+          
+      filters:
+        tag: 'Experiment'
+        folders: [ 'projects' ]
+        featured_only: true
+      count: 10
+    design:
+      columns: '1'
+      view: card # compact list citation
+
+  - block: collection
+    id: contracts
+    content:
+      title: Recent Contracts
+      subtitle: Paid gigs I have worked on not legally bound to NDAs
+      filters:
+        tag: 'Contract'
+        folders: [ 'projects' ]
+        featured_only: true
+      count: 10
+    design:
+      columns: '1'
+      view: card # compact list
 
   - block: portfolio
     id: projects
@@ -54,7 +83,7 @@ sections:
       title: All Projects
       subtitle: All Experimental and Contract work Ive done in the past that I am not to ashamed of.
       filters:
-        #tags: [ "Experiment" ]
+        tags: [ "Experiment", "Contract" ]
         folders: 
           - "projects"
       # buttons: # To remove the toolbar, delete the entire `filter_button` block.

@@ -35,7 +35,7 @@ removePathAccents: true
 
 enableGitInfo: true # By default, there’s no need to specify lastmod as the page modification date is automatically updated from Git if true
 summaryLength: 30
-paginate: 10
+paginate: 5
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
@@ -52,7 +52,7 @@ imaging:
   resampleFilter: lanczos
   quality: 75
   anchor: smart
-timeout: 600000
+timeout: 50
 taxonomies:
   tag: tags
   category: categories

@@ -1,20 +1,12 @@
 ---
 title: Experiments
 summary: Things I explored in the past to gain a hone my skillset.
-type: landing
-# page: any general content
-# landing # pages that can consist of content blocks, such as the homepage
-# post: blog posts or news
-# Publications: import your research publications from BibTeX
-# Online Courses: share knowledge online
-# Projects: publish your portfolio or projects
-# Notes: collaborate on content across notebooks, sections, and pages
-# Software Documentation: document your software projects
-# Talks/Events: publish any talks which you are presenting
-# Slides: write slides very efficiently with Markdown, present them at your talk, and share them online
-date: 2022-01-01
-tags: ["Prototype", "VR", "Mobs", other]
-categories: ["Cat0", "Cat1", "Experiments", "Prototypes"] # display at the top of a page alongside a page’s metadata
+type: landing # page, landing, post, publications, online courses, projects, notes, software documentation, talks, slides
+show_date: false
+
+# date: 2022-01-01
+# tags: ["Prototype", "VR", "Mobs", other]
+# categories: ["Cat0", "Cat1", "Experiments", "Prototypes"] # display at the top of a page alongside a page’s metadata
 #image:
   #filename: 'https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.webm'
   #https://i.imgur.com/XlJ4RR1.mp4
@@ -49,17 +41,23 @@ sections:
     content:
       title: All Experiments
       filters:
-        tags: [ "Experiment" ]
+        tags: [ "Experiment"]
         folders: 
           - "projects"
-      # buttons: # To remove the toolbar, delete the entire `filter_button` block.
-      #   - name: All  # To filter by a specific tag, set `tag` to an existing tag name.
-      #     tag: '*' # To show all items, set `tag` to "*".
-      #   - name: Deep Learning
-      #     tag: Deep Learning
-      #   - name: Other
-      #     tag: Demo
-      #default_button_index: 0 # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      buttons: # To remove the toolbar, delete the entire `filter_button` block.
+        - name: All  # To filter by a specific tag, set `tag` to an existing tag name.
+          tag: '*' # To show all items, set `tag` to "*".
+        - name: Physics
+          tag: 'Physics'
+        - name: Unity
+          tag: 'Unity'
+        - name: VR
+          tag: 'VR'
+        - name: Animation
+          tag: 'Animation'
+        - name: AI
+          tag: 'AI'
+      default_button_index: 0 # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
     design:
       columns: '1' # Choose how many columns the section has. Valid values: '1' or '2'.
       view: masonry #List, Compact, Card, Citation, Showcase, Masonry

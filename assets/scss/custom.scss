@@ -1,82 +1,127 @@
-
-// :root {
-//   --bg-color: #ffffff;
-//   --text-color: #000000;
-//   --primary-color: rgba(52, 152, 219, 0.8); // Semi-transparent primary color
-//   --primary-hover-color: rgba(255, 20, 147, 0.8); // Bright pink glow color on hover
-//   --primary-active-color: rgba(0, 255, 0, 0.8); // Green glow color on click
-//   --accent-color: #f1c40f;
-//   --glossy-highlight: rgba(255, 255, 255, 0.3);
-// }
-
-// @media (prefers-color-scheme: dark) {
-//   :root {
-//     --bg-color: #2c3e50;
-//     --text-color: #ecf0f1;
-//     --primary-color: rgba(155, 89, 182, 0.8); // Semi-transparent primary color for dark mode
-//     --primary-hover-color: rgba(255, 20, 147, 0.8); // Bright pink glow color on hover
-//     --primary-active-color: rgba(0, 255, 0, 0.8); // Green glow color on click
-//     --accent-color: #f39c12;
-//     --glossy-highlight: rgba(255, 255, 255, 0.3);
-//   }
-// }
+@import 'nav';
 
 
-// .reButton {
-//   background-color: var(--primary-color);
-//   color: var(--text-color);
-//   border: none;
-//   padding: 10px 20px;
-//   cursor: pointer;
+$primaryLight: #55436d;
+$primaryDark: #86c6da;
+
+// Links
+$linkLight: #CB7C91;
+$linkDark: #CB7C91;
+$linkHoverLight: #05404b;
+$linkHoverDark: #cbff10;
+// Menu
+$menuPrimaryLight: #77A1BB;// #Navbar background
+$menuPrimaryDark: #3c3241;
+$menuTextLight: #491D29;// # Navbar Text
+$menuTextDark: #77A1BB;
+$menuTextActiveLight: #506407;// # Logo Hover, Active Menu Item
+$menuTextActiveDark: #cbff10;
+$menuTitleLight: #CB7C91; // # Logo Text
+$menuTitleDark: #CB7C91;
+
+// Backgrounds
+$backgroundDark: #27222A;
+$backgroundLight: #AEC7D6;
+// Hero Covers
+$coverBackgroundLight: #7190a481;
+$coverBackgroundDark: #27222a9a;
+
+// Section Backgrounds
+$homeSectionOddLight: #eba2ff00;
+$homeSectionEvenLight: #e2ff2400;
+$homeSectionOddDark:#3e304200;
+$homeSectionEvenDark: #7d618500;
+
+
+$overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual path to your SVG image
+
+// .projects-container {
 //   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   position: relative;
+//   //position: relative;
+//   /* margin-top: 5rem; */
 //   overflow: hidden;
-//   border-radius: 8px;
-//   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-//   transition: color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+//   // flex-direction: row;
+//   flex-wrap: wrap;
+//   //justify-content: space-evenly;
+//   // align-items: flex-start;
+//   // align-content: flex-start;
+//   align-items: flex-start;
+//   justify-content: space-between;
+// }
+.project-card
+{ 
+  // flex: 1 1 calc(33.333% - 20px); // Adjust the width of the items and account for padding
+  // margin: 10px; // Spacing between items
+  // box-sizing: border-box; // Ensure padding and border are included in the width and height
 
-//   // Glossy effect
-//   &::before {
-//     content: "";
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     height: 100%;
-//     background: linear-gradient(45deg, var(--glossy-highlight), transparent);
-//     opacity: 0.5;
-//     pointer-events: none;
-//   }
-
-  // &:hover {
-  //   background-color: var(--primary-hover-color);
-  //   box-shadow: 0 0 15px 5px var(--primary-hover-color);
-
-  //   i, p {
-  //     color: var(--accent-color);
-  //   }
-  // }
-
-  // &:active {
-  //   background-color: var(--primary-active-color);
-  //   box-shadow: 0 0 15px 5px var(--primary-active-color);
-
-  //   i, p {
-  //     color: var(--accent-color);
-  //   }
-  // }
-
-//   i, p {
-//     transition: color 0.3s ease;
-//   }
-
-//   i {
-//     margin-right: 8px;
-//   }
+  // overflow: hidden;
+  // display: flex;
+  // flex-direction: column;
+}
+.project-card .card {
+  //margin: 5px;
+}
+// .project-card.project-item {
+//   margin: 5px 5px 5px;
+// }
+// .article-style img, .article-style video {
+//   margin-top: 0;
+//   margin-bottom: 0;
 // }
 
+
+.view-card {
+  video {
+    object-fit: cover;
+  }
+}
+
+.dark .btn {
+  background-color: $primaryDark;
+
+  &:before {
+    background: linear-gradient(45deg, transparent, $menuTextActiveDark, transparent);
+  }
+
+  &:hover {
+    background-color: $linkHoverDark;
+    border: 2px solid $linkHoverLight;
+
+    &:before {
+      opacity: 1;
+    }
+  }
+}
+
+.btn {
+  background-color: $primaryLight;
+
+  &:before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(45deg, transparent, $menuTextActiveLight, transparent);
+  
+  }
+
+  &:hover {
+    transform: scale(1.2);
+    background-color: $linkHoverLight;
+    border: 2px solid $linkHoverDark;
+
+    &:before {
+      opacity: 1;
+    }
+  }
+}
+
+
+
+// .dark .buttonSidePanel {
+//   .btn {
+//     background-color: $primaryDark;
+
+//   }
+// }
 
 .buttonSidePanel {
   display: flex;
@@ -91,19 +136,19 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: flex-end;
+  p {
+    padding-left: 0.2em;
+  }
   button {
     overflow: hidden;
+    display: flex;
   }
-}
-.animate__hidden {
-  //display: none;
-}
-.buttonSidePanel {
   .btn {
+    width: 100%;
     margin: 5px 0; /* Adjust spacing between buttons */
     padding: 10px;
-    border: none;
-    background-color: #007bff;
+    //border: none;
+    //background-color: $primaryLight;
     height: inherit;
     cursor: pointer;
     figure {
@@ -125,57 +170,157 @@
   }
 }
 
-// .reButton {
-//   background-color: #3498db;
-//   color: white;
-//   border: none;
-//   padding: 10px 20px;
-//   cursor: pointer;
-//   transition: color 0.3s ease, background-color 0.3s ease;
-
-//   &:hover {
-//     background-color: #2980b9;
-//     color: #f1c40f;
-
-//     i, p {
-//       color: #f1c40f;
-//     }
-//   }
-
-//   i, p {
-//     transition: color 0.3s ease;
-//   }
-// }
-
-// .buttonSidePanel .btn {
-//   margin: 5px 0; /* Adjust spacing between buttons */
-//   padding: 10px;
-//   border: none;
-//   background-color: #007bff;
-//   height: inherit;
-//   cursor: pointer;
-//   figure {
-//     margin: 0 0 0rem;
-//   }
-//   img {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     height: 100%;
-//     object-fit: cover;
-//     z-index: -5; // Ensure the image is behind the text
-//   }
-// }
-
-
-.wg-hero {
-  height: 95vh;
-}
 
 .load-hidden {
   color: white;
 }
+
+
+
+
+//                                                            
+//   _____     _ _            _____         _   _             
+//  |   __|___| |_|___ ___   |   __|___ ___| |_|_|___ ___ ___ 
+//  |__   | . | | |   | -_|  |__   | -_|  _|  _| | . |   |_ -|
+//  |_____|  _|_|_|_|_|___|  |_____|___|___|_| |_|___|_|_|___|
+//        |_|                                                 
+
+.spline_hero{
+  height: 90vh;
+
+}
+
+//Spline frames used as a Cover or Overlay for a Hero or section
+.spline_cover{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center center;
+  //background-color: $coverBackgroundLight;
+  z-index: -4;
+}
+//Dark mode
+.dark .spline_cover{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center center;
+  //background-color: $coverBackgroundDark;
+  z-index: -4;
+}
+
+//Spline frame used as a Section other than Hero
+.spline_section{
+  display: block;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center center;
+  height: 40vh;
+  //background-color: $coverBackgroundLight;
+  z-index: 0;
+}
+//Dark mode
+.dark .spline_section{
+  //background-color: $coverBackgroundDark;
+}
+
+.spline_markdown {
+  display: block;
+  height: 40vh;
+  width: 100%;
+
+  .container {
+    top: 0;
+    position: absolute;
+    max-width: 100vw !important;
+    margin-left: 0;
+    margin-right: 0;
+    .row {
+      .col-12 {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
+  }
+}
+
+
+.spline_divider {
+  display: block;
+  height: 20vh;
+  width: 100%;
+
+  .container {
+    top: 0;
+    position: absolute;
+    max-width: 100vw !important;
+    margin-left: 0;
+    margin-right: 0;
+    .row {
+      .col-12 {
+        padding-left: 0;
+        padding-right: 0;
+        .spline_section{
+          display: block;
+          position: relative;
+          top: -20vh;
+          left: 0;
+          object-fit: cover;
+          object-position: center center;
+          height: 40vh;
+          //background-color: $coverBackgroundLight;
+          z-index: 0;
+        }
+      }
+    }
+
+  }
+}
+
+
+.home-section-bg{
+  z-index: -300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dark .video_cover
+{
+  background-color: $coverBackgroundDark;
+}
+
+.video_cover {
+  width: 100%;
+  position: absolute;
+  top: 0vw;
+  left: 0;
+  object-fit: cover;
+  object-position: center center;
+  height: 100%;  
+  background-color: $coverBackgroundLight;
+
+  //background-color: $coverBackground;
+  //background-image: $overlayImage;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -4;
+}
+
 //For particle on hero
 #particles-js {
   width: 100% !important;
@@ -188,188 +333,6 @@
   z-index: -60;
   pointer-events: none;
   top: 0; right: 0; bottom: 0; left: 0;
-}
-
-// $mainBackground: #2b224b;
-// $cardBackground: #1c112a94;
-// $buttonBackground: #341c55;
-// $buttonBackgroundActive: #315684;
-// $sectionBackground: #442b48;
-// $clearBackground: #00000000;
-$coverBackground: #000000b0;
-// $iconColor: #ffe64a;
-// $l_primaryText: #74caff;
-// $l_secondaryText: #6fd5ff;
-// $l_primaryLink: #80FFDB;
-// $l_secondaryLink: #340e5e;
-
-// //Main Background
-// body {
-//   background-color: $mainBackground!important;
-// }
-// //Skills Styling
-// .section-subheading {
-//   color: $l_primaryText!important;
-// }
-
-// //Project Card Styling
-
-// //Button Background of active filter
-// .btn-toolbar .btn.btn-primary:active, .btn-toolbar .btn.btn-primary.active {
-//   background-color: $buttonBackgroundActive!important;
-// }
-// //Button Background
-
-// .btn-primary {
-//   background-color: $buttonBackground!important;
-// }
-
-// .card {
-//   background: $cardBackground;
-// }
-// .card-text {
-//   padding: 0.02rem 0.5em!important;
-  
-// }
-
-// //Titles
-// .intro {
-
-//   h1{
-//     text-align: center;
-//   }
-//   p {
-//     text-align: center;
-//   }
-// }
-// h1 {
-//   color: $l_primaryText!important;
-// }
-// a {
-//   color: $l_primaryLink!important;
-//   //color: #270856;
-// }
-// p {
-//   color: $l_secondaryText!important;
-// }
-// i {
-//   color: $iconColor!important;
-// }
-// .navbar-brand {
-//   color: $l_secondaryLink!important;
-// }
-// .nav-item a {
-//   color: $l_secondaryLink!important;
-// }
-
-// //For video stuff
-// iframe {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     height: 100%;
-//     z-index: 0;
-//     pointer-events: none;
-// }
-// .video_section {
-//   z-index: -20;
-//   top: -5vw;
-//   height: 40vw;
-// }
-// .video_hero {
-//   position:absolute; 
-//   width: 100%;
-//   z-index: -15;
-//   left: 0;
-//   top: -3vh;
-//   video{
-//     max-height: 100%!important;
-//     max-width: 100%!important;
-//     width: 100%;
-//     height: auto;
-//   }
-// }
-// .video_thing {
-//   position:relative; 
-//   width: 100%;
-//   video{
-//     max-height: 100%!important;
-//     max-width: 100%!important;
-//     width: 100%;
-//     height: auto;
-//   }
-// }
-// .video_body {
-//   background: none!important;
-//   background-color: #DFDBE5;
-//   height: 50vw;
-// }
-// .video_box {
-//   height: 100%;
-//   z-index: -20;
-// }
-// #video_frame {
-//   position: absolute;
-//   width: 100%;
-//   height: 75vw;
-//   top:-20vw;
-// }
-
-$background-color: #ffffffb0;
-$overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual path to your SVG image
-
-.video_cover {
-    width: 100%;
-    position: absolute;
-    top: 0vw;
-    left: 0;
-    object-fit: cover;
-    object-position: center center;
-    height: 100%;
-    //background-color: $coverBackground;
-    //background-image: $overlayImage;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    z-index: -4;
-}
-.spline_markdown {
-  display: block;
-  height: 200px;
-  width: 100%;
-
-}
-
-.spline_section{
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  object-fit: cover;
-  object-position: center center;
-  height: 100%;
-  background-color: #000000b0;
-  z-index: 0;
-}
-
-.spline_cover{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    object-fit: cover;
-    object-position: center center;
-    //height: 100%;
-    background-color: $coverBackground;
-    //background-image: $overlayImage;
-    //background-repeat: no-repeat;
-    //background-size: cover;
-    //background-position: center;
-    z-index: -4;
-}
-
-.home-section-bg{
-  z-index: -300;
 }
 
 

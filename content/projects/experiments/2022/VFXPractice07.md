@@ -1,7 +1,7 @@
 ---
 title: VFX Practice [07]
 subtitle: Fun with Shadergraph and VFXgraph
-date: 2022-02-10
+date: 2023-02-10
 type: post
 reading_time: false
 profile: false

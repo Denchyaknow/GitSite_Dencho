@@ -1,6 +1,6 @@
 ---
-title: Horror Style Mobs
-subtitle: Contracted to add some Horror themed mobs to a VR experience
+title: Inverse Kinematic Vending Machine
+subtitle: A vending machine with a robot arm that adjusts to the players height
 date: 2021-01-10
 type: post
 
