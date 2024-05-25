@@ -4,6 +4,9 @@
 {{ $columns := $block.design.columns | default "1" }}
 {{ $view := $block.design.view | default "masonry" }}
 
+{{ $pageCount := len site.Pages }}
+- Total: {{ $pageCount }} -
+
 {{/* Require Isotope */}}
 {{ $page.Page.Store.Set "has_isotope" true }}
 
@@ -110,10 +113,10 @@
         itemSelector: '.isotope-item',
         layoutMode: 'masonry',
         masonry: {
-          gutter: 5
+          gutter: 0
         },
         percentPosition: false,
-        gutter: 5
+        //gutter: 5
       });
     };
     var refresh = function () {
@@ -124,18 +127,6 @@
       $container.isotope('layout');
     }, 1000);
    
-   
-    //$container.isotope({
-      //   itemSelector: '.isotope-item',
-      //   layoutMode: 'masonry',
-      //   masonry: {
-      //     gutter: 10
-      //   },
-      //   percentPosition: true,
-      //   //gutter: 10,
-      //   //stagger: 50
-      // });
-
     $container.imagesLoaded(function () {
       setup();
       refresh();

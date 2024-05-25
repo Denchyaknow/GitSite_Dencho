@@ -9,7 +9,7 @@ sections:
     id: home
     demo: false # Only display this section in the Hugo Blox Builder demo site
     design:
-      css_class: 'spline_hero'
+      css_class: 'fullHero commonVideoSection'
       background:
         video: 
           filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
@@ -24,12 +24,10 @@ sections:
           **NOTICE:** This Page is Under Construction
           {{% /callout %}}
           <!--div id="particles-js"></div-->
-          <div class="video_hero">
-              <div class="video_cover"></div>
-          </div>
+          
 
           <button class="reButton btn btn-primary animate__animated">Button Style 3</button>
-          {{% staticref "uploads/cv.pdf" "newtab" %}}Link Style 1{{% /staticref %}} 
+          {{% staticref "uploads/Resume2024.pdf" "newtab" %}}Link Style 1{{% /staticref %}} 
           <button class="reButton btn btn-primary animate__animated">
            {{< icon name="custom/unity-plain.svg" pack="custom" >}} XR Projects
           Button Style 3
@@ -56,110 +54,46 @@ sections:
           </div>
           <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer-->
           <spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>
-  - block: markdown
-    content:
-      title: ''
-      subtitle: ''
-      text: |-
-          <!--RIBBON spline-viewer  class="spline_section" url="https://prod.spline.design/HPGrnGPNa-N-ktSX/scene.splinecode"></spline-viewer-->
-          <!--HANDS spline-viewer class="spline_section" url="https://prod.spline.design/Lx3g7jnOFbroh1Vs/scene.splinecode"></spline-viewer-->
-          <spline-viewer class="spline_section" url="https://prod.spline.design/BCFibHmAEjzvs887/scene.splinecode"></spline-viewer>
-          <!--WAVEYDOTS spline-viewer class="spline_section" url="https://prod.spline.design/XTyxPrdmcOeQc-ua/scene.splinecode"></spline-viewer-->
-          <!--ICON spline-viewer class="spline_section" url="https://prod.spline.design/ioymJaK6NubxbiXE/scene.splinecode"></spline-viewer-->
-          <!--LINES spline-viewer class="spline_section" url="https://prod.spline.design/JPYWFPf5webjzoW4/scene.splinecode"></spline-viewer-->
-    design:
-      css_class: 'spline_divider'
-      columns: '1'
   # - block: markdown
   #   content:
   #     title: ''
   #     subtitle: ''
   #     text: |-
-  #         <spline-viewer class="spline_section" url="https://prod.spline.design/4zzjKZeshSsHuzvU/scene.splinecode"></spline-viewer>
-  #         {{< gist Denchyaknow 5bbfaf6473294e8c7bf3f271be6f56ca >}}
-  #         <!--spline-viewer class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
+  #         <!--RIBBON spline-viewer  class="spline_section" url="https://prod.spline.design/HPGrnGPNa-N-ktSX/scene.splinecode"></spline-viewer-->
+  #         <!--HANDS spline-viewer class="spline_section" url="https://prod.spline.design/Lx3g7jnOFbroh1Vs/scene.splinecode"></spline-viewer-->
+  #         <spline-viewer class="spline_section" url="https://prod.spline.design/BCFibHmAEjzvs887/scene.splinecode"></spline-viewer>
+  #         <!--WAVEYDOTS spline-viewer class="spline_section" url="https://prod.spline.design/XTyxPrdmcOeQc-ua/scene.splinecode"></spline-viewer-->
+  #         <!--ICON spline-viewer class="spline_section" url="https://prod.spline.design/ioymJaK6NubxbiXE/scene.splinecode"></spline-viewer-->
+  #         <!--LINES spline-viewer class="spline_section" url="https://prod.spline.design/JPYWFPf5webjzoW4/scene.splinecode"></spline-viewer-->
   #   design:
-  #     css_class: 'spline_markdown'
+  #     css_class: 'spline_divider'
   #     columns: '1'
-  - block: about.biography
-    id: about
+
+  - block: markdown
     content:
-      title: AboutMe
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-    design:
-        background:
-            video: 
-                filename: projects/physicsBasedExoArms/XRLog_2020_001.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
-                flip: false # Post-processing: flip the video horizontally?
-
-
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
-
-
-  - block: collection
-    id: posts
-    content:
-      title: Featured Contracts
+      title: ''
       subtitle: ''
       text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders: 
-        - "projects"
-        # author: ""
-        category: ""
-        tag: "contract"
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
     design:
-      # Choose a layout view
-      view: card #List, Compact, Card, Citation, Showcase, Masonry
+      css_class: 'sectionBorderTopMask'
       columns: '1'
 
-
-  - block: portfolio
-    id: projects
+  - block: collection
+    id: featuredProjects
     content:
-      title: Projects
+      title: Featured Projects
+      subtitle: Projects that I consider have influenced my skill growth the most.
+      text: ''
       filters:
-        folders:
-          - projects
-      buttons: # To remove the toolbar, delete the entire `filter_button` block.
-        - name: All  # To filter by a specific tag, set `tag` to an existing tag name.
-          tag: '*' # To show all items, set `tag` to "*".
-        - name: Physics
-          tag: 'Physics'
-        - name: Unity
-          tag: 'Unity'
-        - name: VR
-          tag: 'VR'
-        - name: Animation
-          tag: 'Animation'
-        - name: AI
-          tag: 'AI'
-      default_button_index: 0
+        tag: ''
+        folders: [ 'projects' ]
+        featured_only: true
+      count: 5
     design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
+      css_class: ''
       columns: '1'
-      view: masonry #List, Compact, Card, Citation, Showcase, Masonry
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: true
+      view: card # compact list citation
+  
 
 
 #   - block: experience

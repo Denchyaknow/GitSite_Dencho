@@ -1,81 +1,172 @@
 @import 'nav';
+@import 'globalVars';//Global Vars
 
-
-$primaryLight: #55436d;
-$primaryDark: #86c6da;
-
-// Links
-$linkLight: #CB7C91;
-$linkDark: #CB7C91;
-$linkHoverLight: #05404b;
-$linkHoverDark: #cbff10;
-// Menu
-$menuPrimaryLight: #77A1BB;// #Navbar background
-$menuPrimaryDark: #3c3241;
-$menuTextLight: #491D29;// # Navbar Text
-$menuTextDark: #77A1BB;
-$menuTextActiveLight: #506407;// # Logo Hover, Active Menu Item
-$menuTextActiveDark: #cbff10;
-$menuTitleLight: #CB7C91; // # Logo Text
-$menuTitleDark: #CB7C91;
-
-// Backgrounds
-$backgroundDark: #27222A;
-$backgroundLight: #AEC7D6;
-// Hero Covers
-$coverBackgroundLight: #7190a481;
-$coverBackgroundDark: #27222a9a;
-
-// Section Backgrounds
-$homeSectionOddLight: #eba2ff00;
-$homeSectionEvenLight: #e2ff2400;
-$homeSectionOddDark:#3e304200;
-$homeSectionEvenDark: #7d618500;
-
-
+// // Backgrounds
 $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual path to your SVG image
 
-// .projects-container {
-//   display: flex;
-//   //position: relative;
-//   /* margin-top: 5rem; */
-//   overflow: hidden;
-//   // flex-direction: row;
-//   flex-wrap: wrap;
-//   //justify-content: space-evenly;
-//   // align-items: flex-start;
-//   // align-content: flex-start;
-//   align-items: flex-start;
-//   justify-content: space-between;
-// }
-.project-card
-{ 
-  // flex: 1 1 calc(33.333% - 20px); // Adjust the width of the items and account for padding
-  // margin: 10px; // Spacing between items
-  // box-sizing: border-box; // Ensure padding and border are included in the width and height
+.buttonSidePanel {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 69px;
+  //top: 169px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  flex-wrap: revert;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-end;
 
-  // overflow: hidden;
-  // display: flex;
-  // flex-direction: column;
+  p {
+    padding-left: 0.2em;
+  }
+
+  button {
+    overflow: hidden;
+    display: flex;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 5px 0;
+    /* Adjust spacing between buttons */
+    padding: 10px;
+    //border: none;
+    //background-color: $primaryLight;
+    height: inherit;
+    cursor: pointer;
+
+    figure {
+      margin: 0 0 0rem;
+      pointer-events: none;
+      //display: none;
+      //background-image: url("../assets/media/icons/custom/bg1.svg");
+    }
+
+    img {
+      //display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -5; // Ensure the image is behind the text
+    }
+  }
 }
-.project-card .card {
-  //margin: 5px;
+
+.load-hidden {
+  color: white;
 }
-// .project-card.project-item {
-//   margin: 5px 5px 5px;
-// }
-// .article-style img, .article-style video {
-//   margin-top: 0;
-//   margin-bottom: 0;
-// }
 
+.svg_divider::before {
+  content: '';
+  position: absolute;
+  bottom: -0.1vw;
+  left: -0.1vw;
+  right: -0.1vw;
+  top: -0.1vw;
+  transform: scale(3);
+  transform-origin: 100% 100%;
+  animation: 41s infinite alternate shape-anim-6409 linear;
+  background-size: 100% 157px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  z-index: 3;
+  pointer-events: none;
+  background-image: url('../media/dividers/divider0.svg');
+}
 
+.noPaddingTop {
+  padding-top: 0 !important;
+}
+
+.minHeightFullPage {
+  min-height: 100vh;
+}
+
+@media (min-width:2100px) {
+  .sectionBorderTopMask::before {
+    height: $borderBackgroundHeight;
+    background-size: $borderBackgroundSize;
+  }
+  .sectionBorderTop::before {
+    height: $borderBackgroundHeight;
+    background-size: $borderBackgroundSize;
+  }
+  .sectionBorderTopAlt::before {
+    height: $borderBackgroundHeight;
+    background-size: $borderBackgroundSize;
+  }
+  .sectionBorderBottom::before {
+    height: $borderBackgroundHeight;
+    background-size: $borderBackgroundSize;
+  }
+  .sectionBorderBottomAlt::before {
+    height: $borderBackgroundHeight;
+    background-size: $borderBackgroundSize;
+  }
+}
+@media (max-width:1200px) {
+  .halfHero {
+    height: auto;
+  }
+}
+
+//   _____ _                    _____                 _   _         
+//  |_   _| |_ ___ _____ ___   |     |_ _ ___ ___ ___|_|_| |___ ___ 
+//    | | |   | -_|     | -_|  |  |  | | | -_|  _|  _| | . | -_|_ -|
+//    |_| |_|_|___|_|_|_|___|  |_____|\_/|___|_| |_| |_|___|___|___|                                                      
+
+.home-section-bg {
+  z-index: $layerIndex_HomeBackground;
+}
+.home-section {
+  z-index: $layerIndex_HomeSection;
+  padding-top: 6vh;
+  padding-right: 0px;
+  padding-bottom: 6vh;
+  padding-left: 0px;
+}
+
+//ABOUT -Blur any row elements with a video background
+.wg-about-biography .row {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 33px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: $backDropBlurFilter;
+  -webkit-backdrop-filter: blur(10px);
+  border: $borderStyleLight;
+  margin-bottom: 2em;
+}
+// Dark mode styling
+.dark .wg-about-biography .row {
+  background: #00000066;
+  border: $borderStyleDark;
+  box-shadow: 0 4px 30px #00000080;
+}
+
+//ABOUT -For the exp.card section in the about page
+.wg-experience {
+  .card {
+    background-color: $cardBackgroundLight;
+  }
+}
+.dark .wg-experience {
+  .card {
+    background-color: $cardBackgroundDark;
+  }
+}
+
+//Make webms expand to cover the card
 .view-card {
   video {
     object-fit: cover;
   }
 }
-
+//Everything buttons
 .dark .btn {
   background-color: $primaryDark;
 
@@ -92,7 +183,6 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
     }
   }
 }
-
 .btn {
   background-color: $primaryLight;
 
@@ -100,7 +190,7 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
     content: "";
     position: absolute;
     background: linear-gradient(45deg, transparent, $menuTextActiveLight, transparent);
-  
+
   }
 
   &:hover {
@@ -114,94 +204,396 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
   }
 }
 
-
-
-// .dark .buttonSidePanel {
-//   .btn {
-//     background-color: $primaryDark;
-
+// i .fas{
+//   ::before {
+//     color: $menuTextLight;
+//   }
+//   color: $menuTextLight;
+// }
+// .dark i .fas{
+//   ::before {
+//     color: $menuTextDark;
 //   }
 // }
 
-.buttonSidePanel {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  right: 69px;
-  //top: 169px;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  flex-wrap: revert;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: flex-end;
-  p {
-    padding-left: 0.2em;
+p {
+  color: $menuTextLight;
+}
+.dark p {
+  color: $menuTextDark;
+}
+strong {
+  color: $menuTextLight;
+}
+.dark strong {
+  color: $menuTextDark;
+}
+h1 {
+  color: $menuTitleLight;
+}
+.dark h1 {
+  color: $menuTitleDark;
+}
+
+//ABOUT -Titles under about section
+.portrait-title h2 {
+  color: $menuTitleLight;
+}
+.dark .portrait-title h2 {
+  color: $menuTitleDark;
+}
+.portrait-title h3 {
+  color: $menuTitleLight;
+}
+.dark .portrait-title h3 {
+  color: $menuTitleDark;
+}
+
+//SKILLS -Text in this section
+.skill-group-title {
+  color: $menuTitleLight;
+}
+.dark .skill-group-title {
+  color: $menuTitleDark;
+}
+.skills-name {
+  color: $menuTitleLight;
+  .skills-description {
+    color: $menuTextLight;
   }
-  button {
-    overflow: hidden;
-    display: flex;
+}
+.dark .skills-name {
+  color: $menuTitleDark;
+  .skills-description {
+    color: $menuTextDark;
   }
-  .btn {
-    width: 100%;
-    margin: 5px 0; /* Adjust spacing between buttons */
-    padding: 10px;
-    //border: none;
-    //background-color: $primaryLight;
-    height: inherit;
-    cursor: pointer;
-    figure {
-      margin: 0 0 0rem;
-      pointer-events: none;
-      //display: none;
-      //background-image: url("../assets/media/icons/custom/bg1.svg");
-    }
-    img {
-      //display: none;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: -5; // Ensure the image is behind the text
-    }
+}
+
+//   _____         _   _            _____ _       _         
+//  |   __|___ ___| |_|_|___ ___   |   __| |_ _ _| |___ ___ 
+//  |__   | -_|  _|  _| | . |   |  |__   |  _| | | | -_|_ -|
+//  |_____|___|___|_| |_|___|_|_|  |_____|_| |_  |_|___|___|
+//                                           |___|          
+
+//Height Helpers
+.fullHero {
+  height: $fullSectionHeight;
+}
+.halfHero {
+  min-height: $halfSectionHeight;
+}
+
+//Add to a Section with a video background to add a cover to it
+.commonVideoSection {
+  position: relative;
+}
+//Common Video Section gives sections with video background a cover relative to light/dark mode
+.dark .commonVideoSection {
+  &::after {
+    background-color: $coverBackgroundDark;
   }
 }
 
 
-.load-hidden {
-  color: white;
+.commonVideoSection .home-section-bg {
+  .bg-video {
+    z-index: $layerIndex_BackgroundVideo;
+  }
+  
+  //Put a cover image over the background
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $coverBackgroundLight;//rgba(255, 0, 0, 0.473);//$coverBackgroundLight;
+    object-fit: cover;
+    z-index: $layerIndex_BackgroundCover; // Ensure it appears behind the content
+    pointer-events: none;
+  }
+}
+//Dark mode compatibility for the background of sections
+.dark .commonVideoSection .home-section-bg {
+  &::after {
+    background-color: $coverBackgroundDark;
+  }
 }
 
 
 
 
-//                                                            
+//SVG Border stuff
+//Mask Border is for overlapping previous or next section content
+.sectionBorderTopMask {
+  top: -10vh;
+  background: transparent !important;
+  overflow: hidden;
+  position: relative;
+  pointer-events: none;
+  display: inline;
+}
+//SVG image for hero bottom border
+
+.dark .sectionBorderTopMask::before {
+  background-image: $svgBorderTopDark;
+  
+}
+.sectionBorderTopMask::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  //bottom: -0.1vw;
+  left: -0.1vw;
+  right: -0.1vw;
+  transform: scaleX(4);//3.1);
+  transform-origin: 100% 100%;
+  animation: $borderAnimation;//4s infinite alternate sectionBorderAnime linear;
+  height: $borderBackgroundHeight;
+  background-size: $borderBackgroundSize;
+  // height: auto;//$borderHeight;
+  // background-size: 100% $borderHeight;
+  background-position: 20% 100%;
+  background-image: $svgBorderTopLight;
+}
+//Normal Border Parts
+.sectionBorderTop {
+  bottom: -2px;
+  background: transparent !important;
+  overflow: hidden;
+  position: relative;
+}
+//General seperator top border
+.dark .sectionBorderTop::before {
+  background-image: $svgBorderTopLight;
+
+}
+.sectionBorderTop::before {
+  content: '';
+  font-family: 'shape divider from ShapeDividers.com';
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  bottom: -0.1vw;
+  left: -0.1vw;
+  right: -0.1vw;
+  //top: -0.1vw;
+  transform: scaleX(4);
+  transform-origin: 100% 100%;
+  animation: $borderAnimation;
+  height: $borderBackgroundHeight;
+  background-size: $borderBackgroundSize;
+  background-position: 20% 100%;
+  background-image: $svgBorderTopDark;
+}
+//Can be used to fill in a markdown section as the middle part of a seperator
+.dark .sectionBorderMid {
+  background-color: $backgroundLight !important;
+}
+.sectionBorderMid {
+  display: block;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center center;
+  height: 40vh;
+  z-index: -5;
+  background-color: $backgroundDark !important;
+}
+
+.dark .sectionBorderBottom::before {
+  background-image: $svgBorderBottomLight;
+
+}
+.sectionBorderBottom {
+  top: -2px;
+  background: transparent !important;
+  overflow: hidden;
+  position: relative;
+}
+
+.sectionBorderBottom::before {
+  content: '';
+  font-family: 'shape divider from ShapeDividers.com';
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  bottom: -0.1vw;
+  left: -0.1vw;
+  right: -0.1vw;
+  top: -0.1vw;
+  animation: $borderAnimation;
+  transform: scaleX(4);
+  transform-origin: 100% 0;
+  height: $borderBackgroundHeight;
+  background-size: $borderBackgroundSize;
+  background-position: 80% 0%;  
+  background-repeat: no-repeat;
+  background-image: $svgBorderBottomDark;// fill(cyan);
+}
+
+.dark .sectionBorderTopAlt::before {
+  background-image: $svgBorderTopDark;
+}
+.sectionBorderTopAlt::before {
+  content: '';
+  font-family: 'shape divider from ShapeDividers.com';
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  bottom: -0.1vw;
+  left: -0.1vw;
+  right: -0.1vw;
+  top: -0.1vw;
+  transform: scaleX(3.1);
+  transform-origin: 100% 100%;
+  animation: 4s infinite alternate sectionBorderAnime linear;
+  background-size: 100% 99px;
+  background-position: 50% 100%;
+  background-image: $svgBorderTopLight;
+}
+
+.dark .sectionBorderMidAlt {
+  background-color: $backgroundDark !important;
+}
+.sectionBorderMidAlt {
+  display: block;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center center;
+  height: 40vh;
+  z-index: -5;
+  background-color: $backgroundLight !important;
+}
+
+.dark .sectionBorderBottomAlt::before {
+  background-image: $svgBorderBottomDark;
+}
+.sectionBorderBottomAlt::before {
+  content: '';
+  font-family: 'shape divider from ShapeDividers.com';
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  bottom: -0.1vw;
+  left: -0.1vw;
+  right: -0.1vw;
+  top: -0.1vw;
+  animation: 4s infinite alternate sectionBorderAnime linear;
+  transform: scaleX(3.1);
+  transform-origin: 100% 0;
+  background-size: 100% 99px;
+  background-position: 50% 0%;  
+  background-repeat: no-repeat;
+  background-image: $svgBorderBottomLight;
+}
+
+
+//   _____ _           _      _____             
+//  |  _  | |_ ___ _ _| |_   |  _  |___ ___ ___ 
+//  |     | . | . | | |  _|  |   __| .'| . | -_|
+//  |__|__|___|___|___|_|    |__|  |__,|_  |___|
+
+
+
+.dark .aboutDividerSection {
+  &::after {
+    background: linear-gradient(0deg, $backgroundDark, $coverBackgroundDark); // Gradient background
+  }
+}
+
+//Add to a Section with a vidoe background to add a cover to it
+.aboutDividerSection {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(0deg, $backgroundLight, $coverBackgroundLight); // Gradient background
+    object-fit: cover;
+    filter: blur(10px); // Blur effect
+    z-index: -1; // Ensure it appears behind the content
+  }
+}
+
 //   _____     _ _            _____         _   _             
 //  |   __|___| |_|___ ___   |   __|___ ___| |_|_|___ ___ ___ 
 //  |__   | . | | |   | -_|  |__   | -_|  _|  _| | . |   |_ -|
 //  |_____|  _|_|_|_|_|___|  |_____|___|___|_| |_|___|_|_|___|
 //        |_|                                                 
 
-.spline_hero{
+.spline_hero {
   height: 90vh;
-
 }
 
 //Spline frames used as a Cover or Overlay for a Hero or section
-.spline_cover{
+.splineNoCover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center center;
+  z-index: $layerIndex_SplineObject;
+}
+//Dark mode
+.dark .splineWithCover {
+  &::after {
+    background-color: $coverBackgroundDark;
+  }
+}
+//Spline frames used as a Cover or Overlay for a Hero or section
+.splineWithCover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center center;
+  z-index: $layerIndex_SplineObject;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $coverBackgroundLight;
+    object-fit: cover;
+    z-index: $layerIndex_BackgroundCover; // Ensure it appears behind the content
+    pointer-events: none;
+  }
+}
+
+
+
+
+//Spline frames used as a Cover or Overlay for a Hero or section
+.spline_cover {
   position: absolute;
   bottom: 0;
   left: 0;
   object-fit: cover;
   object-position: center center;
   //background-color: $coverBackgroundLight;
-  z-index: -4;
+  z-index: $layerIndex_BackgroundCover;
 }
+
 //Dark mode
-.dark .spline_cover{
+.dark .spline_cover {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -212,7 +604,7 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 }
 
 //Spline frame used as a Section other than Hero
-.spline_section{
+.spline_section {
   display: block;
   position: relative;
   bottom: 0;
@@ -221,10 +613,11 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
   object-position: center center;
   height: 40vh;
   //background-color: $coverBackgroundLight;
-  z-index: 0;
+  z-index: -5;
 }
+
 //Dark mode
-.dark .spline_section{
+.dark .spline_section {
   //background-color: $coverBackgroundDark;
 }
 
@@ -239,6 +632,7 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
     max-width: 100vw !important;
     margin-left: 0;
     margin-right: 0;
+
     .row {
       .col-12 {
         padding-left: 0;
@@ -261,18 +655,21 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
     max-width: 100vw !important;
     margin-left: 0;
     margin-right: 0;
+
     .row {
       .col-12 {
         padding-left: 0;
         padding-right: 0;
-        .spline_section{
+
+        .spline_section {
           display: block;
           position: relative;
-          top: -20vh;
+          top: -5vh;
           left: 0;
           object-fit: cover;
           object-position: center center;
-          height: 40vh;
+          height: 10vh;
+          pointer-events: none;
           //background-color: $coverBackgroundLight;
           z-index: 0;
         }
@@ -283,9 +680,6 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 }
 
 
-.home-section-bg{
-  z-index: -300;
-}
 
 
 
@@ -298,8 +692,7 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 
 
 
-.dark .video_cover
-{
+.dark .video_cover {
   background-color: $coverBackgroundDark;
 }
 
@@ -310,7 +703,7 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
   left: 0;
   object-fit: cover;
   object-position: center center;
-  height: 100%;  
+  height: 100%;
   background-color: $coverBackgroundLight;
 
   //background-color: $coverBackground;
@@ -332,7 +725,10 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
   position: fixed;
   z-index: -60;
   pointer-events: none;
-  top: 0; right: 0; bottom: 0; left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 
@@ -457,19 +853,19 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 //   background-size: 100% 99px;
 //   background-position: 50% 100%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M35.28 1.67c-3.07-.55-9.27.41-16.15 0-6.87-.4-13.74-.58-19.13.1v.4h35.28z" fill="%23442b48"/><path d="M35.28 1.16c-3.17-.8-7.3.4-10.04.56-2.76.17-9.25-1.47-12.68-1.3-3.42.16-4.64.84-7.04.86C3.12 1.31 0 .4 0 .4v1.77h35.28z" opacity=".5" fill="%23442b48"/><path d="M35.28.31c-2.57.84-7.68.3-11.8.43-4.1.12-6.85.61-9.57.28C11.18.69 8.3-.16 5.3.02 2.3.22.57.85 0 .87v1.2h35.28z" opacity=".5" fill="%23442b48"/></svg>'); 
 //   }
-  
+
 //   @media (min-width:2100px){
 //     .stats_top::before{
 //       background-size: 100% calc(2vw + 99px);
 //     }
 //   }
-  
+
 //   @keyframes stats_top_anime {
 //     100% {
 //       transform: scaleX(3.1) translateX(calc(100% - (100% / 3.1)));
 //     }
 //   }
-  
+
 // .stats_bottom {
 //   top: -2px;
 //   background: $clearBackground!important;
@@ -494,19 +890,19 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 //   background-size: 100% 99px;
 //   background-position: 50% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23442b48"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23442b48"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23442b48"/></svg>'); 
 //   }
-  
+
 //   @media (min-width:2100px){
 //     .stats_bottom::before{
 //       background-size: 100% calc(2vw + 99px);
 //     }
 //   }
-  
+
 //   @keyframes stats_bottom_anime {
 //     100% {
 //       transform: scaleX(3.1) translateX(calc(100% - (100% / 3.1)));
 //     }
 //   }
-  
+
 
 // //Skills section
 
@@ -537,20 +933,20 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 //   background-size: 100% 99px;
 //   background-position: 50% 100%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M35.28 1.67c-3.07-.55-9.27.41-16.15 0-6.87-.4-13.74-.58-19.13.1v.4h35.28z" fill="%23442b48"/><path d="M35.28 1.16c-3.17-.8-7.3.4-10.04.56-2.76.17-9.25-1.47-12.68-1.3-3.42.16-4.64.84-7.04.86C3.12 1.31 0 .4 0 .4v1.77h35.28z" opacity=".5" fill="%23442b48"/><path d="M35.28.31c-2.57.84-7.68.3-11.8.43-4.1.12-6.85.61-9.57.28C11.18.69 8.3-.16 5.3.02 2.3.22.57.85 0 .87v1.2h35.28z" opacity=".5" fill="%23442b48"/></svg>'); 
 //   }
-  
+
 //   @media (min-width:2100px){
 //     .skills_top::before{
 //       background-size: 100% calc(2vw + 99px);
 //     }
 //   }
-  
+
 //   @keyframes skills_top_anime {
 //     100% {
 //       transform: scaleX(3.1) translateX(calc(100% - (100% / 3.1)));
 //     }
 //   }
-  
-  
+
+
 // .skills_bottom {
 //   top: -2px;
 //   background: $clearBackground!important;
@@ -575,13 +971,13 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 //   background-size: 100% 99px;
 //   background-position: 50% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23442b48"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23442b48"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23442b48"/></svg>'); 
 //   }
-  
+
 //   @media (min-width:2100px){
 //     .skills_bottom::before{
 //       background-size: 100% calc(2vw + 99px);
 //     }
 //   }
-  
+
 //   @keyframes skills_bottom_anime {
 //     100% {
 //       transform: scaleX(3.1) translateX(calc(100% - (100% / 3.1)));
@@ -592,5 +988,3 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 // .projects_body{
 //   background: $sectionBackground!important;
 // }
-     
-   

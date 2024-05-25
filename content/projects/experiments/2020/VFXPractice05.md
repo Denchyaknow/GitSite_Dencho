@@ -9,8 +9,8 @@ profile: false
 commentable: true
 draft: false
 private: false # hide page in search results
-tags: ["Experiment", "VFX", "Particles", "Physics", "Unity", "Shaders"]
-categories: ["2020"] # display at the top of a page alongside a page’s metadata
+tags: ["VFX", "Particles", "Physics", "Unity", "Shaders"]
+categories: ["Experiments", "2020"] # display at the top of a page alongside a page’s metadata
 # featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---
 <p>Rhythm based VFX, A simple test of animating VFX components to the beat, volume, and onset of an analyzed audio clip.</p>

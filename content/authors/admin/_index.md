@@ -25,7 +25,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 #- Computational Linguistics
 #- Information Retrieval
 
-#education:jjjklk
+#education:
 #  courses:
 #  - course: PhD in Artificial Intelligence
 #    institution: Stanford University
@@ -107,7 +107,7 @@ skills:
         icon: head-side-virus
         icon_pack: fas
       - name: Wisdom (WIS)
-        description: "\"Allows use complex systems like XR, Networking and Database SDKs\""
+        description: "\"Handling of AI agents and use complex systems like XR, Networking and Database SDKs\""
         percent: 72
         icon: user-nurse
         icon_pack: fas
@@ -116,11 +116,6 @@ skills:
         percent: 35
         icon: person-rays # unity-plain
         icon_pack: fas # devicon
-      - name: Spirit (SPR)
-        description: "\"Handling of AI agents, tools, and automata\""
-        percent: 61
-        icon: ghost
-        icon_pack: fas
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -159,4 +154,4 @@ He has had the opportunity to work with several notable companies and gain insig
 
 As a freelancer, He is seeking a development studio where he can dedicate a significant part of his career. In his free time, he enjoys working on XR projects and contributing to the evolving metaverse. Whether for fun or work, he loves experimenting with new physics techniques and VFX to create more engaging experiences.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Resume2024.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.

@@ -9,9 +9,9 @@ profile: false
 commentable: true
 draft: false
 private: false # hide page in search results
-tags: ["Contract", "VR", "XR", "InverseKinematics", "Networking", "ReadyPlayerMe", "BlockChain", "Physics", "Unity", "Hands"]
-categories: ["2022"] # display at the top of a page alongside a page’s metadata
-# featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
+tags: ["VR", "XR", "InverseKinematics", "Networking", "ReadyPlayerMe", "BlockChain", "Physics", "Unity", "Hands"]
+categories: ["Contracts", "2022"] # display at the top of a page alongside a page’s metadata
+featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---
 
 <p>Contracted out by a small team with plans to launch a Comedy Club in the Metaverse tied to custom NFT metadata and the $LOL token.</p>

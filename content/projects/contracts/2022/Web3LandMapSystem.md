@@ -8,9 +8,9 @@ profile: false
 commentable: true
 draft: false
 private: false # hide page in search results
-tags: ["Contract", "EditorTool", "Unity", "Web3", "NFT", "Automation", "C#", "CorruptedRealms"]
-categories: ["2022"] # display at the top of a page alongside a page’s metadata
-featured: false # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
+tags: ["EditorTool", "Unity", "Web3", "NFT", "Automation", "C#", "CorruptedRealms"]
+categories: ["Contracts", "2022"] # display at the top of a page alongside a page’s metadata
+featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---
 <!--TODO: Add a function or 2 from the tools inspector code and snap a pic of the custom inspector-->
 

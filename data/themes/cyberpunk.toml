@@ -15,7 +15,7 @@ name = "Cyberpunk"
   
   background = "#AEC7D6"
 
-  home_section_odd = "#eba2ff00"
+  home_section_odd = "#e2ff2400"
   home_section_even = "#e2ff2400"
 [dark]
 

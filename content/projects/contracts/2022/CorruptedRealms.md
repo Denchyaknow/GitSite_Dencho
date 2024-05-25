@@ -6,8 +6,10 @@ summary: |-
         <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/CorruptedRealms/XRLog_2022_937.webm" type="video/mp4"></video>
     </div>
 type: landing
-tags: ["Contract", "EditorTool", "Unity", "Web3", "NFT", "Automation", "C#"]
+tags: ["EditorTool", "Unity", "Web3", "NFT", "Automation", "C#"]
+categories: ["Contracts", "2022"]
 date: 2023-10-11
+featured: true
 sections:
   # - block: hero
   #   id: projectHero

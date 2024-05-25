@@ -5,49 +5,32 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
-    id: home
-    demo: false # Only display this section in the Hugo Blox Builder demo site
+  - block: about.biography
+    id: about
+    content:
+      title: About Dencho
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
+      subtitle: ''
+      text: |-
+          <div class="video_cover"></div>
+          <spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>
     design:
-      css_class: 'spline_hero'
+      css_class: 'commonVideoSection halfHero'
       background:
         video: 
           filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
           flip: true # Post-processing: flip the video horizontally?
-    content:
-      title: ''
-      cta_note:
-        label: >-
-          <!--div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div-->
-      text: |-
-          <div class="video_cover"></div>
-          <spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>
+
   - block: markdown
     content:
       title: ''
       subtitle: ''
-      text: |-
-          <!--RIBBON spline-viewer  class="spline_section" url="https://prod.spline.design/HPGrnGPNa-N-ktSX/scene.splinecode"></spline-viewer-->
-          <!--HANDS spline-viewer class="spline_section" url="https://prod.spline.design/Lx3g7jnOFbroh1Vs/scene.splinecode"></spline-viewer-->
-          <spline-viewer class="spline_section" url="https://prod.spline.design/BCFibHmAEjzvs887/scene.splinecode"></spline-viewer>
-          <!--WAVEYDOTS spline-viewer class="spline_section" url="https://prod.spline.design/XTyxPrdmcOeQc-ua/scene.splinecode"></spline-viewer-->
-          <!--ICON spline-viewer class="spline_section" url="https://prod.spline.design/ioymJaK6NubxbiXE/scene.splinecode"></spline-viewer-->
-          <!--LINES spline-viewer class="spline_section" url="https://prod.spline.design/JPYWFPf5webjzoW4/scene.splinecode"></spline-viewer-->
+      text: ''
     design:
-      css_class: 'spline_divider'
+      css_class: 'sectionBorderTopMask'
       columns: '1'
 
-  - block: about.biography
-    id: about
-    content:
-      title: AboutMe
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-    design:
-        background:
-            video: 
-                filename: projects/physicsBasedExoArms/XRLog_2020_001.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
-                flip: false # Post-processing: flip the video horizontally?
   - block: skills
     content:
       title: Skills
@@ -55,43 +38,142 @@ sections:
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
     design:
+      css_class: 'noPaddingTop' # needed to minimize blank space between hero - seperator - skills section
+      columns: '1'
+
+  - block: markdown
+    content:
+      title: ''
+      subtitle: ''
+      text: ''
+    design:
+      css_class: 'sectionBorderTop'
+      columns: '1'
+
+  - block: markdown
+    content:
+      title: ''
+      subtitle: ''
+      text: ''
+    design:
+      css_class: 'sectionBorderMid'
+      columns: '1'
+
+  - block: markdown
+    content:
+      title: ''
+      subtitle: ''
+      text: ''
+    design:
+      css_class: 'sectionBorderBottom'
       columns: '1'
 
   - block: experience
     content:
       title: Experience
-      # Date format for experience
-      #   Refer to https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      date_format: Jan 2006 #   Refer to https://docs.hugoblox.com/customization/#date-format
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Front End Programmer
-          company: Company Name
+        - title: Lead XR Programmer, Technical Spokesman
+          company: Crypto Comedy Club (CCC)
           company_url: ''
           company_logo: org-x
           location: Remote
-          date_start: '2000-01-01'
-          date_end: '2000-12-31'
-          description: Enter Description Here
+          date_start: '2022-01-01'
+          date_end: '2023-12-31' #   Leave `date_end` empty if it's your current employer.
+          description: |-
+              - Developed a project utilizing multimodal full-body finger tracking with ReadyPlayerMe Avatars, incorporating inverse kinematics and procedural physics.
+              - Served as the technical spokesman, detailing project specifications and features during live AMA streams.
+              - Blogged about prototype development, successfully raising over $80k in funds.
+              - Innovated with physics-based full-body finger and controller tracking, a unique feature not available in other market applications.
+        - title: Lead Programmer, Acting CGO
+          company: BlockUnited
+          company_url: ''
+          company_logo: org-x
+          location: Remote
+          date_start: '2023-01-01'
+          date_end: '2024-12-31'
+          description: |-
+              - Led the Unity frontend development, created, and maintained an open-source Web3SDK repository.
+              - Developed experimental runtime prototypes interacting with blockchain events in real-time.
+              - Successfully navigated and resolved project-breaking changes due to blockchain developments multiple times.
+              - Extended existing source code to integrate rapidly-prototyped Web3 features, including a custom base building system and a physics-friendly combat system.
+              - Developed core front-end systems for a Web3 MMO-Action-RPG using Unity3D and various SDKs.
+              - Collaborated with a Back-end Full Stack developer to ensure seamless Unity-WebAPI interaction.
+              - Set up technical documentation for multiple projects and provided interview materials for new hires.
+              - Worked closely with artists to implement game elements based on wireframes from Figma.
+              - Transitioned to the role of acting Chief Game Officer (CGO), overseeing game design and strategic project direction.
+        - title: Unity3D Programmer
+          company: Freelancer/Contractor
+          company_url: ''
+          company_logo: org-x
+          location: Remote
+          date_start: '2014-01-01'
+          date_end: '2022-12-31'
+          description: |-
+              - Developed VR/AR applications and prototypes for various clients, including StudyEdge, Forged Interactive, and LLamaZOO.
+              - Implemented experimental finger tracking features using Oculus Quest.
+              - Created and maintained Android apps, ensuring compatibility across devices.
+        - title: Unity3D Programmer
+          company: StudyEdge
+          company_url: ''
+          company_logo: org-x
+          location: Remote
+          date_start: '2022-01-01'
+          date_end: '2022-04-30'
+          description: |-
+              - Developed networked prototypes using Oculus Quest's experimental finger tracking.
+              - Collaborated with R&D teams to implement front-end features.
+        - title: Unity3D Programmer
+          company: DriveAbilityVT
+          company_url: ''
+          company_logo: org-x
+          location: Remote
+          date_start: '2021-01-01'
+          date_end: '2021-06-30'
+          description: |-
+              - Developed an app for detecting human behavior patterns using neural networking with Amazon S3 and DynamoDB.
+              - Sole maintainer of the Android branch, ensuring continuous updates and compatibility.
+        - title: Technical Data Specialist
+          company: Google Bellevue Office
+          company_url: ''
+          company_logo: org-x
+          location: Bellevue, WA
+          date_start: '2020-01-01'
+          date_end: '2020-06-30'
+          description: |-
+              - Worked on packet filtering and validation for self-driving car data.
+              - Gained experience in team collaboration and technical data handling.
+        - title: Microsoft Security Tech Support
+          company: Microsoft Redmond Campus
+          company_url: ''
+          company_logo: org-x
+          location: Redmond, WA
+          date_start: '2018-01-01'
+          date_end: '2020-03-31'
+          description: |-
+              - Monitored fire panels and security systems across the Microsoft main campus.
+        - title: Lead Unity3D Programmer
+          company: AiDunno Games
+          company_url: ''
+          company_logo: org-x
+          location: Remote
+          date_start: '2017-01-01'
+          date_end: '2017-12-31'
+          description: |-
+              - Developed combat systems, AI, and editor tools for an Android game available on Google Play Store.
+              - Ensured compatibility across various devices, troubleshooting and debugging issues.
+        - title: Web Backend Programmer
+          company: Drive Group LLC
+          company_url: ''
+          company_logo: org-x
+          location: Remote
+          date_start: '2016-01-01'
+          date_end: '2016-08-31'
+          description: |-
+              - Developed and managed websites using frameworks such as WordPress, Laravel, and technologies like PHP, CSS, HTML5, JavaScript, MySQL, and jQuery.
     design:
-      columns: '2'
+      columns: '1'
+      css_class: ''
 
 
 

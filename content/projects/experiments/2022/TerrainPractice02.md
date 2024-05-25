@@ -8,8 +8,8 @@ profile: false
 commentable: true
 draft: false
 private: false # hide page in search results
-tags: ["Experiment", "EditorTool", "Unity", "Terrain"]
-categories: ["2022"] # display at the top of a page alongside a page’s metadata
+tags: ["EditorTool", "Unity", "Terrain"]
+categories: ["Experiments", "2022"] # display at the top of a page alongside a page’s metadata
 featured: false # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---
 <p>Frustum Culling is a technique used in computer graphics to improve rendering performance by discarding objects that lie outside the viewing frustum.</p>

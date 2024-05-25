@@ -9,9 +9,9 @@ profile: false
 commentable: true
 draft: false
 private: false # hide page in search results
-tags: ["Contract", "EditorTools", "A*", "Unity"]
-categories: ["2021"] # display at the top of a page alongside a page’s metadata
-# featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
+tags: ["EditorTools", "A*", "Unity"]
+categories: ["Contracts", "2021"] # display at the top of a page alongside a page’s metadata
+featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---
 
 <p>Contracted to make a Custom A* Map System.</p>

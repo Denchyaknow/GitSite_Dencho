@@ -39,68 +39,114 @@ sections:
         label: >-
           <!--div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div-->
       text: |-
-          <div class="video_cover"></div>
-         
+          <spline-viewer class="splineNoCover" url="https://prod.spline.design/69eDN4S8NdHOhuWx/scene.splinecode"></spline-viewer>
     design:
+      css_class: 'halfHero commonVideoSection'
       background:
         video: 
           filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
-          flip: true # Post-processing: flip the video horizontally?
- 
-  - block: collection
-    id: experiments
-    content:
-      title: Recent Experiments
-      subtitle: Technical explorations I have done in the past to hone my skillset
-      text: |-
-          
-      filters:
-        tag: 'Experiment'
-        folders: [ 'projects' ]
-        featured_only: true
-      count: 10
-    design:
+          flip: false # Post-processing: flip the video horizontally?
       columns: '1'
-      view: card # compact list citation
+
+  - block: markdown
+    content:
+      title: ''
+      subtitle: ''
+      text: ''
+    design:
+      css_class: 'sectionBorderTopMask'
+      columns: '1'
 
   - block: collection
-    id: contracts
+    id: posts
     content:
       title: Recent Contracts
-      subtitle: Paid gigs I have worked on not legally bound to NDAs
+      subtitle: '_All client work shown used placeholder assets and are not representative of the final product, all source code is original unless otherwise stated._'
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 3
+      # Filter on criteria
       filters:
-        tag: 'Contract'
-        folders: [ 'projects' ]
-        featured_only: true
-      count: 10
+        folders: 
+        - "projects"
+        # author: ""
+        category: "Contracts"
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
     design:
+      css_class: 'noPaddingTop'
+      view: card #List, Compact, Card, Citation, Showcase, Masonry
       columns: '1'
-      view: card # compact list
+
+  - block: collection
+    id: posts
+    content:
+      title: Recent Experiments
+      subtitle: '_Either for fun or research these projects helped me hone my skills._'
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 3
+      # Filter on criteria
+      filters:
+        folders: 
+        - "projects"
+        # author: ""
+        category: "Experiments"
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      css_class: 'noPaddingTop'
+      view: card #List, Compact, Card, Citation, Showcase, Masonry
+      columns: '1'
+
 
   - block: portfolio
     id: projects
     content:
       title: All Projects
-      subtitle: All Experimental and Contract work Ive done in the past that I am not to ashamed of.
+      subtitle: Everything listed here was programmed by me.
+      # text: ''
       filters:
-        tags: [ "Experiment", "Contract" ]
-        folders: 
-          - "projects"
-      # buttons: # To remove the toolbar, delete the entire `filter_button` block.
-      #   - name: All  # To filter by a specific tag, set `tag` to an existing tag name.
-      #     tag: '*' # To show all items, set `tag` to "*".
-      #   - name: Deep Learning
-      #     tag: Deep Learning
-      #   - name: Other
-      #     tag: Demo
-      #default_button_index: 0 # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+        folders:
+          - projects
+      buttons: # To remove the toolbar, delete the entire `filter_button` block.
+        - name: All  # To filter by a specific tag, set `tag` to an existing tag name.
+          tag: '*' # To show all items, set `tag` to "*".
+        - name: Physics
+          tag: 'Physics'
+        - name: Unity
+          tag: 'Unity'
+        - name: VR
+          tag: 'VR'
+        - name: Animation
+          tag: 'Animation'
+        - name: AI
+          tag: 'AI'
+        - name: GameJam
+          tag: 'GameJam'
+        - name: EditorTool
+          tag: 'EditorTool'
+      default_button_index: 0
     design:
-      columns: '1' # Choose how many columns the section has. Valid values: '1' or '2'.
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
       view: masonry #List, Compact, Card, Citation, Showcase, Masonry
-      flip_alt_rows: false # For Showcase view, flip alternate rows?
-  - block: tag_cloud
-    content:
-      title: Tags
-      design:
-        columns: '1'
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: true
+      css_class: 'minHeightFullPage'
+
 ---

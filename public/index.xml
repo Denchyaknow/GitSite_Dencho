@@ -6,6 +6,12 @@
       <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Dencho</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu1b14c2ed69a2f89c06f5de8cc0bd5fd1_301795_512x512_fill_lanczos_center_3.png</url>
+      <title>Dencho</title>
+      <link>//localhost:1313/</link>
+    </image>
+    
     <item>
       <title>Corrupted Realms</title>
       <link>//localhost:1313/projects/contracts/2022/corruptedrealms/</link>

@@ -9,8 +9,8 @@ profile: false
 commentable: true
 draft: false
 private: false # hide page in search results
-tags: ["Experiment", "AI", "Combat", "Physics", "Unity"]
-categories: ["2021"] # display at the top of a page alongside a page’s metadata
+tags: ["AI", "Combat", "Physics", "Unity"]
+categories: ["Experiments", "2021"] # display at the top of a page alongside a page’s metadata
 # featured: true # a page can be displayed in the Featured block on the homepage. This is useful for sticky, announcement blog posts or selected publications etc.
 ---
 
