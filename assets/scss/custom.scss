@@ -355,40 +355,40 @@ h1 {
 }
 
 //SVG Border stuff
-//Mask Border is for overlapping previous or next section content
-.sectionBorderTopMask {
-  top: -10vh;
-  background: transparent !important;
-  overflow: hidden;
-  position: relative;
-  pointer-events: none;
-  display: inline;
-}
-//SVG image for hero bottom border
+// //Mask Border is for overlapping previous or next section content
+// .sectionBorderTopMask {
+//   top: -10vh;
+//   background: transparent !important;
+//   overflow: hidden;
+//   position: relative;
+//   pointer-events: none;
+//   display: inline;
+// }
+// //SVG image for hero bottom border
 
-.dark .sectionBorderTopMask::before {
-  background-image: $svgBorderTopDark;
+// .dark .sectionBorderTopMask::before {
+//   background-image: $svgBorderTopDark;
   
-}
-.sectionBorderTopMask::before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  pointer-events: none;
-  background-repeat: no-repeat;
-  //bottom: -0.1vw;
-  left: -0.1vw;
-  right: -0.1vw;
-  transform: scaleX(4);//3.1);
-  transform-origin: 100% 100%;
-  animation: $borderAnimation;//4s infinite alternate sectionBorderAnime linear;
-  height: $borderBackgroundHeight;
-  background-size: $borderBackgroundSize;
-  // height: auto;//$borderHeight;
-  // background-size: 100% $borderHeight;
-  background-position: 20% 100%;
-  background-image: $svgBorderTopLight;
-}
+// }
+// .sectionBorderTopMask::before {
+//   content: '';
+//   position: absolute;
+//   z-index: -1;
+//   pointer-events: none;
+//   background-repeat: no-repeat;
+//   //bottom: -0.1vw;
+//   left: -0.1vw;
+//   right: -0.1vw;
+//   transform: scaleX(4);//3.1);
+//   transform-origin: 100% 100%;
+//   animation: $borderAnimation;//4s infinite alternate sectionBorderAnime linear;
+//   height: $borderBackgroundHeight;
+//   background-size: $borderBackgroundSize;
+//   // height: auto;//$borderHeight;
+//   // background-size: 100% $borderHeight;
+//   background-position: 20% 100%;
+//   background-image: $svgBorderTopLight;
+// }
 //Normal Border Parts
 // .sectionBorderTop {
 //   bottom: -2px;
