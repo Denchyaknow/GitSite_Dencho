@@ -323,6 +323,36 @@ h1 {
 
 
 
+.sectionBorderTopMask {
+  top: -10vh;
+  background: transparent !important;
+  overflow: hidden;
+  position: relative;
+  pointer-events: none;
+  display: block; // Ensure it takes full width
+  width: 100%;
+}
+
+.dark .sectionBorderTopMask::before {
+  background-image: $svgBorderTopDark;
+}
+
+.sectionBorderTopMask::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  left: 50%;
+  transform: translateX(-50%) scaleX(4); // Center horizontally and scale
+  transform-origin: center; // Scale from the center
+  animation: $borderAnimation; // Optional animation
+  height: $borderBackgroundHeight;
+  width: 100vw; // Ensure it spans more than the viewport width
+  background-size: $borderBackgroundSize;
+  background-position: 20% 100%;
+  background-image: $svgBorderTopLight;
+}
 
 //SVG Border stuff
 //Mask Border is for overlapping previous or next section content
@@ -360,143 +390,143 @@ h1 {
   background-image: $svgBorderTopLight;
 }
 //Normal Border Parts
-.sectionBorderTop {
-  bottom: -2px;
-  background: transparent !important;
-  overflow: hidden;
-  position: relative;
-}
-//General seperator top border
-.dark .sectionBorderTop::before {
-  background-image: $svgBorderTopLight;
+// .sectionBorderTop {
+//   bottom: -2px;
+//   background: transparent !important;
+//   overflow: hidden;
+//   position: relative;
+// }
+// //General seperator top border
+// .dark .sectionBorderTop::before {
+//   background-image: $svgBorderTopLight;
 
-}
-.sectionBorderTop::before {
-  content: '';
-  font-family: 'shape divider from ShapeDividers.com';
-  position: absolute;
-  z-index: 3;
-  pointer-events: none;
-  background-repeat: no-repeat;
-  bottom: -0.1vw;
-  left: -0.1vw;
-  right: -0.1vw;
-  //top: -0.1vw;
-  transform: scaleX(4);
-  transform-origin: 100% 100%;
-  animation: $borderAnimation;
-  height: $borderBackgroundHeight;
-  background-size: $borderBackgroundSize;
-  background-position: 20% 100%;
-  background-image: $svgBorderTopDark;
-}
-//Can be used to fill in a markdown section as the middle part of a seperator
-.dark .sectionBorderMid {
-  background-color: $backgroundLight !important;
-}
-.sectionBorderMid {
-  display: block;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  object-fit: cover;
-  object-position: center center;
-  height: 40vh;
-  z-index: -5;
-  background-color: $backgroundDark !important;
-}
+// }
+// .sectionBorderTop::before {
+//   content: '';
+//   font-family: 'shape divider from ShapeDividers.com';
+//   position: absolute;
+//   z-index: 3;
+//   pointer-events: none;
+//   background-repeat: no-repeat;
+//   bottom: -0.1vw;
+//   left: -0.1vw;
+//   right: -0.1vw;
+//   //top: -0.1vw;
+//   transform: scaleX(4);
+//   transform-origin: 100% 100%;
+//   animation: $borderAnimation;
+//   height: $borderBackgroundHeight;
+//   background-size: $borderBackgroundSize;
+//   background-position: 20% 100%;
+//   background-image: $svgBorderTopDark;
+// }
+// //Can be used to fill in a markdown section as the middle part of a seperator
+// .dark .sectionBorderMid {
+//   background-color: $backgroundLight !important;
+// }
+// .sectionBorderMid {
+//   display: block;
+//   position: relative;
+//   bottom: 0;
+//   left: 0;
+//   object-fit: cover;
+//   object-position: center center;
+//   height: 40vh;
+//   z-index: -5;
+//   background-color: $backgroundDark !important;
+// }
 
-.dark .sectionBorderBottom::before {
-  background-image: $svgBorderBottomLight;
+// .dark .sectionBorderBottom::before {
+//   background-image: $svgBorderBottomLight;
 
-}
-.sectionBorderBottom {
-  top: -2px;
-  background: transparent !important;
-  overflow: hidden;
-  position: relative;
-}
+// }
+// .sectionBorderBottom {
+//   top: -2px;
+//   background: transparent !important;
+//   overflow: hidden;
+//   position: relative;
+// }
 
-.sectionBorderBottom::before {
-  content: '';
-  font-family: 'shape divider from ShapeDividers.com';
-  position: absolute;
-  z-index: 3;
-  pointer-events: none;
-  background-repeat: no-repeat;
-  bottom: -0.1vw;
-  left: -0.1vw;
-  right: -0.1vw;
-  top: -0.1vw;
-  animation: $borderAnimation;
-  transform: scaleX(4);
-  transform-origin: 100% 0;
-  height: $borderBackgroundHeight;
-  background-size: $borderBackgroundSize;
-  background-position: 80% 0%;  
-  background-repeat: no-repeat;
-  background-image: $svgBorderBottomDark;// fill(cyan);
-}
+// .sectionBorderBottom::before {
+//   content: '';
+//   font-family: 'shape divider from ShapeDividers.com';
+//   position: absolute;
+//   z-index: 3;
+//   pointer-events: none;
+//   background-repeat: no-repeat;
+//   bottom: -0.1vw;
+//   left: -0.1vw;
+//   right: -0.1vw;
+//   top: -0.1vw;
+//   animation: $borderAnimation;
+//   transform: scaleX(4);
+//   transform-origin: 100% 0;
+//   height: $borderBackgroundHeight;
+//   background-size: $borderBackgroundSize;
+//   background-position: 80% 0%;  
+//   background-repeat: no-repeat;
+//   background-image: $svgBorderBottomDark;// fill(cyan);
+// }
 
-.dark .sectionBorderTopAlt::before {
-  background-image: $svgBorderTopDark;
-}
-.sectionBorderTopAlt::before {
-  content: '';
-  font-family: 'shape divider from ShapeDividers.com';
-  position: absolute;
-  z-index: 3;
-  pointer-events: none;
-  background-repeat: no-repeat;
-  bottom: -0.1vw;
-  left: -0.1vw;
-  right: -0.1vw;
-  top: -0.1vw;
-  transform: scaleX(3.1);
-  transform-origin: 100% 100%;
-  animation: 4s infinite alternate sectionBorderAnime linear;
-  background-size: 100% 99px;
-  background-position: 50% 100%;
-  background-image: $svgBorderTopLight;
-}
+// .dark .sectionBorderTopAlt::before {
+//   background-image: $svgBorderTopDark;
+// }
+// .sectionBorderTopAlt::before {
+//   content: '';
+//   font-family: 'shape divider from ShapeDividers.com';
+//   position: absolute;
+//   z-index: 3;
+//   pointer-events: none;
+//   background-repeat: no-repeat;
+//   bottom: -0.1vw;
+//   left: -0.1vw;
+//   right: -0.1vw;
+//   top: -0.1vw;
+//   transform: scaleX(3.1);
+//   transform-origin: 100% 100%;
+//   animation: 4s infinite alternate sectionBorderAnime linear;
+//   background-size: 100% 99px;
+//   background-position: 50% 100%;
+//   background-image: $svgBorderTopLight;
+// }
 
-.dark .sectionBorderMidAlt {
-  background-color: $backgroundDark !important;
-}
-.sectionBorderMidAlt {
-  display: block;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  object-fit: cover;
-  object-position: center center;
-  height: 40vh;
-  z-index: -5;
-  background-color: $backgroundLight !important;
-}
+// .dark .sectionBorderMidAlt {
+//   background-color: $backgroundDark !important;
+// }
+// .sectionBorderMidAlt {
+//   display: block;
+//   position: relative;
+//   bottom: 0;
+//   left: 0;
+//   object-fit: cover;
+//   object-position: center center;
+//   height: 40vh;
+//   z-index: -5;
+//   background-color: $backgroundLight !important;
+// }
 
-.dark .sectionBorderBottomAlt::before {
-  background-image: $svgBorderBottomDark;
-}
-.sectionBorderBottomAlt::before {
-  content: '';
-  font-family: 'shape divider from ShapeDividers.com';
-  position: absolute;
-  z-index: 3;
-  pointer-events: none;
-  background-repeat: no-repeat;
-  bottom: -0.1vw;
-  left: -0.1vw;
-  right: -0.1vw;
-  top: -0.1vw;
-  animation: 4s infinite alternate sectionBorderAnime linear;
-  transform: scaleX(3.1);
-  transform-origin: 100% 0;
-  background-size: 100% 99px;
-  background-position: 50% 0%;  
-  background-repeat: no-repeat;
-  background-image: $svgBorderBottomLight;
-}
+// .dark .sectionBorderBottomAlt::before {
+//   background-image: $svgBorderBottomDark;
+// }
+// .sectionBorderBottomAlt::before {
+//   content: '';
+//   font-family: 'shape divider from ShapeDividers.com';
+//   position: absolute;
+//   z-index: 3;
+//   pointer-events: none;
+//   background-repeat: no-repeat;
+//   bottom: -0.1vw;
+//   left: -0.1vw;
+//   right: -0.1vw;
+//   top: -0.1vw;
+//   animation: 4s infinite alternate sectionBorderAnime linear;
+//   transform: scaleX(3.1);
+//   transform-origin: 100% 0;
+//   background-size: 100% 99px;
+//   background-position: 50% 0%;  
+//   background-repeat: no-repeat;
+//   background-image: $svgBorderBottomLight;
+// }
 
 
 //   _____ _           _      _____             
