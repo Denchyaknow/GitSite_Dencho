@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 480" preserveAspectRatio="xMidYMid" width="2000" height="1500" style="shape-rendering: auto; display: block; background: rgb(128, 82, 130);"><g><defs><g id="id1">
+  <circle cx="0" cy="0" r="8" fill="#805282" stroke="#fff7c2" stroke-width="2"/>
+  <path d="M-4.00 0.00 A4 4 0 0 1 -0.78 -3.92" fill="none" stroke="#fff7c2" stroke-width="2"/>
+</g><g id="id2">
+  <circle cx="0" cy="0" r="16" fill="#805282" stroke="#fff7c2" stroke-width="2"/>
+  
+</g><g id="id3">
+  <circle cx="0" cy="0" r="24" fill="#805282" stroke="#fff7c2" stroke-width="2"/>
+  <path d="M-15.47 -7.21 A17.071796769724493 17.071796769724493 0 0 1 -2.60 -16.87" fill="none" stroke="#fff7c2" stroke-width="2"/>
+</g><g id="id4">
+  <circle cx="0" cy="0" r="32" fill="#805282" stroke="#fff7c2" stroke-width="2"/>
+  <path d="M-19.04 -14.61 A24 24 0 0 1 -3.13 -23.79" fill="none" stroke="#fff7c2" stroke-width="2"/>
+</g></defs><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-Infinitys" dur="Infinitys" repeatCount="indefinite" keyTimes="0;1" values="396.6 477.3;396.6 2.7"/>
+</g><g>
+<use href="#id4"/>
+<animateTransform attributeName="transform" type="translate" begin="-17.0s" dur="20.0s" repeatCount="indefinite" keyTimes="0;1" values="82.2 489.7;82.2 -9.7"/>
+</g><g>
+<use href="#id4"/>
+<animateTransform attributeName="transform" type="translate" begin="-17.8s" dur="20.0s" repeatCount="indefinite" keyTimes="0;1" values="287.1 485.6;287.1 -5.6"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-6.5s" dur="20.0s" repeatCount="indefinite" keyTimes="0;1" values="587.6 486.8;587.6 -6.8"/>
+</g><g>
+<use href="#id2"/>
+<animateTransform attributeName="transform" type="translate" begin="-13.6s" dur="20.0s" repeatCount="indefinite" keyTimes="0;1" values="579.3 487.2;579.3 -7.2"/>
+</g><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-17.0s" dur="20.0s" repeatCount="indefinite" keyTimes="0;1" values="218.6 486.4;218.6 -6.4"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-14.4s" dur="20.0s" repeatCount="indefinite" keyTimes="0;1" values="485.6 488.2;485.6 -8.2"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-17.6s" dur="20.0s" repeatCount="indefinite" keyTimes="0;1" values="537.3 489.7;537.3 -9.7"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-7.2s" dur="20.0s" repeatCount="indefinite" keyTimes="0;1" values="576.0 485.1;576.0 -5.1"/>
+</g><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-17.5s" dur="20.0s" repeatCount="indefinite" keyTimes="0;1" values="357.3 491.6;357.3 -11.6"/>
+</g><g>
+<use href="#id4"/>
+<animateTransform attributeName="transform" type="translate" begin="-13.0s" dur="20.0s" repeatCount="indefinite" keyTimes="0;1" values="118.3 488.2;118.3 -8.2"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-4.2s" dur="20.0s" repeatCount="indefinite" keyTimes="0;1" values="176.6 490.5;176.6 -10.5"/>
+</g><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-4.6s" dur="10.0s" repeatCount="indefinite" keyTimes="0;1" values="162.9 497.6;162.9 -17.6"/>
+</g><g>
+<use href="#id2"/>
+<animateTransform attributeName="transform" type="translate" begin="-1.3s" dur="10.0s" repeatCount="indefinite" keyTimes="0;1" values="136.8 500.1;136.8 -20.1"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-3.2s" dur="10.0s" repeatCount="indefinite" keyTimes="0;1" values="530.6 494.1;530.6 -14.1"/>
+</g><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-5.4s" dur="10.0s" repeatCount="indefinite" keyTimes="0;1" values="126.3 497.4;126.3 -17.4"/>
+</g><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-9.3s" dur="10.0s" repeatCount="indefinite" keyTimes="0;1" values="372.3 493.1;372.3 -13.1"/>
+</g><g>
+<use href="#id2"/>
+<animateTransform attributeName="transform" type="translate" begin="-9.9s" dur="10.0s" repeatCount="indefinite" keyTimes="0;1" values="554.6 499.8;554.6 -19.8"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-1.0s" dur="10.0s" repeatCount="indefinite" keyTimes="0;1" values="477.4 497.4;477.4 -17.4"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-9.6s" dur="10.0s" repeatCount="indefinite" keyTimes="0;1" values="212.1 495.4;212.1 -15.4"/>
+</g><g>
+<use href="#id2"/>
+<animateTransform attributeName="transform" type="translate" begin="-3.3s" dur="10.0s" repeatCount="indefinite" keyTimes="0;1" values="344.6 496.2;344.6 -16.2"/>
+</g><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-1.2s" dur="10.0s" repeatCount="indefinite" keyTimes="0;1" values="523.4 499.6;523.4 -19.6"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-2.6s" dur="10.0s" repeatCount="indefinite" keyTimes="0;1" values="318.7 500.1;318.7 -20.1"/>
+</g><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-7.5s" dur="10.0s" repeatCount="indefinite" keyTimes="0;1" values="237.2 493.8;237.2 -13.8"/>
+</g><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-3.0s" dur="6.7s" repeatCount="indefinite" keyTimes="0;1" values="146.2 500.2;146.2 -20.2"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-4.6s" dur="6.7s" repeatCount="indefinite" keyTimes="0;1" values="175.3 505.9;175.3 -25.9"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-0.4s" dur="6.7s" repeatCount="indefinite" keyTimes="0;1" values="484.6 502.1;484.6 -22.1"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-5.7s" dur="6.7s" repeatCount="indefinite" keyTimes="0;1" values="337.2 500.9;337.2 -20.9"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-6.0s" dur="6.7s" repeatCount="indefinite" keyTimes="0;1" values="250.5 501.5;250.5 -21.5"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-2.8s" dur="6.7s" repeatCount="indefinite" keyTimes="0;1" values="267.4 503.7;267.4 -23.7"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-0.4s" dur="6.7s" repeatCount="indefinite" keyTimes="0;1" values="307.2 501.4;307.2 -21.4"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-4.5s" dur="6.7s" repeatCount="indefinite" keyTimes="0;1" values="429.0 506.5;429.0 -26.5"/>
+</g><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-0.2s" dur="6.7s" repeatCount="indefinite" keyTimes="0;1" values="496.1 502.9;496.1 -22.9"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-5.8s" dur="6.7s" repeatCount="indefinite" keyTimes="0;1" values="536.7 502.1;536.7 -22.1"/>
+</g><g>
+<use href="#id2"/>
+<animateTransform attributeName="transform" type="translate" begin="-2.9s" dur="6.7s" repeatCount="indefinite" keyTimes="0;1" values="495.6 502.0;495.6 -22.0"/>
+</g><g>
+<use href="#id2"/>
+<animateTransform attributeName="transform" type="translate" begin="-4.0s" dur="5.0s" repeatCount="indefinite" keyTimes="0;1" values="543.1 510.7;543.1 -30.7"/>
+</g><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-0.1s" dur="5.0s" repeatCount="indefinite" keyTimes="0;1" values="417.5 511.9;417.5 -31.9"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-1.4s" dur="5.0s" repeatCount="indefinite" keyTimes="0;1" values="488.4 509.3;488.4 -29.3"/>
+</g><g>
+<use href="#id4"/>
+<animateTransform attributeName="transform" type="translate" begin="-0.9s" dur="5.0s" repeatCount="indefinite" keyTimes="0;1" values="362.9 512.0;362.9 -32.0"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-4.1s" dur="5.0s" repeatCount="indefinite" keyTimes="0;1" values="545.8 510.8;545.8 -30.8"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-1.9s" dur="5.0s" repeatCount="indefinite" keyTimes="0;1" values="566.2 509.6;566.2 -29.6"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-0.3s" dur="5.0s" repeatCount="indefinite" keyTimes="0;1" values="93.1 510.0;93.1 -30.0"/>
+</g><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-1.0s" dur="5.0s" repeatCount="indefinite" keyTimes="0;1" values="118.0 511.3;118.0 -31.3"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-1.4s" dur="5.0s" repeatCount="indefinite" keyTimes="0;1" values="152.4 509.1;152.4 -29.1"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-4.2s" dur="5.0s" repeatCount="indefinite" keyTimes="0;1" values="441.0 509.2;441.0 -29.2"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-3.6s" dur="5.0s" repeatCount="indefinite" keyTimes="0;1" values="334.0 510.3;334.0 -30.3"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-4.3s" dur="5.0s" repeatCount="indefinite" keyTimes="0;1" values="9.0 514.2;9.0 -34.2"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-2.1s" dur="4.0s" repeatCount="indefinite" keyTimes="0;1" values="107.9 523.2;107.9 -43.2"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-2.3s" dur="4.0s" repeatCount="indefinite" keyTimes="0;1" values="63.5 518.2;63.5 -38.2"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-2.4s" dur="4.0s" repeatCount="indefinite" keyTimes="0;1" values="360.9 522.6;360.9 -42.6"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-3.1s" dur="4.0s" repeatCount="indefinite" keyTimes="0;1" values="241.7 522.3;241.7 -42.3"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-3.5s" dur="4.0s" repeatCount="indefinite" keyTimes="0;1" values="524.9 520.9;524.9 -40.9"/>
+</g><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-2.1s" dur="4.0s" repeatCount="indefinite" keyTimes="0;1" values="421.0 518.2;421.0 -38.2"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-2.9s" dur="4.0s" repeatCount="indefinite" keyTimes="0;1" values="356.3 516.4;356.3 -36.4"/>
+</g><g>
+<use href="#id2"/>
+<animateTransform attributeName="transform" type="translate" begin="-0.5s" dur="4.0s" repeatCount="indefinite" keyTimes="0;1" values="545.4 519.8;545.4 -39.8"/>
+</g><g>
+<use href="#id4"/>
+<animateTransform attributeName="transform" type="translate" begin="-2.6s" dur="4.0s" repeatCount="indefinite" keyTimes="0;1" values="446.4 517.7;446.4 -37.7"/>
+</g><g>
+<use href="#id3"/>
+<animateTransform attributeName="transform" type="translate" begin="-3.0s" dur="4.0s" repeatCount="indefinite" keyTimes="0;1" values="230.4 518.2;230.4 -38.2"/>
+</g><g>
+<use href="#id2"/>
+<animateTransform attributeName="transform" type="translate" begin="-3.3s" dur="4.0s" repeatCount="indefinite" keyTimes="0;1" values="371.2 519.8;371.2 -39.8"/>
+</g><g>
+<use href="#id1"/>
+<animateTransform attributeName="transform" type="translate" begin="-0.9s" dur="4.0s" repeatCount="indefinite" keyTimes="0;1" values="420.5 522.4;420.5 -42.4"/>
+</g><g/></g><!-- [ldio] generated by https://loading.io --></svg>

@@ -107,7 +107,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-05-25T12:49:48-07:00</lastmod>
+    <lastmod>2024-05-27T19:56:26-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/about/</loc>
@@ -343,7 +343,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/projects/</loc>
-    <lastmod>2024-05-25T12:49:48-07:00</lastmod>
+    <lastmod>2024-05-27T19:56:26-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
