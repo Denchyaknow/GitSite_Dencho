@@ -127,9 +127,7 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
   background-color: $backgroundDark;
 
 }
-$loadingDuration: 0.5s;
-$loadingLogo: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/icons/custom/Flask.svg');
-$loadingBackground: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/backgrounds/Tron.svg');
+
 #loadingScreen {
   transition: opacity $loadingDuration ease, visibility $loadingDuration;
 
@@ -170,20 +168,21 @@ $loadingBackground: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Deve
     background-repeat: no-repeat; // Adjust if you want the image to repeat
 }
 }
-
+//The hidden class is added via js after a timer
 #loadingScreen.hidden {
-  //opacity: 0;
   visibility: hidden;
   #loadingBack {
     opacity: 0;
     visibility: hidden;
-    //filter:none;// brightness(0.2) contrast(1) saturate(0.5) hue-rotate(120deg) invert(0) sepia(0) blur(0px) grayscale(0);
-
   }
   #loadingLogo{
     opacity: 0;
     visibility: hidden;
   }
+}
+//To allow markdown masks to be hidden under loading screen logic 
+#section-markdown.hidden{
+  display: none;
 }
 
 
@@ -191,6 +190,7 @@ $loadingBackground: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Deve
 //  |_   _| |_ ___ _____ ___   |     |_ _ ___ ___ ___|_|_| |___ ___ 
 //    | | |   | -_|     | -_|  |  |  | | | -_|  _|  _| | . | -_|_ -|
 //    |_| |_|_|___|_|_|_|___|  |_____|\_/|___|_| |_| |_|___|___|___|                                                      
+
 
 .home-section-bg {
   z-index: $layerIndex_HomeBackground;
@@ -444,10 +444,15 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 
+// .noMarginBlockEnd {
+//   margin-block-end: -$borderBackgroundHeight;
 
+// }
 
 .sectionBorderTopMask {
-  top: -10vh;
+  margin-block-end: -$borderBackgroundHeight;
+
+  top: -$borderBackgroundHeight;
   background: transparent !important;
   overflow: hidden;
   position: relative;
@@ -462,11 +467,13 @@ body::-webkit-scrollbar-thumb:hover {
 
 .sectionBorderTopMask::before {
   content: '';
-  position: absolute;
+  //position: absolute;
+  position: relative;
+  display: inline-block;
   z-index: -1;
   pointer-events: none;
   background-repeat: no-repeat;
-  left: 50%;
+  left: -100%;
   transform: translateX(-50%) scaleX(4); // Center horizontally and scale
   transform-origin: center; // Scale from the center
   animation: $borderAnimation; // Optional animation

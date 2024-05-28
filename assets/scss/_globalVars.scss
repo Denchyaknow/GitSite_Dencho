@@ -52,11 +52,15 @@ $layerIndex_SplineObject: 4;
 $borderStyleLight: 1px solid #ffffff4d;
 $borderStyleDark: 1px solid #ffffff1a;
 $borderAnimation: 60s infinite alternate sectionBorderAnime linear;
-$borderBackgroundHeight: 10vh;
+$borderBackgroundHeight: 6em;
 $borderBackgroundSize: calc(200vw + (10vh * 6.2)) $borderBackgroundHeight;
 $borderHeight: calc(12vh);
 
 $backDropBlurFilter: blur(10px);// use with backdrop-filter: and/or -webkit-backdrop-filter:
+
+$loadingDuration: 0.25s;
+$loadingLogo: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/icons/custom/Flask.svg');
+$loadingBackground: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/backgrounds/Tron.svg');
 
 @keyframes sectionBorderAnime {
     100% {

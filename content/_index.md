@@ -21,7 +21,7 @@ sections:
           <!--div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div-->
       text: |-
           <!--div id="particles-js"></div-->
-          
+          <div id="loadingScreenTrigger"></div
 
           <div class="buttonSidePanel">
               <button class="reButton btn btn-primary">
@@ -69,7 +69,7 @@ sections:
     content:
       title: ''
       subtitle: ''
-      text: ''
+      #text: '<div class="sectionBorderTopMask"</div>'
     design:
       css_class: 'sectionBorderTopMask'
       columns: '1'

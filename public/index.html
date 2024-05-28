@@ -27,28 +27,53 @@
     
       
       <script>
-    var fadeOutDelay = 1750;
+    var fadeOutDelay = 1250;
     var scrollUnlockDelay = fadeOutDelay + 250;
-
-    document.addEventListener("DOMContentLoaded", function() {
-        
-        document.body.style.overflow = 'hidden';
-        
+    
+    function ShowHideMasks() {
+        var masks = document.querySelectorAll('#section-markdown');
+        masks.forEach(element => {
+            element.classList.add('hidden');
+        });
         setTimeout(() => {
-        const loadingScreen = document.getElementById('loadingScreen');
-        loadingScreen.classList.add('hidden');
-
+            masks.forEach(element => {
+                element.classList.remove('hidden');
+            });
         }, fadeOutDelay); 
-        setTimeout(() => {
-            document.body.style.overflow = '';
-        }, scrollUnlockDelay);
-    });
+    }
+    document.addEventListener("DOMContentLoaded", function() {
+        if(document.getElementById('loadingScreenTrigger') != null)
+        {
+            ShowHideMasks();
+            
+            document.body.style.overflow = 'hidden';
+            
+            
+                
+                
+                
+                setTimeout(() => {
+                const loadingScreen = document.getElementById('loadingScreen');
+                
+                loadingScreen.classList.add('hidden');
+                
+                    
+                    
+                }, fadeOutDelay); 
+                setTimeout(() => {
+                    document.body.style.overflow = '';
+                }, scrollUnlockDelay);
+            }
+            else
+            {
+                const loadingScreen = document.getElementById('loadingScreen');
+                loadingScreen.remove();
+            }
+        });
 </script>
-<div id="loadingScreen">
+<div id="loadingScreen" >
     <div id="loadingBack"></div> 
     <div id="loadingLogo"></div> 
-
-    
 </div>
       
     
@@ -825,6 +850,7 @@
 
     
       <div class="hero-lead"><!--div id="particles-js"></div-->
+<div id="loadingScreenTrigger"></div
 <div class="buttonSidePanel">
     <button class="reButton btn btn-primary">
     
