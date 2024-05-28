@@ -29,7 +29,7 @@
     ],
     "diffEditor.wordWrap": "off",
     "markdown.preview.breaks": true,
-    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": false,
     "markdown-preview-enhanced.alwaysShowBacklinksInPreview": false,
     "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
     "markdown-preview-enhanced.enableLinkify": true,

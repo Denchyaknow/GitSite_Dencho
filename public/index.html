@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 25, 2024 --><html lang="en-us" >
+<!-- Last Published: May 27, 2024 --><html lang="en-us" >
 
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -22,6 +22,67 @@
 
 
 
+
+  
+    
+      
+      <script>
+    var fadeOutDelay = 100000;
+    var scrollUnlockDelay = fadeOutDelay + 250;
+
+    document.addEventListener("DOMContentLoaded", function() {
+        
+        document.body.style.overflow = 'hidden';
+        
+        setTimeout(() => {
+        const loadingScreen = document.getElementById('loadingScreen');
+        loadingScreen.classList.add('hidden');
+
+        }, fadeOutDelay); 
+        setTimeout(() => {
+            document.body.style.overflow = '';
+        }, scrollUnlockDelay);
+    });
+</script>
+<div id="loadingScreen">
+    <div id="loadingBack"></div> 
+
+    
+</div>
+      
+    
+  
+    
+      
+        
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+  <script>
+    particlesJS.load('particles-js', 'assets/particlesjs-config1.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+  </script>
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  
+  
+  
+  
+  
+  <script src="https://unpkg.com/scrollreveal"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.3.5/build/spline-viewer.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js"></script>
+
+
+
+
+      
+    
+  
 
 
 
@@ -385,6 +446,8 @@
 
 
 
+
+  
 
 
 
@@ -760,26 +823,7 @@
     
 
     
-      <div class="hero-lead"><div class="alert alert-warning">
-  <div>
-    <strong>NOTICE:</strong> This Page is Under Construction
-  </div>
-</div>
-<!--div id="particles-js"></div-->
-<p><button class="reButton btn btn-primary animate__animated">Button Style 3</button></p>
-<p><a href="/uploads/Resume2024.pdf" target="_blank">Link Style 1</a></p>
-<button class="reButton btn btn-primary animate__animated">
- 
-   <i class="custom custom-custom/unity-plain.svg  pr-1 fa-fw"></i> XR Projects
-Button Style 3
-</button>
-<button class="reButton btn btn-primary animate__animated">
-  
-    <i class="fas fa-vr-cardboard  pr-1 fa-fw"></i> XR Projects
-</button>
-<h1 class="reText load-hidden">
-    Widget Inc.
-</h1>
+      <div class="hero-lead"><!--div id="particles-js"></div-->
 <div class="buttonSidePanel">
     <button class="reButton btn btn-primary">
     
@@ -799,7 +843,14 @@ Button Style 3
     </button>
 </div>
 <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer-->
-<spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer></div>
+<!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
+<div class="heroTitleText">
+  <h1 class="reText load-hidden">
+      Widget Inc.
+  </h1>
+  <p class="typedTitle0"></p>
+  <span class="typedTitle1">Hello</span>
+</div></div>
     
 
     
@@ -1534,6 +1585,56 @@ Button Style 3
 
 
 
+  
+    
+      
+      <script>    
+    
+    ScrollReveal({ reset: true });
+
+    var nodeList = document.querySelectorAll('.reButton');
+    console.log(nodeList.length + ' reButtons found.');
+    
+    
+        
+    
+    
+    
+    
+    
+    ScrollReveal().reveal(nodeList, { interval: 250 });
+    
+    
+</script>
+      
+    
+  
+    
+      
+      <script>
+    
+    var typed = new Typed('.typedTitle0', {
+      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+      typeSpeed: 50,
+    });
+    var heroText = new Typed('.typedTitle1', {
+      strings: [
+        'Hi, I\'m <strong>Dencho</strong>,', 
+      '2 Some <strong>HTML</strong>', 
+      '3 Chars &times; &copy;'
+    ],
+      typeSpeed: 0,
+      backSpeed: 0,
+      cursorChar: '',
+      shuffle: true,
+      smartBackspace: false,
+      loop: true
+    });
+</script>
+      
+    
+  
+
 
 
 
@@ -1577,26 +1678,6 @@ Button Style 3
       });
     });
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-
-  <script>
-    particlesJS.load('particles-js', 'assets/particlesjs-config1.json', function() {
-    console.log('callback - particles.js config loaded');
-  });
-  </script>
-  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-  
-  
-  
-  
-  
-  <script src="https://unpkg.com/scrollreveal"></script>
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  
-  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.3.5/build/spline-viewer.js"></script>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js"></script>
 
   <script>
       document.addEventListener('DOMContentLoaded', function() {
@@ -1752,19 +1833,19 @@ Button Style 3
     
     
 
-    ScrollReveal({ reset: true });
+    
 
-    var nodeList = document.querySelectorAll('.reButton');
-    console.log(nodeList.length + ' reButtons found.');
+    
+    
+    
+    
+    
+    
     
     
       
-      
-      
-      
-      
     
-    ScrollReveal().reveal(nodeList, { interval: 250 });
+    
     
 
 

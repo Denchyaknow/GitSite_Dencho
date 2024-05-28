@@ -20,24 +20,9 @@ sections:
         label: >-
           <!--div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div-->
       text: |-
-          {{% callout warning %}}
-          **NOTICE:** This Page is Under Construction
-          {{% /callout %}}
           <!--div id="particles-js"></div-->
           
 
-          <button class="reButton btn btn-primary animate__animated">Button Style 3</button>
-          {{% staticref "uploads/Resume2024.pdf" "newtab" %}}Link Style 1{{% /staticref %}} 
-          <button class="reButton btn btn-primary animate__animated">
-           {{< icon name="custom/unity-plain.svg" pack="custom" >}} XR Projects
-          Button Style 3
-          </button>
-          <button class="reButton btn btn-primary animate__animated">
-            {{< icon name="vr-cardboard" pack="fas" >}} XR Projects
-          </button>
-          <h1 class="reText load-hidden">
-              Widget Inc.
-          </h1>
           <div class="buttonSidePanel">
               <button class="reButton btn btn-primary">
               {{< icon name="vr-cardboard" pack="fas" >}}<p>ReadMe</p>
@@ -53,7 +38,18 @@ sections:
               </button>
           </div>
           <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer-->
-          <spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>
+          <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
+          
+          <div class="heroTitleText">
+            <h1 class="reText load-hidden">
+                Widget Inc.
+            </h1>
+            <p class="typedTitle0"></p>
+            <span class="typedTitle1">Hello</span>
+          </div>
+          
+
+          
   # - block: markdown
   #   content:
   #     title: ''
