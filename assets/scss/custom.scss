@@ -128,7 +128,7 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 
 }
 $loadingDuration: 0.5s;
-$loadingLogo: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/backgrounds/Flask.svg');
+$loadingLogo: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/icons/custom/Flask.svg');
 $loadingBackground: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/backgrounds/Tron.svg');
 #loadingScreen {
   transition: opacity $loadingDuration ease, visibility $loadingDuration;
@@ -147,11 +147,11 @@ $loadingBackground: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Deve
     
     background-image: $loadingBackground;
     background-size: cover; // Adjust based on your design needs
-    //background-size: 42% auto; // Scale the background to 150% of its original size while maintaining aspect ratio
     background-position: center;
     background-repeat: no-repeat; // Adjust if you want the image to repeat
   }
   #loadingLogo{
+    transition: opacity $loadingDuration ease, visibility $loadingDuration;
     position: fixed;
     top: -20vh;
     left:0;
@@ -159,17 +159,15 @@ $loadingBackground: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Deve
     height: 100vh;
     z-index: 9999;
     filter: brightness(0.8) contrast(1.2) saturate(1.8) hue-rotate(-40deg) sepia(0.5);
-    
-    background-image: $loadingLogo;
-    //background-size: cover 50 50; // Adjust based on your design needs
-    background-size: 10vh auto; // Scale the background to 150% of its original size while maintaining aspect ratio
-    background-position: center;
-    background-repeat: no-repeat; // Adjust if you want the image to repeat
     display: flex;
     justify-content: center;
     align-items: center;
     visibility: visible;
-    transition: opacity $loadingDuration ease, visibility $loadingDuration;
+    
+    background-image: $loadingLogo;
+    background-size: 10vh auto; // Scale the background to 150% of its original size while maintaining aspect ratio
+    background-position: center;
+    background-repeat: no-repeat; // Adjust if you want the image to repeat
 }
 }
 
