@@ -125,44 +125,34 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 
 .dark #loadingScreen {
   background-color: $backgroundDark;
-  background-image: url('../media/backgrounds/Matrix.svg'); // Ensure this path is correct
 
 }
 
 #loadingScreen {
   #loadingBack {
-    position: fixed;
+    position: absolute;
     top: 0;
-    left: 0;
+    left:0;
     width: 100%;
     height: 100%;
     z-index: 9999;
 
-    background-image: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/backgrounds/Beanie.svg');
-    background-size: cover; // Adjust based on your design needs
+    background-image: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/backgrounds/Flask.svg');
+    //background-size: cover 50 50; // Adjust based on your design needs
+    background-size: 20% auto; // Scale the background to 150% of its original size while maintaining aspect ratio
     background-position: center;
-    background-repeat: repeat; // Adjust if you want the image to repeat
+    background-repeat: no-repeat; // Adjust if you want the image to repeat
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  // position: fixed;
-  // top: 0;
-  // left: 0;
-  // width: 100%;
-  // height: 100%;
-  // background-color: $backgroundLight;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-  // z-index: 9999;
-  // transition: opacity 0.5s ease, visibility 0.25s;
-  // opacity: 1;
-  // visibility: visible;
+
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: $backgroundLight;
-    //'https://raw.githack.com/Denchyaknow/GitSite_Dencho/b5c6c3cc9b81a2d5117c8de652d98de1b6aa369b/assets/media/backgrounds/Beanie.svg');//../media/backgrounds/Matrix.svg'); // Ensure this path is correct
   background-size: cover; // Adjust based on your design needs
   background-position: center;
   background-repeat: repeat; // Adjust if you want the image to repeat
