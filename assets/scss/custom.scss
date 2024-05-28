@@ -138,7 +138,7 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
     height: 100%;
     z-index: 9999;
 
-    background-image: url('../media/backgrounds/Beanie.svg'); // Ensure this path is correct
+    background-image: url('https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/backgrounds/Beanie.svg');
     background-size: cover; // Adjust based on your design needs
     background-position: center;
     background-repeat: repeat; // Adjust if you want the image to repeat
@@ -162,7 +162,7 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
   width: 100%;
   height: 100%;
   background-color: $backgroundLight;
-  background-image: url('../media/backgrounds/Matrix.svg'); // Ensure this path is correct
+    //'https://raw.githack.com/Denchyaknow/GitSite_Dencho/b5c6c3cc9b81a2d5117c8de652d98de1b6aa369b/assets/media/backgrounds/Beanie.svg');//../media/backgrounds/Matrix.svg'); // Ensure this path is correct
   background-size: cover; // Adjust based on your design needs
   background-position: center;
   background-repeat: repeat; // Adjust if you want the image to repeat
