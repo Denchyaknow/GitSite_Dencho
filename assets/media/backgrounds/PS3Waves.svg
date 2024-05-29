@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 350" preserveAspectRatio="xMidYMid" width="500" height="350" style="shape-rendering: auto; display: block; background: rgb(26, 27, 32);"><g><g transform="translate(0 35) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="0s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="0s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="0s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 313.37) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.04744186046511628s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.04744186046511628s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.04744186046511628s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 38.26) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.09488372093023256s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.09488372093023256s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.09488372093023256s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 310.12) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.14232558139534884s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.14232558139534884s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.14232558139534884s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 41.51) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.18976744186046512s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.18976744186046512s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.18976744186046512s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 306.86) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.2372093023255814s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.2372093023255814s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.2372093023255814s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 44.77) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.2846511627906977s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.2846511627906977s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.2846511627906977s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 303.60) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.33209302325581397s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.33209302325581397s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.33209302325581397s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 48.02) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.37953488372093025s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.37953488372093025s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.37953488372093025s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 300.35) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.42697674418604653s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.42697674418604653s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.42697674418604653s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 51.28) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.4744186046511628s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.4744186046511628s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.4744186046511628s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 297.09) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.5218604651162791s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.5218604651162791s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.5218604651162791s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 54.53) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.5693023255813954s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.5693023255813954s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.5693023255813954s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 293.84) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.6167441860465116s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.6167441860465116s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.6167441860465116s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 57.79) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.6641860465116279s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.6641860465116279s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.6641860465116279s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 290.58) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.7116279069767442s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.7116279069767442s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.7116279069767442s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 61.05) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.7590697674418605s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.7590697674418605s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.7590697674418605s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 287.33) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.8065116279069767s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.8065116279069767s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.8065116279069767s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 64.30) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.8539534883720931s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.8539534883720931s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.8539534883720931s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 284.07) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.9013953488372093s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.9013953488372093s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.9013953488372093s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 67.56) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.9488372093023256s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.9488372093023256s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.9488372093023256s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 280.81) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-0.9962790697674418s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-0.9962790697674418s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-0.9962790697674418s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 70.81) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.05" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.0437209302325583s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.0437209302325583s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.0437209302325583s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 277.56) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.1" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.0911627906976744s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.0911627906976744s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.0911627906976744s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 74.07) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.15" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.1386046511627907s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.1386046511627907s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.1386046511627907s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 274.30) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.2" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.186046511627907s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.186046511627907s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.186046511627907s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 77.33) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.25" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.2334883720930232s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.2334883720930232s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.2334883720930232s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 271.05) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.3" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.2809302325581395s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.2809302325581395s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.2809302325581395s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 80.58) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.35" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.3283720930232559s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.3283720930232559s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.3283720930232559s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 267.79) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.4" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.375813953488372s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.375813953488372s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.375813953488372s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 83.84) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.45" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.4232558139534883s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.4232558139534883s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.4232558139534883s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 264.53) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.5" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.4706976744186047s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.4706976744186047s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.4706976744186047s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 87.09) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.55" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.518139534883721s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.518139534883721s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.518139534883721s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 261.28) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.6" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.5655813953488373s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.5655813953488373s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.5655813953488373s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 90.35) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.65" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.6130232558139534s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.6130232558139534s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.6130232558139534s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 258.02) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.7" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.6604651162790698s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.6604651162790698s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.6604651162790698s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 93.60) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.75" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.7079069767441861s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.7079069767441861s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.7079069767441861s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 254.77) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.8" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.7553488372093022s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.7553488372093022s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.7553488372093022s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 96.86) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.85" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.8027906976744186s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.8027906976744186s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.8027906976744186s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 251.51) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.9" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.850232558139535s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.850232558139535s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.850232558139535s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 100.12) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="0.95" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.8976744186046512s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.8976744186046512s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.8976744186046512s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 248.26) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="1" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.9451162790697676s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.9451162790697676s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.9451162790697676s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g transform="translate(0 103.37) rotate(15 250 175)">
+<path d="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53" fill="none" stroke="#6252c5" stroke-opacity="1.05" stroke-width="0.5">
+  <animate attributeName="d" calcMode="spline" repeatCount="indefinite" dur="4s" begin="-1.9925581395348837s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" values="M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53;M-125 26.5c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53;M-125 -26.5c125 0 250 53 375 53c125 0 250 -53 375 -53c125 0 250 53 375 53c125 0 250 -53 375 -53"/>
+  <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="4s" begin="-1.9925581395348837s" keyTimes="0;1" values="0 0;-750 0"/>
+  <animate attributeName="stroke" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" dur="4s" begin="-1.9925581395348837s" keyTimes="0.00;0.25;0.50;0.75;1.00" values="#6252c5;#2a9fde;#21e499;#7ff658;#6252c5"/>
+</path>
+</g><g/></g><!-- [ldio] generated by https://loading.io --></svg>

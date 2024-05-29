@@ -174,7 +174,7 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
     visibility: visible;
     
     background-image: $loadingLogo;
-    background-size: 10vh auto; // Scale the background to 150% of its original size while maintaining aspect ratio
+    background-size: 30vh auto; // Scale the background to 150% of its original size while maintaining aspect ratio
     background-position: center;
     background-repeat: no-repeat; // Adjust if you want the image to repeat
   }
