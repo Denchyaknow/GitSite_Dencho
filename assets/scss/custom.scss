@@ -123,14 +123,25 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 //  |_____|___|__,|___|_|_|_|_  |  |_____|___|_| |___|___|_|_|
 //                          |___|                             
 
-.dark #loadingScreen {
-  background-color: $backgroundDark;
+#loadingTextBox {
+  position: fixed;
+  z-index: 1000;
+}
+.loadingText {
+  position: fixed;
+  z-index: 1000;
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+}
+.dark .loadingText{
+  color: white;
 
 }
-
 #loadingScreen {
   transition: opacity $loadingDuration ease, visibility $loadingDuration;
-
+  
   #loadingBack {
     transition: opacity $loadingDuration ease, visibility $loadingDuration;
     position: fixed;
@@ -166,7 +177,11 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
     background-size: 10vh auto; // Scale the background to 150% of its original size while maintaining aspect ratio
     background-position: center;
     background-repeat: no-repeat; // Adjust if you want the image to repeat
+  }
 }
+.dark #loadingScreen {
+background-color: $backgroundDark;
+
 }
 //The hidden class is added via js after a timer
 #loadingScreen.hidden {

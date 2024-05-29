@@ -4,7 +4,7 @@
       strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
       typeSpeed: 50,
     });
-    var heroText = new Typed('.typedTitle1', {
+    var heroTextA = new Typed('.typedTitle1', {
       strings: [
         'Hi, I\'m <strong>Dencho</strong>,', 
       '2 Some <strong>HTML</strong>', 
@@ -17,4 +17,19 @@
       smartBackspace: false,
       loop: true
     });
+
+    var loadingTextA = new Typed('#loadingText', {
+      //strings: null,//[ '#loadingText-strings' ],
+      stringsElement: '#loadingText-strings',
+    //strings: ['> Initializing system:^800 OK!^200 <br> > Connecting to Server:^800 Success!^100 <br> > User Status:^400 Encrypted 🔐^100 <br> > Scanning for Baddies💀:^20 Squeaky Clean! <br> > Loading Artificial Rizz...^600 <br> > Caching AI Swagger:^400 Complete!',''],
+    typeSpeed: 0,
+    backSpeed: 0,
+    smartBackspace: false, // this is a default, makes it so that no same text between lines are removed during transitions
+    fadeOut: true,
+    loop: true,
+    startDelay: 50,
+    shuffle: true,
+    contentType: 'html',
+
+  });
 </script>

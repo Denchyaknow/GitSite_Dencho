@@ -12,6 +12,7 @@
    - `content/projects/experiments/` (for experimental work)
    - `content/projects/contracts/` (for contract work)
 
+
 3. Create a folder with the same name as your post/project to store media. The structure should look like this:
 
 assets/media/projects/POSTNAME/
@@ -24,6 +25,13 @@ assets/media/projects/POSTNAME/XRLog_2020_198.webm assets/media/projects/POSTNAM
 
 6. You can use the frontmatter to give a hero a background image/video, or add a video/image HTML element after the frontmatter. This will still show up in a project listing.
 
+### How to issue a LongLoading screen for page
+
+So I put in a custom loading screen. To use it, add the following to the frontmatter.text in any block section of the page you want to have a longer loading screen:
+
+```
+<div id="longLoadingScreen"></div
+```
 ### Some Splines
 
 ```
