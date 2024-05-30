@@ -1,35 +1,149 @@
 <script>
-    //This is where I initialize all my typed text elements
-    var typed = new Typed('.typedTitle0', {
-      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-      typeSpeed: 50,
-    });
-    var heroTextA = new Typed('.typedTitle1', {
-      strings: [
-        'Hi, I\'m <strong>Dencho</strong>,', 
-      '2 Some <strong>HTML</strong>', 
-      '3 Chars &times; &copy;'
-    ],
-      typeSpeed: 0,
-      backSpeed: 0,
-      cursorChar: '',
-      shuffle: true,
-      smartBackspace: false,
-      loop: true
-    });
+    //This is where I initialize all my typed text elements since this logic executes during the footer
 
-    var loadingTextA = new Typed('#loadingText', {
-      //strings: null,//[ '#loadingText-strings' ],
-      stringsElement: '#loadingText-strings',
-    //strings: ['> Initializing system:^800 OK!^200 <br> > Connecting to Server:^800 Success!^100 <br> > User Status:^400 Encrypted 🔐^100 <br> > Scanning for Baddies💀:^20 Squeaky Clean! <br> > Loading Artificial Rizz...^600 <br> > Caching AI Swagger:^400 Complete!',''],
+    // LoadingScreen Delay @500ms = 2,250ms
+
+    // var typed = new Typed('.typedTitle0', {
+    //   strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+    //   typeSpeed: 50,
+    // });
+    // var heroTextA = new Typed('.typedTitle1', {
+    //   strings: [
+    //     'Hi, I\'m <strong>Dencho</strong>,', 
+    //   '2 Some <strong>HTML</strong>', 
+    //   '3 Chars &times; &copy;'
+    // ],
+    //   typeSpeed: 0,
+    //   backSpeed: 0,
+    //   cursorChar: '',
+    //   shuffle: true,
+    //   smartBackspace: false,
+    //   loop: true
+    // });
+    // function SetTypedTextById(textName)
+    // {
+    //     var textInstance = document.getElementById(textName);
+    //     var hasTextBox = textInstance != null;
+
+    //     if (hasTextBox)
+    //     {
+    //         var typedText = new Typed('#' + textName, 
+    //         {
+    //             stringsElement: '#' + textName + 'Strings',
+    //             typeSpeed: 0,
+    //             backSpeed: 0,
+    //             startDelay: 0,
+    //             shuffle: false,
+    //             loop: false,
+    //             smartBackspace: false,
+    //             fadeOut: true,
+    //         });
+
+    //         console.log('Typed Text Found');
+
+    //         ScrollReveal().reveal(textInstance, 
+    //         {
+    //             interval: 0,
+    //             delay: 0,
+    //             reset: true,
+    //             duration: 0,
+    //             afterReset: function (el)
+    //             {
+    //                 console.log("Reveal Reset");
+    //                 typedText.stop();
+    //                 typedText.destroy();
+    //             },
+    //             beforeReveal: function (el)
+    //             {
+    //                 console.log("Reveal Start");
+    //                 typedText.reset(true);
+    //                 typedText.start();
+    //             },
+    //         });
+    //     }
+    // }
+
+
+
+  var loadingScreenText = new Typed('#loadingText', {
+    //strings: null,//[ '#loadingText-strings' ],
+    stringsElement: '#loadingTextStrings',
     typeSpeed: 0,
     backSpeed: 0,
     smartBackspace: false, // this is a default, makes it so that no same text between lines are removed during transitions
     fadeOut: true,
-    loop: true,
+    loop: false,
     startDelay: 50,
-    shuffle: true,
+    shuffle: false,
     contentType: 'html',
-
   });
+  //var textBoxName = 'heroTextBox';
+  
+  //var textBox = document.getElementById(textBoxName);//'textBox');
+  //textBox != null && 
+  
+  // var textName = 'heroText';
+  // var textInstance = document.getElementById(textName);
+  // var hasTextBox = textInstance != null;
+  // if(hasTextBox) 
+  // {
+  //   var typedText = new Typed(('#'+textName),
+  //   { //'#heroText'{
+  //     stringsElement: '#'+textName+'Strings', 
+  //     typeSpeed: 0, backSpeed: 0, startDelay: 0, 
+  //     shuffle: false, loop: false,
+  //     smartBackspace: false, fadeOut: true,
+  //   });
+  //   //var textInstance = document.getElementById(textName);//textBox.querySelector('#'+textName);//document.getElementById('heroText');
+  //   console.log('Hero Text Found');
+  //   ScrollReveal().reveal(textInstance, 
+  //   { 
+  //     interval: 0, delay: 0, reset: true, duration: 0,
+  //     afterReset: function (el) 
+  //     {
+  //       console.log("Reveal Reset");
+  //       typedText.stop();
+  //       typedText.destroy();
+  //     },
+  //     beforeReveal: function (el) 
+  //     {
+  //       console.log("Reveal Start");
+  //       typedText.reset(true);
+  //       typedText.start();
+  //     },
+  //   });
+  //   // if(textInstance != null) 
+  //   // {
+  //   // }
+  // }
+  
+  var textList = document.querySelectorAll('.mdText');
+  console.log(textList.length + ' mdTexts found.');
+  //make each text element a typed element with scroll reveal
+  textList.forEach((element, index) => 
+  {
+    var typedText = new Typed('.mdText', 
+    {
+      stringsElement: '.mdTextStrings',
+      typeSpeed: 0, backSpeed: 0, startDelay: 0,//2250, //cursorChar: '|',
+      shuffle: false, smartBackspace: false, loop: false, fadeOut: true,
+    });
+    ScrollReveal().reveal(element, 
+    {
+      interval: 0, delay: 0, reset: true, duration: 0,
+      afterReset: function (el) 
+      {
+        console.log("Reveal Reset");
+        typedText.stop();
+        typedText.destroy();
+      },
+      beforeReveal: function (el) 
+      {
+        console.log("Reveal Start");
+        typedText.reset(true);
+        typedText.start();
+      },
+    });
+  });
+
 </script>

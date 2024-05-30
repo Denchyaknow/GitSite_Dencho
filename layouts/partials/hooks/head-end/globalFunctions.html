@@ -1,0 +1,54 @@
+<script>
+    function SetTypedTextById(textName, showCursor = true, cursor = '|', resetReveal = true)
+    {
+        var textInstance = document.getElementById(textName);
+        var hasTextBox = textInstance != null;
+        var isRunning = true;
+        if (hasTextBox)
+        {
+            var typedText = new Typed('#' + textName, 
+            {
+                stringsElement: '#' + textName + 'Strings',
+                typeSpeed: 20,
+                backSpeed: 10,
+                startDelay: 0,
+                shuffle: false,
+                cursorChar: cursor,
+                showCursor: showCursor,
+                loop: false,  
+                loopCount: Infinity,
+                smartBackspace: true,
+                fadeOut: false,
+            });
+
+            console.log('Typed Text Found');
+
+            ScrollReveal().reveal(textInstance, 
+            {
+                interval: 0,
+                delay: 0,
+                reset: resetReveal,
+                duration: 50,
+                afterReset: function (el)
+                {
+                    if(isRunning)
+                    {   
+                        console.log("Reveal Reset");
+                        typedText.destroy();//typedText.stop();//typedText.reset(false);
+                        isRunning = false;
+                    }
+                },
+                beforeReveal: function (el)
+                {
+                    if(!isRunning)
+                    {
+                        isRunning = true;
+                        console.log("Reveal Start");
+                        typedText.reset(true);
+                        typedText.start();
+                    }
+                },
+            });
+        }
+    }
+</script>

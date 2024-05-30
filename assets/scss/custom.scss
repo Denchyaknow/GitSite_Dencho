@@ -115,6 +115,105 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
   }
 }
 
+//Custom Text styles for sections
+.mTextBackground {
+  //transition: opacity $loadingDuration ease, visibility $loadingDuration;
+  position: absolute;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  text-wrap: nowrap;
+  background: linear-gradient(175deg, #ffffff66 30%, #ffffff70 90%);
+  border-radius: 4px;
+  box-shadow:0px 10px rgba(216, 72, 209, 0.359);
+}
+.dark .mTextBackground{
+  background: linear-gradient(175deg, #00000066 30%, #00000070 90%);
+  box-shadow:0px 10px rgba(27, 61, 85, 0.359); 
+}
+.mTextBox {
+  //position: relative; // Use relative positioning
+  z-index: 50;
+  .typed-cursor {
+    font-size: 1.25em;
+    z-index: 100;
+  }
+}
+.mText {
+  position: relative;
+  z-index: 100;
+  color: $clearTextLight;
+  width: 100%; // Ensure it takes up full width of the container
+  height: auto;
+  white-space: normal; // Allow text to wrap
+  word-wrap: break-word; // Break long words if necessary
+  font-size: 1.25em;
+  font-weight: light;
+  vertical-align: bottom;
+  object-position: bottom;
+  text-align: left;
+}
+.dark .mText{
+  color: $clearTextDark;
+}
+
+//markdown section styles
+.sectionMarkDown {
+  min-height: 40vh;
+}
+
+
+#heroTextBox {
+  position: absolute;
+  z-index: 900;
+  left: 5%;
+  width: 90%;
+  height: auto;
+  bottom: 50vh;
+  .typed-cursor {
+    //transition: opacity $loadingDuration ease, visibility $loadingDuration;
+    position: absolute;
+    font-size: 2.25em;
+    margin-top: -0.5em;
+    text-align: bottom;
+    vertical-align: bottom;
+    z-index: 10000;
+  }
+}
+
+#heroTextBackground {
+  //transition: opacity $loadingDuration ease, visibility $loadingDuration;
+  position: absolute;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  text-wrap: nowrap;
+  background: linear-gradient(175deg, #ffffff66 30%, #ffffff70 90%);
+  border-radius: 4px;
+  box-shadow:0px 10px rgba(216, 72, 209, 0.359);
+}
+.dark #heroTextBackground{
+  background: linear-gradient(175deg, #00000066 30%, #00000070 90%);
+  box-shadow:0px 10px rgba(27, 61, 85, 0.359); 
+}
+
+#heroText {
+  //transition: opacity $loadingDuration ease, visibility $loadingDuration;
+  position: relative;
+  z-index: 1000;
+  color: $clearTextLight;
+  width: 90%;
+  height: auto;
+  text-wrap: nowrap;
+  font-size: 1.25em;
+  font-weight: light;
+  vertical-align: bottom;
+  object-position: bottom;
+  text-align: left; // Align text to the left for better readability
+}
+.dark #heroText{
+  color: $clearTextDark;
+}
 
 
 //   __              _ _            _____                     
@@ -123,22 +222,59 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 //  |_____|___|__,|___|_|_|_|_  |  |_____|___|_| |___|___|_|_|
 //                          |___|                             
 
+
 #loadingTextBox {
   position: fixed;
-  z-index: 1000;
+  z-index: 900;
+  left: 5%;
+  width: 90%;
+  height: auto;
+  bottom: 2em;
+  .typed-cursor {
+    transition: opacity $loadingDuration ease, visibility $loadingDuration;
+    position: absolute;
+    font-size: 2.25em;
+    margin-top: -0.5em;
+    text-align: bottom;
+    vertical-align: bottom;
+    z-index: 10000;
+  }
 }
-.loadingText {
-  position: fixed;
-  z-index: 1000;
-  font-size: 2rem;
-  color: black;
-  font-weight: bold;
-  text-align: left;
-}
-.dark .loadingText{
-  color: white;
 
+#loadingTextBackground {
+  transition: opacity $loadingDuration ease, visibility $loadingDuration;
+  position: absolute;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  text-wrap: nowrap;
+  background: linear-gradient(175deg, #ffffff66 30%, #ffffff70 90%);
+  border-radius: 4px;
+  box-shadow:0px 10px rgba(216, 72, 209, 0.359);
 }
+.dark #loadingTextBackground{
+  background: linear-gradient(175deg, #00000066 30%, #00000070 90%);
+  box-shadow:0px 10px rgba(27, 61, 85, 0.359); 
+}
+
+#loadingText {
+  transition: opacity $loadingDuration ease, visibility $loadingDuration;
+  position: relative;
+  z-index: 1000;
+  color: $clearTextLight;
+  width: 90%;
+  height: auto;
+  text-wrap: nowrap;
+  font-size: 1.25em;
+  font-weight: light;
+  vertical-align: bottom;
+  object-position: bottom;
+  text-align: left; // Align text to the left for better readability
+}
+.dark #loadingText{
+  color: $clearTextDark;
+}
+
 #loadingScreen {
   transition: opacity $loadingDuration ease, visibility $loadingDuration;
   
@@ -150,12 +286,12 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
     left:0;
     width: 100vw;
     height: 100vh;
-    z-index: 999;
+    z-index: 800;
     transform: rotate(0deg); // Rotate the background
-    filter: brightness(0.2) contrast(1) saturate(0.5) hue-rotate(120deg) invert(0) sepia(0) blur(0px) grayscale(0);
-    
+    filter: brightness(0.8) contrast(1) saturate(0.8) hue-rotate(50deg) invert(1) sepia(0) blur(0px) grayscale(0);
+    background-color: black;
     background-image: $loadingBackground;
-    background-size: cover; // Adjust based on your design needs
+    background-size: cover;//100% auto;//cover; // Adjust based on your design needs
     background-position: center;
     background-repeat: no-repeat; // Adjust if you want the image to repeat
   }
@@ -166,22 +302,28 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
     left:0;
     width: 100vw;
     height: 100vh;
-    z-index: 9999;
-    filter: brightness(0.8) contrast(1.2) saturate(1.8) hue-rotate(-40deg) sepia(0.5);
+    z-index: 850;
+    filter: brightness(0.8) contrast(2) saturate(0.6) hue-rotate(265deg) sepia(0);
     display: flex;
     justify-content: center;
     align-items: center;
     visibility: visible;
-    
     background-image: $loadingLogo;
-    background-size: 30vh auto; // Scale the background to 150% of its original size while maintaining aspect ratio
+    background-size: 15vh auto; // Scale the background to 150% of its original size while maintaining aspect ratio
     background-position: center;
     background-repeat: no-repeat; // Adjust if you want the image to repeat
+    animation: hoverEffect 10s ease-in-out infinite;//, randomRotation 2s ease-in-out infinite; // Add the hover and rotation animations
+
   }
 }
 .dark #loadingScreen {
-background-color: $backgroundDark;
-
+  background-color: $backgroundDark;
+  #loadingBack {
+    filter: brightness(0.5) contrast(1) saturate(0.2) hue-rotate(310deg) invert(0) sepia(0) blur(0px) grayscale(0);
+  }
+  #loadingLogo{
+    filter: brightness(1) contrast(1) saturate(1) hue-rotate(190deg) sepia(0);
+  }
 }
 //The hidden class is added via js after a timer
 #loadingScreen.hidden {
@@ -191,6 +333,20 @@ background-color: $backgroundDark;
     visibility: hidden;
   }
   #loadingLogo{
+    opacity: 0;
+    visibility: hidden;
+  }
+  #loadingText {
+    opacity: 0;
+    visibility: hidden;
+  }
+  #loadingTextBox {
+    .typed-cursor {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  #loadingTextBackground {
     opacity: 0;
     visibility: hidden;
   }
@@ -254,49 +410,46 @@ background-color: $backgroundDark;
   }
 }
 //Everything buttons
-.dark .btn {
-  background-color: $primaryDark;
-
-  &:before {
-    background: linear-gradient(45deg, transparent, $menuTextActiveDark, transparent);
-  }
-
-  &:hover {
-    background-color: $linkHoverDark;
-    border: 2px solid $linkHoverLight;
-
-    &:before {
-      opacity: 1;
-    }
-  }
-}
 .btn {
   background-color: $primaryLight;
-
+  p {
+    color: $clearTextDark;//use the dark mode text since these buttons are colored dark
+  }
   &:before {
     content: "";
     position: absolute;
     background: linear-gradient(45deg, transparent, $menuTextActiveLight, transparent);
-
   }
-
   &:hover {
     transform: scale(1.2);
     background-color: $linkHoverLight;
     border: 2px solid $linkHoverDark;
-
     &:before {
       opacity: 1;
     }
   }
 }
-
-
+.dark .btn {
+  background-color: $primaryDark;
+  p {
+    color: $clearTextLight;//Remember that dark mode buttons have a light background, so we use the text color that wed use in light mode
+  }
+  &:before {
+    background: linear-gradient(45deg, transparent, $menuTextActiveDark, transparent);
+  }
+  &:hover {
+    background-color: $linkHoverDark;
+    border: 2px solid $linkHoverLight;
+    &:before {
+      opacity: 1;
+    }
+  }
+}
 p {
-  color: $menuTextLight;
+  color: $clearTextLight;
 }
 .dark p {
-  color: $menuTextDark;
+  color: $clearTextDark;
 }
 strong {
   color: $menuTextLight;
@@ -421,52 +574,145 @@ body::-webkit-scrollbar-thumb:hover {
   min-height: $halfSectionHeight;
 }
 
-//Add to a Section with a video background to add a cover to it
-.commonVideoSection {
+
+.animatedBorderBottom {
+  margin-block-end: -$borderBackgroundHeight;
+  padding-top: 50px;
+  top: -$borderBackgroundHeight;
+  background: transparent !important;
+  overflow: hidden;
   position: relative;
-}
-//Common Video Section gives sections with video background a cover relative to light/dark mode
-.dark .commonVideoSection {
-  &::after {
-    background-color: $coverBackgroundDark;
+  pointer-events: none;
+  display: block; // Ensure it takes full width
+  width: 100%;
+  &::before {
+    content: '';
+    top: -1em;
+    position: absolute;
+    display: inline-block;
+    z-index: -1;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    left: -100%;
+    transform: translateX(-50%) scaleX(4); // Center horizontally and scale
+    transform-origin: center; // Scale from the center
+    animation: $borderAnimation; // Optional animation
+    height: $borderBackgroundHeight;
+    width: 100vw; // Ensure it spans more than the viewport width
+    background-size: $borderBackgroundSize;
+    background-position: 20% 100%;
+    background-image: $svgBorderBottomLight0;
   }
-}
-
-
-.commonVideoSection .home-section-bg {
-  .bg-video {
-    z-index: $layerIndex_BackgroundVideo;
-  }
-  
-  //Put a cover image over the background
   &::after {
     content: '';
+    //position: absolute;
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: $coverBackgroundLight;//rgba(255, 0, 0, 0.473);//$coverBackgroundLight;
-    object-fit: cover;
-    z-index: $layerIndex_BackgroundCover; // Ensure it appears behind the content
+    display: inline-block;
+    z-index: -1;
     pointer-events: none;
+    background-repeat: no-repeat;
+    left: -100%;
+    bottom: -1em;
+    transform: translateX(-50%) scaleX(4); // Center horizontally and scale
+    transform-origin: center; // Scale from the center
+    animation: $borderAnimation; // Optional animation
+    height: $borderBackgroundHeight;
+    width: 100vw; // Ensure it spans more than the viewport width
+    background-size: $borderBackgroundSize;
+    background-position: 20% 100%;
+    background-image: $svgBorderTopLight0;
   }
 }
-//Dark mode compatibility for the background of sections
-.dark .commonVideoSection .home-section-bg {
+.dark .animatedBorderBottom {
+  &::before {
+    background-image: $svgBorderBottomDark;
+  }
   &::after {
-    background-color: $coverBackgroundDark;
+    background-image: $svgBorderTopDark;
   }
 }
 
-// .noMarginBlockEnd {
-//   margin-block-end: -$borderBackgroundHeight;
+.commonVideoSection {
+  
+  // &::before {
+  //   content: '';
+  //   font-family: 'shape divider from ShapeDividers.com';
+  //   position: absolute;
+  //   z-index: 3;
+  //   pointer-events: none;
+  //   background-repeat: no-repeat;
+  //   bottom: -0.1vw;
+  //   left: -0.1vw;
+  //   right: -0.1vw;
+  //   top: -0.1vw;
+  //   animation: $borderAnimation;
+  //   transform: scaleX(4);
+  //   transform-origin: 100% 0;
+  //   height: $borderBackgroundHeight;
+  //   background-size: $borderBackgroundSize;
+  //   background-position: 80% 0%;  
+  //   background-repeat: no-repeat;
+  //   background-image: $svgBorderBottomLight;// fill(cyan);
+  // }
+  .home-section-bg {
+    .bg-video {
+      z-index: $layerIndex_BackgroundVideo;
+    }
+    //Put a cover image over the background
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: $coverBackgroundLight;//rgba(255, 0, 0, 0.473);//$coverBackgroundLight;
+      object-fit: cover;
+      z-index: $layerIndex_BackgroundCover; // Ensure it appears behind the content
+      pointer-events: none;
+    }
+  }
+}
+  //Dark mode compatibility for the background of sections
+.dark .commonVideoSection {
+  // &::before {
+  //   background-image: $svgBorderBottomDark;
 
+  // }
+  .home-section-bg {
+    &::after {
+      background-color: $coverBackgroundDark;
+    }
+  }
+}
+// .commonVideoSection {
+
+//   .home-section-bg {
+//     ::before {
+//       content: '';
+//       font-family: 'shape divider from ShapeDividers.com';
+//       position: absolute;
+//       z-index: 3;
+//       pointer-events: none;
+//       background-repeat: no-repeat;
+//       bottom: -0.1vw;
+//       left: -0.1vw;
+//       right: -0.1vw;
+//       top: -0.1vw;
+//       animation: $borderAnimation;
+//       transform: scaleX(4);
+//       transform-origin: 100% 0;
+//       height: $borderBackgroundHeight;
+//       background-size: $borderBackgroundSize;
+//       background-position: 80% 0%;  
+//       background-repeat: no-repeat;
+//       background-image: $svgBorderBottomDark;// fill(cyan);
+//     }
+//   }
 // }
-
 .sectionBorderTopMask {
   margin-block-end: -$borderBackgroundHeight;
-
+  padding-top: 50px;
   top: -$borderBackgroundHeight;
   background: transparent !important;
   overflow: hidden;
@@ -535,85 +781,85 @@ body::-webkit-scrollbar-thumb:hover {
 //   background-image: $svgBorderTopLight;
 // }
 //Normal Border Parts
-// .sectionBorderTop {
-//   bottom: -2px;
-//   background: transparent !important;
-//   overflow: hidden;
-//   position: relative;
-// }
-// //General seperator top border
-// .dark .sectionBorderTop::before {
-//   background-image: $svgBorderTopLight;
+.sectionBorderTop {
+  bottom: -2px;
+  background: transparent !important;
+  overflow: hidden;
+  position: relative;
+}
+//General seperator top border
+.dark .sectionBorderTop::before {
+  background-image: $svgBorderTopLight;
 
-// }
-// .sectionBorderTop::before {
-//   content: '';
-//   font-family: 'shape divider from ShapeDividers.com';
-//   position: absolute;
-//   z-index: 3;
-//   pointer-events: none;
-//   background-repeat: no-repeat;
-//   bottom: -0.1vw;
-//   left: -0.1vw;
-//   right: -0.1vw;
-//   //top: -0.1vw;
-//   transform: scaleX(4);
-//   transform-origin: 100% 100%;
-//   animation: $borderAnimation;
-//   height: $borderBackgroundHeight;
-//   background-size: $borderBackgroundSize;
-//   background-position: 20% 100%;
-//   background-image: $svgBorderTopDark;
-// }
-// //Can be used to fill in a markdown section as the middle part of a seperator
-// .dark .sectionBorderMid {
-//   background-color: $backgroundLight !important;
-// }
-// .sectionBorderMid {
-//   display: block;
-//   position: relative;
-//   bottom: 0;
-//   left: 0;
-//   object-fit: cover;
-//   object-position: center center;
-//   height: 40vh;
-//   z-index: -5;
-//   background-color: $backgroundDark !important;
-// }
+}
+.sectionBorderTop::before {
+  content: '';
+  font-family: 'shape divider from ShapeDividers.com';
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  bottom: -0.1vw;
+  left: -0.1vw;
+  right: -0.1vw;
+  //top: -0.1vw;
+  transform: scaleX(4);
+  transform-origin: 100% 100%;
+  animation: $borderAnimation;
+  height: $borderBackgroundHeight;
+  background-size: $borderBackgroundSize;
+  background-position: 20% 100%;
+  background-image: $svgBorderTopDark;
+}
+//Can be used to fill in a markdown section as the middle part of a seperator
+.dark .sectionBorderMid {
+  background-color: $backgroundLight !important;
+}
+.sectionBorderMid {
+  display: block;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center center;
+  height: 40vh;
+  z-index: -5;
+  background-color: $backgroundDark !important;
+}
 
-// .dark .sectionBorderBottom::before {
-//   background-image: $svgBorderBottomLight;
+.dark .sectionBorderBottom::before {
+  background-image: $svgBorderBottomLight;
 
-// }
-// .sectionBorderBottom {
-//   top: -2px;
-//   background: transparent !important;
-//   overflow: hidden;
-//   position: relative;
-// }
+}
+.sectionBorderBottom {
+  top: -2px;
+  background: transparent !important;
+  overflow: hidden;
+  position: relative;
+}
 
-// .sectionBorderBottom::before {
-//   content: '';
-//   font-family: 'shape divider from ShapeDividers.com';
-//   position: absolute;
-//   z-index: 3;
-//   pointer-events: none;
-//   background-repeat: no-repeat;
-//   bottom: -0.1vw;
-//   left: -0.1vw;
-//   right: -0.1vw;
-//   top: -0.1vw;
-//   animation: $borderAnimation;
-//   transform: scaleX(4);
-//   transform-origin: 100% 0;
-//   height: $borderBackgroundHeight;
-//   background-size: $borderBackgroundSize;
-//   background-position: 80% 0%;  
-//   background-repeat: no-repeat;
-//   background-image: $svgBorderBottomDark;// fill(cyan);
-// }
+.sectionBorderBottom::before {
+  content: '';
+  font-family: 'shape divider from ShapeDividers.com';
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  bottom: -0.1vw;
+  left: -0.1vw;
+  right: -0.1vw;
+  top: -0.1vw;
+  animation: $borderAnimation;
+  transform: scaleX(4);
+  transform-origin: 100% 0;
+  height: $borderBackgroundHeight;
+  background-size: $borderBackgroundSize;
+  background-position: 80% 0%;  
+  background-repeat: no-repeat;
+  background-image: $svgBorderBottomDark;// fill(cyan);
+}
 
-// .dark .sectionBorderTopAlt::before {
+  // .dark .sectionBorderTopAlt::before {
 //   background-image: $svgBorderTopDark;
 // }
 // .sectionBorderTopAlt::before {

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 29, 2024 --><html lang="en-us" >
+<!-- Last Published: May 30, 2024 --><html lang="en-us" >
 
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -27,7 +27,7 @@
     
       
       <script>
-    var fadeOutDelay = 25000;
+    var fadeOutDelay = 500;
     var scrollUnlockDelay = fadeOutDelay + 250;
     function ShowHideMasks() {
         var masks = document.querySelectorAll('#section-markdown');
@@ -43,7 +43,7 @@
     document.addEventListener("DOMContentLoaded", function() {        
         var longLoading = document.getElementById('longLoadingScreen') != null;
         if(longLoading) {
-            fadeOutDelay *= 5;
+            fadeOutDelay *= 4;
             console.log('Long Loading Screen Detected');
             scrollUnlockDelay = fadeOutDelay + 250;
         }
@@ -63,24 +63,16 @@
     <div id="loadingBack"></div> 
     <div id="loadingLogo"></div> 
     <div id="loadingTextBox">
-        <div id="loadingText-strings">
+        <div id="loadingTextStrings" style="display: none;">
             <p>
-                >> Initializing system.^50.^50.^50 [OK] System Ready^200 <br>
-                >> Connecting to Server^200.^200.^200.^200. [OK] Successful^200 <br>
-                >> User Status:^200 [OK] Encrypted 🔐^200 <br>
-                >> 💀 Scanning for Baddies^500.^400.^300.^200. Squeaky Clean^200 <br>
-                >> Loading Artificial Rizz.^100.^100.^100. [OK] Done!^200 <br>
-                >> Caching AI Swag:^400 Completed <br>
-            </p>
-            <p>
-                >> Initializing hoes.^50.^50.^50 [OK] System Ready^200 <br>
-                >> Connecting to lord Pimp^200.^200.^200.^200. [OK] Successful^200 <br>
-                >> User Hoeness:^200 [OK] Encrypted 🔐^200 <br>
-                >> 💀 Scanning for Baddies^500.^400.^300.^200. Squeaky Clean^200 <br>
-                >> Loading Artificial Rizz.^100.^100.^100. [OK] Done!^200 <br>
-                >> Caching AI Swag:^400 Completed <br>
+            >> Initializing <strong>Dencho.Dev:</strong><br>
+            >>^50 Connecting to Server.^30.^20.^40.[CONNECTED]^200 <br>
+            >>^50 💀 Scanning for Baddies.^20.^50.^20.[FRIEND]^200 <br>
+            >>^50 Loading Artificial Rizz.^50.^50.^50.[NOICE]^200 <br>
+            >>^50 Caching AI Swag.^20.^20.^20.[COMPLETE]
             </p>
         </div>
+        <div id="loadingTextBackground"></div>
         <span id="loadingText"></span>
     </div>
 </div>
@@ -114,7 +106,50 @@
 
 
 
+  <script>
+    
+    
+    
+    
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</script>
       
     
   
@@ -182,6 +217,12 @@
       
     
     
+      
+        
+      
+        
+      
+        
       
         
       
@@ -482,6 +523,65 @@
 
 
 
+  
+    
+      
+      <script>
+    function SetTypedTextById(textName, showCursor = true, cursor = '|', resetReveal = true)
+    {
+        var textInstance = document.getElementById(textName);
+        var hasTextBox = textInstance != null;
+        var isRunning = true;
+        if (hasTextBox)
+        {
+            var typedText = new Typed('#' + textName, 
+            {
+                stringsElement: '#' + textName + 'Strings',
+                typeSpeed: 20,
+                backSpeed: 10,
+                startDelay: 0,
+                shuffle: false,
+                cursorChar: cursor,
+                showCursor: showCursor,
+                loop: false,  
+                loopCount: Infinity,
+                smartBackspace: true,
+                fadeOut: false,
+            });
+
+            console.log('Typed Text Found');
+
+            ScrollReveal().reveal(textInstance, 
+            {
+                interval: 0,
+                delay: 0,
+                reset: resetReveal,
+                duration: 50,
+                afterReset: function (el)
+                {
+                    if(isRunning)
+                    {   
+                        console.log("Reveal Reset");
+                        typedText.destroy();
+                        isRunning = false;
+                    }
+                },
+                beforeReveal: function (el)
+                {
+                    if(!isRunning)
+                    {
+                        isRunning = true;
+                        console.log("Reveal Start");
+                        typedText.reset(true);
+                        typedText.start();
+                    }
+                },
+            });
+        }
+    }
+</script>
+      
+    
   
 
 
@@ -802,8 +902,6 @@
 
   
   
-    
-  
 
 
 
@@ -838,7 +936,7 @@
 
 <section id="home" class="home-section wg-hero  fullHero commonVideoSection"  >
  <div class="home-section-bg " >
-   <video class="bg-video flip" playsinline="" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/media/backgrounds/XRLog_2023_Hero.webm" style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;"></video>
+   <video class="bg-video " playsinline="" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/media/backgrounds/XRLog_2023_Hero.webm" style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;"></video>
  </div>
   <div class="container">
 
@@ -859,7 +957,7 @@
 
     
       <div class="hero-lead"><!--div id="particles-js"></div-->
-<div id="longLoadingScreen"></div
+<div id="longLoadingScreen"></div>
 <div class="buttonSidePanel">
     <button class="reButton btn btn-primary">
     
@@ -880,13 +978,16 @@
 </div>
 <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer-->
 <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
-<div class="heroTitleText">
-  <h1 class="reText load-hidden">
-      Widget Inc.
-  </h1>
-  <p class="typedTitle0"></p>
-  <span class="typedTitle1">Hello</span>
-</div></div>
+<div id="heroTextBox">
+  <div id="heroTextBackground"></div>
+  <span id="heroText"></span>
+  <div id="heroTextStrings" style="display: none;">
+    <p>
+    Hi, I'm <strong>Dencho</strong>,
+    </p>
+  </div>
+</div>
+<script> SetTypedTextById('heroText'); </script></div>
     
 
     
@@ -998,6 +1099,350 @@
 
   <div class="col-12">
     
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  sectionMarkDown commonVideoSection animatedBorderBottom"  >
+ <div class="home-section-bg " >
+   <video class="bg-video " playsinline="" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/media/backgrounds/XRLog_2023_Hero.webm" style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;"></video>
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0"><h1>SECTIONAL</h1></h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <div class="mTextBox">
+  <span id="mdText0" class="mText"></span>
+  <div id="mdText0Strings" style="display: none;">
+    <p>
+    Hi, I'm `<strong>DenchoDenchoDenchoDencho 
+    <br> DenchoDenchoDenchoDencho</strong>`,
+    </p>
+    <p>
+    Hi, I'DenchoDenchoDenchoDencho in one line
+    </p>
+  </div>
+</div>
+<script> SetTypedTextById('mdText0'); </script>
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  sectionMarkDown"  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">SECTIONAL</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <div class="mTextBox">
+  <span id="mdText1" class="mText"></span>
+  <div id="mdText1Strings" style="display: none;">
+    <p>
+    Hi, I'm <strong>DenchoDenchoDenchoDencho 
+    <br> DenchoDenchoDenchoDencho</strong>,
+    </p>
+    <p>
+    Hi, I'DenchoDenchoDenchoDencho in one line
+    </p>
+  </div>
+</div>
+<script> SetTypedTextById('mdText1'); </script>
   </div>
 
 
@@ -1630,6 +2075,7 @@
 
     var nodeList = document.querySelectorAll('.reButton');
     console.log(nodeList.length + ' reButtons found.');
+    ScrollReveal().reveal(nodeList, { interval: 250 });
     
     
         
@@ -1638,7 +2084,9 @@
     
     
     
-    ScrollReveal().reveal(nodeList, { interval: 250 });
+
+
+
     
     
 </script>
@@ -1649,38 +2097,152 @@
       
       <script>
     
-    var typed = new Typed('.typedTitle0', {
-      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-      typeSpeed: 50,
-    });
-    var heroTextA = new Typed('.typedTitle1', {
-      strings: [
-        'Hi, I\'m <strong>Dencho</strong>,', 
-      '2 Some <strong>HTML</strong>', 
-      '3 Chars &times; &copy;'
-    ],
-      typeSpeed: 0,
-      backSpeed: 0,
-      cursorChar: '',
-      shuffle: true,
-      smartBackspace: false,
-      loop: true
-    });
 
-    var loadingTextA = new Typed('#loadingText', {
-      
-      stringsElement: '#loadingText-strings',
     
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+  var loadingScreenText = new Typed('#loadingText', {
+    
+    stringsElement: '#loadingTextStrings',
     typeSpeed: 0,
     backSpeed: 0,
     smartBackspace: false, 
     fadeOut: true,
-    loop: true,
+    loop: false,
     startDelay: 50,
-    shuffle: true,
+    shuffle: false,
     contentType: 'html',
-
   });
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  var textList = document.querySelectorAll('.mdText');
+  console.log(textList.length + ' mdTexts found.');
+  
+  textList.forEach((element, index) => 
+  {
+    var typedText = new Typed('.mdText', 
+    {
+      stringsElement: '.mdTextStrings',
+      typeSpeed: 0, backSpeed: 0, startDelay: 0,
+      shuffle: false, smartBackspace: false, loop: false, fadeOut: true,
+    });
+    ScrollReveal().reveal(element, 
+    {
+      interval: 0, delay: 0, reset: true, duration: 0,
+      afterReset: function (el) 
+      {
+        console.log("Reveal Reset");
+        typedText.stop();
+        typedText.destroy();
+      },
+      beforeReveal: function (el) 
+      {
+        console.log("Reveal Start");
+        typedText.reset(true);
+        typedText.start();
+      },
+    });
+  });
+
 </script>
       
     

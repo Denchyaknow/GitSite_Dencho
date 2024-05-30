@@ -12,8 +12,8 @@ sections:
       css_class: 'fullHero commonVideoSection'
       background:
         video: 
-          filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
-          flip: true # Post-processing: flip the video horizontally?
+          filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/
+          flip: false # Post-processing: flip the video horizontally?
     content:
       title: ''
       cta_note:
@@ -21,8 +21,7 @@ sections:
           <!--div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div-->
       text: |-
           <!--div id="particles-js"></div-->
-          <div id="longLoadingScreen"></div
-
+          <div id="longLoadingScreen"></div>
           <div class="buttonSidePanel">
               <button class="reButton btn btn-primary">
               {{< icon name="vr-cardboard" pack="fas" >}}<p>ReadMe</p>
@@ -39,32 +38,16 @@ sections:
           </div>
           <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer-->
           <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
-          
-          <div class="heroTitleText">
-            <h1 class="reText load-hidden">
-                Widget Inc.
-            </h1>
-            <p class="typedTitle0"></p>
-            <span class="typedTitle1">Hello</span>
+          <div id="heroTextBox">
+            <div id="heroTextBackground"></div>
+            <span id="heroText"></span>
+            <div id="heroTextStrings" style="display: none;">
+              <p>
+              Hi, I'm <strong>Dencho</strong>,
+              </p>
+            </div>
           </div>
-          
-
-          
-  # - block: markdown
-  #   content:
-  #     title: ''
-  #     subtitle: ''
-  #     text: |-
-  #         <!--RIBBON spline-viewer  class="spline_section" url="https://prod.spline.design/HPGrnGPNa-N-ktSX/scene.splinecode"></spline-viewer-->
-  #         <!--HANDS spline-viewer class="spline_section" url="https://prod.spline.design/Lx3g7jnOFbroh1Vs/scene.splinecode"></spline-viewer-->
-  #         <spline-viewer class="spline_section" url="https://prod.spline.design/BCFibHmAEjzvs887/scene.splinecode"></spline-viewer>
-  #         <!--WAVEYDOTS spline-viewer class="spline_section" url="https://prod.spline.design/XTyxPrdmcOeQc-ua/scene.splinecode"></spline-viewer-->
-  #         <!--ICON spline-viewer class="spline_section" url="https://prod.spline.design/ioymJaK6NubxbiXE/scene.splinecode"></spline-viewer-->
-  #         <!--LINES spline-viewer class="spline_section" url="https://prod.spline.design/JPYWFPf5webjzoW4/scene.splinecode"></spline-viewer-->
-  #   design:
-  #     css_class: 'spline_divider'
-  #     columns: '1'
-
+          <script> SetTypedTextById('heroText'); </script>
   - block: markdown
     content:
       title: ''
@@ -72,6 +55,62 @@ sections:
       #text: '<div class="sectionBorderTopMask"</div>'
     design:
       css_class: 'sectionBorderTopMask'
+      columns: '1'
+
+  - block: markdown
+    content:
+      title: ''
+      subtitle: ''
+      text: ''
+    design:
+      css_class: ''
+      columns: '1'
+
+  - block: markdown
+    content:
+      title: '<h1>SECTIONAL</h1>'
+      subtitle: ''
+      text: |-
+          <div class="mTextBox">
+            <span id="mdText0" class="mText"></span>
+            <div id="mdText0Strings" style="display: none;">
+              <p>
+              Hi, I'm `<strong>DenchoDenchoDenchoDencho 
+              <br> DenchoDenchoDenchoDencho</strong>`,
+              </p>
+              <p>
+              Hi, I'DenchoDenchoDenchoDencho in one line
+              </p>
+            </div>
+          </div>
+          <script> SetTypedTextById('mdText0'); </script>
+    design:
+      css_class: 'sectionMarkDown commonVideoSection animatedBorderBottom'
+      columns: '1'
+      background:
+        video: 
+          filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/
+          flip: false # Post-processing: flip the video horizontally?
+  - block: markdown
+    content:
+      title: '<p>SECTIONAL</p>'
+      subtitle: ''
+      text: |-
+          <div class="mTextBox">
+            <span id="mdText1" class="mText"></span>
+            <div id="mdText1Strings" style="display: none;">
+              <p>
+              Hi, I'm <strong>DenchoDenchoDenchoDencho 
+              <br> DenchoDenchoDenchoDencho</strong>,
+              </p>
+              <p>
+              Hi, I'DenchoDenchoDenchoDencho in one line
+              </p>
+            </div>
+          </div>
+          <script> SetTypedTextById('mdText1'); </script>
+    design:
+      css_class: 'sectionMarkDown'
       columns: '1'
 
   - block: collection

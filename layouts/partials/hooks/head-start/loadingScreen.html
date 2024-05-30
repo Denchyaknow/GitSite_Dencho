@@ -1,5 +1,5 @@
 <script>
-    var fadeOutDelay = 25000;
+    var fadeOutDelay = 500;
     var scrollUnlockDelay = fadeOutDelay + 250;
     function ShowHideMasks() {
         var masks = document.querySelectorAll('#section-markdown');
@@ -15,7 +15,7 @@
     document.addEventListener("DOMContentLoaded", function() {        
         var longLoading = document.getElementById('longLoadingScreen') != null;
         if(longLoading) {
-            fadeOutDelay *= 5;
+            fadeOutDelay *= 4;
             console.log('Long Loading Screen Detected');
             scrollUnlockDelay = fadeOutDelay + 250;
         }
@@ -35,24 +35,16 @@
     <div id="loadingBack"></div> 
     <div id="loadingLogo"></div> 
     <div id="loadingTextBox">
-        <div id="loadingText-strings">
+        <div id="loadingTextStrings" style="display: none;">
             <p>
-                >> Initializing system.^50.^50.^50 [OK] System Ready^200 <br>
-                >> Connecting to Server^200.^200.^200.^200. [OK] Successful^200 <br>
-                >> User Status:^200 [OK] Encrypted 🔐^200 <br>
-                >> 💀 Scanning for Baddies^500.^400.^300.^200. Squeaky Clean^200 <br>
-                >> Loading Artificial Rizz.^100.^100.^100. [OK] Done!^200 <br>
-                >> Caching AI Swag:^400 Completed <br>
-            </p>
-            <p>
-                >> Initializing hoes.^50.^50.^50 [OK] System Ready^200 <br>
-                >> Connecting to lord Pimp^200.^200.^200.^200. [OK] Successful^200 <br>
-                >> User Hoeness:^200 [OK] Encrypted 🔐^200 <br>
-                >> 💀 Scanning for Baddies^500.^400.^300.^200. Squeaky Clean^200 <br>
-                >> Loading Artificial Rizz.^100.^100.^100. [OK] Done!^200 <br>
-                >> Caching AI Swag:^400 Completed <br>
+            >> Initializing <strong>Dencho.Dev:</strong><br>
+            >>^50 Connecting to Server.^30.^20.^40.[CONNECTED]^200 <br>
+            >>^50 💀 Scanning for Baddies.^20.^50.^20.[FRIEND]^200 <br>
+            >>^50 Loading Artificial Rizz.^50.^50.^50.[NOICE]^200 <br>
+            >>^50 Caching AI Swag.^20.^20.^20.[COMPLETE]
             </p>
         </div>
+        <div id="loadingTextBackground"></div>
         <span id="loadingText"></span>
     </div>
 </div>
