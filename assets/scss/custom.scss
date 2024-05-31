@@ -601,7 +601,7 @@ body::-webkit-scrollbar-thumb:hover {
     width: 100vw; // Ensure it spans more than the viewport width
     background-size: $borderBackgroundSize;
     background-position: 20% 100%;
-    background-image: $svgBorderTopLight0;
+    background-image: $svgBorderTopLight1;
   }
   &::after {
     content: '';
@@ -620,15 +620,15 @@ body::-webkit-scrollbar-thumb:hover {
     width: 100vw; // Ensure it spans more than the viewport width
     background-size: $borderBackgroundSize;
     background-position: 20% 100%;
-    background-image: $svgBorderBottomLight0;
+    background-image: $svgBorderBottomLight1;
   }
 }
 .dark .animatedBorderBottom {
   &::before {
-    background-image: $svgBorderBottomDark;
+    background-image: $svgBorderBottomDark1;
   }
   &::after {
-    background-image: $svgBorderTopDark;
+    background-image: $svgBorderTopDark1;
   }
 }
 
