@@ -625,10 +625,10 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .dark .animatedBorderBottom {
   &::before {
-    background-image: $svgBorderBottomDark1;
+    background-image: $svgBorderTopDark1;
   }
   &::after {
-    background-image: $svgBorderTopDark1;
+    background-image: $svgBorderBottomDark1;
   }
 }
 
