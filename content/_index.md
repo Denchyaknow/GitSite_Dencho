@@ -9,7 +9,7 @@ sections:
     id: home
     demo: false # Only display this section in the Hugo Blox Builder demo site
     design:
-      css_class: 'fullHero commonVideoSection'
+      css_class: 'fullHero commonVideoSection animeBorderBottom2'
       background:
         video: 
           filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/
@@ -48,14 +48,14 @@ sections:
             </div>
           </div>
           <script> SetTypedTextById('heroText'); </script>
-  - block: markdown
-    content:
-      title: ''
-      subtitle: ''
-      #text: '<div class="sectionBorderTopMask"</div>'
-    design:
-      css_class: 'sectionBorderTopMask'
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: ''
+  #     subtitle: ''
+  #     #text: '<div class="sectionBorderTopMask"</div>'
+  #   design:
+  #     css_class: 'animeBorderBottom'
+  #     columns: '1'
 
   - block: markdown
     content:
@@ -85,7 +85,7 @@ sections:
           </div>
           <script> SetTypedTextById('mdText0'); </script>
     design:
-      css_class: 'sectionMarkDown commonVideoSection animatedBorderBottom'
+      css_class: 'sectionMarkDown commonVideoSection animeBorders1'
       columns: '1'
       background:
         video: 

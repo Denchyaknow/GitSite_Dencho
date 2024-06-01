@@ -1,5 +1,6 @@
 @import 'nav';
 @import 'globalVars';//Global Vars
+@import 'animeBorders';
 
 // // Backgrounds
 $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual path to your SVG image
@@ -575,63 +576,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 
-.animatedBorderBottom {
-  margin-block-end: -$borderBackgroundHeight;
-  padding-top: 50px;
-  top: -$borderBackgroundHeight;
-  background: transparent !important;
-  overflow: hidden;
-  position: relative;
-  pointer-events: none;
-  display: block; // Ensure it takes full width
-  width: 100%;
-  &::before {
-    content: '';
-    top: -1em;
-    position: absolute;
-    display: inline-block;
-    z-index: -1;
-    pointer-events: none;
-    background-repeat: no-repeat;
-    left: -100%;
-    transform: translateX(-50%) scaleX(4); // Center horizontally and scale
-    transform-origin: center; // Scale from the center
-    animation: $borderAnimation; // Optional animation
-    height: $borderBackgroundHeight;
-    width: 100vw; // Ensure it spans more than the viewport width
-    background-size: $borderBackgroundSize;
-    background-position: 20% 100%;
-    background-image: $svgBorderTopLight1;
-  }
-  &::after {
-    content: '';
-    //position: absolute;
-    position: absolute;
-    display: inline-block;
-    z-index: -1;
-    pointer-events: none;
-    background-repeat: no-repeat;
-    left: -100%;
-    bottom: -1em;
-    transform: translateX(-50%) scaleX(4); // Center horizontally and scale
-    transform-origin: center; // Scale from the center
-    animation: $borderAnimation; // Optional animation
-    height: $borderBackgroundHeight;
-    width: 100vw; // Ensure it spans more than the viewport width
-    background-size: $borderBackgroundSize;
-    background-position: 20% 100%;
-    background-image: $svgBorderBottomLight1;
-  }
-}
-.dark .animatedBorderBottom {
-  &::before {
-    background-image: $svgBorderTopDark1;
-  }
-  &::after {
-    background-image: $svgBorderBottomDark1;
-  }
-}
-
 .commonVideoSection {
   
   // &::before {
@@ -673,43 +617,16 @@ body::-webkit-scrollbar-thumb:hover {
     }
   }
 }
-  //Dark mode compatibility for the background of sections
+//Dark mode compatibility for the background of sections
 .dark .commonVideoSection {
-  // &::before {
-  //   background-image: $svgBorderBottomDark;
-
-  // }
   .home-section-bg {
     &::after {
       background-color: $coverBackgroundDark;
     }
   }
 }
-// .commonVideoSection {
 
-//   .home-section-bg {
-//     ::before {
-//       content: '';
-//       font-family: 'shape divider from ShapeDividers.com';
-//       position: absolute;
-//       z-index: 3;
-//       pointer-events: none;
-//       background-repeat: no-repeat;
-//       bottom: -0.1vw;
-//       left: -0.1vw;
-//       right: -0.1vw;
-//       top: -0.1vw;
-//       animation: $borderAnimation;
-//       transform: scaleX(4);
-//       transform-origin: 100% 0;
-//       height: $borderBackgroundHeight;
-//       background-size: $borderBackgroundSize;
-//       background-position: 80% 0%;  
-//       background-repeat: no-repeat;
-//       background-image: $svgBorderBottomDark;// fill(cyan);
-//     }
-//   }
-// }
+  //SVG Border stuff
 .sectionBorderTopMask {
   margin-block-end: -$borderBackgroundHeight;
   padding-top: 50px;
@@ -745,41 +662,8 @@ body::-webkit-scrollbar-thumb:hover {
   background-image: $svgBorderTopLight;
 }
 
-//SVG Border stuff
-// //Mask Border is for overlapping previous or next section content
-// .sectionBorderTopMask {
-//   top: -10vh;
-//   background: transparent !important;
-//   overflow: hidden;
-//   position: relative;
-//   pointer-events: none;
-//   display: inline;
-// }
-// //SVG image for hero bottom border
 
-// .dark .sectionBorderTopMask::before {
-//   background-image: $svgBorderTopDark;
-  
-// }
-// .sectionBorderTopMask::before {
-//   content: '';
-//   position: absolute;
-//   z-index: -1;
-//   pointer-events: none;
-//   background-repeat: no-repeat;
-//   //bottom: -0.1vw;
-//   left: -0.1vw;
-//   right: -0.1vw;
-//   transform: scaleX(4);//3.1);
-//   transform-origin: 100% 100%;
-//   animation: $borderAnimation;//4s infinite alternate sectionBorderAnime linear;
-//   height: $borderBackgroundHeight;
-//   background-size: $borderBackgroundSize;
-//   // height: auto;//$borderHeight;
-//   // background-size: 100% $borderHeight;
-//   background-position: 20% 100%;
-//   background-image: $svgBorderTopLight;
-// }
+
 //Normal Border Parts
 .sectionBorderTop {
   bottom: -2px;
@@ -858,66 +742,6 @@ body::-webkit-scrollbar-thumb:hover {
   background-repeat: no-repeat;
   background-image: $svgBorderBottomDark;// fill(cyan);
 }
-
-  // .dark .sectionBorderTopAlt::before {
-//   background-image: $svgBorderTopDark;
-// }
-// .sectionBorderTopAlt::before {
-//   content: '';
-//   font-family: 'shape divider from ShapeDividers.com';
-//   position: absolute;
-//   z-index: 3;
-//   pointer-events: none;
-//   background-repeat: no-repeat;
-//   bottom: -0.1vw;
-//   left: -0.1vw;
-//   right: -0.1vw;
-//   top: -0.1vw;
-//   transform: scaleX(3.1);
-//   transform-origin: 100% 100%;
-//   animation: 4s infinite alternate sectionBorderAnime linear;
-//   background-size: 100% 99px;
-//   background-position: 50% 100%;
-//   background-image: $svgBorderTopLight;
-// }
-
-// .dark .sectionBorderMidAlt {
-//   background-color: $backgroundDark !important;
-// }
-// .sectionBorderMidAlt {
-//   display: block;
-//   position: relative;
-//   bottom: 0;
-//   left: 0;
-//   object-fit: cover;
-//   object-position: center center;
-//   height: 40vh;
-//   z-index: -5;
-//   background-color: $backgroundLight !important;
-// }
-
-// .dark .sectionBorderBottomAlt::before {
-//   background-image: $svgBorderBottomDark;
-// }
-// .sectionBorderBottomAlt::before {
-//   content: '';
-//   font-family: 'shape divider from ShapeDividers.com';
-//   position: absolute;
-//   z-index: 3;
-//   pointer-events: none;
-//   background-repeat: no-repeat;
-//   bottom: -0.1vw;
-//   left: -0.1vw;
-//   right: -0.1vw;
-//   top: -0.1vw;
-//   animation: 4s infinite alternate sectionBorderAnime linear;
-//   transform: scaleX(3.1);
-//   transform-origin: 100% 0;
-//   background-size: 100% 99px;
-//   background-position: 50% 0%;  
-//   background-repeat: no-repeat;
-//   background-image: $svgBorderBottomLight;
-// }
 
 
 //   _____ _           _      _____             

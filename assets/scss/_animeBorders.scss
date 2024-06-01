@@ -1,0 +1,920 @@
+.animeBorderBottom1 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight1;
+    }
+}
+.dark .animeBorderBottom1 {
+    &::after {
+        background-image: $svgBorderBottomDark1;
+    }
+}
+.animeBorderTop1 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight1;
+    }
+}
+.dark .animeBorderTop1 {
+    &::before {
+        background-image: $svgBorderTopDark1;
+    }
+}
+.animeBorders1 {
+    ////margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    ////top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight1;
+    }
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight1;
+    }
+}
+.dark .animeBorders1 {
+    &::before {
+        background-image: $svgBorderTopDark1;
+    }
+
+    &::after {
+        background-image: $svgBorderBottomDark1;
+    }
+}
+
+.animeBorderBottom2 {
+    ////margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    ////top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight2;
+    }
+}
+.dark .animeBorderBottom2 {
+    &::after {
+        background-image: $svgBorderBottomDark2;
+    }
+}
+.animeBorderTop2 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight2;
+    }
+}
+.dark .animeBorderTop2 {
+    &::before {
+        background-image: $svgBorderTopDark2;
+    }
+}
+.animeBorders2 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight2;
+    }
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight2;
+    }
+}
+.dark .animeBorders2 {
+    &::before {
+        background-image: $svgBorderTopDark2;
+    }
+
+    &::after {
+        background-image: $svgBorderBottomDark2;
+    }
+}
+
+.animeBorderBottom3 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight3;
+    }
+}
+.dark .animeBorderBottom3 {
+    &::after {
+        background-image: $svgBorderBottomDark3;
+    }
+}
+.animeBorderTop3 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight3;
+    }
+}
+.dark .animeBorderTop3 {
+    &::before {
+        background-image: $svgBorderTopDark3;
+    }
+}
+.animeBorders3 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight3;
+    }
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight3;
+    }
+}
+.dark .animeBorders3 {
+    &::before {
+        background-image: $svgBorderTopDark3;
+    }
+
+    &::after {
+        background-image: $svgBorderBottomDark3;
+    }
+}
+
+.animeBorderBottom4 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight4;
+    }
+}
+.dark .animeBorderBottom4 {
+    &::after {
+        background-image: $svgBorderBottomDark4;
+    }
+}
+.animeBorderTop4 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight4;
+    }
+}
+.dark .animeBorderTop4 {
+    &::before {
+        background-image: $svgBorderTopDark4;
+    }
+}
+.animeBorders4 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight4;
+    }
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight4;
+    }
+}
+.dark .animeBorders4 {
+    &::before {
+        background-image: $svgBorderTopDark4;
+    }
+
+    &::after {
+        background-image: $svgBorderBottomDark4;
+    }
+}
+
+
+.animeBorderBottom5 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight5;
+    }
+}
+.dark .animeBorderBottom5 {
+    &::after {
+        background-image: $svgBorderBottomDark5;
+    }
+}
+.animeBorderTop5 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight5;
+    }
+}
+.dark .animeBorderTop5 {
+    &::before {
+        background-image: $svgBorderTopDark5;
+    }
+}
+.animeBorders5 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight5;
+    }
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight5;
+    }
+}
+.dark .animeBorders5 {
+    &::before {
+        background-image: $svgBorderTopDark5;
+    }
+
+    &::after {
+        background-image: $svgBorderBottomDark5;
+    }
+}
+
+
+.animeBorderBottom6 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight6;
+    }
+}
+.dark .animeBorderBottom6 {
+    &::after {
+        background-image: $svgBorderBottomDark6;
+    }
+}
+.animeBorderTop6 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight6;
+    }
+}
+.dark .animeBorderTop6 {
+    &::before {
+        background-image: $svgBorderTopDark6;
+    }
+}
+.animeBorders6 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight6;
+    }
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight6;
+    }
+}
+.dark .animeBorders6 {
+    &::before {
+        background-image: $svgBorderTopDark6;
+    }
+
+    &::after {
+        background-image: $svgBorderBottomDark6;
+    }
+}
+
+
+.animeBorderBottom7 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight7;
+    }
+}
+.dark .animeBorderBottom7 {
+    &::after {
+        background-image: $svgBorderBottomDark7;
+    }
+}
+.animeBorderTop7 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight7;
+    }
+}
+.dark .animeBorderTop7 {
+    &::before {
+        background-image: $svgBorderTopDark7;
+    }
+}
+.animeBorders7 {
+    //margin-block-end: -$borderBackgroundHeight;
+    padding-top: 50px;
+    //top: -$borderBackgroundHeight;
+    background: transparent !important;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+    display: block; // Ensure it takes full width
+    width: 100%;
+
+    &::before {
+        content: '';
+        top: -1vh;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderTopLight7;
+    }
+
+    &::after {
+        content: '';
+        //position: absolute;
+        position: absolute;
+        display: inline-block;
+        z-index: -1;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        left: -100%;
+        bottom: -1vh;
+        transform: translateX(-50vw) scaleX(1); // Center horizontally and scale
+        transform-origin: center; // Scale from the center
+        animation: $borderAnimation; // Optional animation
+        height: $borderBackgroundHeight;
+        width: 400vw; // Ensure it spans more than the viewport width
+        background-size: $borderBackgroundSize;
+        background-position: 25% 100%;
+        background-image: $svgBorderBottomLight7;
+    }
+}
+.dark .animeBorders7 {
+    &::before {
+        background-image: $svgBorderTopDark7;
+    }
+
+    &::after {
+        background-image: $svgBorderBottomDark7;
+    }
+}
+
