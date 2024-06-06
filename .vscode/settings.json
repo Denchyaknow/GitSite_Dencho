@@ -41,5 +41,9 @@
     "markdown-preview-enhanced.enableScriptExecution": true,
     "markdown-preview-enhanced.enableTypographer": true,
     "markdown-preview-enhanced.frontMatterRenderingOption": "code block",
-    "markdown-preview-enhanced.previewTheme": "atom-dark.css"
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+    "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
+    "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
+    "markdown.preview.typographer": true,
+    "markdown.occurrencesHighlight.enabled": true
 }

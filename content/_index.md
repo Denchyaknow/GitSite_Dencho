@@ -22,7 +22,7 @@ sections:
       text: |-
           <!--div id="particles-js"></div-->
           <div id="longLoadingScreen"></div>
-          <div class="buttonSidePanel">
+          <!--div class="buttonSidePanel">
               <button class="reButton btn btn-primary">
               {{< icon name="vr-cardboard" pack="fas" >}}<p>ReadMe</p>
               </button>
@@ -35,19 +35,33 @@ sections:
               <button class="reButton btn btn-primary">
               {{< icon name="vr-cardboard" pack="fas" >}} <p> Contact</p>
               </button>
-          </div>
+          </div-->
           <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer-->
-          <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
-          <div id="heroTextBox">
-            <div id="heroTextBackground"></div>
-            <span id="heroText"></span>
-            <div id="heroTextStrings" style="display: none;">
-              <p>
-              Hi, I'm <strong>Dencho</strong>,
-              </p>
+          <spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>
+          
+          <div id="heroTextBoxA" class="heroBoxCenter heroTitle">
+            <div id="heroTextBackground" class="textBackground">
+              <span id="heroTextA"></span>
+            </div>
+            <div id="heroTextAStrings" style="display: none;">
+              <h1> Hi, I'm <strong>Dencho</strong>, </h1>
             </div>
           </div>
-          <script> SetTypedTextById('heroText'); </script>
+          <script> SetTypedTextById('heroTextA', { _startDelay: 3000, _resetReveal: true, _loop: false }); </script>
+
+          <div id="heroTextBoxB" class="heroBoxCenter heroSubTitle">
+            <div class="textBackground">
+              <span id="heroTextB"></span>
+            </div>
+            <div id="heroTextBStrings" style="display: none;">
+              <p>Cognitively versatile Unity programmer <br> specializing in XR technologies.</p>
+              <p>Cognitively versatile C# programmer <br> </p>
+              <p>Cognitively versatile game developer <br> with a passion for creating unforgettable experiences.</p>
+              <p>Cognitively versatile game developer <br> with a passion for charting the unknown.</p>
+              <p>Cognitively versatile game developer <br> with a passion for creating unforgettable experiences.</p>
+            </div>
+          </div>
+          <script> SetTypedTextById( "heroTextB",{ _startDelay: 3000, _resetReveal: true, _loop: true, _fade: false }); </script>
   # - block: markdown
   #   content:
   #     title: ''
@@ -71,8 +85,8 @@ sections:
       title: '<h1>SECTIONAL</h1>'
       subtitle: ''
       text: |-
-          <div class="mTextBox">
-            <span id="mdText0" class="mText"></span>
+          <div class="mTextBox heroSubTitle">
+            <span id="mdText0" class=""></span>
             <div id="mdText0Strings" style="display: none;">
               <p>
               Hi, I'm `<strong>DenchoDenchoDenchoDencho 
@@ -83,7 +97,7 @@ sections:
               </p>
             </div>
           </div>
-          <script> SetTypedTextById('mdText0'); </script>
+          <script> SetTypedTextById('mdText0',{ _loop: true }); </script>
     design:
       css_class: 'sectionMarkDown commonVideoSection animeBorders1'
       columns: '1'

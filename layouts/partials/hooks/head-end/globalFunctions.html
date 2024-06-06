@@ -1,38 +1,82 @@
 <script>
-    function SetTypedTextById(textName, showCursor = true, cursor = '|', resetReveal = true)
-    {
-        var textInstance = document.getElementById(textName);
+    /**
+     * 
+     * @param {string} _textName - The ID of the text element to be typed
+     * @param {number} _startDelay - The delay before typing starts
+     * @param {boolean} _showCursor - Whether or not to show the cursor
+     * @param {boolean} _resetReveal - Whether or not to reset the reveal
+     * @param {boolean} _loop - Whether or not to loop the text
+     * @param {string} _cursor - The cursor character
+     */
+    function SetTypedTextById(_textName, {
+            _startDelay = 0,
+            _showCursor = false,
+            _resetReveal = true,
+            _loop = false,
+            _fade = false,
+            _cursor = '|'
+        } = {}) {
+        // var {
+        //     _startDelay = 0,
+        //     _showCursor = true,
+        //     _resetReveal = true,
+        //     _loop = true,
+        //     _cursor = '|'
+        // } = options;
+        // _startDelay = (typeof _startDelay === "number") ? _startDelay : 0;
+        // _showCursor = (typeof _showCursor === "boolean") ? _showCursor : true;
+        // _resetReveal = (typeof _resetReveal === "boolean") ? _resetReveal : true;
+        // _loop = (typeof _loop === "boolean") ? _loop : true;
+        // _cursor = (typeof _cursor === "string") ? _cursor : '|';
+        
+        var textInstance = document.getElementById(_textName);
+        // var firstLoad = !textInstance.hasAttribute('data-loaded');
+        // textInstance.setAttribute('data-loaded', 'true');
+        // if (!textInstance.hasAttribute('data-loaded')){//textInstance.getAttribute('data-first-load') === null) {
+        //     // First load: use the provided delay
+        //     textInstance.setAttribute('data-loaded', 'true');
+        // } else {
+        //     _startDelay = 0;
+        //     // Subsequent load: set the delay to 0
+        // }
         var hasTextBox = textInstance != null;
         var isRunning = true;
         if (hasTextBox)
         {
-            var typedText = new Typed('#' + textName, 
+            var typedText = new Typed('#' + _textName, 
             {
-                stringsElement: '#' + textName + 'Strings',
+                stringsElement: '#' + _textName + 'Strings',
                 typeSpeed: 20,
                 backSpeed: 10,
-                startDelay: 0,
+                startDelay: _startDelay,//firstLoad ? _startDelay : 0,
                 shuffle: false,
-                cursorChar: cursor,
-                showCursor: showCursor,
-                loop: false,  
+                cursorChar: _cursor,
+                showCursor: _showCursor,
+                loop: _loop,
                 loopCount: Infinity,
                 smartBackspace: true,
-                fadeOut: false,
+                fadeOut: _fade,
+                contentType: 'html',
+                onComplete: (self) => {
+                    self.startDelay = 0;//Prevents the delay from being added to the start of the next loop
+                },
             });
 
+            
+            firstLoad = false;
             console.log('Typed Text Found');
 
-            ScrollReveal().reveal(textInstance, 
+            ScrollReveal().reveal(textInstance.parentElement, 
             {
                 interval: 0,
                 delay: 0,
-                reset: resetReveal,
-                duration: 50,
+                reset: _resetReveal,
+                duration: 0,
                 afterReset: function (el)
                 {
-                    if(isRunning)
-                    {   
+                    if(isRunning && _resetReveal)
+                    {                           
+                        //typedText.startDelay = 0;
                         console.log("Reveal Reset");
                         typedText.destroy();//typedText.stop();//typedText.reset(false);
                         isRunning = false;
@@ -40,8 +84,9 @@
                 },
                 beforeReveal: function (el)
                 {
-                    if(!isRunning)
+                    if(!isRunning && _resetReveal)
                     {
+                        //typedText.startDelay = 0;
                         isRunning = true;
                         console.log("Reveal Start");
                         typedText.reset(true);
@@ -51,4 +96,7 @@
             });
         }
     }
+</script>
+<script> 
+//SetTypedTextById( "heroTextB",{ _startDelay: 3000, _resetReveal: true, _showCursor: false, _loop: false }); 
 </script>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 31, 2024 --><html lang="en-us" >
+<!-- Last Published: June 5, 2024 --><html lang="en-us" >
 
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -525,40 +525,77 @@
     
       
       <script>
-    function SetTypedTextById(textName, showCursor = true, cursor = '|', resetReveal = true)
-    {
-        var textInstance = document.getElementById(textName);
+    
+
+    function SetTypedTextById(_textName, {
+            _startDelay = 0,
+            _showCursor = false,
+            _resetReveal = true,
+            _loop = false,
+            _fade = false,
+            _cursor = '|'
+        } = {}) {
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        var textInstance = document.getElementById(_textName);
+        
+        
+        
+        
+        
+        
+        
+        
+        
         var hasTextBox = textInstance != null;
         var isRunning = true;
         if (hasTextBox)
         {
-            var typedText = new Typed('#' + textName, 
+            var typedText = new Typed('#' + _textName, 
             {
-                stringsElement: '#' + textName + 'Strings',
+                stringsElement: '#' + _textName + 'Strings',
                 typeSpeed: 20,
                 backSpeed: 10,
-                startDelay: 0,
+                startDelay: _startDelay,
                 shuffle: false,
-                cursorChar: cursor,
-                showCursor: showCursor,
-                loop: false,  
+                cursorChar: _cursor,
+                showCursor: _showCursor,
+                loop: _loop,
                 loopCount: Infinity,
                 smartBackspace: true,
-                fadeOut: false,
+                fadeOut: _fade,
+                contentType: 'html',
+                onComplete: (self) => {
+                    self.startDelay = 0;
+                },
             });
 
+            
+            firstLoad = false;
             console.log('Typed Text Found');
 
-            ScrollReveal().reveal(textInstance, 
+            ScrollReveal().reveal(textInstance.parentElement, 
             {
                 interval: 0,
                 delay: 0,
-                reset: resetReveal,
-                duration: 50,
+                reset: _resetReveal,
+                duration: 0,
                 afterReset: function (el)
                 {
-                    if(isRunning)
-                    {   
+                    if(isRunning && _resetReveal)
+                    {                           
+                        
                         console.log("Reveal Reset");
                         typedText.destroy();
                         isRunning = false;
@@ -566,8 +603,9 @@
                 },
                 beforeReveal: function (el)
                 {
-                    if(!isRunning)
+                    if(!isRunning && _resetReveal)
                     {
+                        
                         isRunning = true;
                         console.log("Reveal Start");
                         typedText.reset(true);
@@ -577,6 +615,9 @@
             });
         }
     }
+</script>
+<script> 
+
 </script>
       
     
@@ -956,7 +997,7 @@
     
       <div class="hero-lead"><!--div id="particles-js"></div-->
 <div id="longLoadingScreen"></div>
-<div class="buttonSidePanel">
+<!--div class="buttonSidePanel">
     <button class="reButton btn btn-primary">
     
       <i class="fas fa-vr-cardboard  pr-1 fa-fw"></i><p>ReadMe</p>
@@ -973,19 +1014,31 @@
     
       <i class="fas fa-vr-cardboard  pr-1 fa-fw"></i> <p> Contact</p>
     </button>
-</div>
+</div-->
 <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer-->
-<!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
-<div id="heroTextBox">
-  <div id="heroTextBackground"></div>
-  <span id="heroText"></span>
-  <div id="heroTextStrings" style="display: none;">
-    <p>
-    Hi, I'm <strong>Dencho</strong>,
-    </p>
+<spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>
+<div id="heroTextBoxA" class="heroBoxCenter heroTitle">
+  <div id="heroTextBackground" class="textBackground">
+    <span id="heroTextA"></span>
+  </div>
+  <div id="heroTextAStrings" style="display: none;">
+    <h1> Hi, I'm <strong>Dencho</strong>, </h1>
   </div>
 </div>
-<script> SetTypedTextById('heroText'); </script></div>
+<script> SetTypedTextById('heroTextA', { _startDelay: 3000, _resetReveal: true, _loop: false }); </script>
+<div id="heroTextBoxB" class="heroBoxCenter heroSubTitle">
+  <div class="textBackground">
+    <span id="heroTextB"></span>
+  </div>
+  <div id="heroTextBStrings" style="display: none;">
+    <p>Cognitively versatile Unity programmer <br> specializing in XR technologies.</p>
+    <p>Cognitively versatile C# programmer <br> </p>
+    <p>Cognitively versatile game developer <br> with a passion for creating unforgettable experiences.</p>
+    <p>Cognitively versatile game developer <br> with a passion for charting the unknown.</p>
+    <p>Cognitively versatile game developer <br> with a passion for creating unforgettable experiences.</p>
+  </div>
+</div>
+<script> SetTypedTextById( "heroTextB",{ _startDelay: 3000, _resetReveal: true, _loop: true, _fade: false }); </script></div>
     
 
     
@@ -1207,8 +1260,8 @@
 
 
   <div class="col-12">
-    <div class="mTextBox">
-  <span id="mdText0" class="mText"></span>
+    <div class="mTextBox heroSubTitle">
+  <span id="mdText0" class=""></span>
   <div id="mdText0Strings" style="display: none;">
     <p>
     Hi, I'm `<strong>DenchoDenchoDenchoDencho 
@@ -1219,7 +1272,7 @@
     </p>
   </div>
 </div>
-<script> SetTypedTextById('mdText0'); </script>
+<script> SetTypedTextById('mdText0',{ _loop: true }); </script>
   </div>
 
 
