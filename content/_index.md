@@ -9,7 +9,7 @@ sections:
     id: home
     demo: false # Only display this section in the Hugo Blox Builder demo site
     design:
-      css_class: 'fullHero commonVideoSection animeBorderBottom2'
+      css_class: 'fullHero commonVideoSection animeBorderBottom6'
       background:
         video: 
           filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/
@@ -37,14 +37,20 @@ sections:
               </button>
           </div-->
           <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer-->
-          <spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>
+          <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
           
+          <!-- Make the spline appear only if hardware acceleration is enabled -->
+          <div id="splineBox0"></div>
+          <script>
+            SetInnerHTMLBasedOnBool('splineBox0', '<spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>', IsHardwareAccelerationEnabled());
+          </script>
+
           <div id="heroTextBoxA" class="heroBoxCenter heroTitle">
             <div id="heroTextBackground" class="textBackground">
               <span id="heroTextA"></span>
             </div>
             <div id="heroTextAStrings" style="display: none;">
-              <h1> Hi, I'm <strong>Dencho</strong>, </h1>
+              <h1> Hi, I'm <strong>Dencho</strong> </h1>
             </div>
           </div>
           <script> SetTypedTextById('heroTextA', { _startDelay: 3000, _resetReveal: true, _loop: false }); </script>
@@ -54,14 +60,35 @@ sections:
               <span id="heroTextB"></span>
             </div>
             <div id="heroTextBStrings" style="display: none;">
-              <p>Cognitively versatile Unity programmer <br> specializing in XR technologies.</p>
-              <p>Cognitively versatile C# programmer <br> </p>
-              <p>Cognitively versatile game developer <br> with a passion for creating unforgettable experiences.</p>
-              <p>Cognitively versatile game developer <br> with a passion for charting the unknown.</p>
-              <p>Cognitively versatile game developer <br> with a passion for creating unforgettable experiences.</p>
+              <p>Cognitively versatile <strong>Unity Developer</strong>^1200 since 2014</p>
+              <p>Cognitively versatile <strong>C# Programmer</strong>^1200 since 2014</p>
+              <p>Cognitively versatile <strong>Modder</strong>^1200 since 2008</p>
+              <p>Cognitively versatile <strong>Otaku</strong>^1200 since 2002</p>
+              <p>Cognitively versatile <strong>Gamer</strong>^1200 since 1996</p>
+              <p>Cognitively versatile <strong>Unity Developer</strong>^1200 since 2014</p>
+              <p>Cognitively versatile <strong>C# Programmer</strong>^1200 since 2014</p>
+              <p>Cognitively versatile <strong>Modder</strong>^1200 since 2008</p>
+              <p>Cognitively versatile <strong>Otaku</strong>^1200 since 2002</p>
+              <p>Cognitively versatile <strong>Gamer</strong>^1200 since 1996</p>
+              <p>Cognitively versatile <strong>Unity Developer</strong>^1200 since 2014</p>
+              <p>Cognitively versatile <strong>C# Programmer</strong>^1200 since 2014</p>
+              <p>Cognitively versatile <strong>Modder</strong>^1200 since 2008</p>
+              <p>Cognitively versatile <strong>Otaku</strong>^1200 since 2002</p>
+              <p>Cognitively versatile <strong>Gamer</strong>^1200 since 1996</p>
+              <p>Cognitively versatile <strong>Unity Developer</strong>^1200 since 2014</p>
+              <p>Cognitively versatile <strong>C# Programmer</strong>^1200 since 2014</p>
+              <p>Cognitively versatile <strong>Modder</strong>^1200 since 2008</p>
+              <p>Cognitively versatile <strong>Otaku</strong>^1200 since 2002</p>
+              <p>Cognitively versatile <strong>Gamer</strong>^1200 since 1996</p>
+              <p>Cognitively versatile <strong>Unity Developer</strong>^1200 since 2014</p>
+              <p>Cognitively versatile <strong>C# Programmer</strong>^1200 since 2014</p>
+              <p>Cognitively versatile <strong>Modder</strong>^1200 since 2008</p>
+              <p>Cognitively versatile <strong>Otaku</strong>^1200 since 2002</p>
+              <p>Cognitively versatile <strong>Gamer</strong>^1200 since 1996</p>
             </div>
           </div>
           <script> SetTypedTextById( "heroTextB",{ _startDelay: 3000, _resetReveal: true, _loop: true, _fade: false }); </script>
+  
   # - block: markdown
   #   content:
   #     title: ''
@@ -71,61 +98,225 @@ sections:
   #     css_class: 'animeBorderBottom'
   #     columns: '1'
 
+  # My Custom Classes:
+  # fullHero halfHero quarterHero commonVideoSection 
+  # animeBorders1 animeBorderTop2 
+  # videoBackgroundRight videoBackgroundLeft
+
+  - block: markdown
+    content:
+      title: 'Everyday'
+      subtitle: ''
+      text: |-
+        <div class="row badge-section">
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-csharp-plain-wordmark"></i>
+              <p>C Sharp</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-unity-plain"></i>
+              <p>Unity</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-photonengine-plain"></i>
+              <p>Photon</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-github-original"></i>
+              <p>GitHub</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-json-plain"></i>
+              <p>Json</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-mongodb-plain"></i>
+              <p>Markdown</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-visualstudio-plain"></i>
+              <p>Visual Studios</p>
+            </div>
+          </div>
+          <!-- Repeat for more badges -->
+        </div>
+    design:
+      css_class: 'quarterHero'
+      columns: '1'
+
+  - block: hero
+    content:
+      title: ''
+      subtitle: ''
+      text: |-
+          <div class="mTextBoxLeft">
+            <div class="mTextBackground">
+              <span id="mdText0" class=""></span>
+            </div>
+            <div id="mdText0Strings" style="display: none;">
+              <p>
+                My gists consist of useful scripts I wrote my self. They represent my ongoing journey of learning and problem-solving. 
+              </p>
+            </div>
+          </div>
+          <script> SetTypedTextById( "mdText0",{ _startDelay: 0, _resetReveal: false, _loop: false, _fade: false }); </script>
+    design:
+      css_class: 'sectionMarkDown commonVideoSection animeBorders6 halfHero videoBackgroundRight'
+      columns: '1'
+      background:
+        video: 
+          filename: backgrounds/FingerBoiHero.webm # Name of video in `assets/media/
+          flip: false # Post-processing: flip the video horizontally?
+
+  - block: markdown
+    content:
+      title: 'Sometimes'
+      subtitle: ''
+      text: |-
+        <div class="row badge-section">
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-vscode-plain"></i>
+              <p>VSCode</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-rider-plain"></i>
+              <p>Rider</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-swagger-plain"></i>
+              <p>Swagger</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-githubactions-plain"></i>
+              <p>Github Actions</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-jira-plain"></i>
+              <p>Jira</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-nodejs-plain"></i>
+              <p>NodeJS</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-hugo-plain"></i>
+              <p>Hugo</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-javascript-plain"></i>
+              <p>Javascript</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-lua-plain"></i>
+              <p>Lua</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-html5-plain"></i>
+              <p>HTML5</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-css3-plain-wordmark"></i>
+              <p>CSS/SCSS</p>
+            </div>
+          </div>
+          <!-- Repeat for more badges -->
+        </div>
+    design:
+      css_class: 'quarterHero'
+      columns: '1'
+
+  - block: hero
+    content:
+      title: ''
+      subtitle: ''
+      text: |-
+          <div class="mTextBoxRight">
+            <div class="mTextBackground">
+              <span id="mdText1" class=""></span>
+            </div>
+            <div id="mdText1Strings" style="display: none;">
+              <p> I transform abstract ideas into tangible, innovative features, collaborating closely with artists and designers to bring visions to life. </p>
+            </div>
+          </div>
+          <script> SetTypedTextById( "mdText1",{ _startDelay: 0, _resetReveal: false, _loop: false, _fade: false }); </script>
+    design:
+      css_class: 'sectionMarkDown commonVideoSection animeBorders6 halfHero videoBackgroundLeft'
+      columns: '1'
+      background:
+        video:
+          filename: backgrounds/RockiBoiHero.webm # Name of video in `assets/media/
+          flip: false # Post-processing: flip the video horizontally?
+
   - block: markdown
     content:
       title: ''
       subtitle: ''
       text: ''
     design:
-      css_class: ''
+      css_class: 'quarterHero'
       columns: '1'
 
-  - block: markdown
+  - block: hero
     content:
-      title: '<h1>SECTIONAL</h1>'
+      title: ''
       subtitle: ''
+      cta_note:
+        label: >-
+          <div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
       text: |-
-          <div class="mTextBox heroSubTitle">
-            <span id="mdText0" class=""></span>
-            <div id="mdText0Strings" style="display: none;">
+          <div class="mTextBoxLeft">
+            <div class="mTextBackground">
+              <span id="mdText2" class=""></span>
+            </div>
+            <div id="mdText2Strings" style="display: none;">
               <p>
-              Hi, I'm `<strong>DenchoDenchoDenchoDencho 
-              <br> DenchoDenchoDenchoDencho</strong>`,
-              </p>
-              <p>
-              Hi, I'DenchoDenchoDenchoDencho in one line
+                My gists consist of useful scripts I wrote my self. They represent my ongoing journey of learning and problem-solving. 
               </p>
             </div>
           </div>
-          <script> SetTypedTextById('mdText0',{ _loop: true }); </script>
+          <script> SetTypedTextById( "mdText2",{ _startDelay: 0, _resetReveal: false, _loop: false, _fade: false }); </script>
     design:
-      css_class: 'sectionMarkDown commonVideoSection animeBorders1'
+      css_class: 'sectionMarkDown commonVideoSection animeBorders6 halfHero videoBackgroundRight'
       columns: '1'
       background:
         video: 
-          filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/
+          filename: backgrounds/FingerBoiHero.webm # Name of video in `assets/media/
           flip: false # Post-processing: flip the video horizontally?
-  - block: markdown
-    content:
-      title: '<p>SECTIONAL</p>'
-      subtitle: ''
-      text: |-
-          <div class="mTextBox">
-            <span id="mdText1" class="mText"></span>
-            <div id="mdText1Strings" style="display: none;">
-              <p>
-              Hi, I'm <strong>DenchoDenchoDenchoDencho 
-              <br> DenchoDenchoDenchoDencho</strong>,
-              </p>
-              <p>
-              Hi, I'DenchoDenchoDenchoDencho in one line
-              </p>
-            </div>
-          </div>
-          <script> SetTypedTextById('mdText1'); </script>
-    design:
-      css_class: 'sectionMarkDown'
-      columns: '1'
+
 
   - block: collection
     id: featuredProjects
@@ -142,8 +333,6 @@ sections:
       css_class: ''
       columns: '1'
       view: card # compact list citation
-  
-
 
 #   - block: experience
 #     content:

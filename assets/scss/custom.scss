@@ -1,6 +1,7 @@
 @import 'nav';
 @import 'globalVars';//Global Vars
 @import 'animeBorders';
+@import 'itemList';
 
 // // Backgrounds
 $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual path to your SVG image
@@ -118,28 +119,116 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 
 //Custom Text styles for sections
 .mTextBackground {
-  //transition: opacity $loadingDuration ease, visibility $loadingDuration;
-  position: absolute;
-  z-index: 900;
-  width: 100%;
+  // transition: 
+  // opacity 1s ease-in-out, 
+  // visibility 1s, 
+  // transform 1s ease-in-out, 
+  // transform-origin 1s ease-in-out,
+  // translate 1s ease-in-out,
+  // height 1s ease-in-out, 
+  // width 1s ease-in-out, 
+  // background-color 1s ease-in-out;
+  z-index: -1;
   height: 100%;
-  text-wrap: nowrap;
+  width: 100%;
   background: linear-gradient(175deg, #ffffff66 30%, #ffffff70 90%);
-  border-radius: 4px;
-  box-shadow:0px 10px rgba(216, 72, 209, 0.359);
+  backdrop-filter: blur(10px);
+  border-radius: 14px;
+  box-shadow:0px 2px rgba(216, 72, 209, 0.359);
+  position: relative;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  display: inline-block; 
+  @media (min-width: 1200px) {
+    background: transparent;
+    box-shadow:none;//0px 10px rgba(216, 72, 209, 0.359);
+  }
+  @media (max-width: 1200px) {
+    background: linear-gradient(175deg, #ffffff66 30%, #ffffff70 90%);
+    border-radius: 4px;
+    box-shadow:0px 10px rgba(216, 72, 209, 0.359);
+  }
+
 }
-.dark .mTextBackground{
-  background: linear-gradient(175deg, #00000066 30%, #00000070 90%);
-  box-shadow:0px 10px rgba(27, 61, 85, 0.359); 
+.dark .mTextBackground {
+  background: linear-gradient(175deg, #00000031 30%, #00000070 90%);
+  box-shadow:0px 2px rgba(27, 61, 85, 0.359); 
+  @media (min-width: 1200px) {
+    background: transparent;
+    box-shadow:none;//0px 10px rgba(216, 72, 209, 0.359);
+  }
+  @media (max-width: 1200px) {
+    background: linear-gradient(175deg, #00000066 30%, #00000070 90%);
+    box-shadow:0px 10px rgba(27, 61, 85, 0.359); 
+  }
+
 }
 .mTextBox {
-  //position: relative; // Use relative positioning
+  //left: 0%;
+  width: auto;
+  height: auto;
+  bottom: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
   z-index: 50;
+  top: 1.5vh;
   .typed-cursor {
     font-size: 1.25em;
     z-index: 100;
   }
 }
+.mTextBoxLeft {  
+  position: absolute;
+  z-index: 50; 
+  .typed-cursor {
+    font-size: 1.25em;
+    z-index: 100;
+  }
+  @media (min-width: 1200px) {
+    left: 1.5vw;
+    width: 40%;
+    top: 12vh;
+  }
+  @media (min-width: 1600px) {
+    left: 1.5vw;
+    width: 50%;
+  }
+  @media (max-width: 1200px) {
+    position: absolute;
+    width: auto;
+    bottom: 12vh;
+    left: 5vw;
+    right: 5vw;
+  }
+}
+.mTextBoxRight {
+  position: absolute;
+  z-index: 50;
+  .typed-cursor {
+    font-size: 1.25em;
+    z-index: 100;
+  }
+  @media (min-width: 1200px) {
+    right: 1.5vw;
+    width: 40%;
+    top: 12vh;
+  }
+  @media (min-width: 1600px) {
+    right: 1.5vw;
+    width: 50%;
+  }
+  @media (max-width: 1200px) {
+    position: absolute;
+    width: auto;
+    bottom: 12vh;
+    left: 5vw;
+    right: 5vw;
+  }
+}
+
 .mText {
   position: relative;
   z-index: 100;
@@ -154,7 +243,7 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
   object-position: bottom;
   text-align: left;
 }
-.dark .mText{
+.dark .mText {
   color: $clearTextDark;
 }
 
@@ -164,67 +253,7 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 }
 
 
-#heroTextBox {
-  position: absolute;
-  z-index: 0;
-  left: 5%;
-  width: 90%;
-  height: auto;
-  bottom: 50vh;
 
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
-
-#heroTextBackground {
-  //transition: opacity $loadingDuration ease, visibility $loadingDuration;
-  //position: absolute;
-  // z-index: -1;
-  // //width: 100%;
-  // height: 100%;
-  // text-wrap: nowrap;
-  // //padding: 20px;
-  // background: linear-gradient(175deg, #ffffff66 30%, #ffffff70 90%);
-  // backdrop-filter: blur(10px);
-  // border-radius: 10px;
-  // box-shadow:0px 10px rgba(216, 72, 209, 0.359);
-  
-  // position: relative;
-  // padding: 10px 20px;
-  // display: inline-block; 
-}
-.dark #heroTextBackground{
-  // background: linear-gradient(175deg, #00000066 30%, #00000070 90%);
-  // box-shadow:0px 10px rgba(27, 61, 85, 0.359); 
-}
-
-#heroText {
-  z-index: 1;
-
-  // &::before {
-  //   content: '';
-  //   position: absolute;
-  //   display: inline-block;
-  //   z-index: 1;
-  //   background: linear-gradient(175deg, #ffffff66 30%, #ffffff70 90%);
-  //   backdrop-filter: blur(10px);
-  //   border-radius: 10px;
-  //   box-shadow:0px 10px rgba(216, 72, 209, 0.359);
-//}
-  //position: relative;
-  //padding: 20px;
-  //backdrop-filter: blur(10px);
-  //transition: opacity $loadingDuration ease, visibility $loadingDuration;
-  // position: relative;
-  // z-index: 1000;
-  // width: 90%;
-  // height: auto;
-  // text-wrap: nowrap;
-  // vertical-align: bottom;
-  // object-position: bottom;
-  // text-align: left; // Align text to the left for better readability
-}
 .textBackground {
   //transition: opacity 2s ease-in-out, visibility 1s;  //position: absolute;
   z-index: -1;
@@ -262,32 +291,31 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
   align-items: center; 
 }
 .heroTitle {
-
   z-index: 5;
   top: 20vh;
   left: -3vw;
   span {
     //transition: opacity 2s ease-in-out, visibility 1s;//, size 1s;
-
     font-size: $fontSizeH1;
-
+    @media (min-width: 1024px) {
+      font-size: $fontSizeH1L;
+    }
+    @media (min-width: 1769px) {
+      font-size: $fontSizeH1XL;
+    }
+    @media (min-width: 2420px) {
+      font-size: $fontSizeH1XXL;
+    }
   }
   span:first-of-type {
     padding-left: 3vw;
-    // padding-top: 10px;
-    // padding-bottom: 10px;
   }
 }
 .heroSubTitle {
   z-index: 5;
-  //transition: visibility 1s;
-  //position: absolute;
-  //bottom: 15vh;
-  //right: -3vw;
   bottom: 10vh;
   left: -3vw;
   text-wrap: pretty;
-  //width: 73vw;
   .textBackground {
     padding-left: 4vw;
   }
@@ -296,6 +324,15 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
     //transition:  opacity 2s ease-in-out 0s !important;
     //visibility: visible !important;
     font-size: $fontSizeH2;
+    @media (min-width: 1024px) {
+      font-size: $fontSizeH2L;
+    }
+    @media (min-width: 1769px) {
+      font-size: $fontSizeH2XL;
+    }
+    @media (min-width: 2420px) {
+      font-size: $fontSizeH2XXL;
+    }
   }
   span:first-of-type {
     //padding-left: 3vw;
@@ -308,42 +345,7 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
     //padding-right: 100px;
   }
 }
-@media (min-width: 1024px) {
-  .heroTitle {
-    span {
-        font-size: $fontSizeH1L;
-      }
-  }
-  .heroSubTitle {
-    span {
-        font-size: $fontSizeH2L;
-      }
-  }
-}
-@media (min-width: 1769px) {
-  .heroTitle {
-    span {
-        font-size: $fontSizeH1XL;
-      }
-  }
-  .heroSubTitle {
-    span {
-        font-size: $fontSizeH2XL;
-      }
-  }
-}
-@media (min-width: 2420px) {
-  .heroTitle {
-    span {
-        font-size: $fontSizeH1XXL;
-      }
-  }
-  .heroSubTitle {
-    span {
-        font-size: $fontSizeH2XXL;
-      }
-  }
-}
+
 
 
 //   __              _ _            _____                     
@@ -491,6 +493,22 @@ $overlayImage: url('../media/icons/custom/bg0.svg'); // Replace with the actual 
 //  |_   _| |_ ___ _____ ___   |     |_ _ ___ ___ ___|_|_| |___ ___ 
 //    | | |   | -_|     | -_|  |  |  | | | -_|  _|  _| | . | -_|_ -|
 //    |_| |_|_|___|_|_|_|___|  |_____|\_/|___|_| |_| |_|___|___|___|                                                      
+
+//Make a background video for a section hang to the left or to the right
+.videoBackgroundRight {
+  .home-section-bg {
+    .bg-video {
+    object-position: right center !important;
+    }
+  }
+}
+.videoBackgroundLeft {
+  .home-section-bg {
+    .bg-video {
+    object-position: left center !important;
+    }
+  }
+}
 
 
 .home-section-bg {
@@ -702,8 +720,14 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .halfHero {
   min-height: $halfSectionHeight;
-}
 
+  @media (min-width: 2000px) {
+    height: $fullSectionHeight; // Height when screen width is 576px or larger
+  }
+}
+.quarterHero {
+  min-height: $quarterSectionHeight;
+}
 
 .commonVideoSection {
   

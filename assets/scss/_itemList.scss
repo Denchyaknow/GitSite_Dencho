@@ -1,0 +1,116 @@
+//@import 'globalVars';
+// .badge-section {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     margin-top: 20px;
+//   }
+  
+//   .badge-item {
+//     text-align: center;
+//     margin: 10px 0;
+//     i {
+//         font-size: 10vh;
+//         &:hover {
+//             transform: scale(1.1);
+//           }
+//     }
+//     img {
+//       max-width: 100%;
+//       height: auto;
+//       border-radius: 50%;
+//       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//       transition: transform 0.3s ease-in-out;
+  
+//       &:hover {
+//         transform: scale(1.1);
+//       }
+//     }
+  
+//     p {
+//       margin-top: 10px;
+//       font-size: 14px;
+//       color: #666;
+//     }
+//   }
+  
+//   .dark {
+//     .badge-item {
+//       p {
+//         color: #ccc;
+//       }
+//     }
+//   }
+.badge-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .badge-item {
+    text-align: center;
+    margin: 10px 10px; /* Add some horizontal margin to space out the items */
+    position: relative;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    &:before {
+      content: '';
+      position: absolute;
+      top: -2px;  /* Adjust the border positioning */
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      border: 1px solid #ccc; /* Default border color and size */
+      border-radius: 12px; /* Slightly rounded corners */
+      transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+  
+    &:hover:before {
+      border-color: $borderGlowLight;//rgba(255, 0, 150, 0.8); /* Glowing border color */
+      box-shadow: 0 0 10px $borderGlowLight, 0 0 20px $borderGlowLight; /* Adjust the glow intensity */
+    }
+  
+    i {
+      font-size: 8vh; /* Slightly smaller font size */
+      transition: transform 0.3s ease-in-out;
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+      transition: transform 0.3s ease-in-out;
+  
+      &:hover {
+        transform: scale(1.4);
+      }
+    }
+  
+    p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #666;
+    }
+  }
+  
+  .dark {
+    .badge-item {
+      &:before {
+        border-color: #555; /* Dark mode default border color */
+      }
+      &:hover:before {
+        border-color: $borderGlowDark;//rgba(255, 0, 150, 0.8); /* Glowing border color */
+        box-shadow: 0 0 10px $borderGlowDark, 0 0 20px $borderGlowDark; /* Adjust the glow intensity */
+      }
+    
+      p {
+        color: #ccc;
+      }
+    }
+  }

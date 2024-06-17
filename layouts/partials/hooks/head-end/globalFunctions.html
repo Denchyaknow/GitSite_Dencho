@@ -8,37 +8,9 @@
      * @param {boolean} _loop - Whether or not to loop the text
      * @param {string} _cursor - The cursor character
      */
-    function SetTypedTextById(_textName, {
-            _startDelay = 0,
-            _showCursor = false,
-            _resetReveal = true,
-            _loop = false,
-            _fade = false,
-            _cursor = '|'
-        } = {}) {
-        // var {
-        //     _startDelay = 0,
-        //     _showCursor = true,
-        //     _resetReveal = true,
-        //     _loop = true,
-        //     _cursor = '|'
-        // } = options;
-        // _startDelay = (typeof _startDelay === "number") ? _startDelay : 0;
-        // _showCursor = (typeof _showCursor === "boolean") ? _showCursor : true;
-        // _resetReveal = (typeof _resetReveal === "boolean") ? _resetReveal : true;
-        // _loop = (typeof _loop === "boolean") ? _loop : true;
-        // _cursor = (typeof _cursor === "string") ? _cursor : '|';
-        
+    function SetTypedTextById(_textName, { _startDelay = 0, _showCursor = false, _resetReveal = true, _loop = false, _fade = false, _cursor = '|' } = {}) 
+    {
         var textInstance = document.getElementById(_textName);
-        // var firstLoad = !textInstance.hasAttribute('data-loaded');
-        // textInstance.setAttribute('data-loaded', 'true');
-        // if (!textInstance.hasAttribute('data-loaded')){//textInstance.getAttribute('data-first-load') === null) {
-        //     // First load: use the provided delay
-        //     textInstance.setAttribute('data-loaded', 'true');
-        // } else {
-        //     _startDelay = 0;
-        //     // Subsequent load: set the delay to 0
-        // }
         var hasTextBox = textInstance != null;
         var isRunning = true;
         if (hasTextBox)
@@ -57,15 +29,13 @@
                 smartBackspace: true,
                 fadeOut: _fade,
                 contentType: 'html',
-                onComplete: (self) => {
+                onDestroy: (self) => 
+                {
                     self.startDelay = 0;//Prevents the delay from being added to the start of the next loop
                 },
             });
-
-            
             firstLoad = false;
-            console.log('Typed Text Found');
-
+            //console.log('Typed Text Found');
             ScrollReveal().reveal(textInstance.parentElement, 
             {
                 interval: 0,
@@ -91,12 +61,47 @@
                         console.log("Reveal Start");
                         typedText.reset(true);
                         typedText.start();
+
                     }
                 },
             });
         }
     }
+    function IsHardwareAccelerationEnabled() 
+    {
+        const canvas = document.createElement('canvas');
+        let gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+        if (!gl) 
+        {
+            return false; // WebGL is not supported
+        }
+        
+        const debugInfo = gl.getExtension('WEBGL_debug_renderer_info');
+        if (!debugInfo) 
+        {
+            return false; // Unable to get debug info
+        }
+        
+        const renderer = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
+        return !/swiftshader/i.test(renderer); // Returns false if "SwiftShader" is detected
+    }
+    function SetInnerHTMLBasedOnBool(containerId, innerHTML, shouldDisplay) 
+    {
+        const container = document.getElementById(containerId);
+        if (shouldDisplay) {
+            container.innerHTML = innerHTML;
+        } else {
+            container.innerHTML = '';
+        }
+    }
+    // Example usage
+    // const showSpline = true; // Change this to false to hide the element
+    // const splineHTML = `
+    //   <spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>
+    // `;
+    // SetInnerHTMLBasedOnBool('splineContainer', splineHTML, showSpline);
 </script>
 <script> 
-//SetTypedTextById( "heroTextB",{ _startDelay: 3000, _resetReveal: true, _showCursor: false, _loop: false }); 
+const hardwareAccelerationEnabled = IsHardwareAccelerationEnabled();
+console.log("Hardware Acceleration Enabled:", hardwareAccelerationEnabled);
 </script>

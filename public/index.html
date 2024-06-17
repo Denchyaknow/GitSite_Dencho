@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: June 5, 2024 --><html lang="en-us" >
+<!-- Last Published: June 13, 2024 --><html lang="en-us" >
 
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -217,6 +217,12 @@
       
     
     
+      
+        
+      
+        
+      
+        
       
         
       
@@ -527,37 +533,9 @@
       <script>
     
 
-    function SetTypedTextById(_textName, {
-            _startDelay = 0,
-            _showCursor = false,
-            _resetReveal = true,
-            _loop = false,
-            _fade = false,
-            _cursor = '|'
-        } = {}) {
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+    function SetTypedTextById(_textName, { _startDelay = 0, _showCursor = false, _resetReveal = true, _loop = false, _fade = false, _cursor = '|' } = {}) 
+    {
         var textInstance = document.getElementById(_textName);
-        
-        
-        
-        
-        
-        
-        
-        
-        
         var hasTextBox = textInstance != null;
         var isRunning = true;
         if (hasTextBox)
@@ -576,15 +554,13 @@
                 smartBackspace: true,
                 fadeOut: _fade,
                 contentType: 'html',
-                onComplete: (self) => {
+                onDestroy: (self) => 
+                {
                     self.startDelay = 0;
                 },
             });
-
-            
             firstLoad = false;
-            console.log('Typed Text Found');
-
+            
             ScrollReveal().reveal(textInstance.parentElement, 
             {
                 interval: 0,
@@ -610,14 +586,49 @@
                         console.log("Reveal Start");
                         typedText.reset(true);
                         typedText.start();
+
                     }
                 },
             });
         }
     }
+    function IsHardwareAccelerationEnabled() 
+    {
+        const canvas = document.createElement('canvas');
+        let gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+        if (!gl) 
+        {
+            return false; 
+        }
+        
+        const debugInfo = gl.getExtension('WEBGL_debug_renderer_info');
+        if (!debugInfo) 
+        {
+            return false; 
+        }
+        
+        const renderer = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
+        return !/swiftshader/i.test(renderer); 
+    }
+    function SetInnerHTMLBasedOnBool(containerId, innerHTML, shouldDisplay) 
+    {
+        const container = document.getElementById(containerId);
+        if (shouldDisplay) {
+            container.innerHTML = innerHTML;
+        } else {
+            container.innerHTML = '';
+        }
+    }
+    
+    
+    
+    
+    
+    
 </script>
 <script> 
-
+const hardwareAccelerationEnabled = IsHardwareAccelerationEnabled();
+console.log("Hardware Acceleration Enabled:", hardwareAccelerationEnabled);
 </script>
       
     
@@ -973,7 +984,7 @@
 
 
 
-<section id="home" class="home-section wg-hero  fullHero commonVideoSection animeBorderBottom2"  >
+<section id="home" class="home-section wg-hero  fullHero commonVideoSection animeBorderBottom6"  >
  <div class="home-section-bg " >
    <video class="bg-video " playsinline="" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/media/backgrounds/XRLog_2023_Hero.webm" style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;"></video>
  </div>
@@ -1016,13 +1027,18 @@
     </button>
 </div-->
 <!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/3ajmJqcYvVWbt9Cj/scene.splinecode"></spline-viewer-->
-<spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>
+<!--spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer-->
+<!-- Make the spline appear only if hardware acceleration is enabled -->
+<div id="splineBox0"></div>
+<script>
+  SetInnerHTMLBasedOnBool('splineBox0', '<spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>', IsHardwareAccelerationEnabled());
+</script>
 <div id="heroTextBoxA" class="heroBoxCenter heroTitle">
   <div id="heroTextBackground" class="textBackground">
     <span id="heroTextA"></span>
   </div>
   <div id="heroTextAStrings" style="display: none;">
-    <h1> Hi, I'm <strong>Dencho</strong>, </h1>
+    <h1> Hi, I'm <strong>Dencho</strong> </h1>
   </div>
 </div>
 <script> SetTypedTextById('heroTextA', { _startDelay: 3000, _resetReveal: true, _loop: false }); </script>
@@ -1031,11 +1047,31 @@
     <span id="heroTextB"></span>
   </div>
   <div id="heroTextBStrings" style="display: none;">
-    <p>Cognitively versatile Unity programmer <br> specializing in XR technologies.</p>
-    <p>Cognitively versatile C# programmer <br> </p>
-    <p>Cognitively versatile game developer <br> with a passion for creating unforgettable experiences.</p>
-    <p>Cognitively versatile game developer <br> with a passion for charting the unknown.</p>
-    <p>Cognitively versatile game developer <br> with a passion for creating unforgettable experiences.</p>
+    <p>Cognitively versatile <strong>Unity Developer</strong>^1200 since 2014</p>
+    <p>Cognitively versatile <strong>C# Programmer</strong>^1200 since 2014</p>
+    <p>Cognitively versatile <strong>Modder</strong>^1200 since 2008</p>
+    <p>Cognitively versatile <strong>Otaku</strong>^1200 since 2002</p>
+    <p>Cognitively versatile <strong>Gamer</strong>^1200 since 1996</p>
+    <p>Cognitively versatile <strong>Unity Developer</strong>^1200 since 2014</p>
+    <p>Cognitively versatile <strong>C# Programmer</strong>^1200 since 2014</p>
+    <p>Cognitively versatile <strong>Modder</strong>^1200 since 2008</p>
+    <p>Cognitively versatile <strong>Otaku</strong>^1200 since 2002</p>
+    <p>Cognitively versatile <strong>Gamer</strong>^1200 since 1996</p>
+    <p>Cognitively versatile <strong>Unity Developer</strong>^1200 since 2014</p>
+    <p>Cognitively versatile <strong>C# Programmer</strong>^1200 since 2014</p>
+    <p>Cognitively versatile <strong>Modder</strong>^1200 since 2008</p>
+    <p>Cognitively versatile <strong>Otaku</strong>^1200 since 2002</p>
+    <p>Cognitively versatile <strong>Gamer</strong>^1200 since 1996</p>
+    <p>Cognitively versatile <strong>Unity Developer</strong>^1200 since 2014</p>
+    <p>Cognitively versatile <strong>C# Programmer</strong>^1200 since 2014</p>
+    <p>Cognitively versatile <strong>Modder</strong>^1200 since 2008</p>
+    <p>Cognitively versatile <strong>Otaku</strong>^1200 since 2002</p>
+    <p>Cognitively versatile <strong>Gamer</strong>^1200 since 1996</p>
+    <p>Cognitively versatile <strong>Unity Developer</strong>^1200 since 2014</p>
+    <p>Cognitively versatile <strong>C# Programmer</strong>^1200 since 2014</p>
+    <p>Cognitively versatile <strong>Modder</strong>^1200 since 2008</p>
+    <p>Cognitively versatile <strong>Otaku</strong>^1200 since 2002</p>
+    <p>Cognitively versatile <strong>Gamer</strong>^1200 since 1996</p>
   </div>
 </div>
 <script> SetTypedTextById( "heroTextB",{ _startDelay: 3000, _resetReveal: true, _loop: true, _fade: false }); </script></div>
@@ -1126,7 +1162,7 @@
 
 
 
-<section id="section-markdown" class="home-section wg-markdown  "  >
+<section id="section-markdown" class="home-section wg-markdown  quarterHero"  >
  <div class="home-section-bg " >
    
  </div>
@@ -1134,6 +1170,13 @@
 
   
     <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">Everyday</h1>
+          
+        </div>
+      
     
   
 
@@ -1149,7 +1192,51 @@
 
 
   <div class="col-12">
-    
+    <div class="row badge-section">
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-csharp-plain-wordmark"></i>
+      <p>C Sharp</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-unity-plain"></i>
+      <p>Unity</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-photonengine-plain"></i>
+      <p>Photon</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-github-original"></i>
+      <p>GitHub</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-json-plain"></i>
+      <p>Json</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-mongodb-plain"></i>
+      <p>Markdown</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-visualstudio-plain"></i>
+      <p>Visual Studios</p>
+    </div>
+  </div>
+  <!-- Repeat for more badges -->
+</div>
   </div>
 
 
@@ -1230,23 +1317,13 @@
 
 
 
-<section id="section-markdown" class="home-section wg-markdown  sectionMarkDown commonVideoSection animeBorders1"  >
+<section id="section-hero" class="home-section wg-hero  sectionMarkDown commonVideoSection animeBorders6 halfHero videoBackgroundRight"  >
  <div class="home-section-bg " >
-   <video class="bg-video " playsinline="" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/media/backgrounds/XRLog_2023_Hero.webm" style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;"></video>
+   <video class="bg-video " playsinline="" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/media/backgrounds/FingerBoiHero.webm" style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;"></video>
  </div>
   <div class="container">
 
   
-    <div class="row  justify-content-center">
-    
-      
-        <div class="section-heading col-12 mb-3 text-center">
-          <h1 class="mb-0"><h1>SECTIONAL</h1></h1>
-          
-        </div>
-      
-    
-  
 
     
 
@@ -1259,26 +1336,32 @@
 
 
 
-  <div class="col-12">
-    <div class="mTextBox heroSubTitle">
-  <span id="mdText0" class=""></span>
+    
+
+    
+      <div class="hero-lead"><div class="mTextBoxLeft">
+  <div class="mTextBackground">
+    <span id="mdText0" class=""></span>
+  </div>
   <div id="mdText0Strings" style="display: none;">
     <p>
-    Hi, I'm `<strong>DenchoDenchoDenchoDencho 
-    <br> DenchoDenchoDenchoDencho</strong>`,
-    </p>
-    <p>
-    Hi, I'DenchoDenchoDenchoDencho in one line
+      My gists consist of useful scripts I wrote my self. They represent my ongoing journey of learning and problem-solving. 
     </p>
   </div>
 </div>
-<script> SetTypedTextById('mdText0',{ _loop: true }); </script>
-  </div>
+<script> SetTypedTextById( "mdText0",{ _startDelay: 0, _resetReveal: false, _loop: false, _fade: false }); </script></div>
+    
 
+    
+    
 
+    
+    
 
   
-    </div>
+  
+
+
   
 
   </div>
@@ -1350,7 +1433,7 @@
 
 
 
-<section id="section-markdown" class="home-section wg-markdown  sectionMarkDown"  >
+<section id="section-markdown" class="home-section wg-markdown  quarterHero"  >
  <div class="home-section-bg " >
    
  </div>
@@ -1361,7 +1444,7 @@
     
       
         <div class="section-heading col-12 mb-3 text-center">
-          <h1 class="mb-0">SECTIONAL</h1>
+          <h1 class="mb-0">Sometimes</h1>
           
         </div>
       
@@ -1380,25 +1463,422 @@
 
 
   <div class="col-12">
-    <div class="mTextBox">
-  <span id="mdText1" class="mText"></span>
-  <div id="mdText1Strings" style="display: none;">
-    <p>
-    Hi, I'm <strong>DenchoDenchoDenchoDencho 
-    <br> DenchoDenchoDenchoDencho</strong>,
-    </p>
-    <p>
-    Hi, I'DenchoDenchoDenchoDencho in one line
-    </p>
+    <div class="row badge-section">
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-vscode-plain"></i>
+      <p>VSCode</p>
+    </div>
   </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-rider-plain"></i>
+      <p>Rider</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-swagger-plain"></i>
+      <p>Swagger</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-githubactions-plain"></i>
+      <p>Github Actions</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-jira-plain"></i>
+      <p>Jira</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-nodejs-plain"></i>
+      <p>NodeJS</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-hugo-plain"></i>
+      <p>Hugo</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-javascript-plain"></i>
+      <p>Javascript</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-lua-plain"></i>
+      <p>Lua</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-html5-plain"></i>
+      <p>HTML5</p>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+    <div class="badge-item">
+      <i class="devicon-css3-plain-wordmark"></i>
+      <p>CSS/SCSS</p>
+    </div>
+  </div>
+  <!-- Repeat for more badges -->
 </div>
-<script> SetTypedTextById('mdText1'); </script>
   </div>
 
 
 
   
     </div>
+  
+
+  </div>
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-hero" class="home-section wg-hero  sectionMarkDown commonVideoSection animeBorders6 halfHero videoBackgroundLeft"  >
+ <div class="home-section-bg " >
+   <video class="bg-video " playsinline="" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/media/backgrounds/RockiBoiHero.webm" style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;"></video>
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+      <div class="hero-lead"><div class="mTextBoxRight">
+  <div class="mTextBackground">
+    <span id="mdText1" class=""></span>
+  </div>
+  <div id="mdText1Strings" style="display: none;">
+    <p> I transform abstract ideas into tangible, innovative features, collaborating closely with artists and designers to bring visions to life. </p>
+  </div>
+</div>
+<script> SetTypedTextById( "mdText1",{ _startDelay: 0, _resetReveal: false, _loop: false, _fade: false }); </script></div>
+    
+
+    
+    
+
+    
+    
+
+  
+  
+
+
+  
+
+  </div>
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  quarterHero"  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-hero" class="home-section wg-hero  sectionMarkDown commonVideoSection animeBorders6 halfHero videoBackgroundRight"  >
+ <div class="home-section-bg " >
+   <video class="bg-video " playsinline="" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/media/backgrounds/FingerBoiHero.webm" style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;"></video>
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+      <div class="hero-lead"><div class="mTextBoxLeft">
+  <div class="mTextBackground">
+    <span id="mdText2" class=""></span>
+  </div>
+  <div id="mdText2Strings" style="display: none;">
+    <p>
+      My gists consist of useful scripts I wrote my self. They represent my ongoing journey of learning and problem-solving. 
+    </p>
+  </div>
+</div>
+<script> SetTypedTextById( "mdText2",{ _startDelay: 0, _resetReveal: false, _loop: false, _fade: false }); </script></div>
+    
+
+    
+    
+
+    
+    
+    <p class="hero-note text-muted mb-3 mb-md-1">
+      <div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
+    </p>
+    
+
+  
+  
+
+
   
 
   </div>
