@@ -63,7 +63,7 @@
       left: -2px;
       right: -2px;
       bottom: -2px;
-      border: 1px solid #ccc; /* Default border color and size */
+      border: 1px solid #674f87; /* Default border color and size */
       border-radius: 12px; /* Slightly rounded corners */
       transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     }
@@ -102,7 +102,7 @@
   .dark {
     .badge-item {
       &:before {
-        border-color: #555; /* Dark mode default border color */
+        border-color: #75e6ffab; /* Dark mode default border color */
       }
       &:hover:before {
         border-color: $borderGlowDark;//rgba(255, 0, 150, 0.8); /* Glowing border color */

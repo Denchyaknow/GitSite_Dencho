@@ -105,7 +105,7 @@ sections:
 
   - block: markdown
     content:
-      title: 'Everyday'
+      title: 'Everyday Tools'
       subtitle: ''
       text: |-
         <div class="row badge-section">
@@ -168,9 +168,11 @@ sections:
             </div>
             <div id="mdText0Strings" style="display: none;">
               <p>
-                My gists consist of useful scripts I wrote my self. They represent my ongoing journey of learning and problem-solving. 
+                Feel free to scope out my Github and Gists that consists of scripts I wrote my self. They represent my ongoing journey of learning and problem-solving.
               </p>
             </div>
+              <a class="butt" href="https://github.com/Denchyaknow"><span></span>Github</a>
+              <a class="butt" href="https://gist.github.com/Denchyaknow"><span></span>Gists</a>
           </div>
           <script> SetTypedTextById( "mdText0",{ _startDelay: 0, _resetReveal: false, _loop: false, _fade: false }); </script>
     design:
@@ -183,7 +185,7 @@ sections:
 
   - block: markdown
     content:
-      title: 'Sometimes'
+      title: 'Familiar Tools'
       subtitle: ''
       text: |-
         <div class="row badge-section">
@@ -289,33 +291,6 @@ sections:
     design:
       css_class: 'quarterHero'
       columns: '1'
-
-  - block: hero
-    content:
-      title: ''
-      subtitle: ''
-      cta_note:
-        label: >-
-          <div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
-      text: |-
-          <div class="mTextBoxLeft">
-            <div class="mTextBackground">
-              <span id="mdText2" class=""></span>
-            </div>
-            <div id="mdText2Strings" style="display: none;">
-              <p>
-                My gists consist of useful scripts I wrote my self. They represent my ongoing journey of learning and problem-solving. 
-              </p>
-            </div>
-          </div>
-          <script> SetTypedTextById( "mdText2",{ _startDelay: 0, _resetReveal: false, _loop: false, _fade: false }); </script>
-    design:
-      css_class: 'sectionMarkDown commonVideoSection animeBorders6 halfHero videoBackgroundRight'
-      columns: '1'
-      background:
-        video: 
-          filename: backgrounds/FingerBoiHero.webm # Name of video in `assets/media/
-          flip: false # Post-processing: flip the video horizontally?
 
 
   - block: collection

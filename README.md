@@ -100,15 +100,15 @@ Button Style 3
 {{< cite page="/publication/preprint" view="citation" >}}
 ```
 
-### Syling
+### Styling
 
 #### Adding Code Snippets
 ```
-```python
+
 # Example of code highlighting
 input_string_var = input("Enter some data: ")
 print("You entered: {}".format(input_string_var))
-```
+
 ```
 
 ### Adding js frameworks or stylesheets
