@@ -40,22 +40,27 @@ sections:
           <!--div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div-->
       text: |-
           <!--spline-viewer class="splineNoCover" url="https://prod.spline.design/69eDN4S8NdHOhuWx/scene.splinecode"></spline-viewer-->
+          <div id="splineBox0"></div>
+          <script>
+            SetInnerHTMLBasedOnBool('splineBox0', '<spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>', IsHardwareAccelerationEnabled());
+          </script>
+
     design:
-      css_class: 'halfHero commonVideoSection'
+      css_class: 'halfHero commonVideoSection animeBorderBottom6'
       background:
         video: 
           filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
           flip: false # Post-processing: flip the video horizontally?
       columns: '1'
 
-  - block: markdown
-    content:
-      title: ''
-      subtitle: ''
-      text: ''
-    design:
-      css_class: 'sectionBorderTopMask'
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: ''
+  #     subtitle: ''
+  #     text: ''
+  #   design:
+  #     css_class: 'sectionBorderTopMask'
+  #     columns: '1'
 
   - block: collection
     id: posts

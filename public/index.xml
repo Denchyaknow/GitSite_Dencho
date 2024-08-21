@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>Peach</title>
+      <link>//localhost:1313/projects/experiments/2024/peach/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/experiments/2024/peach/</guid>
+      <description>&lt;p&gt;Peach is a rhythm game I made and self published on steam. It utilizes the Steam API via the Heathen SDK. &lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/Peach/XRLog_2024_Peach_1.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Peach started as a simple idle clicker, however with a Steam rhythm fest coming up we adapted it to be a rhythm game to capitalize on the event for marketing.In collaboration with a brilliant Audio Engineer (Scot Clayton II), we aimed ot make a game that heavily relied on Steams Inventory Service to create items that players can collect, sell, and trade on the Steam marketplace.&lt;/p&gt;
+&lt;div class=&#34;video_thing&#34;&gt;
+    &lt;video muted autoplay=&#34;&#34; name=&#34;media&#34; loop=&#34;&#34;&gt;&lt;source src=&#34;https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/Peach/XRLog_2024_Peach_0.webm&#34; type=&#34;video/mp4&#34;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Players are able to collect Peach items every 30 minutes and can consume Peaches for Lootboxes that give out random peaches to players, and in turn can be consumed for Lootboxes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Corrupted Realms</title>
       <link>//localhost:1313/projects/contracts/2022/corruptedrealms/</link>
       <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>

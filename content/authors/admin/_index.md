@@ -82,40 +82,40 @@ skills:
         percent: 36
         icon: coins
         icon_pack: fas
-  - name: Attributes
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Endurance (END)
-        description: "\"How much one can endure stand-ups and pull-requests\""
-        percent: 56
-        icon: hand-fist
-        icon_pack: fas
-      - name: Strength (STR)
-        description: "\"Expertise on integrating SDKs or Plugins into a source of magic\""
-        percent: 72
-        icon: hand-fist
-        icon_pack: fas
-      - name: Dexterity (DEX)
-        description: "\"Creating UI from wire-frames and interactions from cross platform input\""
-        percent: 47
-        icon: person-running
-        icon_pack: fas
-      - name: Intelligence (INT)
-        description: "\"Knowledge of physics and kinematic programming, math vision capability\""
-        percent: 82
-        icon: head-side-virus
-        icon_pack: fas
-      - name: Wisdom (WIS)
-        description: "\"Handling of AI agents and use complex systems like XR, Networking and Database SDKs\""
-        percent: 72
-        icon: user-nurse
-        icon_pack: fas
-      - name: Charisma (CHA)
-        description: "\"Ability to communicate and collaborate, crowd taming muggles\""
-        percent: 35
-        icon: person-rays # unity-plain
-        icon_pack: fas # devicon
+  # - name: Attributes
+  #   color: '#eeac02'
+  #   color_border: '#f0bf23'
+  #   items:
+  #     - name: Endurance (END)
+  #       description: "\"How much one can endure stand-ups and pull-requests\""
+  #       percent: 56
+  #       icon: hand-fist
+  #       icon_pack: fas
+  #     - name: Strength (STR)
+  #       description: "\"Expertise on integrating SDKs or Plugins into a source of magic\""
+  #       percent: 72
+  #       icon: hand-fist
+  #       icon_pack: fas
+  #     - name: Dexterity (DEX)
+  #       description: "\"Creating UI from wire-frames and interactions from cross platform input\""
+  #       percent: 47
+  #       icon: person-running
+  #       icon_pack: fas
+  #     - name: Intelligence (INT)
+  #       description: "\"Knowledge of physics and kinematic programming, math vision capability\""
+  #       percent: 82
+  #       icon: head-side-virus
+  #       icon_pack: fas
+  #     - name: Wisdom (WIS)
+  #       description: "\"Handling of AI agents and use complex systems like XR, Networking and Database SDKs\""
+  #       percent: 72
+  #       icon: user-nurse
+  #       icon_pack: fas
+  #     - name: Charisma (CHA)
+  #       description: "\"Ability to communicate and collaborate, crowd taming muggles\""
+  #       percent: 35
+  #       icon: person-rays # unity-plain
+  #       icon_pack: fas # devicon
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -127,10 +127,10 @@ social:
     link: 'about/#contact' # For a direct email link, use "mailto:test@example.org".
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/wowchemy
-  - icon: instagram
+    link: https://twitter.com/denchyaknow
+  - icon: linkedin
     icon_pack: fab
-    link: https://instagram.com/geocushen
+    link: https://www.linkedin.com/in/denchyaknow
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
@@ -148,10 +148,10 @@ social:
 
 **Dencho - Game Developer, XR Researcher, and AI Enthusiast**
 
-Dencho is a Game Developer with a strong passion for XR (Extended Reality) technology. He has been involved in game development since 2004 and became a freelancer in 2016. By that time, he was already using C# and Unity every day.
+I am a dedicated Game Developer with a deep passion for XR (Extended Reality) technology, which I've been exploring since 2004. My journey as a freelancer began in 2016, by which time I was already proficient in C# and Unity, utilizing them daily in my work.
 
-He has had the opportunity to work with several notable companies and gain insights from industry mentors. Currently, his primary focus is on mastering XR and integrating it with AI. His long-term goal is to leverage machine learning and neural networking to create AI drone companions, enhancing the intelligence and realism of NPCs.
+Over the years, I've had the privilege of collaborating with several notable companies and benefiting from the insights of industry mentors. My current focus is on mastering XR and seamlessly integrating it with AI. My long-term goal is to harness the power of machine learning and neural networking to develop AI-driven drone companions, thereby enhancing the intelligence and realism of NPCs.
 
-As a freelancer, He is seeking a development studio where he can dedicate a significant part of his career. In his free time, he enjoys working on XR projects and contributing to the evolving metaverse. Whether for fun or work, he loves experimenting with new physics techniques and VFX to create more engaging experiences.
+As a freelancer, I am actively seeking a development studio where I can dedicate a significant portion of my career. In my free time, I enjoy working on XR projects and contributing to the evolving metaverse. Whether for fun or work, I am passionate about experimenting with new physics techniques and VFX to create more immersive and engaging experiences.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Resume2024.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.

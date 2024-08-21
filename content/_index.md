@@ -106,7 +106,7 @@ sections:
   - block: markdown
     content:
       title: 'Everyday Tools'
-      subtitle: ''
+      subtitle: 'Tools I use on a daily basis'
       text: |-
         <div class="row badge-section">
           <div class="col-12 col-sm-4 col-md-3 col-lg-2">
@@ -183,83 +183,6 @@ sections:
           filename: backgrounds/FingerBoiHero.webm # Name of video in `assets/media/
           flip: false # Post-processing: flip the video horizontally?
 
-  - block: markdown
-    content:
-      title: 'Familiar Tools'
-      subtitle: ''
-      text: |-
-        <div class="row badge-section">
-          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-            <div class="badge-item">
-              <i class="devicon-vscode-plain"></i>
-              <p>VSCode</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-            <div class="badge-item">
-              <i class="devicon-rider-plain"></i>
-              <p>Rider</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-            <div class="badge-item">
-              <i class="devicon-swagger-plain"></i>
-              <p>Swagger</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-            <div class="badge-item">
-              <i class="devicon-githubactions-plain"></i>
-              <p>Github Actions</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-            <div class="badge-item">
-              <i class="devicon-jira-plain"></i>
-              <p>Jira</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-            <div class="badge-item">
-              <i class="devicon-nodejs-plain"></i>
-              <p>NodeJS</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-            <div class="badge-item">
-              <i class="devicon-hugo-plain"></i>
-              <p>Hugo</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-            <div class="badge-item">
-              <i class="devicon-javascript-plain"></i>
-              <p>Javascript</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-            <div class="badge-item">
-              <i class="devicon-lua-plain"></i>
-              <p>Lua</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-            <div class="badge-item">
-              <i class="devicon-html5-plain"></i>
-              <p>HTML5</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-            <div class="badge-item">
-              <i class="devicon-css3-plain-wordmark"></i>
-              <p>CSS/SCSS</p>
-            </div>
-          </div>
-          <!-- Repeat for more badges -->
-        </div>
-    design:
-      css_class: 'quarterHero'
-      columns: '1'
 
   - block: hero
     content:
@@ -271,7 +194,7 @@ sections:
               <span id="mdText1" class=""></span>
             </div>
             <div id="mdText1Strings" style="display: none;">
-              <p> I transform abstract ideas into tangible, innovative features, collaborating closely with artists and designers to bring visions to life. </p>
+              <p>As a Front-End developer, I transform abstract ideas into tangible, innovative features, collaborating closely with artists and designers to bring visions to life. </p>
             </div>
           </div>
           <script> SetTypedTextById( "mdText1",{ _startDelay: 0, _resetReveal: false, _loop: false, _fade: false }); </script>

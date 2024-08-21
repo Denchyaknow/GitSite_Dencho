@@ -16,63 +16,189 @@ sections:
           <div class="video_cover"></div>
           <spline-viewer id="spline_hero" class="spline_cover" url="https://prod.spline.design/hQ8HSnvTRVmMWZBu/scene.splinecode"></spline-viewer>
     design:
-      css_class: 'commonVideoSection halfHero'
+      css_class: 'animeBorders6 commonVideoSection halfHero'
       background:
         video: 
           filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
           flip: true # Post-processing: flip the video horizontally?
 
+  # - block: markdown
+  #   content:
+  #     title: ''
+  #     subtitle: ''
+  #     text: ''
+  #   design:
+  #     css_class: 'sectionBorderTopMask'
+  #     columns: '1'
+
   - block: markdown
     content:
-      title: ''
-      subtitle: ''
-      text: ''
+      title: 'Everyday Tools'
+      subtitle: 'Tools I use on a daily basis'
+      text: |-
+        <div class="row badge-section">
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-csharp-plain-wordmark"></i>
+              <p>C Sharp</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-unity-plain"></i>
+              <p>Unity</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-photonengine-plain"></i>
+              <p>Photon</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-github-original"></i>
+              <p>GitHub</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-json-plain"></i>
+              <p>Json</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-mongodb-plain"></i>
+              <p>Markdown</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+            <div class="badge-item">
+              <i class="devicon-visualstudio-plain"></i>
+              <p>Visual Studios</p>
+            </div>
+          </div>
+          <!-- Repeat for more badges -->
+        </div>
     design:
-      css_class: 'sectionBorderTopMask'
+      css_class: 'quarterHero'
       columns: '1'
+
 
   - block: skills
     content:
       title: Skills
-      text: ''
+      text: 'I am a beginner at becoming a master'
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
     design:
-      css_class: 'noPaddingTop' # needed to minimize blank space between hero - seperator - skills section
+      css_class: 'animeBorders6' # needed to minimize blank space between hero - seperator - skills section
       columns: '1'
 
   - block: markdown
     content:
-      title: ''
-      subtitle: ''
-      text: ''
+      title: 'Familiar Tools'
+      subtitle: 'Some tools Ive used in the past and have a good understanding of'
+      text: |-
+          <div class="row badge-section">
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+              <div class="badge-item">
+                <i class="devicon-vscode-plain"></i>
+                <p>VSCode</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+              <div class="badge-item">
+                <i class="devicon-rider-plain"></i>
+                <p>Rider</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+              <div class="badge-item">
+                <i class="devicon-swagger-plain"></i>
+                <p>Swagger</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+              <div class="badge-item">
+                <i class="devicon-githubactions-plain"></i>
+                <p>Github Actions</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+              <div class="badge-item">
+                <i class="devicon-jira-plain"></i>
+                <p>Jira</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+              <div class="badge-item">
+                <i class="devicon-nodejs-plain"></i>
+                <p>NodeJS</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+              <div class="badge-item">
+                <i class="devicon-hugo-plain"></i>
+                <p>Hugo</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+              <div class="badge-item">
+                <i class="devicon-javascript-plain"></i>
+                <p>Javascript</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+              <div class="badge-item">
+                <i class="devicon-lua-plain"></i>
+                <p>Lua</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+              <div class="badge-item">
+                <i class="devicon-html5-plain"></i>
+                <p>HTML5</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+              <div class="badge-item">
+                <i class="devicon-css3-plain-wordmark"></i>
+                <p>CSS/SCSS</p>
+              </div>
+            </div>
+            <!-- Repeat for more badges -->
+          </div>
     design:
-      css_class: 'sectionBorderTop'
+      css_class: 'quarterHero'
       columns: '1'
 
-  - block: markdown
-    content:
-      title: ''
-      subtitle: ''
-      text: ''
-    design:
-      css_class: 'sectionBorderMid'
-      columns: '1'
-
-  - block: markdown
-    content:
-      title: ''
-      subtitle: ''
-      text: ''
-    design:
-      css_class: 'sectionBorderBottom'
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: ''
+  #     subtitle: ''
+  #     text: ''
+  #   design:
+  #     css_class: 'sectionBorderBottom'
+  #     columns: '1'
 
   - block: experience
     content:
       title: Experience
       date_format: Jan 2006 #   Refer to https://docs.hugoblox.com/customization/#date-format
       items:
+      
+        - title: Senior Developer
+          company: Yakno
+          company_url: ''
+          company_logo: org-x
+          location: Remote
+          date_start: '2024-05-20'
+          date_end: '2024-08-19' #   Leave `date_end` empty if it's your current employer.
+          description: |-
+              - Self-published a rhythm game on Steam called Peach, utilizing the Steam API via the Heathen SDK.
+              - Worked closely with an Audio Engineer to create a game that heavily relied on Steams Inventory Service to create items that players can collect, sell, and trade on the Steam marketplace.
         - title: Lead XR Programmer, Technical Spokesman
           company: Crypto Comedy Club (CCC)
           company_url: ''
