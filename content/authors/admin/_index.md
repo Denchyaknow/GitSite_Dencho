@@ -124,34 +124,24 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'about/#contact' # For a direct email link, use "mailto:test@example.org".
-  - icon: twitter
+    link: 'mailto:Denchyaknow@gmail.com' 
+  - icon: x
     icon_pack: fab
     link: https://twitter.com/denchyaknow
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/denchyaknow
-# Uncomment below for Github link
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/gcushen
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/Denchyaknow
 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-#email: ""
 ---
 
 **Dencho - Game Developer, XR Researcher, and AI Enthusiast**
 
 I am a dedicated Game Developer with a deep passion for XR (Extended Reality) technology, which I've been exploring since 2004. My journey as a freelancer began in 2016, by which time I was already proficient in C# and Unity, utilizing them daily in my work.
 
-Over the years, I've had the privilege of collaborating with several notable companies and benefiting from the insights of industry mentors. My current focus is on mastering XR and seamlessly integrating it with AI. My long-term goal is to harness the power of machine learning and neural networking to develop AI-driven drone companions, thereby enhancing the intelligence and realism of NPCs.
+Over the years, I've had the privilege of collaborating with several notable companies and benefited from the insights of industry leading mentors. My current focus is on mastering XR and seamlessly integrating it with AI. My long-term goal is to harness the power of machine learning and neural networking to develop AI-driven drone companions, thereby enhancing the intelligence and realism of Augmented Reality NPCs.
 
 As a freelancer, I am actively seeking a development studio where I can dedicate a significant portion of my career. In my free time, I enjoy working on XR projects and contributing to the evolving metaverse. Whether for fun or work, I am passionate about experimenting with new physics techniques and VFX to create more immersive and engaging experiences.
-
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Resume2024.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+<a class="butt" href="/uploads/Resume2024.pdf"><span></span>Download my resume</a>

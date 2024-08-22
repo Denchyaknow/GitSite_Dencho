@@ -192,7 +192,7 @@ sections:
         - title: Senior Developer
           company: Yakno
           company_url: ''
-          company_logo: org-x
+          company_logo: gamepad
           location: Remote
           date_start: '2024-05-20'
           date_end: '2024-08-19' #   Leave `date_end` empty if it's your current employer.
@@ -202,7 +202,7 @@ sections:
         - title: Lead XR Programmer, Technical Spokesman
           company: Crypto Comedy Club (CCC)
           company_url: ''
-          company_logo: org-x
+          company_logo: beanie
           location: Remote
           date_start: '2022-01-01'
           date_end: '2023-12-31' #   Leave `date_end` empty if it's your current employer.
@@ -214,7 +214,7 @@ sections:
         - title: Lead Programmer, Acting CGO
           company: BlockUnited
           company_url: ''
-          company_logo: org-x
+          company_logo: gamepad
           location: Remote
           date_start: '2023-01-01'
           date_end: '2024-12-31'
