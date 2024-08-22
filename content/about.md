@@ -19,17 +19,9 @@ sections:
       css_class: 'animeBorders6 commonVideoSection halfHero'
       background:
         video: 
-          filename: backgrounds/XRLog_2023_Hero.webm # Name of video in `assets/media/`. #https://raw.githack.com/Denchyaknow/StaticStorage/Develop/Test/test0.mp4'
+          filename: backgrounds/XRLog_2023_Hero.webm 
           flip: true # Post-processing: flip the video horizontally?
 
-  # - block: markdown
-  #   content:
-  #     title: ''
-  #     subtitle: ''
-  #     text: ''
-  #   design:
-  #     css_class: 'sectionBorderTopMask'
-  #     columns: '1'
 
   - block: markdown
     content:
@@ -189,7 +181,7 @@ sections:
       date_format: Jan 2006 #   Refer to https://docs.hugoblox.com/customization/#date-format
       items:
       
-        - title: Senior Developer
+        - title: Senior Programmer
           company: Yakno
           company_url: ''
           company_logo: gamepad
@@ -231,7 +223,7 @@ sections:
         - title: Unity3D Programmer
           company: Freelancer/Contractor
           company_url: ''
-          company_logo: org-x
+          company_logo: beanie
           location: Remote
           date_start: '2014-01-01'
           date_end: '2022-12-31'
@@ -242,7 +234,7 @@ sections:
         - title: Unity3D Programmer
           company: StudyEdge
           company_url: ''
-          company_logo: org-x
+          company_logo: gamepad
           location: Remote
           date_start: '2022-01-01'
           date_end: '2022-04-30'
@@ -252,7 +244,7 @@ sections:
         - title: Unity3D Programmer
           company: DriveAbilityVT
           company_url: ''
-          company_logo: org-x
+          company_logo: beanie
           location: Remote
           date_start: '2021-01-01'
           date_end: '2021-06-30'
@@ -262,7 +254,7 @@ sections:
         - title: Technical Data Specialist
           company: Google Bellevue Office
           company_url: ''
-          company_logo: org-x
+          company_logo: gamepad
           location: Bellevue, WA
           date_start: '2020-01-01'
           date_end: '2020-06-30'
@@ -272,7 +264,7 @@ sections:
         - title: Microsoft Security Tech Support
           company: Microsoft Redmond Campus
           company_url: ''
-          company_logo: org-x
+          company_logo: beanie
           location: Redmond, WA
           date_start: '2018-01-01'
           date_end: '2020-03-31'
@@ -281,7 +273,7 @@ sections:
         - title: Lead Unity3D Programmer
           company: AiDunno Games
           company_url: ''
-          company_logo: org-x
+          company_logo: gamepad
           location: Remote
           date_start: '2017-01-01'
           date_end: '2017-12-31'
@@ -291,7 +283,7 @@ sections:
         - title: Web Backend Programmer
           company: Drive Group LLC
           company_url: ''
-          company_logo: org-x
+          company_logo: beanie
           location: Remote
           date_start: '2016-01-01'
           date_end: '2016-08-31'

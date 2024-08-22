@@ -144,4 +144,6 @@ I am a dedicated Game Developer with a deep passion for XR (Extended Reality) te
 Over the years, I've had the privilege of collaborating with several notable companies and benefited from the insights of industry leading mentors. My current focus is on mastering XR and seamlessly integrating it with AI. My long-term goal is to harness the power of machine learning and neural networking to develop AI-driven drone companions, thereby enhancing the intelligence and realism of Augmented Reality NPCs.
 
 As a freelancer, I am actively seeking a development studio where I can dedicate a significant portion of my career. In my free time, I enjoy working on XR projects and contributing to the evolving metaverse. Whether for fun or work, I am passionate about experimenting with new physics techniques and VFX to create more immersive and engaging experiences.
-<a class="butt" href="/uploads/Resume2024.pdf"><span></span>Download my resume</a>
+</br>
+</br>
+<a class="butt scroller" href="/uploads/Resume2024.pdf"><span></span>Download my resume</a>
