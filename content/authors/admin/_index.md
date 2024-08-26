@@ -48,8 +48,8 @@ skills:
       #   icon: csharp-plain
       #   icon_pack: devicon
       - name: C# & Unity
-        description: "\"Inner-editor understanding and ability to create editor tools\""
-        percent: 88
+        description: "\"Inner-engine understanding and ability to create editor tools\""
+        percent: 92
         icon: unity-plain
         icon_pack: devicon
       - name: Runtime Mechanics
@@ -64,22 +64,22 @@ skills:
         icon_pack: fas
       - name: 3D Features
         description: "\"Some grass here, a speedtree over there\""
-        percent: 67
+        percent: 72
         icon: meteor
         icon_pack: fas
       - name: XR Features
         description: "\"Immersive creations for fun or utility\""
-        percent: 52
+        percent: 84
         icon: vr-cardboard
         icon_pack: fas
       - name: Networking
         description: "\"Communing with cloud spirits WebApis and Databases using Handcrafted web requests\""
-        percent: 42
+        percent: 56
         icon: network-wired
         icon_pack: fas
       - name: Web3
         description: "\"Dark BlockChain Magic involving SmartContracts\""
-        percent: 36
+        percent: 46
         icon: coins
         icon_pack: fas
   # - name: Attributes
