@@ -55,14 +55,14 @@
         }
         updateBannerVisibility();
       }
-      var basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/')) + '/';
-      var buildUrl = basePath + "Build";
-      var loaderUrl = buildUrl + "/Testie.loader.js";
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/Itchie.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Testie.data.unityweb",
-        frameworkUrl: buildUrl + "/Testie.framework.js.unityweb",
-        codeUrl: buildUrl + "/Testie.wasm.unityweb",
+        dataUrl: buildUrl + "/Itchie.data.unityweb",
+        frameworkUrl: buildUrl + "/Itchie.framework.js.unityweb",
+        codeUrl: buildUrl + "/Itchie.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Yakno",
         productName: "ExpoGrowthProject",
