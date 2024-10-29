@@ -55,8 +55,8 @@
         }
         updateBannerVisibility();
       }
-
-      var buildUrl = "Build";
+      var basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/')) + '/';
+      var buildUrl = basePath + "Build";
       var loaderUrl = buildUrl + "/Testie.loader.js";
       var config = {
         arguments: [],

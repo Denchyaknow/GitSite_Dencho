@@ -1,12 +1,21 @@
+const basePath = 'https://denchyaknow.github.io/GitSite_Dencho/game/';
+
 const cacheName = "Yakno-ExpoGrowthProject-1.0";
 const contentToCache = [
-    "Build/Testie.loader.js",
-    "Build/Testie.framework.js.unityweb",
-    "Build/Testie.data.unityweb",
-    "Build/Testie.wasm.unityweb",
-    "TemplateData/style.css"
-
+  `${basePath}Build/Testie.loader.js`,
+  `${basePath}Build/Testie.framework.js.unityweb`,
+  `${basePath}Build/Testie.data.unityweb`,
+  `${basePath}Build/Testie.wasm.unityweb`,
+  `${basePath}TemplateData/style.css`
 ];
+// const contentToCache = [
+//     "Build/Testie.loader.js",
+//     "Build/Testie.framework.js.unityweb",
+//     "Build/Testie.data.unityweb",
+//     "Build/Testie.wasm.unityweb",
+//     "TemplateData/style.css"
+
+// ];
 
 self.addEventListener('install', function (e) {
     console.log('[Service Worker] Install');

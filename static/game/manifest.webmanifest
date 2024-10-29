@@ -1,7 +1,7 @@
 {
     "name": "ExpoGrowthProject",
     "short_name": "ExpoGrowthProject",
-    "start_url": "index.html",
+    "start_url": "https://denchyaknow.github.io/GitSite_Dencho/game/index.html",
     "display": "fullscreen",
     "background_color": "#231F20",
     "theme_color": "#000",
