@@ -1,9 +1,9 @@
 const cacheName = "Yakno-ExpoGrowthProject-1.0";
 const contentToCache = [
-    "Build/WebGL.loader.js",
-    "Build/WebGL.framework.js.unityweb",
-    "Build/WebGL.data.unityweb",
-    "Build/WebGL.wasm.unityweb",
+    "Build/WebGL_NoWebPlatform.loader.js",
+    "Build/WebGL_NoWebPlatform.framework.js.unityweb",
+    "Build/WebGL_NoWebPlatform.data.unityweb",
+    "Build/WebGL_NoWebPlatform.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
