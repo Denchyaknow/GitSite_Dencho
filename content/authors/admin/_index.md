@@ -139,11 +139,13 @@ social:
 
 **Dencho - Game Developer, XR Researcher, and AI Enthusiast**
 
-I am a dedicated Game Developer with a deep passion for XR (Extended Reality) technology, which I've been exploring since 2004. My journey as a freelancer began in 2016, by which time I was already proficient in C# and Unity, utilizing them daily in my work.
+Dencho is a Senior Gameplay Programmer, XR Researcher, and AI Enthusiast whose journey began with only a blue GameBoyColor early in his childhood. Fascinated by what seemed like pixel magic, he found a love for modding console games and systems for the community of the early 2000s, driven by an insatiable curiosity. At 13 years old, he deployed his own private World of Warcraft server experimenting with MySQL, LUA, Apache, and Dedicated Game Servers, to fund his longboarding hobby for him and his friends. By 16, his passion had evolved into programming, marking the start of his exploration into game development.
 
-Over the years, I've had the privilege of collaborating with several notable companies and benefited from the insights of industry leading mentors. My current focus is on mastering XR and seamlessly integrating it with AI. My long-term goal is to harness the power of machine learning and neural networking to develop AI-driven drone companions, thereby enhancing the intelligence and realism of Augmented Reality NPCs.
+With over a decade of experience using Unity and C#, his current focus lies in uniting virtual and augmented reality with artificial intelligence, leveraging machine learning and neural networks to craft intelligent and adaptive systems.
+At the heart of his work is a commitment to pushing technological boundaries, by developing features that innovate upon digital experiences he aims to help humanity reach a 3D digitized standard for our world.
 
-As a freelancer, I am actively seeking a development studio where I can dedicate a significant portion of my career. In my free time, I enjoy working on XR projects and contributing to the evolving metaverse. Whether for fun or work, I am passionate about experimenting with new physics techniques and VFX to create more immersive and engaging experiences.
+Through his dedication, he continues to fight on the front lines of extended reality, creating immersive features that redefine how we engage with digital spaces, transforming them into dynamic, interactive experiences that seamlessly integrate with our everyday lives.
+
 </br>
 </br>
 <a class="butt scroller" href="/uploads/Resume2024.pdf"><span></span>Download my resume</a>
