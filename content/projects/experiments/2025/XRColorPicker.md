@@ -1,7 +1,7 @@
 ---
 title: XR Color Picker
 subtitle: An AR-friendly half-circle color wheel that anticipates user input for smooth color selection.
-date: 2025-10-03
+date: 2025-04-21
 type: post
 reading_time: false
 profile: false
@@ -10,7 +10,7 @@ draft: false
 featured: true
 private: false
 tags: ["XR", "AR", "Unity", "UI", "UX", "HandTracking"]
-categories: ["Experiments", "Contracts", "2025"]
+categories: ["Contracts", "2025"]
 ---
 
 <div class="video_thing"> <video muted autoplay="" name="media" loop=""> <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRColorPicker/XRLog_2025_XRColorPicker_0.webm" type="video/mp4"> </video> </div>

@@ -10,7 +10,7 @@ draft: false
 featured: true
 private: false
 tags: ["XR", "AR", "Unity", "Passthrough", "HandTracking", "Shader", "DepthAPI"]
-categories: ["Experiments","Contracts", "2025"]
+categories: ["Expirements","Contracts", "2025"]
 ---
 <p>In a project we used Meta’s Depth API with a custom <strong>hard occlusion</strong> shader to achieve realistic hand occlusion in AR passthrough. In practice, a user’s real hands can convincingly hide (occlude) virtual objects in the scene when they come between the user and those objects.</p>
 
