@@ -26,4 +26,4 @@ featured: true # a page can be displayed in the Featured block on the homepage. 
     <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/Peach/XRLog_2024_Peach_0.webm" type="video/mp4"></video>
 </div>
 
-<p>Players are able to collect Peach items every 30 minutes and can consume Peaches for Lootboxes that give out random peaches to players, and in turn can be consumed for Lootboxes.</p>
+<p>Players are able to collect Peach items (Steam Inventory Metadata) every 30 minutes and can consume Peaches for Lootboxes that give out random peaches to players, and in turn can be consumed for Lootboxes.</p>
