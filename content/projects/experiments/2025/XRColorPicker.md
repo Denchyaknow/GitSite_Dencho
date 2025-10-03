@@ -15,7 +15,9 @@ categories: ["Contracts", "2025"]
 
 <div class="video_thing"> <video muted autoplay="" name="media" loop=""> <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRColorPicker/XRLog_2025_XRColorPicker_0.webm" type="video/mp4"> </video> </div>
 
-<p>In a recent AR project, I was tasked to develop a custom **XR color picker** – essentially a half-circle color wheel UI to let users choose colors directly in augmented reality. This feature was challenging to implement because of strict constraints in the project’s codebase, but it resulted in a highly intuitive tool. The picker presents a broad gradient of colors in a semi-circular format that fits nicely into an AR interface (and it can just as easily be used in VR).</p>  <!--more--> 
+<p>In a recent AR project, I was tasked to develop a custom **XR color picker** – essentially a half-circle color wheel UI to let users choose colors directly in augmented reality.</p> <!--more--> 
+
+<p>This feature was challenging to implement because of strict constraints in the project’s codebase, but it resulted in a highly intuitive tool. The picker presents a broad gradient of colors in a semi-circular format that fits nicely into an AR interface (and it can just as easily be used in VR).</p>  
 
 <div class="video_thing"> <video muted autoplay="" name="media" loop=""> <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRColorPicker/XRLog_2025_XRColorPicker_1.webm" type="video/mp4"> </video> </div>
 

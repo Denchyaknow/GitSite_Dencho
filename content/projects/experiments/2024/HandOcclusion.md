@@ -12,11 +12,11 @@ private: false
 tags: ["XR", "AR", "Unity", "Passthrough", "HandTracking", "Shader", "DepthAPI"]
 categories: ["Expirements","Contracts", "2025"]
 ---
-<p>In a project we used Meta’s Depth API with a custom <strong>hard occlusion</strong> shader to achieve realistic hand occlusion in AR passthrough. In practice, a user’s real hands can convincingly hide (occlude) virtual objects in the scene when they come between the user and those objects.</p>
-
-<p>In the video below, you can see the occlusion mask in action: as the user moves their hand in front of a virtual object, the object is clipped out precisely wherever the hand overlaps it.</p> 
+<p>In an XR project we used Meta’s Depth API with a custom <strong>hard occlusion</strong> shader to achieve realistic hand occlusion in AR passthrough. In practice, a user’s real hands can convincingly hide (occlude) virtual objects in the scene when they come between the user and those objects.</p>
 
 <div class="video_thing"> <video muted autoplay="" name="media" loop=""><source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/DepthAPIHandOcclusion/XRLog_2025_Occlusion_0.webm" type="video/mp4"></video> </div> <!--more--> 
+
+<p>In the video above, you can see the occlusion mask in action: as the user moves their hand in front of a virtual object, the object is clipped out precisely wherever the hand overlaps it.</p> 
 
 <p>Implementing this feature in Unity wasn’t particularly difficult Meta supplies built-in occlusion shader libraries and even a Shader Graph subgraph to help integrate Depth API. The bigger challenge was the iteration cycle. At the time, Depth API occlusion only worked on-device (not in the Unity Editor), so we had to build the app to a headset for each test. This meant setting up the components and then doing a full build just to see if our changes worked, which made debugging quite tedious.</p> 
 

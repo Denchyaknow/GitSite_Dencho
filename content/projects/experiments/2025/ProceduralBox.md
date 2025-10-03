@@ -13,13 +13,16 @@ tags: ["XR", "Unity", "Procedural", "AR", "VR", "Geometry"]
 categories: ["Experiments", "2025"]
 ---
 
-<p>This project started as a simple experiment: generating a **procedural box mesh** entirely in code at runtime. The goal was to avoid relying on prebuilt meshes and instead give full control over dimensions, normals, and UVs directly inside Unity. While humble at first glance, this procedural box became the foundation for a much larger feature later tied to **real-world XRay use cases**. Unfortunately, those details are under NDA—but the journey began here.</p>
+<p>This project started as a simple experiment: generating a **procedural box mesh** entirely in code at runtime. The goal was to avoid relying on prebuilt meshes and instead give full control over dimensions, normals, and UVs directly inside Unity.</p>
 
 <div class="video_thing"> 
   <video muted autoplay="" name="media" loop="">
     <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/XRProceduralBox/XRLog_2025_XRProceduralBox_0.webm" type="video/mp4">
   </video>
 </div> <!--more--> 
+
+<p>While humble at first glance, this procedural box became the foundation for a much larger feature later tied to **real-world XRay use cases**. Unfortunately, those details are under NDA—but the journey began here.</p>
+
 
 <p>The box is created by defining vertices, triangles, and UV mappings in C#. This gives total control over the box’s size and orientation. Beyond just a static mesh, I implemented runtime adjustments—allowing the box to expand, shrink, and reconfigure itself procedurally without ever touching the Unity editor’s 3D primitives.</p>
 
