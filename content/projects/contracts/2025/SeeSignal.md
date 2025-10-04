@@ -17,7 +17,7 @@ categories: ["Projects", "2025"]
 
 <div class="video_thing">  
   <video muted autoplay="" name="media" loop="">  
-    <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SeeSignal/SeeSignal_Bug_0.webm" type="video/mp4">  
+    <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SeeSignal/XRLog_2025_SeeSignal_Bug_0.webm" type="video/mp4">
   </video>  
 </div>
 
@@ -26,12 +26,14 @@ categories: ["Projects", "2025"]
 <p>I worked on SeeSignal in a hands-on capacity: implementing core features, issuing patches, and supervising both the **Meta (Quest)** and **Android** builds for major release versions. My role included build orchestration, feature stabilization across platforms, and ensuring platform compliance and performance.</p>
 
 ![alt text](../../../../assets/media/projects/SeeSignal/SeeSignal_Log.png)
+![alt text](https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SeeSignal/SeeSignal_Log.png)
+
 
 <p>One major challenge was keeping the signal sampling and rendering in sync across platforms. On the Quest, you have constraints of passthrough, GPU budget, and frame rates. On Android (for AR-capable phones/tablets), you must adapt to variable sensor latency, camera stabilization, and signal noise from the hardware itself. In the end once we got our tools working on Android porting to the MetaQuest was straight forward.</p>
 
 <div class="video_thing">  
   <video muted autoplay="" name="media" loop="">  
-    <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SeeSignal/SeeSignal_Bug_1.webm" type="video/mp4">  
+    <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SeeSignal/XRLog_2025_SeeSignal_Bug_1.webm" type="video/mp4">  
   </video>  
 </div>
 
@@ -39,7 +41,7 @@ categories: ["Projects", "2025"]
 
 <div class="video_thing">  
   <video muted autoplay="" name="media" loop="">  
-    <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SeeSignal/SeeSignal_Bug_2.webm" type="video/mp4">  
+    <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SeeSignal/XRLog_2025_SeeSignal_Bug_2.webm" type="video/mp4">  
   </video>  
 </div>
 
