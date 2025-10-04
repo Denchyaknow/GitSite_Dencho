@@ -25,25 +25,31 @@ categories: ["Projects", "2025"]
 
 <p>I worked on SeeSignal in a hands-on capacity: implementing core features, issuing patches, and supervising both the **Meta (Quest)** and **Android** builds for major release versions. My role included build orchestration, feature stabilization across platforms, and ensuring platform compliance and performance.</p>
 
-![alt text](../../../../assets/media/projects/SeeSignal/SeeSignal_Log.png)
 ![alt text](https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SeeSignal/SeeSignal_Log.png)
-
 
 <p>One major challenge was keeping the signal sampling and rendering in sync across platforms. On the Quest, you have constraints of passthrough, GPU budget, and frame rates. On Android (for AR-capable phones/tablets), you must adapt to variable sensor latency, camera stabilization, and signal noise from the hardware itself. In the end once we got our tools working on Android porting to the MetaQuest was straight forward.</p>
 
-<div class="video_thing">  
-  <video muted autoplay="" name="media" loop="">  
-    <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SeeSignal/XRLog_2025_SeeSignal_Bug_1.webm" type="video/mp4">  
-  </video>  
+<div style="display:flex; gap:1rem; justify-content:center; align-items:flex-start; width:100%;">
+  <div style="flex:1;" class="video_thing">
+    <video muted autoplay loop style="width:100%; height:auto;">
+      <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SeeSignal/XRLog_2025_SeeSignal_Bug_1.webm" type="video/mp4">
+    </video>
+  </div>
+
+  <div style="flex:1;" class="video_thing">
+    <video muted autoplay loop style="width:100%; height:auto;">
+      <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SeeSignal/XRLog_2025_SeeSignal_Bug_2.webm" type="video/mp4">
+    </video>
+  </div>
 </div>
 
 <p>The majority of my work in Seesignal involved bug and performance patches. As developers implimented features, I would optimize where I coult to make sure we hit the target framerate required for XR.</p>
 
-<div class="video_thing">  
+<!--div class="video_thing">  
   <video muted autoplay="" name="media" loop="">  
     <source src="https://raw.githack.com/Denchyaknow/GitSite_Dencho/Develop/assets/media/projects/SeeSignal/XRLog_2025_SeeSignal_Bug_2.webm" type="video/mp4">  
   </video>  
-</div>
+</div-->
 
 <p>Because SeeSignal overlays real-world signal data, calibration and spatial mapping were critical. I added fallback heuristics and smoothing filters to avoid jitter or ghost signals when hardware sensors momentarily failed or reported noisy values.</p>
 
