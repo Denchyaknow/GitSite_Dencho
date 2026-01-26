@@ -8,7 +8,7 @@ profile: false
 commentable: true
 draft: false
 featured: true
-private: false
+private: true
 tags: ["XR", "Unity", "Procedural", "AR", "VR", "Geometry"]
 categories: ["Experiments", "2025"]
 ---

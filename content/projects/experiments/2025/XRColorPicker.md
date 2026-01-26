@@ -8,7 +8,7 @@ profile: false
 commentable: true
 draft: false
 featured: true
-private: false
+private: true
 tags: ["XR", "AR", "Unity", "UI", "UX", "HandTracking"]
 categories: ["Contracts", "2025"]
 ---

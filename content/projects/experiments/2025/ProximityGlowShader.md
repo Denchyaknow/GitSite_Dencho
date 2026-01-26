@@ -8,7 +8,7 @@ profile: false
 commentable: true
 draft: false
 featured: true
-private: false
+private: true
 tags: ["ShaderGraph", "Unity", "UI", "XR", "AR", "VisualFX"]
 categories: ["Experiments", "2025"]
 ---

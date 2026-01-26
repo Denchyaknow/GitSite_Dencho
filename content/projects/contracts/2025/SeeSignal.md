@@ -8,7 +8,7 @@ profile: false
 commentable: true  
 draft: false  
 featured: true  
-private: false  
+private: true  
 tags: ["XR", "AR", "Mixed Reality", "Networking", "Meta Quest", "Android"]  
 categories: ["Projects", "2025"]  
 ---
@@ -21,7 +21,7 @@ categories: ["Projects", "2025"]
   </video>  
 </div>
 
-<!--more--> 
+<!--more-->
 
 <p>I worked on SeeSignal in a hands-on capacity: implementing core features, issuing patches, and supervising both the **Meta (Quest)** and **Android** builds for major release versions. My role included build orchestration, feature stabilization across platforms, and ensuring platform compliance and performance.</p>
 

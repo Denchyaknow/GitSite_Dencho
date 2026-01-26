@@ -8,7 +8,7 @@ profile: false
 commentable: true  
 draft: false  
 featured: true  
-private: false  
+private: true  
 tags: ["XR", "AR", "Data Visualization"]  
 categories: ["Projects", "2025"]  
 ---
