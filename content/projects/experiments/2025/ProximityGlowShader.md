@@ -6,7 +6,7 @@ type: post
 reading_time: false
 profile: false
 commentable: true
-draft: false
+draft: true
 featured: true
 private: true
 tags: ["ShaderGraph", "Unity", "UI", "XR", "AR", "VisualFX"]
